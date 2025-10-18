@@ -1,0 +1,18 @@
+# Core dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# RAG System dependencies
+chromadb==0.4.18
+google-generativeai==0.3.2
+
+# API and UI
+fastapi==0.104.1
+streamlit==1.28.1
+uvicorn==0.24.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+numpy==1.24.3
+pandas==2.1.4
