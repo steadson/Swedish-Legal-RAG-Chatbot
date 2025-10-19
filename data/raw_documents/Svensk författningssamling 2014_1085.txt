@@ -1,0 +1,79 @@
+Title: Förordning (2014:1085) om rättsväsendets informationshantering
+SFS Number: Svensk författningssamling 2014:1085
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-20141085-om-rattsvasendets_sfs-2014-1085/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2014:1085
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2014:1085
+Ministry/Authority: Justitiedepartementet KRIM
+Issued: 2014-09-11
+Metadata: {"Utfärdad": "2014-09-11", "Ändrad": "t.o.m. SFS 2022:830"}
+
+==================================================
+
+Förordning (2014:1085) om rättsväsendets informationshantering
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2014:1085
+Departement/myndighet
+:   
+Justitiedepartementet KRIM
+Utfärdad
+:   
+2014-09-11
+Ändrad
+:   
+t.o.m. SFS 2022:830
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Inledande bestämmelse
+1 §
+Denna förordning innehåller vissa bestämmelser om hantering av information med hjälp av automatiserad behandling mellan myndigheter inom rättsväsendet i samband med brottsutredning eller brottmålsförfarande.
+Överföring av uppgifter från brottsbekämpande myndigheter
+2 §
+När Polismyndigheten lämnar information om anmälda brott eller slutligt utredningsmaterial till åklagaren, ska Polismyndigheten se till att uppgifter om brott eller brottsmisstanke och om misstänkt, målsägande och andra berörda personer överförs med hjälp av automatiserad behandling. Uppgifterna ska överföras i ett sådant format att de kan användas med hjälp av automatiserad behandling i åklagarverksamheten och användas för automatiserad uppföljning och statistik.
+3 §
+När en åklagare enligt lagen (1997:1024) om Skatteverkets  brottsbekämpande verksamhet har anlitat biträde för att  verkställa en förundersökning och Skatteverket lämnar  slutligt utredningsmaterial till åklagaren, ska Skatteverket  se till att uppgifter om brott eller brottsmisstanke och om  misstänkt, målsägande och andra berörda personer överförs med  hjälp av automatiserad behandling. Uppgifterna ska överföras  i ett sådant format att de kan användas med hjälp av  automatiserad behandling i åklagarverksamheten och användas  för automatiserad uppföljning och statistik.
+Förordning (2017:460).
+4 §
+När en åklagare ger in ansökan om stämning till domstolen, ska Åklagarmyndigheten eller Ekobrottsmyndigheten se till att uppgifter om brottslig gärning och om tilltalad, målsägande och andra berörda personer överförs med hjälp av automatiserad behandling. Uppgifterna ska överföras i ett sådant format att de kan användas med hjälp av automatiserad behandling i domstolens rättsskipande och rättsvårdande verksamhet och användas för automatiserad uppföljning och statistik.
+5 §
+Om överföring vid något enskilt tillfälle inte kan ske med hjälp av automatiserad behandling i enlighet med 2-4 §§, får informationshanteringen ske på annat sätt.
+Överföring av uppgifter från de allmänna domstolarna
+5 a §
+När en allmän domstol på grund av en uppgiftsskyldighet  som följer av en lag eller förordning lämnar uppgifter om  domar eller beslut i brottmål till Brottsförebyggande rådet,  Ekobrottsmyndigheten, Kriminalvården, Polismyndigheten,  Tullverket eller Åklagarmyndigheten, ska domstolen se till att  uppgifterna överförs med hjälp av automatiserad behandling.
+Första stycket gäller inte när en hovrätt eller Högsta  domstolen lämnar uppgifter till Polismyndigheten enligt 5, 5 a  eller 7 § förordningen (1970:517) om rättsväsendets  informationssystem. Förordning (2022:830).
+5 b §
+Vid överföring enligt 5 a § ska domstolen även lämna
+1. uppgifter om parter och målsägande, och
+2. vid överföring till Brottsförebyggande rådet,  Kriminalvården eller Polismyndigheten, uppgifter som har  betydelse för verkställighet av häktning eller straffrättsliga  påföljder. Förordning (2022:830).
+5 c §
+Om överföring vid något enskilt tillfälle inte kan ske  med hjälp av automatiserad behandling enligt 5 a och 5 b §§,  får informationshanteringen ske på annat sätt.
+Förordning (2022:830).
+5 d §
+Domstolsverket får, efter att ha gett Brottsförebyggande  rådet, Ekobrottsmyndigheten, Kriminalvården, Polismyndigheten,  Tullverket och Åklagarmyndigheten tillfälle att yttra sig,  meddela
+1. närmare föreskrifter om vilka uppgifter som ska lämnas  enligt 5 b §, och
+2. ytterligare föreskrifter om överföring av uppgifter från de  allmänna domstolarna enligt 5 a och 5 b §§.
+Förordning (2022:830).
+Tjänster med enhetliga termer
+6 §
+Polismyndigheten ska med hjälp av automatiserad behandling tillhandahålla en tjänst för att förse myndigheter inom rättsväsendet med enhetliga termer för den information som hanteras mellan myndigheterna i samband med brottsutredning eller brottmålsförfarande. Tjänsten ska innefatta typ av
+- aktörer och kontaktuppgifter,
+- beslut och avgöranden,
+- dokument och sammanställningar,
+- personutredningar,
+- frihetsberövanden,
+- påföljder och övriga förordnanden och hänvisning till lagrum,
+- uppgifter om status i brottsutredning eller brottmålsförfarande,
+- organisatoriska indelningar för rättsväsendets myndigheter, och
+- geografiska indelningar i kommun, län eller land.
+Tjänsten ska inte innehålla personuppgifter.
+7 §
+Åklagarmyndigheten ska med hjälp av automatiserad behandling tillhandahålla en tjänst för att förse myndigheter inom rättsväsendet med enhetliga termer för de uppgifter om straffbud i Svensk författningssamling som hanteras mellan myndigheterna i samband med brottsutredning eller brottmålsförfarande.
+Tjänsten ska inte innehålla personuppgifter.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

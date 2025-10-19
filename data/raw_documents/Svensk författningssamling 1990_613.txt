@@ -1,0 +1,207 @@
+Title: Lag (1990:613) om miljöavgift på utsläpp av kväveoxider vid energiproduktion
+SFS Number: Svensk författningssamling 1990:613
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1990613-om-miljoavgift-pa-utslapp-av_sfs-1990-613/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1990:613
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1990:613
+Ministry/Authority: Klimat- och näringslivsdepartementet
+Issued: 1990-06-14
+Metadata: {"Utfärdad": "1990-06-14", "Ändrad": "t.o.m. SFS 2018:1664"}
+
+==================================================
+
+Lag (1990:613) om miljöavgift på utsläpp av kväveoxider vid energiproduktion
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1990:613
+Departement/myndighet
+:   
+Klimat- och näringslivsdepartementet
+Utfärdad
+:   
+1990-06-14
+Ändrad
+:   
+t.o.m. SFS 2018:1664
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Lagens tillämpningsområde
+1 §
+Miljöavgift betalas till staten enligt denna lag för utsläpp av kväveoxider från förbränningsanläggningar för energiproduktion. Med energiproduktion avses både el- och värmeproduktion. Avgiftsbeloppen skall tillgodoföras de avgiftsskyldiga enligt 15 §.
+Lag (2002:411)
+.
+2 §
+Avgiften beräknas för varje produktionsenhet inom en förbränningsanläggning. Med produktionsenhet avses
+1. panna i vilken varmvatten, hetvatten, ånga eller hetolja framställs för byggnadsuppvärmning, elproduktion eller användning i industriella processer,
+2. gasturbin,
+3. stationär förbränningsmotor.
+Avgift tas inte ut på utsläpp från förbränning i sodapannor eller lutpannor.
+Lag (1994:1107)
+.
+3 §
+Avgift tas ut för produktionsenhet med en nyttiggjord energiproduktion under redovisningsperioden av minst 25 gigawattimmar.
+Lag (2008:833)
+.
+Avgiftsskyldighet
+4 §
+Avgiften skall betalas av den som framställer elektrisk kraft eller värme. Avgiftsskyldigheten inträder när utsläpp av kväveoxider sker från produktionsenheten.
+5 §
+Avgift tas ut med 50 kronor per helt kilogram utsläppta kväveoxider, räknat som kvävedioxid.
+Den som kontinuerligt mäter och registrerar utsläppen med hjälp av en mätutrustning, som uppfyller särskilda krav, får beräkna avgiften på grundval av mätvärdena.
+Görs inte en sådan mätning ska utsläppen beräknas på följande sätt. Om mätutrustning som avses i andra stycket är installerad, får utsläppen under högst 1 440 timmar per kalenderår då mätning inte skett beräknas som en och en halv gånger den mängd kväveoxider, räknat som kvävedioxid, som uppmätts under jämförbara driftförhållanden. I annat fall ska utsläppen anses motsvara 0,25 gram kväveoxider, räknat som kvävedioxid, per megajoule tillfört bränsle.
+Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om de särskilda kraven för mätutrustning som avses i andra stycket.
+Lag (2008:833)
+.
+Beslutande myndighet och allmänt ombud
+6 §
+Naturvårdsverket fattar beslut om miljöavgift.
+Lag (2002:411)
+.
+7 §
+Hos Naturvårdsverket skall det finnas ett allmänt ombud som för det allmännas talan hos allmän förvaltningsdomstol i mål och ärenden enligt denna lag.
+Naturvårdsverket utser det allmänna ombudet och ersättare för denne.
+Lag (2002:411)
+.
+Redovisning av avgiften
+8 §
+Redovisningsperioden för avgiften är kalenderår.
+Den som är avgiftsskyldig skall vara registrerad hos Naturvårdsverket.
+Lag (2002:411)
+.
+9 §
+Den som är avgiftsskyldig skall i en deklaration för varje produktionsenhet och redovisningsperiod ange
+1. nödvändiga identifikationsuppgifter,
+2. den redovisningsperiod för vilken redovisningen lämnas,
+3. avgiftsbeloppet, och
+4. de ytterligare uppgifter som behövs för beräkning och kontroll av avgiften.
+Regeringen eller den myndighet som regeringen bestämmer meddelar närmare föreskrifter om vad en deklaration skall innehålla.
+Lag (2002:411)
+.
+10 §
+Deklarationen skall lämnas till Naturvårdsverket på blankett enligt fastställt formulär. Den skall ha kommit in till Naturvårdsverket senast den 25 januari året efter redovisningsperioden.
+Lag (2002:411)
+.
+Betalning av avgiften
+11 §
+Avgiften skall betalas senast den 1 oktober året efter redovisningsperioden.
+Om avgiften har fastställts genom omprövning eller efter överklagande, skall den betalas inom den tid som Naturvårdsverket bestämmer.
+Avgiften betalas genom insättning på ett särskilt konto hos Naturvårdsverket. Betalningen anses ha skett den dag då den har bokförts på det särskilda kontot.
+Lag (2002:411)
+.
+Återbetalning
+12 §
+Om den avgiftsskyldige har betalat in avgift för en redovisningsperiod och den inbetalda avgiften överstiger vad som enligt beslut av Naturvårdsverket eller domstol skall betalas, skall det överskjutande beloppet återbetalas till den avgiftsskyldige.
+Lag (2002:411)
+.
+13 §
+Före utbetalning av ett överskjutande belopp enligt 12 §
+eller annat belopp som betalas ut på grund av bestämmelse i denna lag skall sådan avgift för vilken den avgiftsskyldige står i skuld räknas av. Avgiftsbelopp som den avgiftsskyldige har fått anstånd med att betala skall dock inte räknas av.
+Lag (2002:411)
+.
+Ansvar för delägare i handelsbolag
+14 §
+Naturvårdsverket beslutar om ansvar för delägare i handelsbolag enligt 2 kap. 20 § lagen (1980:1102) om handelsbolag och enkla bolag avseende avgift enligt denna lag.
+Om beslut enligt första stycket har fattats skall vad som sägs om avgiftsskyldig gälla ansvarig delägare och vad som sägs om avgift gälla för belopp som delägare är betalningsskyldig för.
+Lag (2002:411)
+.
+Tillgodoföring av avgiftsmedel
+15 §
+Avgiftsmedel som inte tas i anspråk för en myndighets verksamhet enligt denna lag eller föreskrifter som har meddelats med stöd av lagen, skall årligen tillgodoföras de avgiftsskyldiga och efter ansökan fördelas mellan dem. Fördelningen av det belopp som skall tillgodoföras skall grundas på varje sökandes andel av den för samtliga sökande samlade nyttiggjorda energiproduktionen i de avgiftspliktiga produktionsenheterna.
+Lag (2002:411)
+.
+16 §
+Beslut som annan myndighet än regeringen i särskilt fall meddelat i fråga om tillgodoföring enligt 15 §, får överklagas hos allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten.
+Lag (2002:411)
+.
+Befrielse från avgift
+17 §
+Regeringen, eller den myndighet som regeringen bestämmer, får helt eller delvis befria en avgiftsskyldig från skyldigheten att betala en avgift, om det finns synnerliga skäl. Om beslut om befrielse fattas får motsvarande befrielse medges för ränta.
+Lag (2002:411)
+.
+Register
+18 §
+Naturvårdsverket ska föra register över vad som  förekommer i ett avgiftsärende.
+Från ett register som förs enligt första stycket får nedan  angivna uppgifter lämnas ut till en enskild, om det inte av  särskild anledning kan antas att den enskilde eller någon  närstående lider men om uppgiften röjs.
+Uppgifter får lämnas ut om
+1. namn och personnummer,
+2. organisationsnummer, namn och företagsnamn,
+3. adress,
+4. slag av verksamhet, och
+5. tidpunkt för registrering samt i förekommande fall  avregistrering.
+Lag (2018:1664)
+.
+Förfarandet i övrigt
+19 §
+I fråga om förfarandet för miljöavgiften i övrigt gäller i tillämpliga delar bestämmelserna i skatteförfarandelagen
+(2011:1244) om
+- uppgifter som har lämnats för någon annans räkning i 4 kap.
+2 §,
+- anstånd med att lämna skattedeklaration i 36 kap. 1 § första stycket och 5 §,
+- föreläggande i 37 kap. 2 § första stycket, 4, 6, 7, 9 och 10 §§,
+- dokumentationsskyldighet i 39 kap. 3 §,
+- kommunikationsskyldighet i 40 kap. 2 och 3 §§,
+- revision i 41 kap.,
+- vitesföreläggande i 44 kap.,
+- uppgifter och handlingar som ska undantas från kontroll i 47 kap.,
+- beslut om punktskatt i 53 kap. 1 § första stycket,
+- skönsmässiga beslut om avgifter i 57 kap. 1 §,
+- företrädaransvar i 59 kap. 13, 15-21, 26 och 27 §§,
+- anstånd med betalning i 63 kap. 2-6, 8-10, 15, 16 och 22 §§,
+- ränta i 65 kap. 2 § första stycket, 3, 4, 7, 8, 10, 11, 13, 15 och 16 §§,
+- omprövning i 66 kap. 2-4, 6-8, 18, 19, 21, 22 och 27-34 §§,
+- överklagande i 67 kap. 2 och 5 §§, 6 § första meningen, 7-13, 19-24 samt 27 §§,
+- besluts verkställbarhet i 68 kap.
+- indrivning i 70 kap., och
+- övriga bestämmelser om verkställighet i 71 kap.
+Lag (2011:1338)
+.
+20 §
+Vid tillämpningen av 19 § ska
+1. vad som sägs om skatt, punktskatt och Skatteverket i stället gälla avgift och Naturvårdsverket, om inte något annat följer av 8 § lagen (2007:324) om Skatteverkets hantering av vissa borgenärsuppgifter,
+2. skattekonto ersättas med Naturvårdsverkets särskilda konto när det gäller ränta, och
+3. beskattningsåret ersättas med redovisningsperioden när det gäller omprövning och överklagande.
+Lag (2011:1338)
+.
+21 §
+Bestämmelserna i 67 kap. 29-32 och 34-36 §§
+skatteförfarandelagen (2011:1244) tillämpas i mål enligt denna lag. Det som sägs där om Skatteverket ska då i tillämpliga fall gälla det allmänna ombudet.
+Lag (2013:92)
+.
+22 §
+Vad som i skattebrottslagen (1971:69) föreskrivs om skatt gäller även i fråga om avgift som avses i denna lag.
+Bestämmelserna i skatteförfarandelagen (2011:1244) om betalningssäkring ska tillämpas på avgift enligt denna lag.
+Lag (2011:1338)
+.
+Övergångsbestämmelser
+1994:1107
+Denna lag träder i kraft, i fråga om 5 § den 1 januari 1995, och i övrigt den 1 januari 1996. Avgift tas dock inte ut för kalenderåret 1996 om den uppmätta, nyttiggjorda energiproduktionen i produktionsenheten under det kalenderåret understiger 40 gigawattimmar.
+1995:1717
+Denna lag träder i kraft den 1 maj 1996 men tillämpas inte i de fall där det första beslutet i ärendet fattats dessförinnan.
+2002:411
+Denna lag träder i kraft den 1 januari 2003. Äldre föreskrifter gäller fortfarande för förhållanden som hänför sig till tiden före ikraftträdandet.
+2003:540
+1. Denna lag träder i kraft den 1 januari 2004.
+2. Äldre bestämmelser tillämpas i de fall 11 §
+förmånsrättslagen (1970:979), i sin lydelse enligt lagen
+(1975:1248) om ändring i nämnda lag, tillämpas.
+2007:1372
+Denna lag träder i kraft den 1 januari 2008. Äldre bestämmelser gäller fortfarande i fråga om förhållanden som hänför sig till tiden före ikraftträdandet.
+2008:833
+Denna lag träder i kraft den 1 januari 2009 och tillämpas första gången vid redovisning av avgift för kalenderåret 2009.
+2011:1338
+1. Denna lag träder i kraft den 1 januari 2012.
+2. Äldre bestämmelser gäller fortfarande för förhållanden som hänför sig till tiden före ikraftträdandet.
+3. Bestämmelserna om ränta i 19 § tillämpas på ränta som hänför sig till tid från och med den 1 januari 2013. För ränta som hänför sig till tid dessförinnan gäller i stället bestämmelserna om ränta i 19 kap. skattebetalningslagen
+(1997:483).
+2013:92
+1. Denna lag träder i kraft den 1 juli 2013.
+2. Äldre föreskrifter gäller för beslut som har meddelats före ikraftträdandet.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

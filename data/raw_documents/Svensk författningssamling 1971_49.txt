@@ -1,0 +1,100 @@
+Title: Kupongskatteförordning (1971:49)
+SFS Number: Svensk författningssamling 1971:49
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/kupongskatteforordning-197149_sfs-1971-49/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1971:49
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1971:49
+Ministry/Authority: Finansdepartementet S1
+Issued: 1971-02-26
+Metadata: {"Utfärdad": "1971-02-26", "Ändrad": "t.o.m. SFS 2016:70"}
+
+==================================================
+
+Kupongskatteförordning (1971:49)
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1971:49
+Departement/myndighet
+:   
+Finansdepartementet S1
+Utfärdad
+:   
+1971-02-26
+Ändrad
+:   
+t.o.m. SFS 2016:70
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+1 §
+Termer och uttryck som används i denna förordning har  samma betydelse och tillämpningsområde som i  kupongskattelagen (1970:624). Vad som sägs i 2 § första  stycket och 3 § första stycket i denna förordning om  värdepapperscentral gäller även den som enligt 11 a, 11 b  eller 11 c § kupongskattelagen ansvarar för innehållande av  kupongskatt.
+Med utländsk förvaltare avses den som i utlandet förvaltar  aktier eller andelar i värdepappersfonder eller specialfonder  och som enligt följande bestämmelser kan föras in i  aktieboken eller registret över innehavare av andelar i  stället för aktieägare eller andelsägare som är bosatta  utomlands:
+- 5 kap. 14 § aktiebolagslagen (2005:551) såvitt avser  förvaltare som av en värdepapperscentral som hör hemma i  Sverige har fått medgivande till registrering som förvaltare,
+- 4 kap. 12 § lagen (2004:46) om värdepappersfonder,
+- 12 kap. 5 § lagen (2013:561) om förvaltare av alternativa  investeringsfonder, eller
+- 3 kap. 7 § lagen (1998:1479) om värdepapperscentraler och  kontoföring av finansiella instrument. Förordning (2016:70).
+2 §
+En värdepapperscentral ska hos Skatteverket kontrollera  uppgifter som lämnats enligt 7 § andra stycket  kupongskattelagen (1970:624) och som är av betydelse för  bedömning av frågan om skattskyldighet enligt lagen. Sådan  kontroll ska avse utdelningsberättigad som inte är juridisk  person och ska göras på tid och sätt som Skatteverket  bestämmer.
+Bestämmelserna i första stycket om värdepapperscentral gäller  i stället förvaltaren vid förvaltarregistrering enligt
+- 5 kap. 14 § aktiebolagslagen (2005:551) såvitt avser  förvaltare som av en värdepapperscentral som hör hemma i  Sverige har fått medgivande till registrering som förvaltare,
+- 4 kap. 12 § lagen (2004:46) om värdepappersfonder,
+- 12 kap. 5 § lagen (2013:561) om förvaltare av alternativa  investeringsfonder, eller
+- 3 kap. 7 § lagen (1998:1479) om värdepapperscentraler och  kontoföring av finansiella instrument. Förordning (2016:70).
+3 §
+Vid tillämpning av 7 § första stycket kupongskattelagen 
+(1970:624) ska värdepapperscentralen följa även bestämmelser  enligt avtal för undvikande av dubbelbeskattning, om det av  tillgängliga uppgifter framgår att bestämmelserna är  tillämpliga på den utdelningsberättigade. Detta gäller dock  inte, om den utdelningsberättigade enligt avtalet kan  tillgodoses endast genom återbetalning av skatt.
+I fråga om en värdepapperscentrals utbetalning till en  utländsk förvaltare får kupongskatt innehållas efter den  högsta skattesats som gäller enligt avtal för undvikande av  dubbelbeskattning med det land där förvaltaren hör hemma. Som  förutsättning för detta gäller dock att förvaltaren  skriftligen förbundit sig i förhållande till  värdepapperscentralen att
+1. vid utbetalning till utdelningsberättigad se till att  avtalets bestämmelser i fråga om kupongskatt följs,
+2. inom två månader efter det att förvaltaren tagit emot  utdelningsbeloppet från värdepapperscentralen, lämna uppgift  till värdepapperscentralen om dels antalet  utdelningsberättigade och antalet aktier för vilka avtalet  tillämpats, dels antalet utdelningsberättigade och antalet  aktier för vilka avtalet inte tillämpats,
+3. inom samma tid till värdepapperscentralen betala tillbaka  det belopp som hänför sig till de utdelningar för vilka  avtalet inte tillämpats,
+4. på värdepapperscentralens begäran tillhandahålla  värdepapperscentralen sådan utredning om utdelningsberättigad  som är av betydelse för bedömande av skattskyldigheten eller  tillämpligheten av avtalet för undvikande av  dubbelbeskattning.
+Andra stycket innebär ingen ändring i skyldigheten för  utdelningsberättigad som önskar nedsättning av kupongskatt  att göra ansökan om det och lämna intyg om bosättning, om det  är särskilt föreskrivet. Utländsk förvaltare som redovisar  kupongskatt enligt andra stycket får lämna in sådan  ansökningshandling och sådant intyg till  värdepapperscentralen senast vid den tidpunkt som anges i  andra stycket 2.
+Skatteverket bestämmer när värdepapperscentralen ska begära  sådan utredning som avses i andra stycket 4.
+Fullgör utländsk förvaltare inte sin skyldighet enligt andra  eller tredje stycket, får Skatteverket bestämma att  värdepapperscentralen inte får tillämpa andra stycket när det  gäller redovisning av kupongskatt som avser utbetalningar  till förvaltaren. Förordning (2016:70).
+4 §
+Skyldigheten enligt 8 § kupongskattelagen (1970:624) att  till Skatteverket lämna uppgift för varje skattskyldig gäller  även i fråga om sådan skattskyldig för vilken kupongskatt  inte innehållits till följd av bestämmelser i avtal för  undvikande av dubbelbeskattning. Om utdelning har betalats ut  till utländsk förvaltare, ska uppgift enligt den paragrafen  avse denna utbetalning. Vid utbetalning till utländsk  förvaltare enligt 3 § andra stycket ska uppgiften avse  förhållanden som anges i samma stycke 2. Förordning (2016:70).
+5 §
+Om en utdelningsberättigad som avses i 4 § första och  andra styckena kupongskattelagen (1970:624) har lämnat  uppgift om att utdelningen är hänförlig till rörelse som  bedrivits här i landet, ska den som betalar ut utdelningen  underrätta Skatteverket om det senast fyra månader efter  utdelningstillfället. Förordning (2016:70).
+6 §
+Bestämmelser om begäran om indrivning m.m. finns i 4-9 §§  indrivningsförordningen (1993:1229). Att den  betalningsskyldige ska uppmanas att betala fordringen innan  ansökan om indrivning görs framgår av 3 § samma förordning.
+Indrivning behöver inte begäras för en fordran som  understiger 100 kronor om indrivning inte krävs från allmän  synpunkt.
+Ytterligare föreskrifter för tillämpningen av  kupongskattelagen (1970:624) meddelas av Skatteverket.
+Förordning (2016:70).
+7 §
+Ett åtagande enligt 11 a § första stycket 2  kupongskattelagen (1970:624) ska innehålla följande  identifikationsuppgifter för värdepapperscentralen och  avstämningsbolaget:
+1. namn,
+2. organisationsnummer eller motsvarande registreringsnummer  och motsvarande utländska nummer, samt
+3. postadress. Förordning (2016:70).
+8 §
+Den som begär registrering hos en värdepapperscentral av  värdepapper som avses berättiga till utdelning från en  utländsk juridisk person, ska samtidigt lämna uppgift om namn  och hemvist på den för vars räkning utdelningen eller räntan  ska lyftas. Om namn eller hemvist ändras, ska den som har  lämnat uppgiften utan dröjsmål anmäla detta skriftligen till  värdepapperscentralen. Bank eller värdepappersinstitut som av  en värdepapperscentral medgetts rätt att registreras som  förvaltare av aktier enligt lagen (1998:1479) om  värdepapperscentraler och kontoföring av finansiella  instrument, är skyldig att lämna sådan uppgift som rör ränta  efter uppmaning från värdepapperscentralen. Sådan uppmaning  får inte göras senare än fem år efter det att räntan betalats  ut. Förordning (2016:70).
+9 §
+Har upphävts genom förordning (2011:1265).
+10 §
+Om det finns särskilda skäl, får Skatteverket jämka uppgiftsskyldighet enligt 8 §. Förordning (2011:1265).
+Övergångsbestämmelser
+2001:1247
+Denna förordning träder i kraft den 1 januari 2002 och tillämpas första gången på utdelning som har skett efter ikraftträdandet.
+2005:367
+Denna förordning träder i kraft den 1 juli 2005 och tillämpas på utdelning som har lämnats efter ikraftträdandet.
+2005:1143
+Denna förordning träder i kraft den 1 januari 2006 och tillämpas på utdelning som har skett efter ikraftträdandet.
+2011:264
+Denna förordning träder i kraft den 1 april 2011 och tillämpas på utdelning som beslutas efter ikraftträdandet. Äldre bestämmelser gäller i fråga om sådan återbetalning eller utbetalning till aktieägarna för vilka försäkringsrörelselagen
+(1982:713) gäller enligt lagen (2010:2044) om införande av försäkringsrörelselagen (2010:2043). Förordning (2011:264).
+2011:1265
+Denna förordning träder i kraft den 1 januari 2012 och tillämpas första gången på uppgifter som avser kalenderåret 2013.
+2013:589
+Denna förordning träder i kraft den 22 juli 2013 och tillämpas på utdelning som lämnas efter den 21 juli 2013.
+2016:70
+1. Denna förordning träder i kraft den 1 mars 2016.
+2. Bestämmelserna i 1-7 och 8 §§ i den nya lydelsen tillämpas  på utdelning som betalas ut efter den 29 februari 2016.
+3. Äldre bestämmelser gäller för utdelning som betalas ut av  en central värdepappersförvarare som enligt punkt 2 i  ikraftträdande- och övergångsbestämmelserna till lagen 
+(2016:51) om ändring i lagen (1998:1479) om kontoföring av  finansiella instrument får fortsätta med sådan verksamhet  efter den 29 februari 2016 till dess att ansökan om tillstånd  har prövats slutligt.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

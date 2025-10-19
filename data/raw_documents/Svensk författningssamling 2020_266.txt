@@ -1,0 +1,151 @@
+Title: Förordning (2020:266) om statligt stöd för utbyggnad av bredbandsinfrastruktur
+SFS Number: Svensk författningssamling 2020:266
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2020266-om-statligt-stod-for_sfs-2020-266/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2020:266
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2020:266
+Ministry/Authority: Finansdepartementet DIS
+Issued: 2020-04-30
+Metadata: {"Utfärdad": "2020-04-30", "Ändrad": "t.o.m. SFS 2024:1046"}
+
+==================================================
+
+Förordning (2020:266) om statligt stöd för utbyggnad av bredbandsinfrastruktur
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2020:266
+Departement/myndighet
+:   
+Finansdepartementet DIS
+Utfärdad
+:   
+2020-04-30
+Ändrad
+:   
+t.o.m. SFS 2024:1046
+Övrig text
+:   
+Rättelsesida 2024:218 har iakttagits.
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+1 §
+Denna förordning innehåller bestämmelser om statligt stöd  för utbyggnad av långsiktigt användbar bredbandsinfrastruktur.  Syftet med stödet är att öka tillgången till bredband med god  prestanda. Förordning (2021:1265).
+2 §
+Förordningen är meddelad med stöd av 8 kap. 7 §  regeringsformen.
+Ord och uttryck i förordningen
+3 §
+Ord och uttryck i förordningen har samma betydelse som i  kommissionens förordning (EU) nr 651/2014 av den 17 juni 2014  genom vilken vissa kategorier av stöd förklaras förenliga med  den inre marknaden enligt artiklarna 107 och 108 i fördraget  och i kommissionens förordning (EU) 2023/2831 av den 
+13 december 2023 om tillämpningen av artiklarna 107 och 108 i  fördraget om Europeiska unionens funktionssätt på stöd av  mindre betydelse. Förordning (2024:218).
+Förutsättningar för stöd
+4 §
+Stöd får, om det finns medel, lämnas för utbyggnad av  bredbandsinfrastruktur i form av fasta bredbandsnät som har  kapacitet att överföra data med en hastighet om lägst 1 Gbit/s  i enlighet med de villkor som anges i kapitel I och artikel 52  i kommissionens förordning (EU) nr 651/2014 eller i  kommissionens förordning (EU) 2023/2831.
+Ett stöd får inte överstiga ett belopp motsvarande 10 miljoner  euro per projekt. Förordning (2024:218).
+5 §
+Ett stöd enligt 4 § får avse investeringskostnader för  utbyggnad av bredbandsinfrastruktur från närmaste möjliga nod  i redan befintligt fast bredbandsnät fram till  avlämningspunkter som är avsedda för byggnader. Stöd får  lämnas även för utbyggnad från någon annan nod om det finns  särskilda skäl.
+En förutsättning för ett stöd enligt 4 § är att stödmottagaren  åtar sig att under två år efter det att utbyggnaden  färdigställts, inom skälig tid och till en skälig kostnad, på  begäran ansluta en eller flera byggnader till  bredbandsinfrastrukturen genom en anslutningspunkt i en  byggnad som omfattas av den stödberättigande utbyggnaden.
+Vid bedömningen av om ett stöd enligt 4 § ska lämnas ska det  beaktas om den utbyggnad som ansökan gäller kan genomföras  utan onödigt dröjsmål. Förordning (2024:218).
+5 a §
+Ett stöd enligt 4 § får även avse investeringskostnader  för utbyggnad av bredbandsinfrastruktur från närmaste möjliga  nod i en planerad eller pågående utbyggnad av fast  bredbandsnät fram till avlämningspunkter som är avsedda för  byggnader, om
+1. Tillväxtverket har tagit emot en ansökan om stöd eller har  beslutat om stöd inom ramen för programmen för Europeiska  regionala utvecklingsfonden för den planerade eller pågående  utbyggnaden av förbindelse som utgör den förmedlande länken  mellan stomnät och accessnät, och
+2. sökanden vid ansökningstillfället kan göra sannolikt att  den planerade noden kommer att vara färdigställd senast  samtidigt som projektet som stöd söks för enligt denna  förordning.
+För rätt till stöd enligt första stycket krävs också att  villkoren i 5 § andra och tredje styckena är uppfyllda.
+Förordning (2024:218).
+6 §
+En ansökan om stöd ska ha lämnats in innan arbetet med  utbyggnaden inleds. I ansökan ska det anges när utbyggnaden  senast kommer att vara färdigställd.
+6 a §
+Stöd får lämnas om stödmottagaren
+1. tillåter Europeiska kommissionen, Europeiska byrån för  bedrägeribekämpning och Europeiska revisionsrätten att utöva  sina rättigheter, däribland att genomföra utredningar,  kontroller på plats och inspektioner, i enlighet med  artikel 129.1 i Europaparlamentets och rådets förordning (EU,  Euratom) 2018/1046 av den 18 juli 2018 om finansiella regler  för unionens allmänna budget, om ändring av förordningarna 
+(EU) nr 1296/2013, (EU) nr 1301/2013, (EU) nr 1303/2013, (EU)  nr 1304/2013, (EU) nr 1309/2013, (EU) nr 1316/2013, (EU)  nr 223/2014, (EU) nr 283/2014 och beslut nr 541/2014/EU samt  om upphävande av förordning (EU, Euratom) nr 966/2012,
+2. i tillämpliga fall ser till att kraven i 1 även ställs på  den som utför eller medverkar till arbetet med åtgärderna, och
+3. ger Ekonomistyrningsverket möjlighet att besöka och ta del  av ytterligare nödvändig information hos stödmottagaren,
+4. åtar sig att bevara dokumentation i enlighet med  artikel 132 i Europaparlamentets och rådets förordning (EU,  Euratom) 2018/1046, och
+5. åtar sig att framhålla att finansieringen helt eller delvis  kommer från Europeiska unionen och säkerställa  unionsfinansieringens synlighet, i enlighet med artikel 34.2 i  Europaparlamentets och rådets förordning (EU) nr 2021/241 av  den 12 februari 2021 om inrättande av faciliteten för  återhämtning och resiliens.
+Första stycket gäller stöd som helt eller delvis finansieras  med medel från faciliteten för återhämtning och resiliens  enligt Europaparlamentets och rådets förordning (EU)  nr 2021/241. Förordning (2021:1333).
+7 §
+Om uppgifter om ett stöd till ett företag ska  offentliggöras enligt artikel 9 i kommissionens  förordning (EU) nr 651/2014, får stödet endast beviljas om  företaget samtycker till offentliggörandet.  Förordning (2023:3).
+8 §
+Stöd får inte lämnas för åtgärder som
+1. måste genomföras för att uppfylla en skyldighet enligt lag,  annan författning eller villkor i ett tillstånd,
+2. kan antas orsaka skada för allmän säkerhet, totalförsvaret  eller Sveriges säkerhet i övrigt, eller
+3. beviljats stöd enligt
+a) förordningen (2022:1467) om statligt stöd till regionala  investeringar, eller
+b) 3 kap. 29 § förordningen (2022:1379) om förvaltning av  program för vissa EU-fonder. Förordning (2024:1046).
+9 §
+Stöd av mindre betydelse som omfattas av kommissionens  förordning (EU) 2023/2831 får inte ges till sådana företag i  svårigheter som avses i artikel 2.18 i kommissionens  förordning (EU) nr 651/2014. Förordning (2024:218).
+Prövning av stödärenden
+10 §
+Post- och telestyrelsen prövar frågor om stöd.
+En ansökan om stöd ska vara skriftlig och lämnas elektroniskt  till Post- och telestyrelsen på det sätt som myndigheten  anvisar.
+11 §
+En ansökan om stöd enligt kommissionens förordning (EU) 
+2023/2831 ska innehålla en redogörelse för allt annat stöd
+1. av mindre betydelse som sökanden har tagit emot under den  senaste treårsperioden, och
+2. som sökanden tidigare ansökt om eller beviljats och som  avser samma stödberättigande kostnader som ansökan omfattar.
+Förordning (2024:218).
+Beslut om stöd
+12 §
+Post- och telestyrelsen ska, innan ett stöd enligt  kommissionens förordning (EU) 2023/2831 beviljas,
+1. genomföra den kontroll som följer av artikel 6.4 i den  förordningen, och
+2. lämna de upplysningar till stödmottagaren som framgår av  artikel 7.4 i den förordningen. Förordning (2024:218).
+13 §
+Ett beslut om stöd ska innehålla uppgifter om
+1. att stödmottagaren, på begäran av Post- och telestyrelsen,  ska lämna de uppgifter som krävs för uppföljning och  utvärdering av stödet, och
+2. villkoren för sådan anslutning som avses i 5 § andra  stycket och de övriga villkor som behövs för att tillgodose  syftet med stödet.
+I beslutet ska det även anges när den åtgärd stödet avser  senast ska vara utförd. Efter ansökan får Post- och  telestyrelsen förlänga denna frist om det finns särskilda  skäl.
+Utbetalning av stöd
+14 §
+Ett stöd som har beviljats enligt denna förordning, och i  enlighet med de villkor som anges i kommissionens förordning 
+(EU) nr 651/2014, får inte betalas ut till ett företag som är  föremål för betalningskrav på grund av ett beslut av  Europeiska kommissionen som förklarar att ett stöd beviljat av  en svensk stödgivare är olagligt och oförenligt med den inre  marknaden.
+15 §
+Post- och telestyrelsen ska besluta att ett stöd helt  eller delvis inte ska betalas ut, om
+1. sökanden genom oriktiga uppgifter eller på något annat sätt  orsakat att stödet beviljats felaktigt eller med för högt  belopp,
+2. stödet av någon annan orsak beviljats felaktigt eller med  för högt belopp och mottagaren skäligen borde ha insett detta,
+3. stödet inte har utnyttjats eller använts eller det finns  anledning att anta att stödet inte kommer att utnyttjas eller  användas för det ändamål som det har beviljats för, eller
+4. villkoren för stödet inte har följts. Förordning (2024:630).
+Tillsyn och uppföljning
+16 §
+Post- och telestyrelsen ska utöva tillsyn över att  villkoren för stödet följs.
+En mottagare av stöd ska på Post- och telestyrelsens begäran  lämna de uppgifter som behövs för uppföljning eller  utvärdering av den åtgärd som stödet har beviljats för.  Uppgifterna ska lämnas på det sätt som myndigheten anvisar.
+Förordning (2023:3).
+16 a §
+Ekonomistyrningsverket ska i revisionssyfte följa upp  utbetalat stöd och begära in nödvändiga uppgifter från  stödmottagare.
+En stödmottagare ska på Ekonomistyrningsverkets begäran lämna  de uppgifter som behövs för uppföljning av det utbetalade  stödet.
+Första och andra styckena gäller stöd som helt eller delvis  finansieras med medel från faciliteten för återhämtning och  resiliens enligt Europaparlamentets och rådets förordning (EU)  nr 2021/241. Förordning (2021:1333).
+Återbetalning och återkrav
+17 §
+En stödmottagare är återbetalningsskyldig för stöd som  har betalats ut, om det finns grund för att helt eller delvis  inte betala ut stöd enligt 15 §.
+På det belopp som ska betalas tillbaka ska ränta enligt  räntelagen (1975:635) betalas. Förordning (2024:630).
+18 §
+Om en stödmottagare är återbetalningsskyldig enligt 17 §,  ska Post- och telestyrelsen besluta att helt eller delvis  kräva tillbaka stödet tillsammans med ränta. Kravet eller  räntan får helt eller delvis sättas ned om det finns särskilda  skäl.
+Upplysningar
+19 §
+Bestämmelser om offentliggörande, rapportering och  registerföring finns i 12 a § lagen (2013:388) om tillämpning  av Europeiska unionens statsstödsregler och i förordningen 
+(2016:605) om tillämpning av Europeiska unionens  statsstödsregler.
+Bemyndigande
+20 §
+Post- och telestyrelsen får meddela föreskrifter om  verkställigheten av denna förordning.
+Överklagande
+21 §
+I 40 § förvaltningslagen (2017:900) finns bestämmelser om  överklagande till allmän förvaltningsdomstol. Andra beslut än  beslut att inte betala ut stöd enligt 14 och 15 §§ får dock  inte överklagas.
+Övergångsbestämmelser
+2022:1385
+1. Förordningen träder i kraft den 20 september 2022.
+2. Äldre föreskrifter gäller fortfarande för stöd som  beviljats enligt den upphävda förordningen (2015:212) om  statligt stöd inom Europeiska regionala utvecklingsfonden.
+2022:1473
+1. Denna förordning träder i kraft den 1 januari 2023.
+2. Äldre föreskrifter gäller fortfarande för stöd som har  beviljats enligt den upphävda förordningen (2015:211) om  statligt stöd till regionala investeringar.
+2024:630
+1. Denna förordning träder i kraft den 18 september 2024.
+2. För stöd som har beviljats före ikraftträdandet gäller 15  och 17 §§ i den äldre lydelsen.
+2024:1046
+1. Denna förordning träder i kraft den 1 januari 2025.
+2. För åtgärder som beviljats stöd enligt den upphävda  förordningen (2015:406) om stöd för  landsbygdsutvecklingsåtgärder gäller 8 § i den äldre lydelsen.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

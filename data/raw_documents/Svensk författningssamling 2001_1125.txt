@@ -1,0 +1,49 @@
+Title: Förordning (2001:1125) om försöksverksamhet med 
+24-timmarsmyndighet inom socialförsäkringsadministrationen
+SFS Number: Svensk författningssamling 2001:1125
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-20011125-om-forsoksverksamhet-med_sfs-2001-1125/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2001:1125
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2001:1125
+Ministry/Authority: Socialdepartementet
+Issued: 2001-12-06
+Metadata: {"Utfärdad": "2001-12-06", "Ändrad": "t.o.m. SFS 2003:431"}
+
+==================================================
+
+Förordning (2001:1125) om försöksverksamhet med 
+24-timmarsmyndighet inom socialförsäkringsadministrationen
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2001:1125
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+2001-12-06
+Ändrad
+:   
+t.o.m. SFS 2003:431
+Tidsbestämd
+: 
+2004-04-01
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+I denna förordning meddelas föreskrifter om bemyndiganden och om direktåtkomst till och utlämnande på medium för automatiserad behandling av personuppgifter i anledning av den försöksverksamhet som avses i lagen (2001:1113) om försöksverksamhet med 24-timmarsverksamhet inom socialförsäkringsadministrationen.
+2 §
+Riksförsäkringsverket får meddela föreskrifter om
+1. vid vilka allmänna försäkringskassor och i vilken omfattning försöksverksamheten får bedrivas samt vilka försäkrade som skall erbjudas att delta,
+2. hur innehåll och utställare skall kunna verifieras för att en upptagning som gjorts med hjälp av automatiserad behandling skall utgöra ett elektroniskt dokument enligt 2 § lagen
+(2001:1113) om försöksverksamhet med 24-timmarsverksamhet inom socialförsäkringsadministrationen,
+3. i vilka fall certifikat eller elektroniska signaturer skall krävas inom försöksverksamheten.
+3 §
+Den som deltar i försöksverksamheten får i enlighet med vad som föreskrivs av Riksförsäkringsverket ha direktåtkomst till sådana uppgifter om sig själv i socialförsäkringsregister som får lämnas ut till honom eller henne. Sådana uppgifter får även lämnas ut på medium för automatiserad behandling till den som deltar i försöksverksamheten i enlighet med vad som föreskrivs av Riksförsäkringsverket.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

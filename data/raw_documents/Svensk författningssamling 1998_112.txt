@@ -1,0 +1,90 @@
+Title: Lag (1998:112) om ansvar för elektroniska anslagstavlor
+SFS Number: Svensk författningssamling 1998:112
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1998112-om-ansvar-for-elektroniska_sfs-1998-112/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1998:112
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1998:112
+Ministry/Authority: Justitiedepartementet L5
+Issued: 1998-03-12
+Metadata: {"Utfärdad": "1998-03-12", "Ändrad": "t.o.m. SFS 2024:956"}
+
+==================================================
+
+Lag (1998:112) om ansvar för elektroniska anslagstavlor
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1998:112
+Departement/myndighet
+:   
+Justitiedepartementet L5
+Utfärdad
+:   
+1998-03-12
+Ändrad
+:   
+t.o.m. SFS 2024:956
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Tillämpningsområde
+1 §
+Denna lag gäller elektroniska anslagstavlor. Med elektronisk anslagstavla avses i denna lag en tjänst för elektronisk förmedling av meddelanden.
+I lagen avses med meddelande text, bild, ljud eller information i övrigt.
+2 §
+Lagen gäller dock inte
+1. tillhandahållande endast av nät eller andra förbindelser  för överföring av meddelanden eller av andra anordningar som  krävs för att kunna ta i anspråk ett nät eller annan  förbindelse,
+2. förmedling av meddelanden inom en myndighet eller mellan  myndigheter eller inom ett företag eller en koncern,
+3. tjänster som skyddas av tryckfrihetsförordningen eller  yttrandefrihetsgrundlagen,
+4. meddelanden som är avsedda bara för en viss mottagare eller  en bestämd krets av mottagare (elektronisk post), eller
+5. meddelanden som omfattas av Europaparlamentets och rådets  förordning (EU) 2021/784 av den 29 april 2021 om åtgärder mot  spridning av terrorisminnehåll online.
+Lag (2023:320)
+.
+Information till användarna
+3 §
+Den som tillhandahåller en elektronisk anslagstavla skall lämna information till var och en som ansluter sig till tjänsten om sin identitet och i vilken utsträckning inkomna meddelanden blir tillgängliga för andra användare.
+Uppsikt över tjänsten
+4 §
+Den som tillhandahåller en elektronisk anslagstavla skall, för att kunna fullgöra sin skyldighet enligt 5 §, ha sådan uppsikt över tjänsten som skäligen kan krävas med hänsyn till omfattningen och inriktningen av verksamheten.
+4 a §
+Skyldigheten att ha uppsikt över tjänsten enligt 4 §  gäller inte för den som tillhandahåller en elektronisk  anslagstavla som är en förmedlingstjänst enligt  Europaparlamentets och rådets förordning (EU) 2022/2065 av den 
+19 oktober 2022 om en inre marknad för digitala tjänster.
+För den som tillhandahåller en sådan tjänst gäller  skyldigheten enligt 5 § första stycket när det kommit till  tillhandahållarens kännedom att meddelandet finns på tjänsten.
+För den som av tillhandahållaren fått i uppdrag att sköta  tjänsten gäller skyldigheten enligt 5 § första stycket när det  kommit till personens kännedom att meddelandet finns på  tjänsten.
+Lag (2024:956)
+.
+Skyldighet att ta bort vissa meddelanden
+5 §
+Om en användare sänder in ett meddelande till en  elektronisk anslagstavla ska den som tillhandahåller tjänsten  ta bort meddelandet från tjänsten eller på annat sätt  förhindra vidare spridning av meddelandet, om
+1. meddelandets innehåll uppenbart är sådant som avses i  bestämmelserna om
+a) olaga hot i 4 kap. 5 § brottsbalken,
+b) olaga integritetsintrång i 4 kap. 6 c § brottsbalken,
+c) uppvigling i 16 kap. 5 § brottsbalken,
+d) hets mot folkgrupp i 16 kap. 8 § brottsbalken,
+e) barnpornografibrott i 16 kap. 10 a § brottsbalken,
+f) olaga våldsskildring i 16 kap. 10 c § brottsbalken, eller
+g) offentlig uppmaning till terrorism eller särskilt allvarlig  brottslighet i 7 § terroristbrottslagen (2022:666), eller
+2. det är uppenbart att användaren har gjort intrång i  upphovsrätt eller i rättighet som skyddas genom föreskrift i 
+5 kap. lagen (1960:729) om upphovsrätt till litterära och  konstnärliga verk genom att sända in meddelandet.
+För att kunna fullgöra sin skyldighet enligt första stycket  har den som tillhandahåller tjänsten rätt att ta del av  meddelanden som förekommer i tjänsten.
+Skyldigheten enligt första stycket och rätten enligt andra  stycket gäller också den som på tillhandahållarens uppdrag har  uppsikt över tjänsten.
+Lag (2022:670)
+.
+Straff
+6 §
+Den som uppsåtligen eller av oaktsamhet bryter mot 3 § döms till böter.
+7 §
+Den som uppsåtligen eller av grov oaktsamhet bryter mot 
+5 § första stycket döms till böter eller fängelse i högst sex  månader eller, om brottet är grovt, till fängelse i högst två  år. I ringa fall ska det inte dömas till ansvar.
+Första stycket tillämpas inte, om det för gärningen kan dömas  till ansvar enligt brottsbalken, lagen (1960:729) om  upphovsrätt till litterära och konstnärliga verk eller  terroristbrottslagen (2022:666).
+Brott enligt första stycket får i de fall meddelandets  innehåll är sådant som avses i bestämmelsen i 4 kap. 6 c §  brottsbalken om olaga integritetsintrång åtalas av åklagare  endast om målsäganden anger brottet till åtal eller om åtal är  påkallat från allmän synpunkt.
+Lag (2022:670)
+.
+8 §
+Har upphävts genom
+lag (2024:833)
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

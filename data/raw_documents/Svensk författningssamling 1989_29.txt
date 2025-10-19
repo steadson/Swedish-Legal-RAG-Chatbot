@@ -1,0 +1,48 @@
+Title: Förordning (1989:29) om säkerhetsanalyser av statliga 
+myndigheters ADB-system
+SFS Number: Svensk författningssamling 1989:29
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-198929-om-sakerhetsanalyser-av_sfs-1989-29/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1989:29
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1989:29
+Ministry/Authority: Civildepartementet
+Issued: 1989-02-02
+Metadata: {"Utfärdad": "1989-02-02"}
+
+==================================================
+
+Förordning (1989:29) om säkerhetsanalyser av statliga 
+myndigheters ADB-system
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1989:29
+Departement/myndighet
+:   
+Civildepartementet
+Utfärdad
+:   
+1989-02-02
+Tidsbestämd
+: 
+1992-01-01
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Denna förordning tillämpas på myndigheter under regeringen som  använder automatisk databehandling (ADB).
+Förordningen tillämpas dock inte på statsrådsberedningen, departementen  och regeringskansliets förvaltningskontor.
+2 §
+Myndigheterna skall göra säkerhetsanalyser av de ADB-system som är  av väsentlig betydelse för egen eller andras verksamhet.
+I analyserna skall riskerna för störningar i ADB-systemen identifieras  och värderas.
+För analysarbetet får myndigheterna stöd av statskontoret.
+3 §
+Myndigheterna skall i anslutning till sina analyser utarbeta en plan  för de säkerhetshöjande åtgärder som kan behövas.
+4 §
+Myndigheterna skall före utgången av år 1990 till statskontoret  redovisa analysresultaten och de åtgärder som har genomförts eller  planerats med anledning av analyserna.
+Försvarsmaktens myndigheter samt försvarets forskningsanstalt skall i  stället redovisa till överbefälhavaren.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

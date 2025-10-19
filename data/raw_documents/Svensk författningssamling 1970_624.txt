@@ -1,0 +1,531 @@
+Title: Kupongskattelag (1970:624)
+SFS Number: Svensk författningssamling 1970:624
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/kupongskattelag-1970624_sfs-1970-624/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1970:624
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1970:624
+Ministry/Authority: Finansdepartementet S1
+Issued: 1970-11-20
+Metadata: {"Utfärdad": "1970-11-20", "Ändrad": "t.o.m. SFS 2023:786"}
+
+==================================================
+
+Kupongskattelag (1970:624)
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1970:624
+Departement/myndighet
+:   
+Finansdepartementet S1
+Utfärdad
+:   
+1970-11-20
+Ändrad
+:   
+t.o.m. SFS 2023:786
+Övrig text
+:   
+Rättelseblad 2004:1148 har iakttagits.
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+Kupongskatt ska betalas enligt denna lag till staten för utdelning av annat slag än som avses i 42 kap. 16 §
+inkomstskattelagen (1999:1229) på aktie i svenskt aktiebolag.
+Vad som i denna lag sägs om aktie i svenskt aktiebolag gäller även aktie i europabolag med säte i Sverige samt andel i svensk värdepappersfond och svensk specialfond.
+I ärenden och mål om kupongskatt gäller bestämmelserna i skatteförfarandelagen (2011:1244) om
+1. ersättning för kostnader för ombud, biträde eller utredning i 43 kap., 68 kap. 2 § och 71 kap. 4 §,
+2. bevissäkring och betalningssäkring i 45 kap., 46 kap., 68 kap. 1 och 3 §§, 69 kap. och 71 kap. 1 §, samt
+3. uppgifter och handlingar som ska undantas från kontroll i 47 kap. och 68 kap. 1 och 3 §§.
+Lag (2013:574)
+.
+2 §
+I denna lag förstås med
+AIF-förvaltare: juridisk person som är AIF-förvaltare enligt 
+1 kap. 3 § lagen (2013:561) om förvaltare av alternativa  investeringsfonder,
+avstämningsbolag: aktiebolag som är avstämningsbolag enligt 
+1 kap. 10 § aktiebolagslagen (2005:551),
+egen aktie: aktie som innehas av bolaget självt,
+fondbolag: aktiebolag som driver fondverksamhet enligt lagen 
+(2004:46) om värdepappersfonder,
+förvaltningsbolag: ett utländskt företag som förvaltar en  värdepappersfond i Sverige,
+förvaringsinstitut: ett företag som är förvaringsinstitut  enligt 1 kap. 1 § första stycket 15 lagen om  värdepappersfonder eller 9 kap. 4, 5 eller 7 § lagen om  förvaltare av alternativa investeringsfonder,
+inlösenaktie: aktie som utan valmöjlighet för aktieägaren ska  lösas in eller förvärvas av aktiebolaget för en viss  ersättning,
+utdelningstillfälle: för avstämningsbolag den i 4 kap. 39  eller 46 § aktiebolagslagen avsedda dagen för avstämning och  för andra aktiebolag liksom i fråga om värdepappersfond eller  specialfond den dag då utdelningen blir tillgänglig för  lyftning,
+utdelningsberättigad: den som är berättigad att lyfta  utdelning för egen del vid utdelningstillfället,
+värdepapperscentral: detsamma som i 1 kap. 3 § lagen 
+(1998:1479) om värdepapperscentraler och kontoföring av  finansiella instrument.
+Med utdelning avses även
+1. återbetalning till aktieägarna vid minskning av  aktiekapitalet eller reservfonden enligt 20 kap. 1 § första  stycket 3 eller 35 § 3 aktiebolagslagen om inte annat anges i  tredje stycket,
+2. utskiftning vid bolagets likvidation enligt 25 kap. 38 §  aktiebolagslagen,
+3. utbetalning till aktieägare vid bolagets förvärv av egna  aktier genom ett förvärvserbjudande som har riktats till  samtliga aktieägare eller samtliga ägare till aktier av ett  visst slag om inte annat anges i tredje stycket,
+4. utbetalning av fusionsvederlag till aktieägare enligt 
+23 kap. 26 § aktiebolagslagen till den del vederlaget utgörs  av annat än aktier i det övertagande bolaget,
+5. utbetalning av fusionsvederlag till andelsägare enligt 
+8 kap. 14 § lagen om värdepappersfonder eller 12 kap. 16 §  lagen om förvaltare av alternativa investeringsfonder till den  del vederlaget utgörs av annat än andelar i den övertagande  fonden,
+6. utbetalning av delningsvederlag till aktieägare enligt 
+24 kap. 28 § aktiebolagslagen som avser
+a) delning enligt 24 kap. 1 § andra stycket samma lag till den  del vederlaget utgörs av annat än aktier i de övertagande  bolagen, eller
+b) delning enligt 24 kap. 1 § tredje stycket 1 samma lag till  den del vederlaget utgörs av annat än ersättning som enligt 
+42 kap. 16 b § inkomstskattelagen (1999:1229) inte ska tas  upp, och
+7. tilldelning av inlösenaktier till aktieägarna i samband med  att ett aktiebolag minskar aktiekapitalet för återbetalning  till aktieägarna med indragning av aktier eller förvärvar egna  aktier, om tilldelningen inte görs i utbyte mot aktier i  bolaget.
+Med utdelning avses dock inte en återbetalning eller  utbetalning enligt andra stycket 1 eller 3 som görs när  inlösenaktier löses in eller förvärvas, om tilldelningen av de  inlösenaktier som löses in eller förvärvas anses som utdelning  enligt andra stycket 7.
+Kupongskatt på sådan utdelning som avses i andra stycket 7 ska  tas ut på ett belopp som motsvarar den ersättning som ska  betalas till aktieägarna när inlösenaktierna löses in eller  förvärvas av bolaget.
+Lag (2023:786)
+.
+3 §
+Har för aktiebolag, som icke är avstämningsbolag, ej bestämts utdelningstillfälle eller skall utdelning i sådant bolag tillgodoföras den utdelningsberättigade på annat sätt än genom utbetalning av utdelat belopp, anses utdelningen ha blivit tillgänglig för lyftning omedelbart efter det att beslut om utdelningen fattats.
+Skattskyldighet
+4 §
+Skattskyldighet föreligger för utdelningsberättigad  om denne är fysisk person, som är begränsat skattskyldig,  dödsbo efter sådan person eller utländsk juridisk person, och  utdelningen ej är hänförlig till inkomst av näringsverksamhet  som bedrivits från fast driftställe här i riket.  Skattskyldighet föreligger dock inte för utdelningsberättigad  utländsk juridisk person för sådan del av utdelningen som  motsvarar det belopp som ska beskattas hos delägaren enligt 
+5 kap. 2 a § eller 39 a kap. 13 § inkomstskattelagen 
+(1999:1229).
+För handelsbolag, europeisk ekonomisk intressegruppering,  kommanditbolag och rederi föreligger skattskyldighet för den  del av utdelningen som ej är hänförlig till inkomst av  näringsverksamhet som bedrivits från fast driftställe här i  riket och som belöper på delägare eller medlem som är  begränsat skattskyldig.
+Skattskyldighet föreligger slutligen för  utdelningsberättigad, som innehar aktie under sådana  förhållanden, att annan därigenom obehörigen beredes förmån  vid beslut om inkomstskatt eller vinner befrielse från  kupongskatt.
+Skattskyldighet föreligger inte för person som avses i 3 kap. 
+17 § 2-4 inkomstskattelagen.
+Skattskyldighet föreligger inte heller för en juridisk person  i en främmande stat som är medlem i Europeiska unionen, om  den innehar 10 procent eller mer av andelskapitalet i det  utdelande bolaget och uppfyller villkoren i artikel 2 i  rådets direktiv 2011/96/EU av den 30 november 2011 om ett  gemensamt beskattningssystem för moderbolag och dotterbolag  hemmahörande i olika medlemsstater.
+Skattskyldighet föreligger inte heller för utländskt bolag  som avses i 2 kap. 5 a § inkomstskattelagen och som motsvarar  ett sådant svenskt företag som avses i 24 kap. 32 § 1-4 den  lagen, för utdelning på aktie om aktien är en sådan  näringsbetingad andel som avses i 24 kap. 33 § första stycket 
+1 eller 2 samma lag.
+Som förutsättning för skattefrihet enligt sjätte stycket  gäller att utdelningen skulle ha omfattats av bestämmelserna  om skattefrihet i 24 kap. 35-42 §§ eller 25 a kap. 5, 6 och 
+8 §§ inkomstskattelagen, om det utländska bolaget varit ett  svenskt företag. I fråga om innehavstid enligt 24 kap. 40 §  samma lag gäller dock att andelen alltid ska ha innehafts  minst ett år vid utdelningstillfället.
+Skattskyldighet för utdelning föreligger inte heller för  handelsbolag, europeisk ekonomisk intressegruppering,  kommanditbolag eller i utlandet delägarbeskattade juridiska  personer om motsvarande utdelning hade varit skattefri enligt  femte eller sjätte stycket om delägaren själv hade varit  utdelningsberättigad. Vid bedömningen av om utdelningen hade  varit skattefri ska aktieinnehavet bestämmas utifrån  storleken på delägarens indirekta innehav.
+Skattskyldighet föreligger inte heller för fondföretag enligt 
+1 kap. 1 § första stycket 9 lagen (2004:46) om  värdepappersfonder eller utländska specialfonder som hör  hemma i en stat inom Europeiska ekonomiska samarbetsområdet  eller i en stat med vilken Sverige har ingått ett skatteavtal  som innehåller en artikel om informationsutbyte eller ett  avtal om informationsutbyte i skatteärenden.
+Lag (2018:1205)
+.
+4 a §
+Som förutsättning för skattefrihet enligt 4 §  fjärde-nionde styckena gäller att den utdelningsberättigade  inte innehar aktier under sådana förhållanden som avses i 4 §  tredje stycket.
+Lag (2015:884)
+.
+Skattesats
+5 §
+Kupongskatt utgår med trettio procent av utdelningen.
+Beslutande  myndighet
+6 §
+Ärende om kupongskatt prövas av Skatteverket.
+Lag (2003:647)
+.
+Valuta
+6 a §
+Samtliga uppgifter som skall lämnas enligt denna lag skall till sina belopp anges i svenska kronor.
+Lag (2000:47)
+.
+Innehållande av kupongskatt vid utbetalning av aktieutdelning m.m.
+Utdelning i avstämningsbolag m.m.
+7 §
+En värdepapperscentral ska vid utbetalning av utdelning  innehålla kupongskatt, om det inte av tillgängliga uppgifter  om den utdelningsberättigade framgår att denne inte är  skattskyldig. Kupongskatt ska vidare innehållas om utdelning  inte har kunnat ske till följd av bristande uppgift om den  utdelningsberättigade.
+Uppgift som avses i första stycket ska lämnas skriftligen  till värdepapperscentralen i samband med begäran om införing  i aktieboken eller anmälan om registrering på  avstämningskonto av uppgift som avses i 4 kap. 18 § första  stycket 6-8 lagen (1998:1479) om värdepapperscentraler och  kontoföring av finansiella instrument, samt i övrigt när  värdepapperscentralen begär det av den som avses med  införingen. Ändras något förhållande som är av betydelse för  bedömning av frågan om skattskyldighet enligt denna lag, ska  uppgiftslämnaren utan dröjsmål skriftligen anmäla detta till  värdepapperscentralen.
+Värdepapperscentralen ska senast fyra månader efter  utdelningstillfället lämna den utdelningsberättigade  skriftlig uppgift om det belopp som innehållits i kupongskatt  för denne.
+Lag (2016:52)
+.
+8 §
+En värdepapperscentral ska senast fyra månader efter  utdelningstillfället lämna Skatteverket uppgift om
+1. det sammanlagda beloppet av utbetalade utdelningar för  vilka skattskyldighet inte förelegat,
+2. storleken av utbetalad utdelning och innehållen  kupongskatt för varje skattskyldig,
+3. det sammanlagda beloppet av utdelning som inte har kunnat  betalas ut till följd av bristande uppgifter om den  utdelningsberättigade,
+4. det sammanlagda beloppet av innehållen kupongskatt.
+Inom samma tid ska värdepapperscentralen inbetala innehållen  kupongskatt till Skatteverket.
+Andra stycket gäller inte kupongskatt på utdelning som avses  i första stycket 3. Sådan skatt inbetalas senast vid utgången  av det kalenderår då utdelningen utbetalas, dock senast vid  utgången av det femte kalenderåret efter året för  utdelningstillfället.
+Lag (2016:52)
+.
+9 §
+Utbetalas utdelning sedan en värdepapperscentral  inbetalat kupongskatt enligt 8 §, återbetalar Skatteverket  kupongskatt, som belöper på sådan utdelning för vilken  skattskyldighet inte förelegat.
+För återbetalning fordras att värdepapperscentralen till  Skatteverket överlämnar utredning om att skattskyldighet inte  förelegat för den utdelningsberättigade. Återbetalning sker  inte beträffande utdelning som avser utdelningstillfälle  tidigare än fem år före det kalenderår utredningen  överlämnats till Skatteverket.
+Lag (2016:52)
+.
+9 a §
+Sådan återbetalning som avses i 9 § får, utöver vad som sägs där, ske beträffande utdelning på fondandelsbevis för vilken utredning om skattskyldighet överlämnats inom tre månader efter det preskription inträtt för fordran avseende utdelningen.
+Lag (1994:780)
+.
+10 §
+Har en värdepapperscentral underlåtit att innehålla  kupongskatt fastän detta borde ha skett, ska  värdepapperscentralen förskjuta kupongskatten men får kräva  skattebeloppet åter av den skattskyldige.
+Lag (2016:52)
+.
+11 §
+Föreligger fall som avses i 10 §, ska Skatteverket delge  värdepapperscentralen utdrag av den längd som avses i 26 §  och förelägga centralen att inom två månader från den dag då  den fick del av utdraget erlägga skattebeloppet. Vill  värdepapperscentralen bestrida kravet, ska den senast inom  samma tid göra erinran hos Skatteverket, som meddelar beslut  med anledning av erinran. Beslutet ska delges  värdepapperscentralen och antecknas i längden. Finner  Skatteverket att värdepapperscentralen ska förskjuta  kupongskatt, ska värdepapperscentralen föreläggas att inom  viss tid erlägga skattebeloppet.
+Lag (2016:52)
+.
+11 a §
+Bestämmelserna om värdepapperscentral i 7 §, 8 §  första och andra styckena, 9-11, 20 samt 22 §§ denna lag  gäller i stället avstämningsbolaget, om bolaget inte har  uppdragit åt
+1. en värdepapperscentral som hör hemma i Sverige eller en  värdepapperscentral som hör hemma i en annan stat inom  Europeiska ekonomiska samarbetsområdet (EES) än Sverige och  som bedriver verksamhet från ett fast driftställe här att  sända ut utdelningen, eller
+2. en värdepapperscentral som hör hemma i en annan stat inom  EES än Sverige och som inte bedriver verksamhet från ett fast  driftställe här att sända ut utdelningen och  värdepapperscentralen för bolaget har gett in ett åtagande  till Skatteverket om att ansvara för uppgifterna enligt 7 §, 
+8 § första och andra styckena, 9-11, 20 och 22 §§.
+Åtagandet enligt första stycket 2 ska göras på fastställt  formulär och innehålla nödvändiga identifikationsuppgifter  för värdepapperscentralen och avstämningsbolaget.
+Lag (2016:52)
+.
+11 b §
+Vid utdelning på andel i en värdepappersfond som  förvaltas av ett fondbolag eller en specialfond som förvaltas  av en svensk AIF-förvaltare ska bolaget eller förvaltaren  ansvara för de uppgifter som värdepapperscentralen har enligt 
+7 §, 8 § första och andra styckena, 9-11, 20 och 22 §§.
+Uppgift enligt 7 § första stycket ska lämnas av den som  registreringen avser enligt lagen (2004:46) om  värdepappersfonder eller lagen (2013:561) om förvaltare av  alternativa investeringsfonder. Uppgiften ska lämnas på det  sätt som föreskrivs i 7 § andra stycket i samband med  registreringen av andelsinnehavet samt i övrigt när  fondbolaget, AIF-förvaltaren eller förvaltaren begär det. Om  utdelning på andel i en värdepappersfond eller i en  specialfond inte har betalats ut på grund av att andelsägaren  inte registrerats, ska skatt inte innehållas före utbetalning  av utdelningen.
+Lag (2016:52)
+.
+11 c §
+Vid utdelning på andel i en värdepappersfond som  förvaltas av ett förvaltningsbolag eller en specialfond som  förvaltas av en utländsk AIF-förvaltare ska  förvaringsinstitutet ansvara för de uppgifter som  värdepapperscentralen har enligt 7 §, 8 § första och andra  styckena, 9-11, 20 och 22 §§.
+Uppgift enligt 7 § första stycket ska lämnas av den som  registreringen avser enligt lagen (2004:46) om  värdepappersfonder eller lagen (2013:561) om förvaltare av  alternativa investeringsfonder. Uppgiften ska lämnas på det  sätt som föreskrivs i 7 § andra stycket i samband med  registreringen av andelsinnehavet samt i övrigt när  förvaringsinstitutet begär det. Om utdelning på andel i en  värdepappersfond eller i en specialfond inte har betalats ut  på grund av att andelsägaren inte registrerats, ska skatt  inte innehållas före utbetalning av utdelningen.
+Förvaltningsbolaget eller den utländska AIF-förvaltaren ska  omedelbart lämna förvaringsinstitutet upplysning om  förhållande som är av betydelse för frågan om innehållande av  kupongskatt.
+Lag (2016:52)
+.
+12 §
+Bestämmelserna om värdepapperscentral i 7 §, 8 § första  och andra styckena, 9-11, 20 och 22 §§ denna lag gäller i  stället förvaltaren vid förvaltarregistrering enligt
+1. 5 kap. 14 § aktiebolagslagen (2005:551) såvitt avser  förvaltare som av en värdepapperscentral som hör hemma i  Sverige har fått medgivande till registrering som  förvaltare,
+2. 4 kap. 12 § lagen (2004:46) om värdepappersfonder eller 12  kap. 5 § lagen (2013:561) om förvaltare av alternativa  investeringsfonder, eller
+3. 3 kap. 7 § lagen (1998:1479) om värdepapperscentraler och  kontoföring av finansiella instrument.
+En värdepapperscentral eller den som annars ansvarar för  innehållande av kupongskatt enligt 11 a eller 11 b § ska vid  redovisning enligt 8 § lämna uppgift till Skatteverket om  förvaltning enligt första stycket denna paragraf.
+Lag (2016:52)
+.
+13 §
+För aktiebolag, som icke är avstämningsbolag, gäller 14-17 §§ vid utbetalning av utdelning.
+Lag (1990:1434)
+.
+14 §
+Den som för egen eller annans räkning mottar utdelning på aktie i aktiebolag som inte är avstämningsbolag skall till utbetalaren på heder och samvete på blankett enligt fastställt formulär besvara frågor till ledning för bedömande om den utdelningsberättigade är skattskyldig. Är ej svaren sådana att därav uppenbarligen framgår att den utdelningsberättigade icke är skattskyldig för utdelningen, skall kupongskatt för utdelningen innehållas vid utbetalningen. Den som utbetalar utdelningen skall teckna erkännande att kupongskatten innehållits och tillställa uppgiftslämnaren erkännandet.
+Skatteverket får medge den, som är skyldig att innehålla kupongskatt och som förutsättes kunna bedöma om skattskyldighet enligt 4 § föreligger, att i det fall skattskyldighet uppenbarligen icke föreligger utbetala utdelning utan att kupongskatt innehålles, även om svaren på frågorna skulle ge anledning till sådant innehållande.
+Vid utbetalning av utdelning i utlandet skall kupongskatt alltid innehållas.
+Lag (2003:647)
+.
+15 §
+Aktiebolag skall senast fyra månader efter utdelningstillfället, dock senast den 15 januari påföljande år, lämna Skatteverket de blanketter med uppgifter om utdelning som inkommit till bolaget samt inbetala kupongskatt för dels den utdelning för vilken med hänsyn till innehållet i uppgifterna skatt skolat innehållas, dels den utdelning för vilken uppgift ännu ej inkommit till bolaget, och dels den utdelning för vilken inkommit uppgifter som befunnits ofullständiga.
+Lag (2003:647)
+.
+16 §
+Inkommer blankett med uppgifter om utdelning till aktiebolag sedan bolaget inbetalat kupongskatt enligt 15 §, återbetalar Skatteverket kupongskatt, som belöper på sådan utdelning för vilken skattskyldighet ej förelegat.
+För återbetalning fordras att bolaget överlämnar blanketten till Skatteverket. Blankett som inkommit till bolaget under ett kalenderår bör vara Skatteverket tillhanda senast den 15 januari påföljande år. Återbetalning sker ej beträffande utdelning, som varit tillgänglig för lyftning tidigare än fem år före det kalenderår då blanketten överlämnats till Skatteverket.
+Lag (2003:647)
+.
+17 §
+Blanketter med uppgift om utdelning, som lämnas enligt 15 §, skall vara ordnade kommunvis efter utdelningsmottagarens kommun. Vilken hemortskommun uppgifterna avser skall vara tydligt utmärkt. Blanketter, vid vilkas avgivande kupongskatt innehållits, skall dock vara skilda från övriga blanketter, och sammanlagda beloppet av den utdelning uppgifterna i dessa blanketter avser skall anges särskilt.
+Lag (2003:647)
+.
+Gemensamma bestämmelser
+18 §
+Har upphävts genom
+lag (2014:565)
+.
+19 §
+Kupongskatt betalas genom insättning på särskilt konto.
+Inbetalning anses ha skett den dag inbetalningskort eller gireringshandlingar kommit in till Posten Aktiebolag eller, om staten har ingått avtal om förmedling av skatteinbetalningen med en bank, till banken.
+Om kupongskatt inte betalas inom den tid som anges i 8 eller 15 §
+eller i den ordning som anges i första stycket, skall dröjsmålsavgift tas ut enligt lagen (1997:484) om dröjsmålsavgift.
+Skatteverket får medge befrielse helt eller delvis från skyldigheten att betala dröjsmålsavgift, om det finns särskilda skäl.
+Lag (2003:647)
+.
+20 §
+Om det behövs med hänsyn till redovisningens omfattning  eller andra särskilda förhållanden, får Skatteverket medge en  värdepapperscentral eller ett aktiebolag anstånd med  fullgörande av skyldighet enligt 8 eller 15 §.
+Lag (2016:52)
+.
+21 §
+Om utdelning lämnas i annat än pengar i svenskt mynt och om det enligt 8 eller 15 § föreligger skyldighet att betala in kupongskatt, skall aktiebolaget senast en vecka efter beslutet om utdelning till Skatteverket lämna in en bestyrkt uppgift om de utdelade tillgångarnas värde vid utdelningstillfället. Om värdet är för lågt uppgivet, skall verket meddela beslut om värdet och förelägga bolaget att inom viss tid betala in felande kupongskatt. Om inbetalningen inte gjorts inom den utsatta tiden, skall bolaget betala dröjsmålsavgift. Därvid skall 19 § andra stycket tillämpas.
+Om utdelning har ägt rum när beslut meddelats om påföring av ytterligare kupongskatt och har tillräckligt belopp till kupongskatten inte innehållits, skall bolaget förskjuta skattebeloppet men får kräva det åter av den skattskyldige.
+Lag (2003:647)
+.
+22 §
+Om en värdepapperscentral eller ett aktiebolag inte  betalar in kupongskatt i föreskriven tid, ska Skatteverket  förelägga värdepapperscentralen eller bolaget att inom viss  tid fullgöra sin betalningsskyldighet.
+Obetalda kupongskattebelopp samt dröjsmålsavgifter ska av  Skatteverket lämnas för indrivning. Regeringen får föreskriva  att indrivning inte behöver begäras för ett ringa belopp.
+Bestämmelser om indrivning finns i lagen (1993:891) om  indrivning av statliga fordringar m.m. Vid indrivning får  verkställighet enligt utsökningsbalken ske.
+Överklagande av beslut inverkar inte på skyldigheten att  betala skatt eller dröjsmålsavgift.
+Lag (2016:52)
+.
+23 §
+Försummar aktiebolag annan skyldighet enligt denna lag än skyldigheten att innehålla eller inbetala kupongskatt i föreskriven tid eller ordning, kan Skatteverket förelägga bolaget att vid vite fullgöra förstnämnda skyldighet. Fråga om utdömande av vite prövas av den förvaltningsrätt som är behörig att pröva ett överklagande av beslut enligt denna lag.
+Ett beslut om föreläggande som har förenats med vite gäller omedelbart.
+Lag (2011:1246)
+.
+24 §
+För kontroll av kupongskatten kan Skatteverket meddela beslut om revision hos aktiebolag. Då gäller bestämmelserna om revision i 41 kap. och vitesföreläggande i 44 kap.
+skatteförfarandelagen (2011:1244).
+Ett beslut om föreläggande som har förenats med vite gäller omedelbart.
+Lag (2011:1246)
+.
+25 §
+Uppgift som enligt 7 § andra stycket ska lämnas till en  värdepapperscentral ska vid tillämpningen av  skattebrottslagen (1971:69) likställas med uppgift som ska  lämnas till myndighet.
+Lag (2016:52)
+.
+Påförande av kupongskatt i efterhand
+26 §
+Skatteverket uppför i särskild längd utdelningsberättigade som kan antas vara skattskyldiga men för vilka utdelning betalats ut utan att kupongskatt hållits inne, samt det skattebelopp som belöper på utdelningen.
+Om inte något annat följer av 11 §, skall Skatteverket delge den som uppförts i längden utdrag ur denna och förelägga honom att inom två månader från den dag då han fick del av utdraget betala skattebeloppet. Om den som uppförts i längden vill bestrida skattepåföringen, skall han senast inom samma tid göra en invändning mot påföringen hos Skatteverket, som sedan meddelar sitt beslut. Beslutet skall delges den som gjort invändningen och antecknas i längden. Om Skatteverket finner att kupongskatt skall betalas, skall den skattskyldige föreläggas att inom viss tid betala skatten.
+Kupongskatt, som inte betalats inom den utsatta tiden, skall av Skatteverket lämnas för indrivning. Därvid tillämpas 22 § andra-fjärde styckena.
+Lag (2003:647)
+.
+Återbetalning av kupongskatt
+27 §
+Har i annat fall än som avses i 9 eller 16 § kupongskatt  innehållits för någon som inte varit skattskyldig eller har  kupongskatt innehållits med högre belopp än vad som ska  betalas enligt avtal för undvikande av dubbelbeskattning, har  den utdelningsberättigade rätt till återbetalning av vad som  innehållits för mycket.
+Rätt till återbetalning föreligger även
+- om aktie förlorat sitt värde till följd av att bolaget  upplösts genom likvidation inom två år efter det att sådan  utbetalning som avses i 2 § andra stycket 2 blivit tillgänglig  för lyftning,
+- vid återbetalning till aktieägare enligt aktiebolagslagen 
+(2005:551) i samband med minskning av aktiekapitalet som  genomförts med indragning av aktier, om återbetalningen anses  som utdelning enligt 2 § andra stycket 1, och
+- vid utbetalning till aktieägare vid bolagets förvärv av egna  aktier genom ett förvärvserbjudande som har riktats till  samtliga aktieägare eller samtliga ägare till aktier av ett  visst slag, om utbetalningen anses som utdelning enligt 2 §  andra stycket 3.
+Underlaget för kupongskatten ska i de fall som avses i andra  stycket beräknas på ett belopp som svarar mot skillnaden  mellan utbetalningen till aktieägaren och dennes  anskaffningskostnad för aktierna. Har aktierna förvärvats som  fusionsvederlag eller delningsvederlag ska som  anskaffningskostnad för aktierna anses den anskaffningskostnad  som aktieägaren hade för aktierna i det överlåtande  aktiebolaget. För marknadsnoterade aktier får  anskaffningskostnaden i stället bestämmas till 20 procent av  utbetalningen.
+Ansökan om återbetalning ska göras skriftligen hos  Skatteverket senast vid utgången av femte kalenderåret efter  utdelningstillfället.
+Tillsammans med ansökan ska det lämnas ett intyg eller annan  utredning om att kupongskatt innehållits för sökanden liksom  utredning som styrker att sökanden inte är skattskyldig.
+Beslut rörande återbetalning får anstå intill dess fråga om  skattskyldighet för utdelningen enligt inkomstskattelagen 
+(1999:1229) slutligen prövats.
+Föreligger de förutsättningar för återbetalning som anges i  första stycket först sedan förvaltningsrätt, kammarrätt eller  Högsta förvaltningsdomstolen meddelat beslut angående  utdelningsbeloppet eller efter det att utdelningsberättigad  efterbeskattats för detsamma, kan ansökan om återbetalning  göras hos Skatteverket senast inom ett år efter det beslutet  meddelades eller efterbeskattningen skedde.
+Är den som har rätt till återbetalning av kupongskatt skyldig  att betala skatt enligt denna lag eller skatteförfarandelagen 
+(2011:1244), gäller 64 kap. samt 71 kap. 2 § första stycket  och 3 § skatteförfarandelagen.
+Lag (2023:786)
+.
+Anstånd med betalning av kupongskatt
+Förutsättningar för anstånd
+28 §
+Skatteverket ska bevilja en utländsk juridisk person  anstånd med betalning av kupongskatt för en viss utdelning, om
+1. den utländska juridiska personen sedan utdelningstillfället  hör hemma i
+a) en medlemsstat i Europeiska unionen (EU),
+b) en stat inom Europeiska ekonomiska samarbetsområdet som har  ingått en särskild överenskommelse med Sverige eller EU om  ömsesidigt bistånd för indrivning av skattefordringar, eller
+c) en stat som har ingått ett skatteavtal med Sverige som  innehåller artiklar om informationsutbyte och bistånd med  indrivning av skattefordringar,
+2. kupongskatt har innehållits eller betalats för utdelningen,  och
+3. det finns ett anståndsutrymme för det beskattningsår när  utdelningstillfället inträffade.
+Om en utländsk juridisk person som uppfyller villkoret i  första stycket 1 har ett tidigare beviljat anstånd med  betalning av kupongskatt för en viss utdelning, ska  Skatteverket bevilja ett nytt anstånd under förutsättning att  det finns ett anståndsutrymme för det beskattningsår som  följer närmast efter det beskattningsår vars anståndsutrymme  ligger till grund för det tidigare beviljade anståndet.
+Ett sådant bistånd som avses i första stycket 1 b och c ska ha  en räckvidd som är likartad med den som föreskrivs i rådets  direktiv 2010/24/EU av den 16 mars 2010 om ömsesidigt bistånd  för indrivning av fordringar som avser skatter, avgifter och  andra åtgärder.
+Lag (2019:1233)
+.
+28 a §
+Om en ansökan om anstånd med betalning av kupongskatt  för en viss utdelning avser kupongskatt som har påförts i  efterhand enligt 26 § och påföringen har skett efter utgången  av det beskattningsår som följer närmast efter det  beskattningsår när utdelningstillfället inträffade, gäller  utöver villkoren i 28 § första stycket att det ska finnas ett  anståndsutrymme för det eller de beskattningsår som följer  efter det beskattningsår när utdelningstillfället inträffade.  Det behöver dock inte finnas ett anståndsutrymme för det  beskattningsår när påföringen skedde.
+Lag (2019:1233)
+.
+28 b §
+Anstånd med betalning av kupongskatt ska inte beviljas  om kupongskatt har tagits ut med stöd av 4 § tredje stycket.
+Lag (2019:1233)
+.
+Beräkning av anståndsutrymmet
+28 c §
+Anståndsutrymmet ett visst beskattningsår utgörs av
+1. kupongskatt hänförlig till utdelning under beskattningsåret  som har innehållits eller betalats och som den skattskyldige  har ansökt om anstånd med betalningen av, och
+2. anståndsbelopp vid utgången av beskattningsåret,
+minskat med
+3. den skattskyldiges resultat beräknat enligt 28 e-28 g §§,  om det är positivt, och
+4. anståndsbelopp motsvarande redan beviljat anstånd om  beskattningsårets anståndsutrymme har legat till grund för  anståndet.
+Lag (2019:1233)
+.
+28 d §
+För en ansökan om anstånd som gäller kupongskatt som  har påförts i efterhand vid en sådan tidpunkt som avses i 
+28 a § gäller följande vid tillämpning av 28 c § 2 vid  beräkning av anståndsutrymmet för det beskattningsår som  följer efter det beskattningsår när utdelningstillfället  inträffade. Den del av kupongskatten hänförlig till  utdelningen som ryms inom anståndsutrymmet för  beskattningsåret när utdelningstillfället inträffade ska anses  vara ett sådant anståndsbelopp som avses i 28 c § 2. Detsamma  gäller för efterföljande beskattningsår till den del  anståndsbeloppet hänförligt till utdelningen ryms inom  föregående års anståndsutrymme.
+Lag (2019:1233)
+.
+28 e §
+Vid beräkningen av den skattskyldiges resultat  tillämpas 39 a kap. 10-12 §§ inkomstskattelagen (1999:1229).  Vid beräkningen gäller dessutom att
+1. utländsk allmän skatt som avses i 16 kap. 19 § andra  stycket inkomstskattelagen inte får dras av,
+2. förutsättningarna för räkenskapsenlig avskrivning i 18 kap. 
+14 § första stycket inkomstskattelagen inte ska tillämpas, och
+3. bestämmelserna om avsättning till periodiseringsfond i 
+30 kap. inkomstskattelagen inte ska tillämpas.
+Lag (2019:1233)
+.
+28 f §
+Om den skattskyldige ingår i en grupp av företag som är  föremål för en konsoliderad inkomstbeskattning i den stat där  den skattskyldige hör hemma, ska anståndsutrymmet beräknas med  beaktande av samtliga företag som ingår i konsolideringen. Vid  beräkningen ska 28 c och 28 e §§ tillämpas på varje företag i  konsolideringen. Även resultat som inte är positiva ska  beaktas vid beräkningen. Summan av respektive post enligt 
+28 c § ska ligga till grund för beräkningen av  anståndsutrymmet.
+Lag (2019:1233)
+.
+28 g §
+Den skattskyldiges resultat ska multipliceras med den  skattesats med vilken kupongskatt har tagits ut på  utdelningen. Om den skattskyldige har ett tidigare beviljat  anstånd med betalning av kupongskatt för en viss utdelning och  ansökan avser ett nytt anstånd, ska resultatet multipliceras  med den skattesats med vilken kupongskatt skulle ha tagits ut  på en utdelning om utdelningstillfället hade inträffat samma  dag som ansökan om anstånd gjordes.
+Lag (2019:1233)
+.
+Anståndsbeloppets storlek
+28 h §
+Anstånd beviljas med ett belopp som motsvarar  anståndsutrymmet.
+Om ansökan om anstånd gäller kupongskatt som har påförts i  efterhand vid en sådan tidpunkt som avses i 28 a §, beviljas  anstånd med ett belopp som motsvarar det anståndsutrymme som  är lägst för de beskattningsår som det ska finnas ett  anståndsutrymme för enligt 28 och 28 a §§.
+Om den skattskyldige har rätt till återbetalning av  kupongskatt enligt 27 § och har fått anstånd med betalning av  kupongskatten, ska beviljat anstånd sättas ned i motsvarande  utsträckning.
+Lag (2019:1233)
+.
+Återbetalning av innehållen eller betalad kupongskatt
+28 i §
+Om anstånd har beviljats enligt 28 § första stycket ska  Skatteverket återbetala kupongskatt motsvarande  anståndsbeloppet. Vid en sådan återbetalning tillämpas 27 §  sjätte och åttonde styckena.
+Lag (2019:1233)
+.
+Anståndstiden
+28 j §
+Anståndstiden ska gälla fram till och med fyra månader  efter utgången av det beskattningsår som följer närmast efter  det beskattningsår vars anståndsutrymme ligger till grund för  anstånd. Saknas tillförlitliga uppgifter om det efterföljande  beskattningsårets längd, ska det anses vara lika långt som det  beskattningsår som anståndsutrymmet avser.
+Om ansökan om anstånd gäller kupongskatt som har påförts i  efterhand vid en sådan tidpunkt som avses i 28 a §, ska  anståndstiden gälla fram till och med fyra månader efter  utgången av det beskattningsår då påföringen skedde. Saknas  tillförlitliga uppgifter om detta beskattningsårs längd, ska  det anses vara lika långt som det senaste beskattningsår vars  anståndsutrymme ligger till grund för anståndet.
+Lag (2019:1233)
+.
+28 k §
+Om den skattskyldige ansöker om ett nytt anstånd innan  anståndstiden enligt 28 j § löper ut, gäller anståndet fram  till dess att Skatteverket har meddelat beslut i fråga om  anstånd. Detta gäller bara om Skatteverket meddelar beslutet  efter det att anståndstiden enligt 28 j § löper ut.
+Lag (2019:1233)
+.
+28 l §
+Anståndet ska upphöra om den skattskyldige begär det.
+Lag (2019:1233)
+.
+Ansökan om anstånd
+28 m §
+En skriftlig ansökan om anstånd ska ha kommit in till  Skatteverket senast vid utgången av det beskattningsår som  följer närmast efter det beskattningsår när  utdelningstillfället inträffade.
+Om kupongskatt har påförts i efterhand enligt 26 § ska ansökan  om anstånd ha kommit in till Skatteverket senast vid utgången  av det beskattningsår när påföringen skedde. Om påföringen har  skett när mindre än fyra månader återstår av beskattningsåret  ska dock ansökan ha kommit in senast fyra månader efter  påföringen.
+Andra stycket gäller inte om påföringen har skett under samma  beskattningsår som utdelningstillfället inträffade.
+Lag (2019:1233)
+.
+Betalning av kupongskatt
+28 n §
+När anståndet upphör ska Skatteverket förelägga den  skattskyldige att betala kupongskatten inom två månader från  den dag då denne fick del av föreläggandet. Detta gäller dock  inte till den del den skattskyldige beviljas ett nytt anstånd.
+Kupongskatt som inte betalas inom utsatt tid ska lämnas för  indrivning. I dessa fall tillämpas 22 § andra-fjärde styckena.
+Lag (2019:1233)
+.
+Besvär
+Överklagande
+29 §
+Beslut av Skatteverket enligt denna lag får hos förvaltningsrätten överklagas av den som beslutet rör och av det allmänna ombudet hos Skatteverket. Ett överklagande av den som beslutet rör ska ha kommit in inom två månader från den dag då denne fick del av beslutet. Ett överklagande av det allmänna ombudet ska ha kommit in inom två månader från den dag då beslutet meddelades.
+Skatteverkets beslut enligt 22 § första stycket och beslut om revision enligt 24 § får inte överklagas.
+Lag (2011:1246)
+.
+30 §
+Bestämmelserna i 67 kap. skatteförfarandelagen (2011:1244)
+om överklagande av förvaltningsrättens och kammarrättens beslut gäller i tilllämpliga delar för mål enligt denna lag.
+Lag (2011:1246)
+.
+31 §
+Har upphävts genom
+lag (1996:666)
+.
+32 §
+Har upphävts genom
+lag (1996:666)
+.
+Övergångsbestämmelser
+1970:624
+Denna förordning träder i kraft den 1 januari 1971, då förordningen
+(1943:44) om kuppongskatt skall upphöra att gälla.
+I fråga om utdelning, som blivit tillgänglig för lyftning före ikraftträdandet, gäller den upphävda förordningen med följande undantag.
+1. Inträder skyldighet för styrelse för aktiebolag att enligt 5 § den upphävda förordningen avlämna uppgifter om utdelning eller att inbetala kupongskatt först efter ikraftträdandet och fullgör styrelsen icke denna skyldighet, gäller för sådant fall 19 § andra stycket samt 22 och 23 §§
+den nya förordningen.
+2. Vid återbetalning av kupongskatt till aktiebolag enligt 6 § den upphävda förordningen gäller den begränsning som föreskrives i 16 §
+andra stycket den nya förordningen, om utdelningen utbetalats efter utgången av år 1970.
+3. Restitution av kupongskatt till utdelningsberättigad enligt 12 § 1 mom. den upphävda förordningen skall ske enligt 27 § den nya förordningen, om ansökan därom göres efter ikraftträdandet.
+4. Vid prövning av ansvar enligt 16 § den upphävda förordningen äger 31
+§ tredje och fjärde styckena den nya förordningen tillämpning.
+5. Prövning och handhavande i övrigt av ärende rörande kupongskatt ankommer på riksskatteverket.
+Förekommer i lag eller annan författning hänvisning till föreskrift, som ersatts genom bestämmelse i denna förordning, tillämpas i stället den nya bestämmelsen. Förordning (1971:313).
+1971:410
+Denna förordning träder i kraft den 1 juli 1971.
+Äldre bestämmelser i 27, 29 och 30 §§ kupongskatteförordningen om kammarrätten och Kungl. Maj:t gäller dock till utgången av år 1971.
+I fråga om beslut som meddelats före ikraftträdandet gäller 29 § andra stycket kupongskatteförordningen i dess äldre betydelse.
+1975:1383
+Denna lag träder i kraft, såvitt avser de bestämmelser i 2, 7 och 12 §§
+som hänför sig till aktiebolagslagen (1975:1385) den 1 januari 1977 och i övrigt den 1 januari 1976.
+I fråga om utdelning som blir tillgänglig för lyftning under år 1976 eller 1977 och som avser andel i aktiefond för vilken tillämpas ikraftträdandebestämmelserna till aktiefondslagen (1974:931) gäller följande. Sker utdelning till ägare på grundval av register i huvudsaklig överensstämmelse med grunderna för 33 § tredje stycket nämnda lag äger 12 § första stycket kupongskattelagen i dess nya lydelse motsvarande tillämpning. Vad som där föreskrives i fråga om förvaringsbank skall i stället gälla den juridiska person som utövar aktiefondsverksamhet. Beträffande utdelning som ej sker på grundval av sådant register äger 13 § kupongskattelagen i dess nya lydelse motsvarande tillämpning. Vad som där föreskrives om fondbolag eller förvaringsbank skall i stället gälla den som utövar aktiefondsverksamheten.
+1982:1212
+Denna lag träder i kraft den 1 januari 1983 och tillämpas i fråga om skatt som förfaller till betalning efter ikraftträdandet.
+1985:111
+Denna lag träder i kraft den 1 juli 1985.
+De nya bestämmelserna i 31 § femte och sjätte styckena tillämpas även på brott som har begåtts före ikraftträdandet, om inte möjligheten att ådöma påföljd har bortfallit dessförinnan enligt äldre bestämmelser.
+Såvitt gäller underrättelse om brottsmisstanke tillämpas de nya bestämmelserna endast på underrättelser som delges efter ikraftträdandet.
+1986:1118
+Denna lag träder i kraft den 1 januari 1987. De äldre bestämmelserna tillämpas dock på utdelning som blivit tillgänglig för lyftning dessförinnan. I fråga om utdelning som utgör inkomst av rörelse och blivit tillgänglig för lyftning efter ikraftträdandet tillämpas också de äldre bestämmelserna, om 53 § 1 mom. kommunalskattelagen (1928:370)
+eller 6 § 1 mom. lagen (1947:576) om statlig inkomstskatt i momentens lydelse intill den 1 januari 1987 skall tillämpas på inkomsten.
+1986:1320
+Denna lag träder i kraft den 1 januari 1987. Äldre bestämmelser i 27 §
+tillämpas alltjämt i fråga om beslut av mellankommunala skatterätten.
+1989:1041
+Denna lag träder i kraft den 1 januari 1990 och tillämpas på utdelning som har beslutats efter ikraftträdandet.
+1990:359
+Denna lag träder i kraft den 30 juni 1990 och tillämpas från och med den 1 januari 1991.
+1990:1434
+1. Denna lag träder i kraft den 1 januari 1991 och tillämpas första gången vid 1992 års taxering i den mån inte annat följer av punkterna 2 och 3 nedan.
+2. De äldre bestämmelserna i 13 § om aktiefond skall till och med 1993 års taxering gälla värdepappersfond i fråga om andelsägare som inte har registrerats.
+3. Äldre bestämmelser skall alltjämt tillämpas på utbetalningar som hänför sig till nedsättning av aktiekapitalet som skett före utgången av år 1990 och till likvidation och fusion som föranlett utskiftning av medel till aktieägare före utgången av år 1990.
+1991:349
+Denna lag träder i kraft den 1 juli 1991. Den nya bestämmelsen tillämpas på utdelningar som blivit tillgängliga för lyftning efter utgången av år 1990.
+1991:414
+Denna lag träder i kraft den 1 juli 1991. Den nya bestämmelsen tillämpas även i fråga om utdelning som blivit tillgänglig för lyftning före ikraftträdandet.
+1992:628
+Denna lag träder i kraft den 1 januari 1993. Äldre föreskrifter gäller dock fortfarande i fråga om kupongskatt som förfallit till betalning före ikraftträdandet.
+1993:463
+Denna lag träder i kraft den 1 juli 1993.
+Vid överklagande av beslut som meddelats av Riksskatteverket före ikraftträdandet tillämpas äldre bestämmelser. Vid överklagande av den skattskyldige skall allmänna ombudets funktion fullgöras av Riksskatteverket. Överklagande av sådant beslut meddelat av Riksskatteverket skall dock ges in till Skattemyndigheten i Kopparbergs län.
+1994:1868
+Denna lag träder i kraft den 1 januari 1995 och tillämpas på utdelning som lämnas efter ikraftträdandet.
+1998:1607
+Denna lag träder i kraft den 1 januari 1999 och tillämpas i fråga om utdelning som lämnas efter ikraftträdandet. Äldre bestämmelser gäller för utdelning som lämnats före ikraftträdandet.
+1999:996
+Denna lag träder i kraft den 1 januari 2000 och tillämpas i fråga om utdelning som lämnas efter ikraftträdandet.
+1999:1240
+Denna lag träder i kraft den 1 januari 2001. Äldre bestämmelser gäller i fråga om utdelning som skett före ikraftträdandet. 27 §
+andra stycket tillämpas på utbetalningar som skett efter den 10 mars 2000 och på likvidationer som påbörjats före nämnda datum men som inte avslutats vid den tidpunkten.
+Lag (2000:1423)
+.
+2000:76
+Denna lag träder i kraft den 10 mars 2000 och tillämpas på utbetalningar och utdelningar som sker efter ikraftträdandet och på likvidationer som påbörjats före ikraftträdandet men som inte avslutats vid den tidpunkten. Har kupongskatt tagits ut med tillämpning av 2 § i dess äldre lydelse gäller även 27 § i sin äldre lydelse.
+2000:468
+Denna lag träder i kraft den 1 juli 2000. Om Skattemyndigheten i Gävle har meddelat ett beslut före ikraftträdandet och beslutet har överklagats, skall Riksskatteverket föra det allmännas talan i allmän förvaltningsdomstol.
+2001:1228
+Denna lag träder i kraft den 1 januari 2002. Äldre bestämmelser gäller i fråga om utdelning som har skett före ikraftträdandet.
+2003:226
+1. Denna lag träder i kraft den 1 juli 2003.
+2. För utdelning som avses i 2 § andra stycket med undantag för sådana utbetalningar som anges nedan i punkt 3, gäller de nya bestämmelserna i fråga om utdelning som lämnas efter ikraftträdandet.
+3. För utbetalningar vid nedsättning av aktiekapitalet genom minskning av aktiernas nominella belopp, vid nedsättning av reservfonden eller överkursfonden samt för annan utdelning än sådan som avses i 2 § andra stycket, gäller de nya bestämmelserna i fråga om utdelning som lämnas den 1 januari 2004 eller senare.
+2003:647
+1. Denna lag träder i kraft den 1 januari 2004.
+2. Äldre föreskrifter i 23 § gäller fortfarande för anmälan som har getts in före ikraftträdandet.
+3. Äldre föreskrifter i 29 § gäller fortfarande för beslut som har meddelats före ikraftträdandet.
+2003:1087
+Denna lag träder i kraft den 1 januari 2004 och tillämpas på utdelning som lämnas efter ikraftträdandet.
+2004:50
+1. Denna lag träder i kraft den 1 april 2004.
+2. Vad som sägs i 1, 2 och 11 b §§ om investeringsfond skall också gälla sådan värdepappersfond som förvaltas av fondbolag eller annan fondförvaltare som med stöd av 3 § lagen (2004:47)
+om införande av lagen (2004:46) om investeringsfonder driver verksamhet enligt lagen (1990:1114) om värdepappersfonder.
+Lag (2005:1141)
+.
+3. Vad som sägs i 11 b och 12 §§ om fondbolag skall också gälla sådant fondbolag som driver verksamhet med stöd av 3 § lagen
+(2004:47) om införande av lagen (2004:46) om investeringsfonder.
+Lag (2005:1141)
+.
+2004:1148
+Denna lag träder i kraft den 1 januari 2005 och tillämpas på utdelning som lämnas efter utgången av år 2004.
+2005:348
+1. Denna lag träder i kraft den 1 juli 2005. Om inte annat följer av punkten 2 gäller äldre bestämmelser i fråga om utdelning som har skett före ikraftträdandet.
+2. De nya bestämmelserna i 27 § skall tillämpas i fråga om utbetalningar som sker den 1 januari 2005 eller senare.
+2005:1141
+Denna lag träder i kraft den 1 januari 2006 och tillämpas på utdelning som skett efter ikraftträdandet.
+2006:576
+Denna lag träder i kraft den 1 januari 2007 och tillämpas på utdelning som lämnas efter utgången av år 2006.
+2006:1420
+Denna lag träder i kraft den 1 januari 2007 och tillämpas på utdelning som skett efter ikraftträdandet.
+2008:828
+Denna lag träder i kraft den 1 januari 2009 och tillämpas på utdelning som lämnas efter utgången av år 2008.
+2009:1414
+Denna lag träder i kraft den 1 januari 2010 och tillämpas på utdelning som lämnas efter utgången av år 2009.
+2011:69
+Denna lag träder i kraft den 1 april 2011 och tillämpas på utdelning som beslutas efter ikraftträdandet. Äldre bestämmelser gäller i fråga om sådan återbetalning eller utbetalning till aktieägarna, för vilka försäkringsrörelselagen (1982:713) gäller enligt lagen
+(2010:2044) om införande av försäkringsrörelselagen
+(2010:2043).
+2011:935
+Denna lag träder i kraft den 1 augusti 2011 och tillämpas på utdelning som lämnas efter den 31 juli 2011.
+2011:1246
+1. Denna lag träder i kraft den 1 januari 2012 och tillämpas på utdelning som lämnas efter utgången av 2011.
+2. Den nya lydelsen av 1 § tredje stycket 1 tillämpas på kostnader i ärenden och mål som inleds efter utgången av 2011.
+3. De nya lydelserna av 4 § tredje stycket och 27 § sjunde stycket tillämpas på beskattningsår som börjar efter den 31 januari 2012. De nya lydelserna tillämpas även på förlängda räkenskapsår som avslutas efter utgången av 2012 och på förkortade räkenskapsår som både påbörjas och avslutas under 2012.
+4. De nya lydelserna av 23 § och 29 § andra stycket tillämpas på vitesförelägganden som meddelas efter utgången av 2011.
+2012:272
+Denna lag träder i kraft den 1 juli 2012 och tillämpas på utdelning som hänför sig till tiden efter den 17 januari 2012.
+2013:574
+1. Denna lag träder i kraft den 22 juli 2013 och tillämpas på utdelning som lämnas efter den 21 juli 2013.
+2. Äldre bestämmelser gäller för utdelning på andel i en specialfond som förvaltas av ett fondbolag, ett värdepappersbolag eller ett svenskt kreditinstitut som enligt punkt 2 av övergångsbestämmelserna till lagen (2013:563) om ändring i lagen (2004:46) om investeringsfonder får fortsätta med sådan verksamhet efter den 21 juli 2013 till dess att ansökan om tillstånd har prövats slutligt.
+2015:884
+1. Denna lag träder i kraft den 1 januari 2016.
+2. Den nya bestämmelsen tillämpas första gången på utdelning  om utdelningstillfället inträffar efter den 31 december 
+2015.
+2016:52
+1. Denna lag träder i kraft den 1 mars 2016.
+2. Bestämmelserna i 2, 7-9, 10-12, 20, 22 och 25 §§ i den nya  lydelsen tillämpas på utdelning som betalas ut efter den 29  februari 2016.
+3. Äldre bestämmelser gäller för utdelning som betalas ut av  en central värdepappersförvarare som enligt punkt 2 i  ikraftträdande- och övergångsbestämmelserna till lagen 
+(2016:51) om ändring i lagen (1998:1479) om kontoföring av  finansiella instrument får fortsätta med sådan verksamhet  efter den 29 februari 2016 till dess att ansökan om tillstånd  har prövats slutligt.
+2018:1205
+1. Denna lag träder i kraft den 1 januari 2019.
+2. Lagen tillämpas första gången på utdelning som lämnas  efter ikraftträdandet.
+2022:1850
+1. Denna lag träder i kraft den 31 januari 2023.
+2. Lagen tillämpas första gången i fråga om utbetalning av  delningsvederlag till aktieägare som görs efter den 
+30 januari 2023.
+2023:786
+1. Denna lag träder i kraft den 1 januari 2025.
+2. Lagen tillämpas första gången på inlösenaktier som  tilldelas aktieägarna efter den 31 december 2024.
+3. För inlösenaktier som tilldelas aktieägarna före den 
+1 januari 2025 gäller äldre bestämmelser.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,109 @@
+Title: Förordning (2021:708) om digitala covidbevis
+SFS Number: Svensk författningssamling 2021:708
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2021708-om-digitala-covidbevis_sfs-2021-708/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2021:708
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2021:708
+Ministry/Authority: Socialdepartementet
+Issued: 2021-06-23
+Metadata: {"Utfärdad": "2021-06-23", "Ändrad": "t.o.m. SFS 2022:1103"}
+
+==================================================
+
+Förordning (2021:708) om digitala covidbevis
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2021:708
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+2021-06-23
+Ändrad
+:   
+t.o.m. SFS 2022:1103
+Tidsbestämd
+: 
+2023-07-01
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+Denna förordning kompletterar
+1. Europaparlamentets och rådets förordning (EU) 2021/953 av  den 14 juni 2021 om en ram för utfärdande, kontroll och  godtagande av interoperabla intyg om vaccination mot, testning  för och tillfrisknande från covid-19 (EU:s digitala  covidintyg) för att underlätta fri rörlighet under covid-19-
+pandemin, och
+2. Europaparlamentets och rådets förordning (EU) 2021/954 av  den 14 juni 2021 om en ram för utfärdande, kontroll och  godtagande av interoperabla intyg om vaccination mot, testning  för och tillfrisknande från covid-19 (EU:s digitala  covidintyg) för tredjelandsmedborgare som lagligen vistas  eller är bosatta på medlemsstaternas territorier under covid-
+19-pandemin.
+Termer och uttryck i denna förordning har samma betydelse som  i Europaparlamentets och rådets förordning (EU) 2021/953.
+2 §
+Denna förordning kompletterar också Europaparlamentets och  rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd  för fysiska personer med avseende på behandling av  personuppgifter och om det fria flödet av sådana uppgifter och  om upphävande av direktiv 95/46/EG (allmän  dataskyddsförordning).
+Vid behandling av personuppgifter enligt denna förordning  gäller lagen (2018:218) med kompletterande bestämmelser till  EU:s dataskyddsförordning och föreskrifter som har meddelats i  anslutning till den lagen, om inte annat följer av denna  förordning.
+3 §
+Med digitalt covidbevis avses ett sådant digitalt  covidintyg enligt artiklarna 5-8.1 i Europaparlamentets och  rådets förordning (EU) 2021/953 som utfärdas av den utfärdande  myndigheten i Sverige.
+Med vaccinationsbevis avses den del av covidbeviset som utgörs  av vaccinationsintyget enligt artikel 5 i Europaparlamentets  och rådets förordning (EU) 2021/953. Förordning (2022:18).
+Utfärdande myndighet och personuppgiftsansvar
+4 §
+E-hälsomyndigheten ska ansvara för att utfärda de  covidbevis som avses i artikel 3.1 och för de uppgifter som en  utfärdande myndighet har enligt Europaparlamentets och rådets  förordning (EU) 2021/953.
+5 §
+Bestämmelser om personuppgiftsansvaret för utfärdande,  kontroll och godtagande av ett digitalt covidbevis finns i  artikel 10 i Europaparlamentets och rådets förordning (EU) 
+2021/953.
+E-hälsomyndigheten är personuppgiftsansvarig för den  behandling av personuppgifter som är nödvändig för att  fullgöra den skyldighet som en utfärdande myndighet har enligt  Europaparlamentets och rådets förordning (EU) 2021/953 och  Europaparlamentets och rådets förordning (EU) 2021/954.
+Personuppgifter som får behandlas och för vilka ändamål
+6 §
+Bestämmelser om vilka uppgifter som ska ingå i ett  digitalt covidbevis finns i artiklarna 5-7 och i bilagan till  Europaparlamentets och rådets förordning (EU) 2021/953.
+Uppgift om den enskildes personnummer eller samordningsnummer  får behandlas för de ändamål som anges i 7 §.
+7 §
+Bestämmelser om för vilka ändamål personuppgifter får  behandlas finns i artiklarna 1 och 10 i Europaparlamentets och  rådets förordning (EU) 2021/953.
+Uppgiftsskyldighet
+8 §
+Folkhälsomyndigheten ska på begäran av en enskild och  efter den enskildes samtycke till E-hälsomyndigheten lämna ut  de uppgifter som registrerats om den enskilde när det gäller  vaccinationer mot sjukdomen covid-19 enligt lagen (2012:453)  om register över nationella vaccinationsprogram m.m., och som  behövs för att ett digitalt covidbevis ska kunna utfärdas.
+Personer som har vaccinerats i ett annat land
+8 a §
+E-hälsomyndigheten får i enlighet med artiklarna 3.1 a, 
+5 och 8.1 i Europaparlamentets och rådets förordning (EU) 
+2021/953 utfärda vaccinationsbevis för enskilda som har  fullvaccinerats i ett annat land om den enskilde som begär det
+1. har personnummer, eller
+2. tillhör en utländsk beskickning eller ett karriärkonsulat i  Sverige och har diplomat- eller tjänstepass.
+Ett vaccinationsbevis som utfärdas enligt bestämmelsen i  första stycket får endast utfärdas
+1. för sådant covid-19-vaccin som avses i artikel 5.5 i  Europaparlamentets och rådets förordning (EU) 2021/953, och
+2. om E-hälsomyndigheten har fått tillgång till all nödvändig  information om vaccinationer som erhållits i det andra landet  och äkthet, giltighet och integritet av de dokument där detta  framgår har kontrollerats. Förordning (2022:18).
+Tillhandahållande av digitalt covidbevis
+9 §
+E-hälsomyndigheten ska på begäran av en enskild  tillhandahålla uppgifter, digitalt eller i pappersform, om den  enskildes vaccinationer mot sjukdomen covid-19, bevis om  testning för och bevis om tillfrisknande från covid-19 i ett  digitalt covidbevis.
+Om en enskild begär det, ska ett sådant bevis tillhandahållas  i pappersform.
+Ett digitalt covidbevis som utfärdas med stöd av 8 a § ska  tillhandahållas i digital form. Om det finns särskilda skäl  får dock E-hälsomyndigheten i enskilda fall besluta om en  annan form för tillhandahållandet. Förordning (2022:18).
+10 §
+En begäran om ett digitalt covidbevis för ett barn får  göras av någon av barnets vårdnadshavare.
+Om barnet har fyllt 16 år, får begäran även göras av och  tillhandahållandet även ske till barnet.
+E-hälsomyndighetens skyldighet att informera den registrerade
+11 §
+E-hälsomyndigheten ska i fråga om de uppgifter som avses  i 8 § informera den som begär ett digitalt covidbevis om
+1. att uppgifterna omfattas av sekretess enligt 24 kap. 8 §  offentlighets- och sekretesslagen (2009:400) och att den  enskildes begäran och samtycke bryter den sekretessen för de  uppgifter som begärs utlämnade i syfte att utfärda beviset,
+2. att uppgifterna under den tid de hanteras av  E-hälsomyndigheten omfattas av sekretess enligt 25 kap. 17 a §  offentlighets- och sekretesslagen, och
+3. vilken behandling av uppgifterna som kommer att göras av  E-hälsomyndigheten.
+11 a §
+För digitala covidbevis som utfärdas med stöd av 8 a §  ska E-hälsomyndigheten informera den som begär det digitala  covidbeviset om
+1. vilken sekretess enligt offentlighets- och sekretesslagen 
+(2009:400) som uppgifterna en enskild lämnar till en myndighet  omfattas av när de hanteras för att ett digitalt covidbevis  ska kunna utfärdas, och
+2. hur uppgifterna kommer att behandlas av myndigheten.
+Förordning (2022:18).
+Överklagande
+12 §
+I 40 § förvaltningslagen (2017:900) finns bestämmelser om  överklagande till allmän förvaltningsdomstol.
+Övergångsbestämmelser
+2021:708
+1. Denna förordning träder i kraft den 1 juli 2021.
+2. Förordningen upphör att gälla vid utgången av juni 2023.
+Förordning (2022:1103).
+3. Den upphävda förordningen gäller dock fortfarande för  ärenden och mål som har inletts före utgången av juni 2023.
+Förordning (2022:1103).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

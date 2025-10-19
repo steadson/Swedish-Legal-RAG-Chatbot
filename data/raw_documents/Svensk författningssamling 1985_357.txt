@@ -1,0 +1,105 @@
+Title: Förordning (1985:357) om registrering av och underrättelse om domar om förbud mot juridiskt eller ekonomiskt biträde i vissa fall
+SFS Number: Svensk författningssamling 1985:357
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1985357-om-registrering-av-och_sfs-1985-357/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1985:357
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1985:357
+Ministry/Authority: Justitiedepartementet DÅ
+Issued: 1985-05-23
+Metadata: {"Utfärdad": "1985-05-23", "Ändrad": "t.o.m. SFS 2019:778"}
+
+==================================================
+
+Förordning (1985:357) om registrering av och underrättelse om domar om förbud mot juridiskt eller ekonomiskt biträde i vissa fall
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1985:357
+Departement/myndighet
+:   
+Justitiedepartementet DÅ
+Utfärdad
+:   
+1985-05-23
+Omtryck
+:   
+SFS 2001:393
+Ändrad
+:   
+t.o.m. SFS 2019:778
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+1 §
+Denna förordning innehåller bestämmelser om  registrering av och underrättelse om förbud mot juridiskt  eller ekonomiskt biträde enligt lagen (1985:354) om förbud  mot juridiskt eller ekonomiskt biträde i vissa fall. Med  biträdesförbudsregister avses i förordningen det register som  anges i 7 § nämnda lag.
+Biträdesförbudsregistret förs med hjälp av automatiserad  behandling och används för
+1. samordnad registrering och information om meddelade förbud  att lämna juridiskt eller ekonomiskt biträde,
+2. framställning av intyg och registerutdrag, och
+3. framställning av bevis om meddelade förbud och bevis om  frihet från förbud.
+Bolagsverket är personuppgiftsansvarigt för behandlingen av  personuppgifter i biträdesförbudsregistret.
+Bolagsverket ska se till att det inte uppkommer otillbörligt  intrång i de registrerades personliga integritet eller risker  från säkerhetssynpunkt. För dessa syften får verket i  enskilda fall ställa upp särskilda villkor för behandlingen  av personuppgifter. Förordning (2018:1933).
+2 §
+De allmänna domstolarna skall till biträdesförbudsregistret sända uppgifter om domar och beslut i vilka rätten har
+1. meddelat förbud att lämna juridiskt eller ekonomiskt biträde,
+2. ändrat eller upphävt förbud,
+3. meddelat undantag från förbud eller återkallat sådant undantag,
+4. förlängt tiden för förbud, eller
+5. förordnat att beslut om biträdesförbud tills vidare inte skall gälla.
+När en sådan uppgift lämnas som avses i första stycket 3 skall i förekommande fall anges vilket slag av biträde som avses med undantaget. Förordning (2001:393).
+3 §
+Uppgifter om domar varigenom förbud har meddelats skall sändas in till biträdesförbudsregistret så snart domen har vunnit laga kraft. Har i domen förordnats att förbudet skall gälla trots att domen inte har laga kraft, skall uppgiften dock sändas in så snart domen har meddelats. I ett sådant fall skall domstolen, sedan tid för talan mot domen har gått ut, sända in en uppgift om huruvida domen har överklagats.
+Uppgifter om domar och beslut som avses i 2 § första stycket 2 och 5 skall sändas in till registret så snart domen eller beslutet har meddelats. Förordning (2001:393).
+4 §
+Om en advokat meddelas förbud att lämna juridiskt  eller ekonomiskt biträde, ska domstolen sända en kopia av  domen till Sveriges advokatsamfund så snart domen har fått  laga kraft. Domstolen ska på samma sätt underrätta  Revisorsinspektionen om en auktoriserad eller godkänd revisor  meddelas förbud mot juridiskt eller ekonomiskt biträde. Om  det i domen har förordnats att förbudet ska gälla trots att  domen inte har laga kraft, ska uppgiften om förbudet sändas  in så snart domen har meddelats. I ett sådant fall ska  domstolen, när tiden för talan mot domen har gått ut, sända  in en uppgift om huruvida domen har överklagats.
+I fråga om domar och beslut om upphävande eller ändring av  ett förbud samt beslut som avses i 2 § första stycket 2 och 5  ska motsvarande underrättelser lämnas så snart domen eller  beslutet har meddelats. Förordning (2018:1933).
+5 §
+Domstolsverket meddelar efter samråd med Bolagsverket närmare föreskrifter om hur domstolarna skall fullgöra sin uppgiftsskyldighet enligt 2, 3 och 4 §§. Förordning (2004:352).
+6 §
+Kungörelser enligt 7 a § lagen (1985:354) om förbud mot juridiskt eller ekonomiskt biträde i vissa fall skall ske i en tidning som Bolagsverket ger ut. Verket meddelar närmare föreskrifter om sådana kungörelser. Förordning (2004:352).
+7 §
+När Bolagsverket har fått en uppgift från en domstol om att ett förbud att lämna juridiskt eller ekonomiskt biträde har upphört att gälla, skall uppgiften om förbudet genast tas bort ur biträdesförbudsregistret.
+Förordning (2004:352).
+8 §
+Biträdesförbudsregistret skall innehålla uppgifter om
+1. fullständigt namn, personnummer eller om sådant saknas födelsedatum, och postadress beträffande den person som har fått förbud mot juridiskt eller ekonomiskt biträde,
+2. den tid förbudet avser,
+3. huruvida förbudet har ändrats eller förlängts,
+4. undantag från förbudet, och
+5. vilken domstol som har meddelat domen eller beslutet om förbud samt målnummer.
+I förekommande fall skall anges om förbudet gäller trots att det inte har laga kraft. Förordning (2001:393).
+9 §
+Bolagsverket meddelar närmare föreskrifter om hur utdrag skall lämnas ur biträdesförbudsregistret. Förordning (2004:352).
+10 §
+Om någon som i tjänsten tar befattning med ett utdrag ur biträdesförbudsregistret finner anledning att anta att dess innehåll är oriktigt, skall han eller hon genast anmäla det till Bolagsverket. Förordning (2004:352).
+11 §
+Har upphävts genom förordning (2019:778).
+12 §
+Biträdesförbudsregistret skall ge offentlighet åt den information som ingår i registret.
+I fråga om personuppgifter skall biträdesförbudsregistret ha till ändamål att tillhandahålla uppgifter för
+1. verksamhet som staten ansvarar för enligt lag eller annan författning och
+a) som avser sådan näringsverksamhet för vilken införing sker i registret,
+b) som avser fullgörande av underrättelseskyldighet, eller
+c) som för att kunna utföras förutsätter tillgång till information som finns i registret,
+2. allmän eller enskild verksamhet där den information som ingår i biträdesförbudsregistret utgör underlag för prövningar eller beslut.
+Personnummer och andra identitetsnummer i registret får behandlas för de ändamål som anges i första stycket.
+Förordning (2001:812).
+13 §
+Bolagsverket får medge direktåtkomst till  biträdesförbudsregistret för de ändamål som anges i 12 § och  i den utsträckning det är förenligt med bestämmelserna om  överföring av personuppgifter till tredjeländer eller  internationella organisationer i Europaparlamentets och  rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd  för fysiska personer med avseende på behandling av  personuppgifter och om det fria flödet av sådana uppgifter  och om upphävande av direktiv 95/46/EG (allmän  dataskyddsförordning).
+En myndighet får medges direktåtkomst till personuppgifter  som rör fällande domar i brottmål, lagöverträdelser som  innefattar brott eller straffprocessuella tvångsmedel. Andra  än myndigheter får endast medges direktåtkomst till sådana  personuppgifter om behandlingen är tillåten enligt  föreskrifter eller beslut som har meddelats med stöd av 
+3 kap. 9 § lagen (2018:218) med kompletterande  bestämmelser till EU:s dataskyddsförordning.
+Förordning (2018:1933).
+14 §
+Har upphävts genom förordning (2018:1933).
+15 §
+Har upphävts genom förordning (2018:945).
+Övergångsbestämmelser
+2004:352
+1. Denna förordning träder i kraft den 1 juli 2004.
+2. Registreringsärenden som har kommit in till Patent- och registreringsverket men i vilka verket inte har fattat beslut före ikraftträdandet skall överlämnas till Bolagsverket för fortsatt handläggning.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

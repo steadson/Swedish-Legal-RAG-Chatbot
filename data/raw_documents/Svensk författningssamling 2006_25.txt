@@ -1,0 +1,50 @@
+Title: Förordning (2006:25) om nationella toppdomäner för Sverige på internet
+SFS Number: Svensk författningssamling 2006:25
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-200625-om-nationella-toppdomaner-for_sfs-2006-25/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2006:25
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2006:25
+Ministry/Authority: Finansdepartementet DIS
+Issued: 2006-02-02
+Metadata: {"Utfärdad": "2006-02-02", "Ändrad": "t.o.m. SFS 2019:188"}
+
+==================================================
+
+Förordning (2006:25) om nationella toppdomäner för Sverige på internet
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2006:25
+Departement/myndighet
+:   
+Finansdepartementet DIS
+Utfärdad
+:   
+2006-02-02
+Ändrad
+:   
+t.o.m. SFS 2019:188
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Denna förordning gäller teknisk drift av nationella  toppdomäner för Sverige på internet samt tilldelning och  registrering av domännamn under dessa toppdomäner.
+Förordning (2019:188).
+2 §
+Post- och telestyrelsen är tillsynsmyndighet enligt  lagen (2006:24) om nationella toppdomäner för Sverige på  internet. Förordning (2019:188).
+3 §
+Post- och telestyrelsen får meddela föreskrifter om
+1. på vilket sätt skyldigheter enligt 5 § lagen (2006:24) om  nationella toppdomäner för Sverige på internet ska fullgöras,
+2. register och säkerhetskopior enligt 6 § lagen om  nationella toppdomäner för Sverige på internet, och
+3. överföring av uppgifter till tillsynsmyndigheten enligt 
+8 § lagen om nationella toppdomäner för Sverige på internet.
+Förordning (2019:188).
+4 §
+Post- och telestyrelsen får meddela de  verkställighetsföreskrifter som behövs för frågor om anmälan  och tillsyn enligt lagen (2006:24) om nationella toppdomäner  för Sverige på internet. Förordning (2019:188).
+5 §
+Post- och telestyrelsen får meddela sådana  föreskrifter om den fredstida planeringen för totalförsvarets  behov av adressering med användande av domännamnssystemet som  avses i 14 § andra stycket lagen (2006:24) om nationella  toppdomäner för Sverige på internet. Förordning (2019:188).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,152 @@
+Title: Förordning (2007:215) om undantag från kravet på nätkoncession enligt ellagen (1997:857)
+SFS Number: Svensk författningssamling 2007:215
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2007215-om-undantag-fran-kravet-pa_sfs-2007-215/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2007:215
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2007:215
+Ministry/Authority: Klimat- och näringslivsdepartementet RSE
+Issued: 2007-04-26
+Metadata: {"Utfärdad": "2007-04-26", "Ändrad": "t.o.m. SFS 2024:1250"}
+
+==================================================
+
+Förordning (2007:215) om undantag från kravet på nätkoncession enligt ellagen (1997:857)
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2007:215
+Departement/myndighet
+:   
+Klimat- och näringslivsdepartementet RSE
+Utfärdad
+:   
+2007-04-26
+Ändrad
+:   
+t.o.m. SFS 2024:1250
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+I denna förordning finns bestämmelser om undantag från kravet på nätkoncession enligt 2 kap. 1 § ellagen (1997:857).
+2 §
+Med internt nät avses en eller flera starkströmsledningar som innehavaren använder för överföring av el för egen räkning.
+3 §
+Om innehavaren av ett internt nät har uppdragit åt någon annan att svara för driften av nätet skall överföringen av el till innehavaren anses ske för egen räkning.
+4 §
+På ett internt nät som används utan stöd av nätkoncession  i enlighet med denna förordning får överföring av el för någon  annans räkning endast ske i enlighet med 23 och 24 §§.
+Förordning (2022:1391).
+Undantag från koncessionskravet
+Interna nät inom vissa områden
+5 §
+Ett internt nät, som är beläget på eller inom en byggnad, får byggas och användas utan nätkoncession.
+6 §
+Ett internt nät, på vilket el överförs till anläggningar och byggnader som inte är avsedda som bostadshus och som ligger i omedelbar närhet till ett bostadshus, får byggas och användas utan nätkoncession.
+7 §
+Ett internt nät inom ett inhägnat område som är avsett för innehavarens egen räkning och dit allmänheten inte äger tillträde får byggas och användas utan nätkoncession.
+8 §
+Ett internt nät inom området för en industrianläggning får byggas och användas utan nätkoncession. Detsamma gäller mellan delar av ett sådant område, vilka skiljs åt endast av en trafikled.
+9 §
+Ett internt nät inom området för en allmän eller enskild institution får byggas och användas utan nätkoncession.
+Detsamma gäller mellan delar av ett sådant område, vilka skiljs åt endast av en trafikled.
+Med institution avses en eller flera byggnader där vård, undervisning, forskning eller liknande verksamhet bedrivs.
+10 §
+Ett internt nät inom området för en flygplats som godkänts för allmänt nyttjande, tillhör staten eller nyttjas för statligt ändamål får byggas och användas utan nätkoncession.
+11 §
+Ett internt nät inom området för en byggarbetsplats eller annat tillfälligt arbetsställe får byggas och användas utan nätkoncession.
+12 §
+Ett internt lågspänningsnät inom området för en jordbruksfastighet får byggas och användas utan nätkoncession.
+Innehavaren av en jordbruksfastighet får utan nätkoncession bygga och använda ett internt lågspänningsnät även utanför jordbruksfastigheten om nätet är avsett för driften av jordbruket.
+13 §
+Har upphävts genom förordning (2021:976).
+14 §
+Ett internt nät med högst fyrtiotusen volts spänning inom området för en sådan anläggning inom totalförsvaret vars existens eller belägenhet skall hållas hemlig får byggas och användas utan nätkoncession.
+15 §
+Har upphävts genom förordning (2021:976).
+16 §
+Ett internt nät inom ett område för fritidsverksamhet, såsom idrottsplats, motorbana, ridhus, trav- och/eller galoppbana, parkteater, nöjespark, utomhusbad, campingplats och liknande får byggas och användas utan nätkoncession.
+17 §
+Ett internt nät inom området för en båtklubb, marina, gästhamn, vinteruppläggningsplats för fritidsbåtar eller liknande anläggning får byggas och användas utan nätkoncession.
+18 §
+Ett internt nät inom området för en begravningsplats får byggas och användas utan nätkoncession.
+19 §
+Ett internt nät inom området för en handelsträdgård får byggas och användas utan nätkoncession.
+Vissa typer av interna nät
+20 §
+Ett internt som ingår i ett telekommunikationssystem får byggas och användas utan nätkoncession.
+21 §
+Ett internt lågspänningsnät som uteslutande används för signal-, manöver- eller mätändamål får byggas och användas utan nätkoncession.
+22 §
+Ett internt nät som är avsett för driften av en belysningsanläggning får byggas och användas utan nätkoncession.
+22 a §
+Ett internt nät får byggas och användas utan  nätkoncession, om det
+1. inom ett avgränsat område dras
+a) mellan flera anläggningar för produktion av el som har en  gemensam anslutning till elnätet,
+b) mellan flera energilagringsanläggningar som har en gemensam  anslutning till elnätet,
+c) mellan en eller flera anläggningar för produktion av el och  en eller flera energilagringsanläggningar, förutsatt att de  har en gemensam anslutning till elnätet,
+d) från en eller flera anläggningar för produktion av el till  en gemensam anslutning till elnätet, förutsatt att  anslutningsledningen är kort,
+e) från en eller flera energilagringsanläggningar till en  gemensam anslutning till elnätet, förutsatt att  anslutningsledningen är kort, eller
+f) från en eller flera anläggningar för produktion av el till  en energilagringsanläggning, förutsatt att ledningen mellan  anläggningarna är kort, eller
+2. används för överföring av lokalkraft mellan närliggande  produktions-, energilagrings- och överföringsanläggningar.
+Ett område som omfattas av ett tillstånd enligt miljöbalken  för en verksamhet som avses i 21 kap. 13-15 §§  miljöprövningsförordningen (2013:251) ska anses vara ett  sådant avgränsat område som avses i första stycket 1 a eller 
+1 d. Förordning (2024:1250).
+22 b §
+Ett internt nät får byggas och användas utan  nätkoncession, om syftet med ledningarna är att
+1. i huvudsak tillgodose elbehovet hos fordon eller fartyg,
+2. tillgodose elbehovet för en trafikled eller en kommunal väg  med tillhörande anläggningar och ledningarna dras inom eller i  omedelbar närhet av trafikleden eller den kommunala vägen,  eller
+3. tillgodose elbehovet hos en byggnad eller anläggning som är  ansluten till ett sådant nät som avses i 2, om ledningarna var  i bruk den 1 januari 1998. Förordning (2024:1250).
+22 c §
+Ett internt lågspänningsnät för överföring av el från  en anläggning som producerar el eller från en  energilagringsanläggning får, om anläggningen är direkt  ansluten till det interna lågspänningsnätet och  lågspänningsnätet inte är en luftledning, byggas och användas  utan nätkoncession
+1. inom nätinnehavarens fastighet, och
+2. mellan byggnader och anläggningar som var för sig även har  en anslutning till en ledning eller ett ledningsnät som  används med stöd av nätkoncession. Förordning (2022:1391).
+Överföring av el för någon annans räkning på interna nät
+23 §
+På sådana nät som får användas utan stöd av nätkoncession  får överföring av el för någon annans räkning ske i de fall  som anges i 24 §, om det finns beaktansvärda skäl för det.
+Vid bedömningen av om det finns beaktansvärda skäl ska hänsyn  tas till hur överföringen påverkar den nätverksamhet som  bedrivs av den berörda nätkoncessionshavaren och till  kostnaderna för att ansluta berörda elanvändare till det nät  som används med stöd av nätkoncessionen.
+Förordning (2024:1250).
+24 §
+Överföring av el för någon annans räkning får ske
+1. på ett nät som är beläget inom ett område för  fritidsverksamhet, såsom idrottsplats, motorbana, ridhus,  trav- eller galoppbana, parkteater, nöjespark, utomhusbad och  liknande,
+2. på ett nät som är beläget inom området för en  industrianläggning,
+3. på ett nät som är beläget inom området för en flygplats som  godkänts för allmänt nyttjande, tillhör staten eller nyttjas  för statligt ändamål,
+4. på ett lågspänningsnät som är beläget inom området för en  jordbruksfastighet,
+5. på ett nät som är beläget på eller inom en byggnad,
+6. på ett nät som är beläget inom området för en campingplats,
+7. på ett nät som är beläget inom området för en båtklubb,  marina, gästhamn, vinteruppläggningsplats för fritidsbåtar  eller liknande anläggning,
+8. mellan anläggningar på ett sådant internt nät som avses i 
+22 a §, även om anläggningarna har olika innehavare,
+9. på ett sådant internt nät som avses i 22 b §,
+10. på ett sådant internt lågspänningsnät som avses i 22 c §,  även om byggnaderna och anläggningarna har olika innehavare,  och
+11. på ett nät beläget inom området för en sådan institution  som avses i 9 §. Förordning (2024:1250).
+25 §
+Har upphävts genom förordning (2021:976).
+26 §
+Har upphävts genom förordning (2021:976).
+27 §
+Har upphävts genom förordning (2021:976).
+28 §
+Har upphävts genom förordning (2021:976).
+29 §
+Har upphävts genom förordning (2021:976).
+30 §
+Har upphävts genom förordning (2021:976).
+31 §
+Har upphävts genom förordning (2021:976).
+Övergångsbestämmelser
+2007:215
+1. Denna förordning träder i kraft 1 juni 2007.
+2. Innehavaren av ett elnät som vid ikraftträdandet av denna förordning används utan stöd av nätkoncession får även därefter använda nätet utan stöd av nätkoncession.
+Detta gäller dock bara
+a. elnät inom kolonistugeområden,
+b. elnät som överför el inom hotell-, konferens- och skidanläggningar, och
+c. elnät som överför el till flerfamiljshus.
+På dessa elnät får därvid även överföring av el för annans räkning äga rum.
+3. Om överföring av el på ett sådant elnät som avses i 27 § vid ikraftträdandet av denna förordning sker för annans räkning utanför den berörda jordbruksfastigheten får denna överföring även därefter äga rum.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

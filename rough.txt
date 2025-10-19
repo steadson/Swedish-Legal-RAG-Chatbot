@@ -1,24 +1,372 @@
-ok from the html i will share, right, the main contain the list of items, if you look further in the list you will see the link for each document.
+import json
+import os
+from typing import List, Dict, Optional
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+import chromadb
+from chromadb.config import Settings
+import google.generativeai as genai
+from dotenv import load_dotenv
+import uvicorn
+from datetime import datetime
 
-then the navigation is the page element but i dont know if i should you that or i use the url and increament it gradually
-https://www.riksdagen.se/sv/sok/?avd=dokument&doktyp=sfs&dokstat=g%C3%A4llande+sfs&p=278
-https://www.riksdagen.se/sv/sok/?avd=dokument&doktyp=sfs&dokstat=g%C3%A4llande+sfs&p=1
-<div class="sc-8eb214e9-2 ksWMFY"><nav aria-label="Pagination of search results"><ul class="sc-7e079028-0 fNbvVk"><li class="sc-c6e93432-0 hskwhI"><span data-page="0" aria-label="Previous page" aria-disabled="true" role="link" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 gyPZet"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor" transform="translate(5 8) rotate(-180)"></path></svg></span></li><li class="sc-88b0649b-0 bBuSwb"><a data-page="1" aria-label="Front page" aria-current="page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=1"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="2" aria-label="Page 2" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=2"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">2</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="3" aria-label="Page 3" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=3"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">3</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="4" aria-label="Page 4" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=4"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">4</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="5" aria-label="Page 5" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=5"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">5</font></font></a></li><li class="sc-f687e756-0 igTRIy"><span title="More pages are available after page 5."><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">…</font></font><span class="sc-2cbffcb1-0 egDuDW"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">More pages are available after page 5.</font></font></span></span></li><li class="sc-c6e93432-0 hskwhI"><a data-page="2" aria-label="Next page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=2" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 hAfpmh"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor"></path></svg></a></li></ul></nav></div>
+# Load environment variables
+load_dotenv()
 
-<div class="sc-8eb214e9-2 ksWMFY"><nav aria-label="Pagination of search results"><ul class="sc-7e079028-0 fNbvVk"><li class="sc-c6e93432-0 hskwhI"><a data-page="277" aria-label="Previous page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=277" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 hAfpmh"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor" transform="translate(5 8) rotate(-180)"></path></svg></a></li><li class="sc-f687e756-0 caytMr"><span title="More pages are available before page 274"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">…</font></font><span class="sc-2cbffcb1-0 egDuDW"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">More pages are available before page 274</font></font></span></span></li><li class="sc-88b0649b-0 itHqKa"><a data-page="274" aria-label="Page 274" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=274"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">274</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="275" aria-label="Page 275" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=275"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">275</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="276" aria-label="Page 276" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=276"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">276</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="277" aria-label="Page 277" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=277"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">277</font></font></a></li><li class="sc-88b0649b-0 hnGvMi"><a data-page="278" aria-label="Last page" aria-current="page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=278"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">278</font></font></a></li><li class="sc-c6e93432-0 hskwhI"><span data-page="279" aria-label="Next page" aria-disabled="true" role="link" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 gyPZet"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor"></path></svg></span></li></ul></nav></div>
+# Initialize FastAPI app
+app = FastAPI(
+    title="Swedish Legal RAG API",
+    description="Retrieval-Augmented Generation API for Swedish Legal Documents using Gemini",
+    version="1.0.0"
+)
 
-<main id="content" class="sc-e76b6126-1 TnLqv"><div><h1 class="sc-680f2911-0 kCvjhU"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Search</font></font></h1><form method="get" class="sc-d20899da-0 kRcOZq"><div class="sc-f9229949-0 doXTBQ"><div class="sc-422cf969-0 hBPoq"><a href="https://www.riksdagen.se/sv/om-webbplatsen/hjalp-och-support/att-soka-pa-webbplatsen/" class="sc-680f2911-0 sc-d9f50bcf-0 dqPmAZ"><span class="sc-d9f50bcf-1 cYsmBY"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Do you need help with how to apply?</font></font></span></a></div><div role="search" class="sc-f9229949-1 kwQRlu"><svg width="24" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 cXVZtp"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 2C18.4183 2 22 5.58172 22 10C22 14.4183 18.4183 18 14 18C9.58172 18 6 14.4183 6 10C6 5.58172 9.58172 2 14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><path d="M9 16L3 22" stroke="currentColor" stroke-width="2"></path></svg><input type="search" name="sok" aria-labelledby="searchbutton" placeholder="Search by topic, case number or document type" class="sc-f9229949-2 hZjFQP" value=""><button id="searchbutton" type="submit" aria-label="Search" class="sc-f9229949-3 eKpEVX"><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Search</font></font></span><svg viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 cXVZtp" width="24"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 2C18.4183 2 22 5.58172 22 10C22 14.4183 18.4183 18 14 18C9.58172 18 6 14.4183 6 10C6 5.58172 9.58172 2 14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><path d="M9 16L3 22" stroke="currentColor" stroke-width="2"></path></svg></button></div><input type="hidden" name="avd" value="dokument"><input type="hidden" name="doktyp" value="sfs"><input type="hidden" name="dokstat" value="gällande sfs"></div><fieldset><legend class="sc-2cbffcb1-0 egDuDW"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Section</font></font></legend><div class="sc-ddfb2ac7-1 ciShkg"><button type="button" name="avd" aria-pressed="false" aria-label="All, 5542 hits" value="alla" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">All</font></font></b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">(5,542)</font></font></span></button><button type="button" name="avd" aria-pressed="true" aria-label="Documents &amp; laws, 5542 hits" value="dokument" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Documents &amp; laws</font></font></b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">(5,542)</font></font></span></button><button type="button" name="avd" aria-pressed="false" aria-label="Members, 0 hits" value="ledamot" disabled="" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Members</font></font></b></span></button><button type="button" name="avd" aria-pressed="false" aria-label="Website, 0 hits" value="webbsida" disabled="" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Web page</font></font></b></span></button><button type="button" name="avd" aria-pressed="false" aria-label="Current, 0 hits" value="aktuellt" disabled="" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Current events</font></font></b></span></button><button type="button" name="avd" aria-pressed="false" aria-label="Calendar, 0 hits" value="kalender" disabled="" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Calendar</font></font></b></span></button><button type="button" name="avd" aria-pressed="false" aria-label="Web TV, 0 hits" value="webbtv" disabled="" class="sc-d63f1799-0 kzPGIT"><span class="sc-680f2911-0 sc-ddfb2ac7-2 gyklWG bZBOMP"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Web TV</font></font></b></span></button></div></fieldset><div class="sc-8eb214e9-0 ASDLk"><button aria-controls="search-filter" type="button" aria-expanded="false" aria-label="Show filters, active filters 2" class="sc-5b21553d-0 jOLzKC"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Show filters (2)</font></font></button><a href="#search-filter" class="sc-680f2911-0 sc-8eb214e9-1 ktbsEe helIvX"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Jump to filters</font></font></a><div class="sc-83b95e6-0 kgIZuh"><div class="sc-f8df4d12-0 bTzcgK"><label for="search-sort-order" class="sc-680f2911-0 gSMFa-D"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sort by</font></font></label><select id="search-sort-order" name="sort" class="sc-81061fb2-3 hKHsrN"><option value="datum" class="sc-680f2911-0 gyklWG"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Date</font></font></option><option value="rel" class="sc-680f2911-0 gyklWG"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Relevance</font></font></option><option value="bet" class="sc-680f2911-0 gyklWG"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Number designation</font></font></option></select></div></div></div></form><div class="sc-ab7dedae-0 ekqIAX"><h2 id="search-result-heading" aria-atomic="true" aria-live="polite" class="sc-680f2911-0 cLhatO"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">5,542 hits</font></font><span class="sc-2cbffcb1-0 egDuDW"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">, Search without keywords, under the section Documents &amp; laws, filtered by Swedish collection of statutes, Current sfs, sorted by date</font></font></span></h2></div></div><ul class="sc-e76b6126-0 sc-d5fd34c6-0 doqskP ekipRp"><li class="sc-e76b6126-1 sc-3f041c0d-0 jugBzf fYsPyN"><div class="sc-9e32fa29-0 bRkWEl"><div class="sc-e44a4e35-1 sLXKS"><svg width="24" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 cXVZtp"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M21.286 21.873c0 .781-.648 1.421-1.438 1.421H4.143c-.79 0-1.429-.63-1.429-1.412V2.127c0-.781.648-1.421 1.438-1.421h10.115c.38 0 .742.15 1.01.414l5.59 5.525c.266.263.419.62.419.997v14.23Z"></path><path d="M21.286 7.765H15.57c-.79 0-1.428-.63-1.428-1.412V.706M17.714 15.087H6.286M17.714 18.635H6.286M17.714 11.294H6.286"></path></g></svg><small class="sc-e44a4e35-0 NIUjG"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Documents &amp; laws</font></font></small></div></div><div class="sc-3f041c0d-1 ctrXqy"><h3 class="sc-680f2911-0 gynuOq"><a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/byggningabalk-17360123-1_sfs-1736-0123%201/" class="sc-680f2911-0 sc-d9f50bcf-0 bbnARv"><span class="sc-d9f50bcf-1 gPGMXk"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Building beam (1736:0123 1)
-</font></font></span></a></h3><div class="sc-4500e1ec-0 bNrUYr"><h4 class="sc-680f2911-0 fxcJVm"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Swedish Statutes 1736:0123 1</font></font></h4><div class="sc-41eb4e8b-0 hSGZOy"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-Chapter 1 has been repealed by ordinance (1926:327). Chapter 2. How to build a plot Section 1 A plot shall be built for a farmstead and barn. The farmstead shall have a cottage with a vestibule and a chamber, as well as a guest cottage, where the farm is so large, a cellar, a guest house and a granary, a tool shed, and</font></font></div><div class="sc-41eb4e8b-0 hSGZOy"><dl>
-						<dt><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Issued</font></font></dt> <dd><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> 
-							1736-01-23</font></font></dd><dt><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Changed</font></font></dt>  <dd><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">  
-							except SFS 1981:426</font></font></dd>
-							</dl>
-					</div></div></div></li><li class="sc-e76b6126-1 sc-3f041c0d-0 jugBzf fYsPyN"><div class="sc-9e32fa29-0 bRkWEl"><div class="sc-e44a4e35-1 sLXKS"><svg width="24" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 cXVZtp"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M21.286 21.873c0 .781-.648 1.421-1.438 1.421H4.143c-.79 0-1.429-.63-1.429-1.412V2.127c0-.781.648-1.421 1.438-1.421h10.115c.38 0 .742.15 1.01.414l5.59 5.525c.266.263.419.62.419.997v14.23Z"></path><path d="M21.286 7.765H15.57c-.79 0-1.428-.63-1.428-1.412V.706M17.714 15.087H6.286M17.714 18.635H6.286M17.714 11.294H6.286"></path></g></svg><small class="sc-e44a4e35-0 NIUjG"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Documents &amp; laws</font></font></small></div></div><div class="sc-3f041c0d-1 ctrXqy"><h3 class="sc-680f2911-0 gynuOq"><a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/handelsbalk-17360123-2_sfs-1736-0123%202/" class="sc-680f2911-0 sc-d9f50bcf-0 bbnARv"><span class="sc-d9f50bcf-1 gPGMXk"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Commercial Code (1736:0123 2)
-</font></font></span></a></h3><div class="sc-4500e1ec-0 bNrUYr"><h4 class="sc-680f2911-0 fxcJVm"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Swedish Statutes 1736:0123 2</font></font></h4><div class="sc-41eb4e8b-0 hSGZOy"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
-Chapter 1. On purchase and division Section 1 has been repealed by law (1915:218). Section 2 has been repealed by law (1905:38 p.1). Section 3 has been repealed by law (1905:38 p.1). Section 4 has been repealed by law (1905:38 p.1). Section 5 If one sells two for one; the damage shall be repaid, (and a fine of ten daler,)</font></font></div><div class="sc-41eb4e8b-0 hSGZOy"><dl>
-						<dt><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Issued</font></font></dt> <dd><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> 
-							1736-01-23</font></font></dd><dt><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Changed</font></font></dt>  <dd><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">  
-							tom SFS1986:798</font></font></dd>
-							</dl>
-					</div></div></div></li></ul><div class="sc-8eb214e9-2 ksWMFY"><nav aria-label="Pagination of search results"><ul class="sc-7e079028-0 fNbvVk"><li class="sc-c6e93432-0 hskwhI"><a data-page="277" aria-label="Previous page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=277" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 hAfpmh"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor" transform="translate(5 8) rotate(-180)"></path></svg></a></li><li class="sc-f687e756-0 caytMr"><span title="More pages are available before page 274"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">…</font></font><span class="sc-2cbffcb1-0 egDuDW"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">More pages are available before page 274</font></font></span></span></li><li class="sc-88b0649b-0 itHqKa"><a data-page="274" aria-label="Page 274" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=274"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">274</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="275" aria-label="Page 275" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=275"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">275</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="276" aria-label="Page 276" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=276"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">276</font></font></a></li><li class="sc-88b0649b-0 itHqKa"><a data-page="277" aria-label="Page 277" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=277"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">277</font></font></a></li><li class="sc-88b0649b-0 hnGvMi"><a data-page="278" aria-label="Last page" aria-current="page" href="/sv/sok/?avd=dokument&amp;doktyp=sfs&amp;dokstat=g%C3%A4llande+sfs&amp;p=278"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">278</font></font></a></li><li class="sc-c6e93432-0 hskwhI"><span data-page="279" aria-label="Next page" aria-disabled="true" role="link" class="sc-c6e93432-1 ezmruU"><svg width="10" height="16" viewBox="0 0 5 8" fill="none" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="sc-79f571fc-0 gyPZet"><path d="M0.951417 0L0 0.94L3.09042 4L0 7.06L0.951417 8L5 4L0.951417 0Z" fill="currentColor"></path></svg></span></li></ul></nav></div></main>
+# Request/Response models
+class QueryRequest(BaseModel):
+    query: str
+    max_results: Optional[int] = 3
+    include_sources: Optional[bool] = True
+    english_mode: Optional[bool] = False  # NEW: Enable English query and response
+
+class SourceDocument(BaseModel):
+    title: str
+    sfs_number: str
+    url: str
+    source_link: str
+    amendment_register_link: str
+    similarity_score: float
+    chunk_info: Optional[str] = None
+
+class RAGResponse(BaseModel):
+    answer: str
+    query: str
+    sources: List[SourceDocument]
+    timestamp: str
+    model_used: str
+    original_query: Optional[str] = None  # NEW: Original English query if translated
+    translated_query: Optional[str] = None  # NEW: Swedish translation used for search
+
+class SwedishLegalRAG:
+    def __init__(self, db_path: str = "./chroma_db_gemini"):
+        self.db_path = db_path
+        
+        # Initialize Gemini
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+        
+        # Initialize ChromaDB
+        self.chroma_client = chromadb.PersistentClient(
+            path=db_path,
+            settings=Settings(anonymized_telemetry=False)
+        )
+        
+        # Get existing collection
+        try:
+            self.collection = self.chroma_client.get_collection(
+                name="swedish_legal_documents_gemini"
+            )
+            print(f"✅ Connected to ChromaDB collection with {self.collection.count()} documents")
+        except Exception as e:
+            raise Exception(f"Failed to connect to ChromaDB collection: {e}")
+    
+    def translate_to_swedish(self, english_query: str) -> str:
+        """Translate English query to Swedish using Gemini"""
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash-exp')
+            prompt = f"""Translate the following question from English to Swedish. 
+Keep the meaning exact and maintain any legal terminology appropriately.
+Only return the Swedish translation, nothing else.
+
+English question: {english_query}
+
+Swedish translation:"""
+            
+            response = model.generate_content(prompt)
+            swedish_query = response.text.strip()
+            print(f"🔄 Translated: '{english_query}' → '{swedish_query}'")
+            return swedish_query
+        except Exception as e:
+            raise Exception(f"Failed to translate query to Swedish: {e}")
+    
+    def translate_to_english(self, swedish_answer: str) -> str:
+        """Translate Swedish answer to English using Gemini"""
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash-exp')
+            prompt = f"""Translate the following answer from Swedish to English.
+Maintain all legal terminology, citations, and SFS numbers exactly as they are.
+Keep the same structure and formatting.
+Only return the English translation, nothing else.
+
+Swedish answer: {swedish_answer}
+
+English translation:"""
+            
+            response = model.generate_content(prompt)
+            english_answer = response.text.strip()
+            print(f"🔄 Translated answer to English")
+            return english_answer
+        except Exception as e:
+            raise Exception(f"Failed to translate answer to English: {e}")
+    
+    def get_query_embedding(self, query: str) -> List[float]:
+        """Get embedding for user query using Gemini"""
+        try:
+            result = genai.embed_content(
+                model="models/embedding-001",
+                content=query,
+                task_type="retrieval_query"
+            )
+            return result['embedding']
+        except Exception as e:
+            raise Exception(f"Failed to get query embedding: {e}")
+    
+    def search_relevant_documents(self, query: str, max_results: int = 3) -> Dict:
+        """Search for relevant documents in ChromaDB"""
+        # Get query embedding
+        query_embedding = self.get_query_embedding(query)
+        
+        # Search ChromaDB
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=max_results,
+            include=["documents", "metadatas", "distances"]
+        )
+        
+        return results
+    
+    def format_context(self, search_results: Dict) -> str:
+        """Format search results into context for Gemini"""
+        context_parts = []
+        
+        for i, (doc, metadata) in enumerate(zip(
+            search_results['documents'][0],
+            search_results['metadatas'][0]
+        )):
+            chunk_info = ""
+            if metadata.get('is_chunked'):
+                chunk_info = f" (Del {metadata['chunk_position']})"
+            
+            context_part = f"""DOKUMENT {i+1}:
+Titel: {metadata['title']}{chunk_info}
+SFS-nummer: {metadata['sfs_number']}
+Myndighet: {metadata.get('ministry_authority', 'N/A')}
+Utfärdad: {metadata.get('issued_date', 'N/A')}
+
+Innehåll:
+{doc}
+
+Källa: {metadata['source_link']}
+Ändringsregister: {metadata['amendment_register_link']}
+"""
+            context_parts.append(context_part)
+        
+        return "\n" + "="*80 + "\n".join(context_parts)
+    
+    def generate_answer(self, query: str, context: str) -> str:
+        """Generate answer using Gemini with retrieved context"""
+        prompt = f"""Du är en expert på svensk lagstiftning och juridiska dokument. Din uppgift är att svara på frågor baserat på de svenska lagdokument som tillhandahålls.
+
+INSTRUKTIONER:
+1. Svara på svenska
+2. Basera ditt svar ENDAST på informationen i de tillhandahållna dokumenten
+3. Citera specifika SFS-nummer när det är relevant
+4. Om informationen inte finns i dokumenten, säg det tydligt
+5. Var precis och faktabaserad
+6. Inkludera relevanta detaljer från dokumenten
+
+FRÅGA: {query}
+
+TILLHANDAHÅLLNA DOKUMENT:
+{context}
+
+SVAR:"""
+        
+        try:
+            # Use Gemini's chat model
+            model = genai.GenerativeModel('gemini-2.0-flash-exp')
+            response = model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            raise Exception(f"Failed to generate answer: {e}")
+    
+    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False) -> Dict:
+        """Complete RAG pipeline: search + generate"""
+        original_query = None
+        translated_query = None
+        search_query = query
+        
+        # Step 1: Translate to Swedish if English mode is enabled
+        if english_mode:
+            original_query = query
+            search_query = self.translate_to_swedish(query)
+            translated_query = search_query
+        
+        # Step 2: Search for relevant documents (always in Swedish)
+        search_results = self.search_relevant_documents(search_query, max_results)
+        
+        if not search_results['documents'][0]:
+            no_results_msg = "Inga relevanta dokument hittades för din fråga."
+            if english_mode:
+                no_results_msg = "No relevant documents were found for your query."
+            
+            return {
+                "answer": no_results_msg,
+                "sources": [],
+                "search_results": search_results,
+                "original_query": original_query,
+                "translated_query": translated_query
+            }
+        
+        # Step 3: Format context
+        context = self.format_context(search_results)
+        
+        # Step 4: Generate answer (in Swedish)
+        answer = self.generate_answer(search_query, context)
+        
+        # Step 5: Translate answer to English if needed
+        if english_mode:
+            answer = self.translate_to_english(answer)
+        
+        # Format sources
+        sources = []
+        for i, (metadata, distance) in enumerate(zip(
+            search_results['metadatas'][0],
+            search_results['distances'][0]
+        )):
+            chunk_info = None
+            if metadata.get('is_chunked'):
+                chunk_info = f"Del {metadata['chunk_position']}"
+            
+            source = {
+                "title": metadata['title'],
+                "sfs_number": metadata['sfs_number'],
+                "url": metadata['url'],
+                "source_link": metadata['source_link'],
+                "amendment_register_link": metadata['amendment_register_link'],
+                "similarity_score": round(1 - distance, 3),
+                "chunk_info": chunk_info
+            }
+            sources.append(source)
+        
+        return {
+            "answer": answer,
+            "sources": sources,
+            "search_results": search_results,
+            "original_query": original_query,
+            "translated_query": translated_query
+        }
+
+# Initialize RAG system
+rag_system = SwedishLegalRAG()
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Swedish Legal RAG API with Gemini",
+        "version": "1.0.0",
+        "endpoints": {
+            "/query": "POST - Submit a query to get legal information",
+            "/health": "GET - Check API health",
+            "/stats": "GET - Get database statistics"
+        }
+    }
+
+@app.post("/query", response_model=RAGResponse)
+async def query_documents(request: QueryRequest):
+    """Main RAG endpoint - query Swedish legal documents"""
+    try:
+        mode = "English" if request.english_mode else "Swedish"
+        print(f"\n🔍 Processing query in {mode} mode: '{request.query}'")
+        
+        # Process the query through RAG pipeline
+        result = rag_system.process_query(
+            query=request.query,
+            max_results=request.max_results,
+            english_mode=request.english_mode
+        )
+        
+        # Format response
+        sources = []
+        if request.include_sources:
+            sources = [
+                SourceDocument(**source) for source in result['sources']
+            ]
+        
+        response = RAGResponse(
+            answer=result['answer'],
+            query=request.query,
+            sources=sources,
+            timestamp=datetime.now().isoformat(),
+            model_used="gemini-2.0-flash-exp + gemini-embedding-001",
+            original_query=result.get('original_query'),
+            translated_query=result.get('translated_query')
+        )
+        
+        print(f"✅ Query processed successfully, {len(sources)} sources found")
+        return response
+        
+    except Exception as e:
+        print(f"❌ Error processing query: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/health")
+async def health_check():
+    """Health check endpoint"""
+    try:
+        # Check ChromaDB connection
+        count = rag_system.collection.count()
+        
+        # Check Gemini API
+        test_embedding = rag_system.get_query_embedding("test")
+        
+        return {
+            "status": "healthy",
+            "database_documents": count,
+            "gemini_api": "connected",
+            "embedding_dimensions": len(test_embedding)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=503, detail=f"Service unhealthy: {e}")
+
+@app.get("/stats")
+async def get_stats():
+    """Get database and API statistics"""
+    try:
+        count = rag_system.collection.count()
+        
+        # Get sample metadata to understand collection structure
+        sample = rag_system.collection.peek(limit=1)
+        
+        stats = {
+            "total_documents": count,
+            "database_path": rag_system.db_path,
+            "collection_name": "swedish_legal_documents_gemini",
+            "embedding_model": "gemini-embedding-001",
+            "chat_model": "gemini-2.0-flash-exp"
+        }
+        
+        if sample['metadatas']:
+            sample_meta = sample['metadatas'][0]
+            stats["sample_document"] = {
+                "title": sample_meta.get('title', 'N/A'),
+                "sfs_number": sample_meta.get('sfs_number', 'N/A'),
+                "is_chunked": sample_meta.get('is_chunked', False),
+                "embedding_model": sample_meta.get('embedding_model', 'N/A')
+            }
+        
+        return stats
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    print("🚀 Starting Swedish Legal RAG API with Gemini...")
+    print(f"📊 Database: {rag_system.collection.count()} documents loaded")
+    print("🌐 API will be available at: http://localhost:8000")
+    print("📖 API docs at: http://localhost:8000/docs")
+    
+    uvicorn.run(
+        "rag_api:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True,
+        log_level="info"
+    )

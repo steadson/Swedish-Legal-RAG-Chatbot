@@ -13,8 +13,8 @@ import re
 load_dotenv()
 
 class SwedishLegalEmbedderGemini:
-    def __init__(self, data_file_path: str, db_path: str = "./chroma_db_gemini"):
-        self.data_file_path = data_file_path
+    def __init__(self, raw_documents_dir: str, db_path: str = "./chroma_db_gemini"):
+        self.raw_documents_dir = raw_documents_dir
         self.db_path = db_path
         self.max_tokens = 7500  # Leave buffer for metadata
         
@@ -39,12 +39,35 @@ class SwedishLegalEmbedderGemini:
         )
     
     def load_scraped_data(self) -> Dict:
-        """Load the scraped data from JSON file"""
-        print(f"📁 Loading data from: {self.data_file_path}")
-        with open(self.data_file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        print(f"✅ Loaded {len(data.get('documents', []))} documents")
-        return data
+        """Load document data from raw_documents folder"""
+        print(f"📁 Loading documents from: {self.raw_documents_dir}")
+        
+        if not os.path.exists(self.raw_documents_dir):
+            raise FileNotFoundError(f"Raw documents directory not found: {self.raw_documents_dir}")
+        
+        documents = []
+        txt_files = [f for f in os.listdir(self.raw_documents_dir) if f.endswith('.txt')]
+        
+        for filename in txt_files:
+            filepath = os.path.join(self.raw_documents_dir, filename)
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    content = f.read().strip()
+                
+                if not content:
+                    print(f"⚠️  Skipping empty file: {filename}")
+                    continue
+                
+                # Parse the document content
+                doc_data = self.parse_document_content(content, filename)
+                documents.append(doc_data)
+                
+            except Exception as e:
+                print(f"❌ Error reading {filename}: {e}")
+                continue
+        
+        print(f"✅ Loaded {len(documents)} documents from {len(txt_files)} files")
+        return {"documents": documents}
     
     def count_tokens(self, text: str) -> int:
         """Count tokens in text (approximate for chunking)"""
@@ -88,7 +111,64 @@ class SwedishLegalEmbedderGemini:
             chunks.append(current_chunk.strip())
         
         return chunks
-    
+    def parse_document_content(self, content: str, filename: str) -> Dict:
+        """Parse document content from .txt file format"""
+        lines = content.split('\n')
+        doc_data = {
+            'title': '',
+            'sfs_number': '',
+            'url': '',
+            'source_link': '',
+            'amendment_register_link': '',
+            'ministry_authority': '',
+            'description': '',
+            'metadata': {},
+            'scraped_at': '',
+            'page_found': '',
+            'filename': filename
+        }
+        
+        content_start_idx = 0
+        
+        # Parse metadata from the beginning of the file
+        for i, line in enumerate(lines):
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.startswith('Title: '):
+                doc_data['title'] = line[7:].strip()
+            elif line.startswith('SFS-nummer: '):
+                doc_data['sfs_number'] = line[12:].strip()
+            elif line.startswith('URL: '):
+                doc_data['url'] = line[5:].strip()
+            elif line.startswith('Källa: '):
+                doc_data['source_link'] = line[7:].strip()
+            elif line.startswith('Ändringsregister: '):
+                doc_data['amendment_register_link'] = line[18:].strip()
+            elif line.startswith('Myndighet: '):
+                doc_data['ministry_authority'] = line[11:].strip()
+            elif line.startswith('Utfärdad: '):
+                doc_data['metadata']['Utfärdad'] = line[10:].strip()
+            elif line.startswith('Innehåll:'):
+                content_start_idx = i + 1
+                break
+            elif ':' in line and len(line.split(':', 1)) == 2:
+                # Generic metadata
+                key, value = line.split(':', 1)
+                doc_data['metadata'][key.strip()] = value.strip()
+        
+        # Extract main content
+        if content_start_idx < len(lines):
+            content_lines = lines[content_start_idx:]
+            doc_data['description'] = '\n'.join(content_lines).strip()
+        
+        # If no SFS number found, try to extract from filename
+        if not doc_data['sfs_number'] and 'SFS' not in filename:
+            # For special documents like "Svensk författningssamling"
+            doc_data['sfs_number'] = filename.replace('.txt', '')
+        
+        return doc_data
     def create_document_chunks(self, doc: Dict) -> List[Tuple[str, Dict]]:
         """Create chunks for a document, each with full metadata"""
         # Create base metadata (same for all chunks)
@@ -207,13 +287,28 @@ class SwedishLegalEmbedderGemini:
             print(f"  ❌ Error getting Gemini embedding: {e}")
             return None
     
-    def embed_documents(self, batch_size: int = 3):
+    def embed_documents(self, batch_size: int = 8, resume: bool =True, delay_per_chunk: float = 0.1):
         """Embed all documents with chunking support using Gemini"""
         print(f"\n🚀 Starting embedding process with Gemini and chunking...")
         data = self.load_scraped_data()
         documents = data.get('documents', [])
+
+        # Check for existing embeddings if resume is enabled
+        existing_doc_indices = set()
+        if resume:
+            try:
+                # Get all existing document indices from ChromaDB
+                existing_items = self.collection.get(include=["metadatas"])
+                for metadata in existing_items['metadatas']:
+                    if 'document_index' in metadata:
+                        existing_doc_indices.add(metadata['document_index'])
+                print(f"📋 Found {len(existing_doc_indices)} already embedded documents")
+            except Exception as e:
+                print(f"⚠️  Could not check existing embeddings: {e}")
         
-        print(f"📊 Found {len(documents)} documents to process")
+        print(f"📊 Found {len(documents)} total documents")
+        print(f"⏭️  Skipping {len(existing_doc_indices)} already embedded documents")
+        print(f"🔄 Processing {len(documents) - len(existing_doc_indices)} remaining documents")
         print(f"📦 Processing in batches of {batch_size}")
         print(f"🔢 Max tokens per chunk: {self.max_tokens}")
         print(f"🤖 Using Google Gemini embedding-001 model")
@@ -227,17 +322,25 @@ class SwedishLegalEmbedderGemini:
             batch = documents[i:i + batch_size]
             
             print(f"\n📦 BATCH {batch_num}/{(len(documents) + batch_size - 1) // batch_size}")
-            
             batch_texts = []
             batch_metadatas = []
             batch_ids = []
             batch_embeddings = []
-            
             for j, doc in enumerate(batch):
                 doc_index = i + j
+            
+                # Skip if already embedded
+                if resume and doc_index in existing_doc_indices:
+                    print(f"  ⏭️  Skipping already embedded document {doc_index + 1}: {doc.get('title', 'Unknown')[:60]}...")
+                    continue
+            
+            
                 print(f"\n  📄 Document {doc_index + 1}: {doc.get('title', 'Unknown')[:60]}...")
                 print(f"  🏷️  SFS: {doc.get('sfs_number', 'N/A')}")
-                
+                    
+                # Create chunks for this document
+                chunks = self.create_document_chunks(doc)
+                    
                 # Create chunks for this document
                 chunks = self.create_document_chunks(doc)
                 
@@ -266,7 +369,7 @@ class SwedishLegalEmbedderGemini:
                     total_chunks += 1
                     
                     # Rate limiting for Gemini API
-                    time.sleep(0.5)  # Gemini has different rate limits
+                    time.sleep(delay_per_chunk)  # Gemini has different rate limits
             
             # Add batch to ChromaDB
             if batch_embeddings:
@@ -281,7 +384,7 @@ class SwedishLegalEmbedderGemini:
                 print(f"  ✅ Batch {batch_num} stored successfully!")
                 
                 # Additional rate limiting between batches
-                time.sleep(1)
+                time.sleep(0.2)
         
         print(f"\n🎉 GEMINI EMBEDDING COMPLETE!")
         print(f"📊 Total documents processed: {len(documents)}")
@@ -322,12 +425,12 @@ class SwedishLegalEmbedderGemini:
 if __name__ == "__main__":
     # Initialize embedder with Gemini
     embedder = SwedishLegalEmbedderGemini(
-        data_file_path="data/scraping_progress.json",
+         raw_documents_dir="data/raw_documents",  # ← Now points to the actual documents!
         db_path="./chroma_db_gemini"
     )
     
     # Embed all documents with Gemini
-    embedder.embed_documents(batch_size=2)  # Smaller batch for Gemini rate limits
+    embedder.embed_documents(batch_size=8, resume=True, delay_per_chunk=0.1)  # Smaller batch for Gemini rate limits
     
     # Test search
     test_query = "skatt på naturgrus"

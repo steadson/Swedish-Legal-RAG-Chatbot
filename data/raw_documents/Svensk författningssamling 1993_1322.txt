@@ -1,0 +1,83 @@
+Title: Förordning (1993:1322) om informationsutbyte inom Europeiska ekonomiska samarbetsområdet i fråga om farliga konsumentvaror
+SFS Number: Svensk författningssamling 1993:1322
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-19931322-om-informationsutbyte-inom_sfs-1993-1322/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1993:1322
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1993:1322
+Ministry/Authority: Finansdepartementet KO
+Issued: 1993-12-02
+Metadata: {"Utfärdad": "1993-12-02", "Ändrad": "t.o.m. SFS 2017:790"}
+
+==================================================
+
+Förordning (1993:1322) om informationsutbyte inom Europeiska ekonomiska samarbetsområdet i fråga om farliga konsumentvaror
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1993:1322
+Departement/myndighet
+:   
+Finansdepartementet KO
+Utfärdad
+:   
+1993-12-02
+Omtryck
+:   
+SFS 2004:473
+Ändrad
+:   
+t.o.m. SFS 2017:790
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Inledande bestämmelser
+1 §
+Föreskrifterna i denna förordning meddelas för att genomföra Europaparlamentets och rådets direktiv 2001/95/EG av den 3 december 2001 om allmän produktsäkerhet, senast ändrat genom Europaparlamentets och rådets förordning (EG) nr 596/2009, när det gäller unionssystemet för snabbt informationsutbyte i fråga om varor som för med sig en allvarlig risk. Med allvarlig risk avses i denna förordning en sådan allvarlig risk som kräver ett snabbt ingripande, även om den inte har omedelbar verkan.
+Förordningen gäller om inte något annat är särskilt föreskrivet i fråga om sådant informationsutbyte.
+Förordning (2012:469).
+Definition
+2 §
+Med varor avses i denna förordning varor som inte är livsmedel och som tillhandahålls i näringsverksamhet och som är avsedda för konsumenter eller som kan antas komma att användas av konsumenter. Förordning (2004:473).
+Underrättelseskyldighet för myndigheter
+3 §
+En myndighet som beslutar om åtgärder för att hindra, begränsa eller föreskriva särskilda villkor för tillhandahållande eller användning av en vara på den grunden att varan kan föra med sig en allvarlig risk för konsumenters hälsa eller säkerhet vid normal eller rimligen förutsebar användning, skall genast underrätta Konsumentverket om sitt beslut. Detsamma gäller när myndigheten har rekommenderat eller kommit överens med näringsidkaren om att vidta sådana åtgärder eller åtgärderna har vidtagits av näringsidkaren på eget initiativ.
+Myndigheten skall genast meddela Konsumentverket varje ändring eller upphävande av sådana åtgärder eller ingripanden som avses i första stycket.
+Första stycket skall tillämpas även om åtgärderna avser en vara som tillhandahålls bara i Sverige, om åtgärderna kan antas vara av intresse från produktsäkerhetssynpunkt för andra medlemsstater inom Europeiska ekonomiska samarbetsområdet.
+Förordning (2004:473).
+3 a §
+En länsstyrelse eller kommunal nämnd som vidtar sådana åtgärder i fråga om en kemisk produkt att det kan krävas en underrättelse enligt 3 §, ska lämna de uppgifter som anges i 4 § till Kemikalieinspektionen i stället för till Konsumentverket. Om Kemikalieinspektionen anser att en sådan underrättelse krävs, ska Kemikalieinspektionen vid behov komplettera uppgifterna och därefter genast vidarebefordra dem till Konsumentverket. Förordning (2011:18).
+3 b §
+I fråga om en kemisk produkt som är en kosmetisk  produkt enligt artikel 2.1 a i Europaparlamentets och rådets  förordning (EG) nr 1223/2009 av den 30 november 2009 om  kosmetiska produkter, ska en kommunal nämnd eller  försvarsinspektören för hälsa och miljö, om de vidtar sådana  åtgärder som kan kräva en underrättelse enligt 3 §, lämna de  uppgifter som anges i 4 § till Läkemedelsverket i stället för  till Kemikalieinspektionen. Om Läkemedelsverket anser att en  sådan underrättelse krävs, ska Läkemedelsverket vid behov  komplettera uppgifterna och därefter genast vidarebefordra  dem till Konsumentverket. Förordning (2017:790).
+4 §
+En underrättelse som avses i 3 § ska innehålla
+1. uppgifter som gör det möjligt att identifiera varan,
+2. uppgifter om vilken slags risk det är fråga om och hur allvarlig den är,
+3. information om resultaten av eventuella provningar eller analyser som är av betydelse för att bedöma risknivån,
+4. uppgifter om vilken eller vilka åtgärder som har vidtagits eller beslutats,
+5. information om leverantörskedjor och om distributionen av varan, särskilt om mottagarländer.
+Om en underrättelse enligt 3 § gäller ett kemiskt ämne eller preparat ska underrättelsen innehålla en sammanfattning av eller hänvisningar till uppgifter om det berörda ämnet eller preparatet samt om kända och tillgängliga ersättningsprodukter, när sådana uppgifter finns tillgängliga.
+Underrättelsen ska också innehålla uppgifter om åtgärdens förväntade effekt på konsumenternas hälsa och säkerhet samt en riskbedömning som har genomförts enligt antingen artikel 10.4 i rådets förordning (EEG) nr 793/93 av den 23 mars 1993 om bedömning och kontroll av risker vid existerande ämnen eller artikel 3.2 i rådets direktiv 67/548/EEG av den 27 juni 1967 om tillnärmning av lagar och andra författningar om klassificering, förpackning och märkning av farliga ämnen, senast ändrat genom kommissionens direktiv 2009/2/EG.
+Förordning (2012:469).
+Konsumentverkets underrättelseskyldighet m.m.
+5 §
+Konsumentverket ska genast underrätta Europeiska kommissionen om sådana beslut och åtgärder som avses i 3 §.
+Detsamma gäller motsvarande beslut som fattas av verket.
+Underrättelsen ska innehålla de uppgifter som anges i 4 §. En kopia av underrättelsen ska sändas till regeringen.
+Konsumentverket är behörigt att ta emot motsvarande underrättelser från kommissionen. Förordning (2012:469).
+6 §
+När Konsumentverket har fått en sådan underrättelse från Europeiska kommissionen som anges i 5 § sista stycket ska verket i sin tur
+1. genast vidarebefordra underrättelsen till den myndighet som enligt lag eller annan författning ska se till att regler om produktsäkerhet i fråga om den aktuella varan följs,
+2. snarast underrätta kommissionen om
+- huruvida den aktuella varan har tillhandahållits i Sverige,
+- vilka åtgärder som har vidtagits eller planeras i fråga om varan och skälen för dessa,
+- huruvida en avvikande bedömning görs av risken eller andra omständigheter och skäl som ligger till grund för att några åtgärder inte planeras i fråga om varan, och
+- ytterligare relevant information om risken och resultatet av eventuella provningar eller analyser. Förordning (2012:469).
+7 §
+Myndigheter som avses i 6 § 1 är skyldiga att på begäran lämna Konsumentverket sådana upplysningar som behövs för att verket ska kunna fullgöra sin underrättelseskyldighet till Europeiska kommissionen. Förordning (2012:469).
+8 §
+Om Konsumentverket har informerat Europeiska kommissionen om en allvarlig risk hos en vara innan åtgärder vidtagits i fråga om varan, ska verket inom 45 dagar informera kommissionen om huruvida bedömningen av risken kvarstår eller har ändrats. Förordning (2012:469).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

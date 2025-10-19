@@ -1,0 +1,71 @@
+Title: Förordning (2001:708) om medicinskt födelseregister hos Socialstyrelsen
+SFS Number: Svensk författningssamling 2001:708
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2001708-om-medicinskt_sfs-2001-708/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2001:708
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2001:708
+Ministry/Authority: Socialdepartementet
+Issued: 2001-09-06
+Metadata: {"Utfärdad": "2001-09-06", "Ändrad": "t.o.m. SFS 2018:459"}
+
+==================================================
+
+Förordning (2001:708) om medicinskt födelseregister hos Socialstyrelsen
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2001:708
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+2001-09-06
+Ändrad
+:   
+t.o.m. SFS 2018:459
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledning
+1 §
+Socialstyrelsen får föra hälsodataregister enligt 1 § lagen
+(1998:543) om hälsodataregister i form av ett medicinskt födelseregister.
+Personuppgiftsansvarig
+2 §
+Av 1 § lagen (1998:543) om hälsodataregister följer att Socialstyrelsen är personuppgiftsansvarig för behandlingen av personuppgifter.
+Ändamål för behandling av personuppgifter
+3 §
+Personuppgifter i medicinska födelseregistret får behandlas för framställning av statistik, uppföljning, utvärdering och kvalitetssäkring av hälso- och sjukvård, forskning och epidemiologiska undersökningar som avser reproduktion, övervakning av fosterskador samt nyföddas och andra barns hälsa.
+Personuppgifter som får behandlas
+4 §
+Personuppgifter får behandlas om kvinnor och deras nyfödda barn. Behandlingen får avse uppgifter om
+1. personnummer för kvinnan och barnet, vårdenhet, antal tidigare graviditeter och förlossningar, bruk av tobak och medicinering före och under graviditeten, sjukdomar, familjesituation, förvärvsarbete, fosterdiagnostik, ofrivillig barnlöshet samt graviditet, förlossning och förlossningsutfall inklusive uppgifter om barnet,
+2. folkbokföringsort för moder och barn, födelsehemort eller födelseort för föräldrarna, fastighetskoordinatorer för modern, medborgarskap för föräldrarna, civilstånd, antal tidigare födda barn, inflyttning från och utflyttning till utlandet för modern och barnet, dödsdatum, personnummer för det nyfödda barnet samt förändringar av personnummer för moder och barn.
+Förordning (2005:455).
+5 §
+Utan hinder av 4 § får de uppgifter behandlas som vid ikraftträdandet finns i Socialstyrelsens medicinska födelseregister inklusive missbildningsregister.
+Uppgiftsskyldighet
+6 §
+Den som bedriver verksamhet inom hälso- och sjukvården skall, för de ändamål som anges i 3 § lagen (1998:543) om hälsodataregister, lämna de uppgifter som avses i 4 § 1 till det medicinska födelseregistret.
+Statistiska centralbyrån skall lämna de personuppgifter som avses i 4 § 2 till det medicinska födelseregistret.
+Socialstyrelsen får utfärda föreskrifter om hur den uppgiftsskyldighet som avses i första stycket skall fullgöras.
+Information
+7 §
+Utöver vad som framgår av artiklarna 13 och 14 i  Europaparlamentets och rådets förordning (EU) 2016/679 av den 
+27 april 2016 om skydd för fysiska personer med avseende på  behandling av personuppgifter och om det fria flödet av  sådana uppgifter och om upphävande av direktiv 95/46/EG 
+(allmän dataskyddsförordning) ska den som är  personuppgiftsansvarig enligt denna förordning lämna  information till den registrerade om
+1. innebörden och omfattningen av det sekretess- och  säkerhetsskydd som gäller för registret, och
+2. vad som gäller i fråga om sökbegrepp, direktåtkomst och  utlämnande på medium för automatiserad behandling.
+Socialstyrelsen ska på lämpligt sätt informera allmänheten om  registret. Förordning (2018:459).
+Övergångsbestämmelser
+2001:708
+1. Denna förordning träder i kraft den 1 oktober 2001.
+2. Genom förordningen upphävs regeringens brev den 15 december 1972 (dnr S 3415/72) angående det medicinska födelseregistret.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

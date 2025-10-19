@@ -1,0 +1,50 @@
+Title: /r1/ Förordning (1992:1007)
+om beräkning av basbeloppet enligt 1 kap. 6 § lagen (1962:381) om 
+allmän försäkring;
+SFS Number: Svensk författningssamling 1992:1007
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/r1-forordning-19921007om-berakning-av_sfs-1992-1007/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1992:1007
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1992:1007
+Ministry/Authority: Socialdepartementet
+Issued: 1992-10-15
+Metadata: {"Utfärdad": "1992-10-15"}
+
+==================================================
+
+/r1/ Förordning (1992:1007)
+om beräkning av basbeloppet enligt 1 kap. 6 § lagen (1962:381) om 
+allmän försäkring;
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1992:1007
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+1992-10-15
+Tidsbestämd
+: 
+1992-11-21
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Till ledning för fastställande för år 1993 av det basbelopp som anges i 
+1 kap. 6 § lagen (1962:381) om allmän försäkring skall Statistiska  centralbyrån beräkna förhållandet mellan det allmänna prisläget i  oktober 1992 och prisläget i oktober 1989. Beräkningen, som skall göras  på grundval av konsumentprisindex, skall inbegripa avdrag för vissa  prisförändringar enligt nämnda paragraf i dess lydelse från och med den 
+1 januari 1991. Beräkningen skall därför göras enligt följande formel:
+konsumentprisindex för oktober 1990
+29 700                                          -- 0,0293
+konsumentprisindex för oktober 1989
+konsumentprisindex för oktober 1991
+-- 0,0319
+konsumentprisindex för oktober 1990
+konsumentprisindex för oktober 1992
+konsumentprisindex för oktober 1991
+Statistiska centralbyrån skall senast den 20 november 1992 till  regeringen redovisa resultatet av beräkningen.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -37,11 +37,26 @@ st.markdown("""
 }
 .source-box {
     background-color: #fff3e0;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
     margin: 0.5rem 0;
     border-left: 3px solid #ff9800;
     font-size: 0.9em;
+}
+.translation-info {
+    background-color: #e8f5e9;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+    border-left: 3px solid #4caf50;
+    font-size: 0.85em;
+    color: #2e7d32;
+}
+.source-counter {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin: 0.5rem 0;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -53,6 +68,10 @@ if 'api_url' not in st.session_state:
     st.session_state.api_url = "http://localhost:8000"
 if 'processing' not in st.session_state:
     st.session_state.processing = False
+if 'english_mode' not in st.session_state:
+    st.session_state.english_mode = False
+if 'source_indices' not in st.session_state:
+    st.session_state.source_indices = {}  # Track current source index for each chat message
 
 # Header
 st.markdown('<h1 class="main-header">⚖️ Swedish Legal RAG Chatbot</h1>', unsafe_allow_html=True)
@@ -70,11 +89,26 @@ with st.sidebar:
     )
     st.session_state.api_url = api_url
     
+    # English mode toggle
+    st.subheader("🌐 Language Settings")
+    english_mode = st.toggle(
+        "Enable English Mode",
+        value=st.session_state.english_mode,
+        help="When enabled, you can ask questions in English and receive answers in English"
+    )
+    st.session_state.english_mode = english_mode
+    
+    if english_mode:
+        st.info("🇬🇧 English Mode: Ask questions in English, get answers in English")
+    else:
+        st.info("🇸🇪 Swedish Mode: Ask questions in Swedish, get answers in Swedish")
+    
     # Query settings
+    st.subheader("⚙️ Query Settings")
     max_results = st.slider(
         "Max Results", 
         min_value=1, 
-        max_value=10, 
+        max_value=50, 
         value=3,
         help="Number of documents to retrieve"
     )
@@ -102,6 +136,7 @@ with st.sidebar:
     # Clear chat history
     if st.button("🗑️ Clear Chat History"):
         st.session_state.chat_history = []
+        st.session_state.source_indices = {}
         st.success("Chat history cleared!")
 
 # Main chat interface
@@ -112,9 +147,15 @@ with col1:
     
     # Query input form
     with st.form(key="query_form", clear_on_submit=True):
+        # Dynamic placeholder based on language mode
+        if english_mode:
+            placeholder_text = "e.g., What is the Act on inventory of goods for income taxation about?"
+        else:
+            placeholder_text = "e.g., Vad säger lagen om skatt på naturgrus?"
+        
         user_query = st.text_input(
             "Ask a question about Swedish law:",
-            placeholder="e.g., Vad säger lagen om skatt på naturgrus?",
+            placeholder=placeholder_text,
             disabled=st.session_state.processing
         )
         
@@ -132,7 +173,8 @@ with col1:
         st.session_state.chat_history.append({
             "type": "user",
             "message": user_query,
-            "timestamp": datetime.now().strftime("%H:%M:%S")
+            "timestamp": datetime.now().strftime("%H:%M:%S"),
+            "english_mode": english_mode
         })
         
         # Show loading spinner
@@ -142,13 +184,14 @@ with col1:
                 payload = {
                     "query": user_query,
                     "max_results": max_results,
-                    "include_sources": include_sources
+                    "include_sources": include_sources,
+                    "english_mode": english_mode
                 }
                 
                 response = requests.post(
                     f"{api_url}/query",
                     json=payload,
-                    timeout=30
+                    timeout=60
                 )
                 
                 if response.status_code == 200:
@@ -160,8 +203,15 @@ with col1:
                         "message": result["answer"],
                         "sources": result.get("sources", []),
                         "timestamp": datetime.now().strftime("%H:%M:%S"),
-                        "model": result.get("model_used", "Unknown")
+                        "model": result.get("model_used", "Unknown"),
+                        "original_query": result.get("original_query"),
+                        "translated_query": result.get("translated_query"),
+                        "english_mode": english_mode
                     })
+                    
+                    # Initialize source index for this message
+                    chat_idx = len(st.session_state.chat_history) - 1
+                    st.session_state.source_indices[chat_idx] = 0
                     
                     st.success("✅ Response received!")
                     
@@ -175,7 +225,8 @@ with col1:
                         "message": f"Sorry, I encountered an error: {error_msg}",
                         "sources": [],
                         "timestamp": datetime.now().strftime("%H:%M:%S"),
-                        "model": "Error"
+                        "model": "Error",
+                        "english_mode": english_mode
                     })
                         
             except Exception as e:
@@ -188,7 +239,8 @@ with col1:
                     "message": f"Sorry, I couldn't connect to the API: {error_msg}",
                     "sources": [],
                     "timestamp": datetime.now().strftime("%H:%M:%S"),
-                    "model": "Error"
+                    "model": "Error",
+                    "english_mode": english_mode
                 })
         
         st.session_state.processing = False
@@ -198,128 +250,136 @@ with col1:
     
     if st.session_state.chat_history:
         for i, chat in enumerate(reversed(st.session_state.chat_history)):
+            actual_idx = len(st.session_state.chat_history) - 1 - i
+            
             if chat["type"] == "user":
+                mode_indicator = "🇬🇧" if chat.get('english_mode') else "🇸🇪"
                 st.markdown(f"""
                 <div class="chat-message user-message">
-                    <strong>🧑 You ({chat['timestamp']}):</strong><br>
+                    <strong>{mode_indicator} You ({chat['timestamp']}):</strong><br>
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
                 
             else:  # bot message
+                mode_indicator = "🇬🇧" if chat.get('english_mode') else "🇸🇪"
                 st.markdown(f"""
                 <div class="chat-message bot-message">
-                    <strong>🤖 Legal Assistant ({chat['timestamp']}):</strong><br>
+                    <strong>{mode_indicator} Legal Assistant ({chat['timestamp']}):</strong><br>
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
                 
-                # Show sources if available
+                # Show translation info if in English mode
+                if chat.get('english_mode') and chat.get('translated_query'):
+                    st.markdown(f"""
+                    <div class="translation-info">
+                        🔄 <strong>Translation:</strong> Query was translated to Swedish for search<br>
+                        <em>Swedish query: "{chat['translated_query']}"</em>
+                    </div>
+                    """, unsafe_allow_html=True)
+                
+                # Show sources with navigation if available
                 if chat.get("sources") and include_sources and len(chat["sources"]) > 0:
+                    sources = chat["sources"]
+                    
+                    # Initialize source index if not exists
+                    if actual_idx not in st.session_state.source_indices:
+                        st.session_state.source_indices[actual_idx] = 0
+                    
+                    current_idx = st.session_state.source_indices[actual_idx]
+                    
+                    # Ensure index is within bounds
+                    if current_idx >= len(sources):
+                        current_idx = 0
+                        st.session_state.source_indices[actual_idx] = 0
+                    
                     st.markdown("**📚 Sources:**")
-                    for j, source in enumerate(chat["sources"], 1):
-                        chunk_info = f" ({source['chunk_info']})" if source.get('chunk_info') else ""
+                    
+                    # Navigation controls
+                    col_prev, col_counter, col_next = st.columns([1, 2, 1])
+                    
+                    with col_prev:
+                        if st.button("⬅️ Previous", key=f"prev_{actual_idx}", disabled=(len(sources) <= 1)):
+                            st.session_state.source_indices[actual_idx] = (current_idx - 1) % len(sources)
+                            st.rerun()
+                    
+                    with col_counter:
                         st.markdown(f"""
-                        <div class="source-box">
-                            <strong>{j}. {source['title']}{chunk_info}</strong><br>
-                            📋 SFS: {source['sfs_number']} | 
-                            🎯 Similarity: {source['similarity_score']}<br>
-                            🔗 <a href="{source['url']}" target="_blank">Document</a> | 
-                            <a href="{source['source_link']}" target="_blank">Source</a> | 
-                            <a href="{source['amendment_register_link']}" target="_blank">Amendments</a>
+                        <div class="source-counter">
+                            <strong>Source {current_idx + 1} of {len(sources)}</strong>
                         </div>
                         """, unsafe_allow_html=True)
+                    
+                    with col_next:
+                        if st.button("Next ➡️", key=f"next_{actual_idx}", disabled=(len(sources) <= 1)):
+                            st.session_state.source_indices[actual_idx] = (current_idx + 1) % len(sources)
+                            st.rerun()
+                    
+                    # Display current source
+                    source = sources[current_idx]
+                    chunk_info = f" ({source['chunk_info']})" if source.get('chunk_info') else ""
+                    st.markdown(f"""
+                    <div class="source-box">
+                        <strong>{source['title']}{chunk_info}</strong><br>
+                        📋 SFS: {source['sfs_number']} | 
+                        🎯 Similarity: {source['similarity_score']}<br>
+                        🔗 <a href="{source['url']}" target="_blank">View Document</a>
+                    </div>
+                    """, unsafe_allow_html=True)
                 
                 if chat.get('model') != 'Error':
                     st.markdown(f"*Model: {chat.get('model', 'Unknown')}*")
             
             st.markdown("---")
     else:
-        st.info("👋 Welcome! Ask a question about Swedish legal documents to get started.")
+        welcome_msg = "👋 Welcome! Ask a question about Swedish legal documents to get started."
+        if english_mode:
+            welcome_msg = "👋 Welcome! Ask questions in English about Swedish legal documents to get started."
+        st.info(welcome_msg)
 
-# with col2:
-#     st.subheader("📊 Quick Stats")
+# Right column - Info panel
+with col2:
+    st.subheader("ℹ️ How it works")
     
-#     # Display API stats
-#     try:
-#         response = requests.get(f"{api_url}/stats", timeout=5)
-#         if response.status_code == 200:
-#             stats = response.json()
-#             st.metric("Total Documents", stats.get("total_documents", "N/A"))
-#             st.metric("Embedding Model", stats.get("embedding_model", "N/A"))
-#             st.metric("Chat Model", stats.get("chat_model", "N/A"))
-            
-#             if stats.get("sample_document"):
-#                 st.subheader("📄 Sample Document")
-#                 sample = stats["sample_document"]
-#                 st.write(f"**Title:** {sample.get('title', 'N/A')}")
-#                 st.write(f"**SFS:** {sample.get('sfs_number', 'N/A')}")
-#                 st.write(f"**Chunked:** {sample.get('is_chunked', 'N/A')}")
-#         else:
-#             st.error("Failed to load stats")
-#     except:
-#         st.warning("API not available")
-    
-#     # Example queries
-#     st.subheader("💡 Example Queries")
-#     example_queries = [
-#         "Vad säger lagen om skatt på naturgrus?",
-#         "Vilka regler gäller för bygglov?",
-#         "Hur fungerar arbetslöshetsersättning?",
-#         "Vad är reglerna för bilskatt?",
-#         "Vilka krav finns på miljötillstånd?"
-#     ]
-    
-#     for i, query in enumerate(example_queries):
-#         if st.button(f"📝 {query[:30]}...", key=f"example_{i}", disabled=st.session_state.processing):
-#             # Add the example query to chat and process it
-#             st.session_state.chat_history.append({
-#                 "type": "user",
-#                 "message": query,
-#                 "timestamp": datetime.now().strftime("%H:%M:%S")
-#             })
-            
-#             # Process the example query
-#             st.session_state.processing = True
-            
-#             with st.spinner("🤔 Processing example..."):
-#                 try:
-#                     payload = {
-#                         "query": query,
-#                         "max_results": max_results,
-#                         "include_sources": include_sources
-#                     }
-                    
-#                     response = requests.post(
-#                         f"{api_url}/query",
-#                         json=payload,
-#                         timeout=30
-#                     )
-                    
-#                     if response.status_code == 200:
-#                         result = response.json()
-                        
-#                         st.session_state.chat_history.append({
-#                             "type": "bot",
-#                             "message": result["answer"],
-#                             "sources": result.get("sources", []),
-#                             "timestamp": datetime.now().strftime("%H:%M:%S"),
-#                             "model": result.get("model_used", "Unknown")
-#                         })
-                        
-#                         st.success("✅ Example processed!")
-                        
-#                 except Exception as e:
-#                     st.error(f"❌ Error processing example: {str(e)}")
-            
-#             st.session_state.processing = False
-#             st.rerun()
+    if english_mode:
+        st.markdown("""
+        **English Mode Active:**
+        
+        1. 🇬🇧 Ask your question in **English**
+        2. 🔄 System translates to **Swedish**
+        3. 🔍 Searches Swedish legal docs
+        4. 📄 Retrieves relevant documents
+        5. 🤖 Generates answer in Swedish
+        6. 🔄 Translates answer to **English**
+        7. ✅ You receive English response!
+        
+        **Example Questions:**
+        - What is the tax law about gravel?
+        - what does the law say about the discrimination against part-time employees 
+        - explain the Act on pharmaceutical benefits ?
+        """)
+    else:
+        st.markdown("""
+        **Swedish Mode Active:**
+        
+        1. 🇸🇪 Ställ din fråga på **svenska**
+        2. 🔍 Söker relevanta dokument
+        3. 📄 Hämtar lagtexter
+        4. 🤖 Genererar svar baserat på lagen
+        5. ✅ Du får svar på svenska!
+        
+        **Exempel på frågor:**
+        - Vad säger skattelagen om grus?
+        - Vad säger lagen om diskriminering av deltidsanställda?
+        - Förklara lagen om läkemedelsförmåner?
+        """)
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.8rem;">
-    ⚖️ Swedish Legal RAG Chatbot | Powered by Gemini & ChromaDB
+    ⚖️ Swedish Legal RAG Chatbot | Powered by Gemini & ChromaDB | 🌐 Multilingual Support
 </div>
 """, unsafe_allow_html=True)
 

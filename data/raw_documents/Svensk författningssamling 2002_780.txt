@@ -1,0 +1,59 @@
+Title: Förordning (2002:780) om beräkning av balanstal
+SFS Number: Svensk författningssamling 2002:780
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2002780-om-berakning-av-balanstal_sfs-2002-780/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2002:780
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2002:780
+Ministry/Authority: Socialdepartementet
+Issued: 2002-10-31
+Metadata: {"Utfärdad": "2002-10-31", "Ändrad": "t.o.m SFS 2021:734"}
+
+==================================================
+
+Förordning (2002:780) om beräkning av balanstal
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2002:780
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+2002-10-31
+Ändrad
+:   
+t.o.m SFS 2021:734
+Övrig text
+:   
+Formlerna är inte med här.
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+1 §
+Pensionsmyndigheten ska för varje år beräkna balanstalet  enligt 58 kap.14 § socialförsäkringsbalken i enlighet med den  formel som anges i bilagan till denna förordning.
+Förordning (2021:734).
+Bilaga
+1 Balanstalet,BT
+/Formeln är inte med här/
+2 Omsättningstiden,OT
+/Formeln är inte med här/
+2.1 Intjänandeålder,IÅ
+/Formeln är inte med här/
+2.2 Utbetalningsålder,UÅ
+/Formeln är inte med här/
+3 Pensionsskulden,S
+/Formeln är inte med här/
+Förordning (2021:734).
+Övergångsbestämmelser
+2002:780
+Denna förordning träder i kraft den 20 november 2002 och tillämpas första gången på balanstal som skall beräknas för år 2003.
+2009:1247
+Denna förordning träder i kraft den 15 december 2009 men tillämpas för tid från och med den 25 november 2009.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

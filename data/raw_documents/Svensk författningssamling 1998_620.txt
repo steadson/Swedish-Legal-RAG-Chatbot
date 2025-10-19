@@ -1,0 +1,282 @@
+Title: Lag (1998:620) om belastningsregister
+SFS Number: Svensk författningssamling 1998:620
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1998620-om-belastningsregister_sfs-1998-620/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1998:620
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1998:620
+Ministry/Authority: Justitiedepartementet L4
+Issued: 1998-06-11
+Metadata: {"Utfärdad": "1998-06-11", "Ändrad": "t.o.m. SFS 2025:524"}
+
+==================================================
+
+Lag (1998:620) om belastningsregister
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1998:620
+Departement/myndighet
+:   
+Justitiedepartementet L4
+Utfärdad
+:   
+1998-06-11
+Ändrad
+:   
+t.o.m. SFS 2025:524
+Övrig text
+:   
+Rättelsesida 2024:8 har iakttagits
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Belastningsregister
+1 §
+Polismyndigheten ska med hjälp av automatiserad behandling föra ett belastningsregister. Myndigheten är personuppgiftsansvarig för behandlingen av personuppgifter i registret.
+Lag (2014:593)
+.
+Förhållandet till andra bestämmelser om personuppgiftsbehandling
+1 a §
+Denna lag gäller utöver brottsdatalagen (2018:1177).
+Lag (2019:431)
+.
+1 b §
+Vid behandling av personuppgifter som inte omfattas av  brottsdatalagen (2018:1177) kompletterar denna lag  Europaparlamentets och rådets förordning (EU) 2016/679 av den 
+27 april 2016 om skydd för fysiska personer med avseende på  behandling av personuppgifter och om det fria flödet av sådana  uppgifter och om upphävande av direktiv 95/46/EG (allmän data-
+skyddsförordning).
+Vid behandling av personuppgifter enligt första stycket gäller  lagen (2018:218) med kompletterande bestämmelser till EU:s  dataskyddsförordning och föreskrifter som har meddelats i  anslutning till den lagen, om inte annat följer av denna lag  eller föreskrifter som har meddelats i anslutning till lagen.
+Lag (2019:431)
+.
+/Rubriken träder i kraft I:den dag som regeringen bestämmer/
+Användning av Ecris-TCN
+1 c §
+/Träder i kraft I:den dag som regeringen bestämmer/
+Det finns bestämmelser om användning av Ecris-TCN i  samband med en begäran om uppgifter ur belastningsregistret i
+1. Europaparlamentets och rådets förordning (EU) 2019/816 av  den 17 april 2019 om inrättande av ett centraliserat system  för identifiering av medlemsstater som innehar uppgifter om  fällande domar mot tredjelandsmedborgare och statslösa  personer (Ecris-TCN) för att komplettera det europeiska  informationssystemet för utbyte av uppgifter ur  kriminalregister och om ändring av förordning (EU) 2018/1726,  och
+2. lagen (2022:733) med kompletterande bestämmelser till EU:s  förordning om Ecris-TCN.
+Lag (2022:735)
+.
+Ändamål
+2 §
+Belastningsregistret ska föras för att ge information om  sådana belastningsuppgifter som behövs i verksamhet hos
+1. Polismyndigheten, Säkerhetspolisen, Skatteverket,  Tullverket och Kustbevakningen för att förebygga, förhindra  eller upptäcka brottslig verksamhet och utreda brott,
+2. åklagarmyndigheter för beslut om förundersökning och åtal  samt för utfärdande av strafföreläggande,
+3. allmänna domstolar för straffmätning och val av påföljd,  och
+4. Polismyndigheten och andra myndigheter vid sådan  lämplighetsprövning, tillståndsprövning eller annan prövning  som anges i författning.
+Registret får användas också för att till en enskild lämna  uppgifter som är av särskild betydelse i hans eller hennes  verksamhet.
+Lag (2019:431)
+.
+Innehåll
+Domar eller beslut som har meddelats i Sverige
+3 §
+Registret ska innehålla uppgifter om den som
+1. genom dom, beslut, strafföreläggande eller föreläggande av  ordningsbot har ålagts påföljd för brott,
+2. har ålagts förvandlingsstraff för böter,
+3. med tillämpning av 30 kap. 6 § brottsbalken har förklarats  fri från påföljd,
+4. på grund av åklagares beslut enligt 20 kap. 7 §  rättegångsbalken, 9 eller 17 § lagen (1964:167) med särskilda  bestämmelser om unga lagöverträdare eller 46 § lagen 
+(1988:870) om vård av missbrukare i vissa fall inte har  åtalats för brott, eller
+5. har meddelats
+a) kontaktförbud enligt lagen (1988:688) om kontaktförbud,
+b) tillträdesförbud enligt lagen (2005:321) om  tillträdesförbud vid idrottsarrangemang, dock inte  tillträdesförbud enligt 9 a § i den lagen,
+c) förbud enligt 3 kap. 5 § lagen (2015:642) om europeisk  skyddsorder,
+d) tillträdesförbud enligt lagen (2021:34) om tillträdesförbud  till butiker, badanläggningar och bibliotek, eller
+e) vistelseförbud enligt lagen (2024:7) om preventiva  vistelseförbud.
+Lag (2024:8)
+.
+Domar och beslut som har meddelats i utlandet
+4 §
+Uppgifter om den som avses med en dom eller ett beslut som meddelats i utlandet skall föras in i registret, om uppgiften motsvarar vad som sägs i 3 § och
+1. kommer från en myndighet i en stat som tillhör Interpol, från denna organisation eller från Europol och avser en svensk medborgare eller någon som har hemvist i Sverige eller
+2. lämnas från en stat enligt en överenskommelse mellan Sverige och den staten.
+4 a §
+Uppgifter om den som avses med en dom eller ett beslut som har meddelats i en annan medlemsstat inom Europeiska unionen ska föras in i registret om uppgifterna har överförts till Sverige med stöd av artikel 4.2 i rådets rambeslut 2009/315/RIF av den 26 februari 2009 om organisationen av medlemsstaternas utbyte av uppgifter ur kriminalregistret och uppgifternas innehåll.
+Lag (2012:762)
+.
+Uppgifter som skall föras in i registret
+5 §
+Regeringen får meddela närmare föreskrifter om vilka uppgifter registret ska innehålla om den som ska registreras enligt 3-4 a §§.
+Lag (2012:762)
+.
+Sökbegrepp vid sökning i registret
+5 a §
+Sökförbudet i 2 kap. 14 § brottsdatalagen (2018:1177)  hindrar inte att brottsrubriceringar och uppgifter om  verkställighet av påföljd används som sökbegrepp vid sökning i  belastningsregistret.
+Lag (2019:431)
+.
+Rätt att få uppgifter från registret
+Svenska myndigheter
+6 §
+Personuppgifter ur belastningsregistret ska lämnas ut om  det begärs av
+1. Riksdagens ombudsmän, Justitiekanslern,  Integritetsskyddsmyndigheten eller Säkerhets- och  integritetsskyddsnämnden för deras tillsynsverksamhet,
+2. Säkerhetspolisen, Skatteverket, Tullverket,  Kustbevakningen, en åklagarmyndighet eller allmän domstol för  sådan verksamhet som avses i 2 § första stycket 1-3,
+3. allmän förvaltningsdomstol för prövning enligt 2 § första  stycket 4, eller
+4. en myndighet i övrigt i den utsträckning regeringen för  vissa slag av ärenden föreskriver det eller för ett särskilt  fall ger tillstånd till det.
+Regeringen kan med stöd av 8 kap. 7 § regeringsformen meddela  föreskrifter om att en myndighet som avses i första stycket  får ha direktåtkomst till registret.
+Uppgifter som har förts in i registret med stöd av 4 a § och  som avser en gärning som inte motsvarar brott enligt svensk  lag eller en gärning som någon har begått innan han eller hon  har fyllt 15 år, får dock endast lämnas ut till dem som anges  i första stycket 1 och endast om uppgifterna behövs där för  tillsynen över Polismyndighetens personuppgiftsbehandling  enligt denna lag.
+Lag (2020:1111)
+.
+7 §
+En myndighet som har rätt att få uppgifter ur registret skall i varje särskilt fall noga pröva behovet av information.
+En begäran om att få ta del av uppgifter ur registret får göras endast om skälet till det uppväger den olägenhet det innebär för den som berörs.
+8 §
+Uppgifter som är nödvändiga för att framställa rättsstatistiken skall lämnas till den myndighet som ansvarar för att framställa sådan statistik.
+Enskilda
+9 §
+En enskild har rätt att på begäran skriftligen få ta del  av samtliga uppgifter ur registret om sig själv. Om sådana  uppgifter finns har den enskilde även rätt att få sådan  skriftlig information som anges i 4 kap. 3 § första stycket 1-8 brottsdatalagen (2018:1177). Uppgifterna ska på begäran läm-
+nas ut utan avgift en gång per kalenderår.
+En enskild som behöver ett registerutdrag om sig själv har  rätt att få ett begränsat utdrag ur registret
+1. för att kunna ta till vara sin rätt i ett främmande land  eller få tillstånd att resa in, bosätta sig eller arbeta där,
+2. enligt bestämmelser i skollagen (2010:800),
+3. enligt bestämmelser i lagen (2018:1219) om  försäkringsdistribution,
+4. enligt bestämmelser i lagen (2007:171) om registerkontroll  av personal vid vissa boenden som tar emot barn,
+5. enligt bestämmelser i lagen (2010:479) om registerkontroll  av personal som utför vissa insatser åt barn med  funktionshinder, eller
+6. enligt bestämmelser i lagen (2013:852) om registerkontroll  av personer som ska arbeta med barn.
+Regeringen eller den myndighet som regeringen bestämmer får  meddela föreskrifter om vilka uppgifter ett sådant utdrag som  avses i andra stycket 1-3 ska innehålla.
+Regeringen får meddela föreskrifter om vilka uppgifter ett  sådant utdrag som avses i andra stycket 4-6 ska innehålla.
+En begäran om uppgifter ur registret ska vara skriftlig.  Polismyndigheten ska säkerställa att begäran görs av en  behörig person.
+Lag (2019:431)
+.
+9 a §
+Regeringen får meddela föreskrifter om att  personuppgifter ur belastningsregistret ska lämnas ut om det  begärs av Sveriges advokatsamfunds styrelse eller  disciplinnämnd för tillsyn över att advokater och advokatbolag  fullgör sina skyldigheter enligt lagen (2017:630) om åtgärder  mot penningtvätt och finansiering av terrorism.
+Lag (2019:606)
+.
+10 §
+Om det behövs för att pröva en fråga om anställning eller uppdrag i en verksamhet som avser vård eller som är av betydelse för förebyggande eller beivrande av brott, har en enskild rätt att få uppgifter ur registret om en annan enskild i den utsträckning regeringen för vissa typer av fall föreskriver det.
+En enskild, som styrker att hans eller hennes rätt är beroende av uppgifter ur registret om en annan enskild, har rätt att få ta del av dessa uppgifter om regeringen medger att uppgifterna får lämnas ut.
+Utländska myndigheter
+11 §
+Uppgifter ur registret får lämnas till en utländsk myndighet eller en mellanfolklig organisation, om utlämnandet följer av en internationell överenskommelse som Sverige efter riksdagens godkännande har tillträtt eller av en EU-rättsakt.
+Lag (2012:218)
+.
+12 §
+Uppgifter ur registret skall lämnas till domstol eller polis- eller åklagarmyndighet i Danmark, Finland, Island eller Norge om det begärs för utredning i brottmål.
+Uppgifter får på begäran även lämnas till domstol eller polis- eller åklagarmyndighet i en stat som är ansluten till Interpol eller till denna organisation om det behövs för att myndigheten eller organisationen skall kunna förebygga, upptäcka, utreda eller beivra brott eller för ett utlänningsärende.
+12 a §
+Uppgifter ur registret får efter en begäran som sker  med stöd av rådets rambeslut 2009/315/RIF av den 26 februari 
+2009 om organisationen av medlemsstaternas utbyte av uppgifter  ur kriminalregistret och uppgifternas innehåll lämnas ut till  en myndighet i en annan medlemsstat i Europeiska unionen för  något annat ändamål än att användas i ett brottmålsförfarande  om motsvarande rätt att få del av uppgifterna finns för en  svensk myndighet.
+En uppgift som har förts in i registret med stöd av 4 a § får  dock inte lämnas ut om Polismyndigheten har underrättats av en  behörig myndighet i den stat som har överfört uppgiften om att  uppgiften har gallrats i den staten.
+Lag (2022:735)
+.
+13 §
+Regeringen får meddela föreskrifter om
+1. att uppgifter får lämnas till domstol eller polis- eller åklagarmyndighet i en annan stat än som sägs 11 §, om det behövs för utredning i ett brottmål eller ett utlänningsärende,
+2. att uppgifter om den som är medborgare i en främmande stat eller som har hemvist där får lämnas till en myndighet även i annat fall än som sägs i 11 eller 12 § och
+3. att de uppgifter som får lämnas ut enligt 11 och 12 §§ skall begränsas.
+14 §
+Uppgifter om den som ett beslut om överflyttning gäller  ska lämnas till den stat som överflyttning har skett från  eller till
+1. om verkställighet av en annan påföljd än böter har  överförts från Danmark, Finland, Island eller Norge eller till  någon av dessa stater från Sverige,
+2. om en anteckning har gjorts gällande tillämpningen av 14  eller 21 § lagen (1963:193) om samarbete med Danmark, Finland,  Island och Norge angående verkställighet av straff m.m., och
+3. om verkställighet av påföljd har överförts till Sverige  från en annan stat eller till någon annan stat härifrån enligt  lagen (1978:801) om internationellt samarbete rörande  kriminalvård i frihet eller lagen (2025:520) om internationell  verkställighet i brottmål.
+Lag (2025:524)
+.
+Utlämnande myndighet
+15 §
+En begäran om att uppgifter ska lämnas ut prövas av Polismyndigheten.
+Lag (2014:593)
+.
+Gallring
+16 §
+En uppgift i registret ska gallras
+1. om en överrätt genom dom eller beslut frikänt den  registrerade för den åtalade gärningen,
+2. om en domstol efter resning har meddelat dom eller beslut  som avses i 1,
+3. om dom, beslut, strafföreläggande eller föreläggande av  ordningsbot har undanröjts,
+4. om överrätt har upphävt ett beslut om förvandlingsstraff  för böter,
+5. om åklagares beslut att meddela åtalsunderlåtelse eller  straffvarning har återkallats,
+6. om kontaktförbud enligt lagen (1988:688) om kontaktförbud,  förbud enligt 3 kap. 5 § lagen (2015:642) om europeisk  skyddsorder, tillträdesförbud enligt lagen (2005:321) om  tillträdesförbud vid idrottsarrangemang och lagen (2021:34) om  tillträdesförbud till butiker, badanläggningar och bibliotek,  eller vistelseförbud enligt lagen (2024:7) om preventiva  vistelseförbud har upphävts, eller
+7. när den registrerade har avlidit.
+Lag (2024:8)
+.
+17 §
+Utöver vad som följer av 16 § ska uppgifter om
+1. fängelse- eller förvandlingsstraff för böter gallras tio år  efter frigivningen,
+2. fängelsestraff som ska anses helt verkställt genom tidigare  frihetsberövande eller från vilket någon genom beslut om nåd  helt har befriats gallras tio år efter domen eller beslutet,
+3. förvandlingsstraff för böter som har fallit bort enligt 
+18 § bötesverkställighetslagen (1979:189) gallras fem år efter  det att straffet föll bort,
+4. skyddstillsyn eller villkorlig dom gallras
+a) tio år efter domen eller beslutet, eller
+b) fem år efter domen eller beslutet, om uppgiften avser en  person som var under 18 år vid tidpunkten för brottet eller  brotten,
+5. sluten ungdomsvård gallras tio år efter det att påföljden  helt verkställts,
+6. ungdomsvård, ungdomstjänst eller ungdomsövervakning gallras
+a) tio år efter domen eller beslutet, eller
+b) fem år efter domen eller beslutet, om uppgiften avser en  person som var under 18 år vid tidpunkten för brottet eller  brotten,
+7. överlämnande till vård enligt lagen (1988:870) om vård av  missbrukare i vissa fall gallras
+a) tio år efter domen eller beslutet, eller
+b) fem år efter domen eller beslutet, om uppgiften avser en  person som var under 18 år vid tidpunkten för brottet eller  brotten,
+8. överlämnande till rättspsykiatrisk vård gallras tio år  efter utskrivningen,
+9. böter gallras fem år efter domen, beslutet eller  godkännandet av strafföreläggandet eller föreläggandet av  ordningsbot,
+10. att någon enligt 30 kap. 6 § brottsbalken har förklarats  fri från påföljd gallras
+a) tio år efter domen eller beslutet, eller
+b) fem år efter domen eller beslutet, om uppgiften avser en  person som var under 18 år vid tidpunkten för brottet eller  brotten,
+11. åklagares beslut att inte åtala för brott gallras
+a) tio år efter beslutet, eller
+b) tre år efter beslutet, om uppgiften avser en person som var  under 18 år vid tidpunkten för brottet,
+12. beslut om kontaktförbud enligt lagen (1988:688) om  kontaktförbud och förbud enligt 3 kap. 5 § lagen (2015:642) om  europeisk skyddsorder gallras tio år efter beslutet,
+13. beslut om tillträdesförbud enligt lagen (2005:321) om  tillträdesförbud vid idrottsarrangemang och lagen (2021:34) om  tillträdesförbud till butiker, badanläggningar och bibliotek  gallras fem år efter beslutet, och
+14. beslut om vistelseförbud enligt lagen (2024:7) om  preventiva vistelseförbud gallras
+a) tio år efter beslutet, eller
+b) fem år efter beslutet, om uppgiften avser en person som var  under 18 år vid tidpunkten för beslutet.
+Lag (2025:159)
+.
+17 a §
+Utöver vad som följer av 16 och 17 §§ ska en uppgift  som har förts in i registret med stöd av 4 a § gallras så  snart Polismyndigheten har underrättats av en behörig  myndighet i den stat som har överfört uppgiften om att  uppgiften har gallrats i den staten.
+En uppgift som har förts in i registret med stöd av 4 a § och  är sådan att den inte kan gallras med stöd av 17 §, ska alltid  gallras när den utdömda påföljden har verkställts eller annars  senast tio år efter den dom eller det beslut som ledde till  att uppgiften fördes in i registret.
+Lag (2022:735)
+.
+18 §
+Om det före utgången av den tid som anges i 17 eller 
+17 a § har gjorts en ny anteckning enligt 3, 4 eller 4 a § som  avser samma person, ska ingen av uppgifterna gallras så länge  någon av dem ska finnas kvar i registret. Detta ska dock inte  gälla om den nya anteckningen avser penningböter.
+En uppgift ska dock alltid gallras senast tjugo år efter den  dom eller det beslut som ledde till att uppgiften fördes in i  registret. I fråga om uppgift som avses i 17 § 1 eller 8  gäller detta endast om de tidsfrister som anges där har gått  ut.
+Ska en uppgift som avses i 3, 4 eller 4 a § gallras enligt  denna paragraf, ska även sådana uppgifter som har antecknats i  anslutning till uppgiften gallras, om inte regeringen  föreskriver annat.
+Lag (2022:735)
+.
+Tystnadsplikt
+19 §
+Den som med stöd av denna lag har fått del av uppgifter om någon annans personliga förhållanden får inte obehörigen röja dessa uppgifter.
+I det allmännas verksamhet tillämpas i stället bestämmelserna i offentlighets- och sekretesslagen (2009:400).
+Lag (2009:473)
+.
+Skadestånd vid personuppgiftsbehandling som omfattas av  brottsdatalagen
+20 §
+Bestämmelsen om skadestånd i 7 kap. 1 § brottsdatalagen 
+(2018:1177) ska tillämpas om behandling av personuppgifter som  omfattas av brottsdatalagen skett i strid med denna lag eller  föreskrifter som har meddelats i anslutning till den.
+Lag (2019:431)
+.
+Användningsbegränsningar
+21 §
+Om en svensk myndighet efter begäran har fått uppgifter från en annan medlemsstat i Europeiska unionen med stöd av bestämmelserna i rådets rambeslut 2009/315/RIF av den 26 februari 2009 om organisationen av medlemsstaternas utbyte av uppgifter ur kriminalregistret och uppgifternas innehåll, får uppgifterna användas endast för det ändamål som de begärdes för.
+Om den medlemsstat som överfört uppgifterna med stöd av rambeslutet har föreskrivit villkor som begränsar rätten att använda uppgifterna, ska myndigheten följa även dessa villkor.
+Första och andra styckena ska gälla oavsett vad som annars är föreskrivet i lag eller annan författning. Uppgifter som har överförts med stöd av rambeslutet får dock alltid användas för att avvärja ett överhängande och allvarligt hot mot den allmänna säkerheten.
+Lag (2012:762)
+.
+Administrativa sanktionsavgifter
+22 §
+En sanktionsavgift får tas ut av den  personuppgiftsansvarige vid överträdelse av bestämmelserna om  gallring i 16-18 §§, om överträdelsen skett vid behandling av  personuppgifter som omfattas av brottsdatalagen (2018:1177).
+Sanktionsavgiften ska bestämmas till högst 10 000 000 kronor.
+Lag (2019:431)
+.
+Övergångsbestämmelser
+1998:620
+1. Denna lag träder i kraft den dag regeringen bestämmer, då lagen (1963:197) om allmänt kriminalregister och lagen
+(1965:94) om polisregister m.m. upphör att gälla.
+2. Uppgifter i kriminal- och polisregister som förs enligt de upphävda lagarna får stå kvar i högst tjugo år. Bestämmelserna i 7 och 10 §§ lagen (1963:197) om allmänt kriminalregister skall fortfarande gälla för dessa uppgifter.
+3. 6 - 15 §§ samt 19 och 20 §§ i den nya lagen skall gälla även för uppgifter i polis- och kriminalregister enligt punkt 2 samt för uppgifter i vägtrafikregistrets belastningsdel.
+Lag (2001:574)
+.
+2003:1166
+1. Denna lag träder i kraft den 1 januari 2004.
+2. Beslut om utlämning som har antecknats i registret enligt de äldre bestämmelserna får stå kvar i högst ett år.
+2008:47
+1. Denna lag träder i kraft den 1 april 2008.
+2. Den nya bestämmelsen ska tillämpas även på uppgifter som registrerats före ikraftträdandet.
+2010:540
+1. Denna lag träder i kraft den 1 september 2010.
+2. De nya bestämmelserna ska tillämpas även på uppgifter som registrerats före ikraftträdandet.
+2022:735
+Denna lag träder i kraft den 28 juni 2022 i fråga om 12 a, 
+17 a och 18 §§ och i övrigt den dag som regeringen bestämmer.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

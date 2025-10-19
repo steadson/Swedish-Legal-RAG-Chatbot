@@ -1,0 +1,78 @@
+Title: Lag (2000:171) om förbud beträffande viss avkodningsutrustning
+SFS Number: Svensk författningssamling 2000:171
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2000171-om-forbud-betraffande-viss_sfs-2000-171/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2000:171
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2000:171
+Ministry/Authority: Kulturdepartementet
+Issued: 2000-04-06
+Metadata: {"Utfärdad": "2000-04-06", "Ändrad": "t.o.m. SFS 2024:838"}
+
+==================================================
+
+Lag (2000:171) om förbud beträffande viss avkodningsutrustning
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2000:171
+Departement/myndighet
+:   
+Kulturdepartementet
+Utfärdad
+:   
+2000-04-06
+Ändrad
+:   
+t.o.m. SFS 2024:838
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+I denna lag finns bestämmelser som avser att förhindra obehörig tillgång till vissa tjänster.
+2 §
+Med tjänst avses i denna lag
+1. en ljudradio- eller TV-sändning som är riktad till allmänheten,
+2. varje annan tjänst som utförs elektroniskt, på distans och på begäran av mottagaren, och
+3. tillhandahållandet av villkorad tillgång till en tjänst som avses i 1 och 2, betraktat som en tjänst i sig,
+om tjänsten är föremål för villkorad tillgång och tillhandahålls mot betalning.
+3 §
+Med villkorad tillgång till en tjänst avses att en användare eller en mottagare av tjänsten till följd av tekniska åtgärder eller arrangemang kan få tillgång till tjänsten i tolkningsbar form först sedan de har blivit personligt godkända som behöriga.
+4 §
+Med avkodningsutrustning avses utrustning eller programvara som utformats eller anpassats för att göra en tjänst som omfattas av lagen tillgänglig i tolkningsbar form.
+5 §
+Avkodningsutrustning får inte tillverkas, importeras, distribueras, säljas, hyras ut eller installeras och inte heller yrkesmässigt eller i förvärvssyfte innehas, underhållas eller bytas ut i syfte att göra en tjänst som omfattas av lagen tillgänglig i tolkningsbar form utan tjänsteleverantörens godkännande.
+Avkodningsutrustning får inte heller anskaffas eller användas för privat bruk i syfte att göra en tjänst som omfattas av lagen tillgänglig i tolkningsbar form utan tjänsteleverantörens godkännande.
+Med import avses införsel av en vara till Sverige från en plats utanför Europeiska unionen.
+Lag (2014:818)
+.
+6 §
+Den som på annat sätt än genom import bryter mot 5 §
+första stycket ska dömas till böter eller fängelse i högst två år.
+Den som bryter mot 5 § andra stycket ska dömas till böter.
+I ringa fall ska det inte dömas till ansvar enligt första eller andra stycket.
+Om straff för olovlig införsel finns bestämmelser i lagen
+(2000:1225) om straff för smuggling.
+Lag (2014:818)
+.
+6 a §
+Till ansvar enligt denna lag ska det inte dömas om gärningen är belagd med straff i brottsbalken.
+Lag (2014:818)
+.
+7 §
+För försök till ett sådant brott enligt 6 § första stycket som om det fullbordats inte skulle ha varit att anse som ringa, ska det dömas till ansvar enligt 23 kap.
+brottsbalken.
+Lag (2014:818)
+.
+8 §
+Har upphävts genom
+lag (2024:838)
+.
+9 §
+Den som uppsåtligen bryter mot 5 § skall betala skälig ersättning för att den tjänst som gjorts tillgänglig genom gärningen har utnyttjats samt ersättning för den ytterligare ekonomiska skada som gärningen har medfört.
+10 §
+Åklagaren får väcka åtal för brott mot denna lag endast om målsäganden anger brottet till åtal eller åtal är motiverat från allmän synpunkt.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,119 @@
+Title: Lag (2000:46) om omräkningsförfarande vid beskattningen för företag som har sin redovisning i euro, m.m.
+SFS Number: Svensk författningssamling 2000:46
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-200046-om-omrakningsforfarande-vid_sfs-2000-46/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2000:46
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2000:46
+Ministry/Authority: Finansdepartementet S1
+Issued: 2000-02-10
+Metadata: {"Utfärdad": "2000-02-10", "Ändrad": "t.o.m. SFS 2021:1168"}
+
+==================================================
+
+Lag (2000:46) om omräkningsförfarande vid beskattningen för företag som har sin redovisning i euro, m.m.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2000:46
+Departement/myndighet
+:   
+Finansdepartementet S1
+Utfärdad
+:   
+2000-02-10
+Ändrad
+:   
+t.o.m. SFS 2021:1168
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+Denna lag innehåller bestämmelser om inkomstskatt och  mervärdesskatt för företag som har sin redovisning i euro  eller som byter redovisningsvaluta enligt 4 kap. 6 §  bokföringslagen (1999:1078).
+I 9 och 10 §§ finns bestämmelser som gäller även för andra  företag som genomför vissa transaktioner med företag som har  sin redovisning i euro.
+Lag (2021:1168)
+.
+2 §
+Termer och uttryck i denna lag som används även i inkomstskattelagen (1999:1229) har samma betydelse och tillämpningsområde som i den lagen.
+Inkomstskatt
+Inkomstdeklaration m.m.
+3 §
+Har upphävts genom
+lag (2001:1243)
+.
+4 §
+Om uppgifterna i en inkomstdeklaration enligt skatteförfarandelagen (2011:1244) till sina belopp ska anges i svenska kronor, ska omräkning till kronor göras enligt 5-7 §§. Det omräknade resultatet ska vara utgångspunkt för den justering av det bokföringsmässiga resultatet som ska göras vid den skattemässiga inkomstberäkningen.
+Lag (2011:1402)
+.
+5 §
+Resultaträkningen skall med det undantag som anges i andra stycket räknas om enligt beskattningsårets genomsnittliga växelkurs.
+Ingår flera företag i samma koncern vid utgången av beskattningsåret och har företagen inte samma beskattningsår på grund av att något av företagen har bildats eller förvärvats under året, skall detta företag räkna om resultaträkningen enligt den genomsnittliga kurs som gäller för övriga euroredovisande koncernföretag.
+6 §
+Balansräkningen skall med de undantag som anges i andra och tredje styckena räknas om enligt kursen vid beskattningsårets utgång.
+Periodiseringsfond som avsatts tidigare beskattningsår skall räknas om med samma kurs som har använts i räkenskaperna för det beskattningsår som deklarationen avser.
+Årets resultat skall räknas om enligt beskattningsårets genomsnittliga växelkurs.
+7 §
+Om omräkning enligt 5 och 6 §§ leder till att summan av tillgångarna avviker från summan av eget kapital, obeskattade reserver, avsättningar och skulder, skall mellanskillnaden föras upp som en korrigeringspost.
+Periodiseringsfond
+8 §
+För företag som yrkar avdrag för avsättning till periodiseringsfond enligt 30 kap. inkomstskattelagen
+(1999:1229) skall avsättningen i räkenskaperna beräknas utifrån kursen vid beskattningsårets utgång. Förändringar under senare beskattningsår av fondens bokförda värde som beror på förändringar av valutakurser skall inte påverka det skattemässiga resultatet.
+Koncernbidrag
+9 §
+Koncernbidrag enligt 35 kap. inkomstskattelagen (1999:1229)
+skall bestämmas till ett belopp i kronor. Det företag som ger koncernbidrag får inte dra av ett högre belopp än vad mottagaren tar upp.
+Underprisöverlåtelse
+10 §
+Om en tillgång överlåts utan ersättning eller mot en ersättning som understiger marknadsvärdet utan att detta är affärsmässigt motiverat till ett företag som inte har samma redovisningsvaluta, skall uttagsbeskattning ske trots bestämmelserna i 23 kap. inkomstskattelagen (1999:1229).
+Värdering av fordringar och skulder i annan valuta än euro
+11 §
+I stället för vad som föreskrivs i 14 kap. 8 §
+inkomstskattelagen (1999:1229) skall fordringar, skulder, avsättningar och kontanter i annan valuta än euro värderas till kursen vid beskattningsårets utgång. Om det finns ett terminskontrakt eller någon annan liknande valutasäkringsåtgärd för en sådan post, får posten tas upp till det värde som motiveras av valutasäkringen under förutsättning att
+- samma värde används i räkenskaperna, och
+- värderingen står i överensstämmelse med god redovisningssed.
+12 §
+Har upphävts genom
+lag (2019:460)
+.
+Ändrad värdering av balansposter
+13 §
+Om Skatteverket inte godtar företagets värdering av lager, pågående arbeten, fordringar, skulder eller avsättningar skall det belopp som påverkar den skattepliktiga intäkten justeras med hänsyn till skillnaden mellan kursen vid beskattningsårets utgång och beskattningsårets genomsnittliga växelkurs.
+Lag (2003:730)
+.
+Byte av redovisningsvaluta
+14 §
+När ett företag byter redovisningsvaluta skall företaget som värde av ingående lager, pågående arbeten, inventarier, fordringar, skulder och avsättningar ta upp värdet av närmast föregående beskattningsårs utgående lager, pågående arbeten, inventarier, fordringar, skulder och avsättningar omräknade enligt kursen vid beskattningsårets utgång.
+Om företaget yrkar avdrag för avskrivning på inventarier enligt 18 kap. 17 § inkomstskattelagen (1999:1229), skall anskaffningsvärdet på de inventarier som anskaffats under de tre senaste beskattningsåren - eller så många år som behövs för en korrekt beräkning - och som fortfarande finns kvar i verksamheten räknas om enligt kursen vid beskattningsårets utgång.
+Mervärdesskatt
+15 §
+Vid redovisning av uppgifter om mervärdesskatt enligt skatteförfarandelagen (2011:1244) ska omräkning ske med den genomsnittliga växelkursen för den period som redovisningen avser.
+Lag (2011:1402)
+.
+16 §
+Har upphävts genom
+lag (2021:1168)
+.
+Kurser för omräkning
+17 §
+För omräkning enligt denna lag skall de kurser som fastställs av Europeiska centralbanken för respektive svenska bankdag användas. Om det inte har fastställts någon kurs för dagen för beskattningsårets utgång skall kursen för närmast föregående svenska bankdag användas.
+Övergångsbestämmelser
+2000:46
+Denna lag träder i kraft den 1 mars 2000 och tillämpas första gången avseende det beskattningsår som inleds den 1 januari 2001 eller senare.
+2011:1402
+1. Denna lag träder i kraft den 1 januari 2012.
+2. I fråga om självdeklaration som ska lämnas enligt lagen
+(2001:1227) om självdeklarationer och kontrolluppgifter gäller 4 § i sin äldre lydelse.
+3. I fråga om uppgifter om mervärdesskatt som ska redovisas enligt skattebetalningslagen (1997:483) gäller 15 § i sin äldre lydelse.
+2019:460
+1. Denna lag träder i kraft den 1 juli 2019.
+2. Lagen tillämpas första gången för beskattningsår som börjar  efter den 30 juni 2019.
+2021:1168
+1. Denna lag träder i kraft den 1 januari 2022.
+2. Äldre bestämmelser gäller dock fortfarande för förhållanden  som hänför sig till tiden före ikraftträdandet.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

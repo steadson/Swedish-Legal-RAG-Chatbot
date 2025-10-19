@@ -6,13 +6,15 @@ from pydantic import BaseModel
 import chromadb
 from chromadb.config import Settings
 import google.generativeai as genai
+from openai import OpenAI
+
 from dotenv import load_dotenv
 import uvicorn
 from datetime import datetime
 
 # Load environment variables
 load_dotenv()
-
+openai_client = OpenAI()
 # Initialize FastAPI app
 app = FastAPI(
     title="Swedish Legal RAG API",
@@ -25,6 +27,7 @@ class QueryRequest(BaseModel):
     query: str
     max_results: Optional[int] = 3
     include_sources: Optional[bool] = True
+    english_mode: Optional[bool] = False
 
 class SourceDocument(BaseModel):
     title: str
@@ -41,10 +44,16 @@ class RAGResponse(BaseModel):
     sources: List[SourceDocument]
     timestamp: str
     model_used: str
+    original_query: Optional[str] = None
+    translated_query: Optional[str] = None
 
 class SwedishLegalRAG:
-    def __init__(self, db_path: str = "./chroma_db_gemini"):
+    def __init__(self, db_path: str = "./chroma_db_gemini", debug_dir: str = "./debug_logs"):
         self.db_path = db_path
+        self.debug_dir = debug_dir
+        
+        # Create debug directory if it doesn't exist
+        os.makedirs(self.debug_dir, exist_ok=True)
         
         # Initialize Gemini
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -63,6 +72,75 @@ class SwedishLegalRAG:
             print(f"✅ Connected to ChromaDB collection with {self.collection.count()} documents")
         except Exception as e:
             raise Exception(f"Failed to connect to ChromaDB collection: {e}")
+    
+    def save_context_to_file(self, query: str, context: str, search_results: Dict, english_mode: bool = False):
+        """Save raw retrieved context and metadata to a debug file (no formatting)."""
+        try:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"context_{timestamp}.txt"
+            filepath = os.path.join(self.debug_dir, filename)
+
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(f"Timestamp: {datetime.now().isoformat()}\n")
+                f.write(f"Query: {query}\n")
+                f.write(f"English Mode: {english_mode}\n\n")
+
+                f.write("SEARCH RESULTS RAW:\n")
+                f.write("-" * 100 + "\n")
+                f.write(str(search_results))  # raw dictionary (no formatting)
+                f.write("\n\n")
+
+                f.write("RAW CONTEXT (exactly passed to Gemini):\n")
+                f.write("=" * 100 + "\n")
+                f.write(context)  # raw context text
+                f.write("\n" + "=" * 100 + "\n")
+
+            print(f"📝 Context saved to debug file: {filepath}")
+            return filepath
+
+        except Exception as e:
+            print(f"⚠️ Warning: Failed to save context to file: {e}")
+            return None
+    
+    def translate_to_swedish(self, english_query: str) -> str:
+        """Translate English query to Swedish using Gemini"""
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash')
+            
+            prompt = f"""Translate the following question from English to Swedish. 
+Keep the meaning exact and maintain any legal terminology appropriately.
+Only return the Swedish translation, nothing else.
+
+English question: {english_query}
+
+Swedish translation:"""
+            
+            response = model.generate_content(prompt)
+            swedish_query = response.text.strip()
+            print(f"🔄 Translated: '{english_query}' → '{swedish_query}'")
+            return swedish_query
+        except Exception as e:
+            raise Exception(f"Failed to translate query to Swedish: {e}")
+    
+    def translate_to_english(self, swedish_answer: str) -> str:
+        """Translate Swedish answer to English using Gemini"""
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash')
+            prompt = f"""Translate the following answer from Swedish to English.
+Maintain all legal terminology, citations, and SFS numbers exactly as they are.
+Keep the same structure and formatting.
+Only return the English translation, nothing else.
+
+Swedish answer: {swedish_answer}
+
+English translation:"""
+            
+            response = model.generate_content(prompt)
+            english_answer = response.text.strip()
+            print(f"🔄 Translated answer to English")
+            return english_answer
+        except Exception as e:
+            raise Exception(f"Failed to translate answer to English: {e}")
     
     def get_query_embedding(self, query: str) -> List[float]:
         """Get embedding for user query using Gemini"""
@@ -102,21 +180,28 @@ class SwedishLegalRAG:
             if metadata.get('is_chunked'):
                 chunk_info = f" (Del {metadata['chunk_position']})"
             
-            context_part = f"""DOKUMENT {i+1}:
-Titel: {metadata['title']}{chunk_info}
-SFS-nummer: {metadata['sfs_number']}
-Myndighet: {metadata.get('ministry_authority', 'N/A')}
-Utfärdad: {metadata.get('issued_date', 'N/A')}
+            # Get the full metadata from the document
+            full_metadata = metadata.get('scraped_metadata', {})
+            issued_date = full_metadata.get('Utfärdad', 'N/A')
+            
+            context_part = f"""
+    {'='*80}
+    DOKUMENT {i+1}:
+    Titel: {metadata['title']}{chunk_info}
+    SFS-nummer: {metadata['sfs_number']}
+    Myndighet: {metadata.get('ministry_authority', 'N/A')}
+    Utfärdad: {issued_date}
 
-Innehåll:
-{doc}
+    Innehåll:
+    {doc}
 
-Källa: {metadata['source_link']}
-Ändringsregister: {metadata['amendment_register_link']}
-"""
+    Källa: {metadata['source_link']}
+    Ändringsregister: {metadata['amendment_register_link']}
+    {'='*80}
+    """
             context_parts.append(context_part)
         
-        return "\n" + "="*80 + "\n".join(context_parts)
+        return "\n".join(context_parts)
     
     def generate_answer(self, query: str, context: str) -> str:
         """Generate answer using Gemini with retrieved context"""
@@ -138,30 +223,64 @@ TILLHANDAHÅLLNA DOKUMENT:
 SVAR:"""
         
         try:
-            # Use Gemini's chat model
-            model = genai.GenerativeModel('gemini-2.5-flash')
-            response = model.generate_content(prompt)
-            return response.text
+            # model = genai.GenerativeModel('gemini-2.5-pro')
+            # response = model.generate_content(prompt)
+            # return response.text
+
+            response = openai_client.chat.completions.create(
+            model="gpt-4.1-mini",  # ✅ 1M token model
+            messages=[
+                {"role": "system", "content": "Du är en juridisk expert som analyserar svenska lagdokument."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_completion_tokens=2000  # you can increase if needed
+            )
+            return response.choices[0].message.content.strip()
+
         except Exception as e:
             raise Exception(f"Failed to generate answer: {e}")
     
-    def process_query(self, query: str, max_results: int = 3) -> Dict:
+    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False) -> Dict:
         """Complete RAG pipeline: search + generate"""
-        # Search for relevant documents
-        search_results = self.search_relevant_documents(query, max_results)
+        original_query = None
+        translated_query = None
+        search_query = query
+        
+        # Step 1: Translate to Swedish if English mode is enabled
+        if english_mode:
+            original_query = query
+            search_query = self.translate_to_swedish(query)
+            translated_query = search_query
+        
+        # Step 2: Search for relevant documents (always in Swedish)
+        search_results = self.search_relevant_documents(search_query, max_results)
         
         if not search_results['documents'][0]:
+            no_results_msg = "Inga relevanta dokument hittades för din fråga."
+            if english_mode:
+                no_results_msg = "No relevant documents were found for your query."
+            
             return {
-                "answer": "Inga relevanta dokument hittades för din fråga.",
+                "answer": no_results_msg,
                 "sources": [],
-                "search_results": search_results
+                "search_results": search_results,
+                "original_query": original_query,
+                "translated_query": translated_query
             }
         
-        # Format context
+        # Step 3: Format context
         context = self.format_context(search_results)
         
-        # Generate answer
-        answer = self.generate_answer(query, context)
+        # DEBUG: Save context to file for debugging
+        self.save_context_to_file(search_query, context, search_results, english_mode)
+        
+        # Step 4: Generate answer (in Swedish)
+        answer = self.generate_answer(search_query, context)
+        
+        # Step 5: Translate answer to English if needed
+        if english_mode:
+            answer = self.translate_to_english(answer)
         
         # Format sources
         sources = []
@@ -187,7 +306,9 @@ SVAR:"""
         return {
             "answer": answer,
             "sources": sources,
-            "search_results": search_results
+            "search_results": search_results,
+            "original_query": original_query,
+            "translated_query": translated_query
         }
 
 # Initialize RAG system
@@ -209,12 +330,14 @@ async def root():
 async def query_documents(request: QueryRequest):
     """Main RAG endpoint - query Swedish legal documents"""
     try:
-        print(f"\n🔍 Processing query: '{request.query}'")
+        mode = "English" if request.english_mode else "Swedish"
+        print(f"\n🔍 Processing query in {mode} mode: '{request.query}'")
         
         # Process the query through RAG pipeline
         result = rag_system.process_query(
             query=request.query,
-            max_results=request.max_results
+            max_results=request.max_results,
+            english_mode=request.english_mode
         )
         
         # Format response
@@ -229,7 +352,9 @@ async def query_documents(request: QueryRequest):
             query=request.query,
             sources=sources,
             timestamp=datetime.now().isoformat(),
-            model_used="gemini-pro + gemini-embedding-001"
+            model_used="gemini-2.0-flash + gemini-embedding-001",
+            original_query=result.get('original_query'),
+            translated_query=result.get('translated_query')
         )
         
         print(f"✅ Query processed successfully, {len(sources)} sources found")
@@ -272,7 +397,8 @@ async def get_stats():
             "database_path": rag_system.db_path,
             "collection_name": "swedish_legal_documents_gemini",
             "embedding_model": "gemini-embedding-001",
-            "chat_model": "gemini-pro"
+            "chat_model": "gemini-2.0-flash",
+            "debug_logs_directory": rag_system.debug_dir
         }
         
         if sample['metadatas']:
@@ -292,6 +418,7 @@ async def get_stats():
 if __name__ == "__main__":
     print("🚀 Starting Swedish Legal RAG API with Gemini...")
     print(f"📊 Database: {rag_system.collection.count()} documents loaded")
+    print(f"📝 Debug logs will be saved to: {rag_system.debug_dir}")
     print("🌐 API will be available at: http://localhost:8000")
     print("📖 API docs at: http://localhost:8000/docs")
     

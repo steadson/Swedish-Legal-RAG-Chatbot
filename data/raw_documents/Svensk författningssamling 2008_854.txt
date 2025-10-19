@@ -1,0 +1,71 @@
+Title: Lag (2008:854) om åtgärder för att utreda vissa samhällsfarliga brott
+SFS Number: Svensk författningssamling 2008:854
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2008854-om-atgarder-for-att-utreda-vissa_sfs-2008-854/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2008:854
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2008:854
+Ministry/Authority: Justitiedepartementet Å
+Issued: 2008-11-06
+Metadata: {"Utfärdad": "2008-11-06", "Ändrad": "t.o.m. SFS 2014:386"}
+
+==================================================
+
+Lag (2008:854) om åtgärder för att utreda vissa samhällsfarliga brott
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2008:854
+Departement/myndighet
+:   
+Justitiedepartementet Å
+Utfärdad
+:   
+2008-11-06
+Ändrad
+:   
+t.o.m. SFS 2014:386
+Tidsbestämd
+: 
+2015-01-01
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Denna lag gäller vid förundersökning angående
+1. sabotage eller grovt sabotage enligt 13 kap. 4 eller 5 §
+brottsbalken,
+2. mordbrand, grov mordbrand, allmänfarlig ödeläggelse, kapning, sjö- eller luftfartssabotage eller flygplatssabotage enligt 13 kap. 1, 2, 3, 5 a eller 5 b § brottsbalken, om brottet innefattar sabotage enligt 4 § samma kapitel,
+3. uppror, väpnat hot mot laglig ordning, olovlig kårverksamhet eller brott mot medborgerlig frihet enligt 18 kap. 1, 3, 4 eller 5 § brottsbalken,
+4. högförräderi, krigsanstiftan, spioneri, grovt spioneri, obehörig befattning med hemlig uppgift, grov obehörig befattning med hemlig uppgift eller olovlig underrättelseverksamhet mot Sverige, mot främmande makt eller mot person enligt 19 kap. 1, 2, 5, 6, 7, 8, 10, 10 a eller 10 b § brottsbalken,
+5. företagsspioneri enligt 3 § lagen (1990:409) om skydd för företagshemligheter, om det finns anledning att anta att gärningen har begåtts på uppdrag av eller har understötts av en främmande makt eller av någon som har agerat för en främmande makts räkning,
+6. terroristbrott enligt 2 § lagen (2003:148) om straff för terroristbrott, brott enligt 3 § lagen (2002:444) om straff för finansiering av särskilt allvarlig brottslighet i vissa fall eller brott enligt lagen (2010:299) om straff för offentlig uppmaning, rekrytering och utbildning avseende terroristbrott och annan särskilt allvarlig brottslighet, eller
+7. försök, förberedelse eller stämpling till brott som avses i 1-6, om sådan gärning är belagd med straff.
+Lag (2014:386)
+.
+2 §
+Ett sådant skriftligt meddelande som avses i 27 kap. 2 §
+andra meningen rättegångsbalken får tas i beslag även om det för brottet är föreskrivet lindrigare straff än fängelse i två år.
+Ett beslut enligt första stycket får meddelas endast av rätten eller åklagaren.
+3 §
+Tillstånd enligt 27 kap. rättegångsbalken till hemlig avlyssning av elektronisk kommunikation, hemlig övervakning av elektronisk kommunikation eller hemlig kameraövervakning får meddelas även om brottet inte omfattas av de krav som ställs upp i 27 kap. 18 § andra stycket, 19 § tredje stycket, eller 20 a § andra stycket rättegångsbalken.
+Lag (2012:287)
+.
+4 §
+Om det kan befaras att inhämtande av rättens tillstånd till hemlig avlyssning av elektronisk kommunikation, hemlig övervakning av elektronisk kommunikation eller hemlig kameraövervakning skulle medföra en sådan fördröjning eller annan olägenhet som är av väsentlig betydelse för utredningen, får tillstånd till åtgärden ges av åklagaren.
+Lag (2012:287)
+.
+5 §
+Om det kan befaras att inhämtande av rättens beslut om kvarhållande av försändelse enligt 27 kap. 9 § rättegångsbalken skulle medföra sådan fördröjning eller annan olägenhet som är av väsentlig betydelse för utredningen, får tillstånd till åtgärden ges av åklagaren. När en försändelse på grund av ett sådant tillstånd hållits kvar, ska befordringsföretaget utan dröjsmål anmäla detta till åklagaren. Åklagaren ska omedelbart pröva, om beslag ska ske.
+6 §
+Har åklagaren beslutat om beslag enligt 2 § eller lämnat tillstånd enligt 4 eller 5 §, ska han eller hon genast göra en skriftlig anmälan om åtgärden hos rätten. I anmälan ska skälen för åtgärden anges. Rätten ska skyndsamt pröva ärendet. Finner rätten att det inte finns skäl för åtgärden, ska den upphäva beslutet.
+Om ett beslut enligt 4 eller 5 § har upphört att gälla innan rätten har prövat ett ärende enligt första stycket, ska åklagaren anmäla åtgärden till Säkerhets- och integritetsskyddsnämnden.
+7 §
+Vid rättens prövning enligt 6 § första stycket och i fråga om överklagande av rättens beslut ska reglerna i rättegångsbalken om handläggning vid domstol av frågor om tvångsmedel i brottmål och om överklagande av beslut i sådana frågor tillämpas. Vad som sägs i 27 kap. 28 § första stycket rättegångsbalken om en ansökan ska i sådant fall avse en åklagares anmälan.
+8 §
+Vid verkställighet av tillstånd enligt 4 § till hemlig teleavlyssning eller hemlig teleövervakning gäller 27 kap. 25 §
+rättegångsbalken. Det som sägs där om rätten ska i stället avse åklagaren.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,71 @@
+Title: Förordning (2012:354) om försäkringsbevis för vissa sjöförsäkringar
+SFS Number: Svensk författningssamling 2012:354
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2012354-om-forsakringsbevis-for_sfs-2012-354/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2012:354
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2012:354
+Ministry/Authority: Justitiedepartementet L3
+Issued: 2012-05-31
+Metadata: {"Utfärdad": "2012-05-31", "Ändrad": "t.o.m. SFS 2015:414"}
+
+==================================================
+
+Förordning (2012:354) om försäkringsbevis för vissa sjöförsäkringar
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2012:354
+Departement/myndighet
+:   
+Justitiedepartementet L3
+Utfärdad
+:   
+2012-05-31
+Ändrad
+:   
+t.o.m. SFS 2015:414
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Ett sådant bevis om försäkring eller annan betryggande säkerhet som avses i 7 kap. 3 § och 15 kap. 32 § andra stycket sjölagen (1994:1009) ska vara utfärdat av försäkringsbolaget eller den som har ställt ut säkerheten.
+Beviset ska innehålla uppgift om
+1. fartygets namn, hemort och IMO-identifikationsnummer eller, om sådant inte finns, signalbokstäver,
+2. redarens namn och den ort där redaren bedriver sin huvudsakliga verksamhet,
+3. försäkringens eller säkerhetens art, omfattning och giltighetstid, och
+4. försäkringsbolagets eller utställarens namn och den ort där bolaget eller utställaren bedriver sin huvudsakliga verksamhet samt, i förekommande fall, det verksamhetsställe där försäkringen har tecknats eller säkerheten har ställts ut.
+Om det språk som används i ett bevis som avses i 7 kap. 3 §
+sjölagen varken är engelska, franska eller spanska, ska det även finnas med en översättning till något av dessa språk. Om det språk som används i ett bevis som avses i 15 kap. 32 §
+andra stycket sjölagen varken är svenska eller engelska, ska det även finnas med en översättning till något av dessa språk. Förordning (2015:414).
+2 §
+Transportstyrelsen är behörig myndighet enligt artikel 4a.2 och 4a.15 i bilaga I till Europaparlamentets och rådets förordning (EG) nr 392/2009 av den 23 april 2009 om transportörens skadeståndsansvar i samband med olyckor vid passagerarbefordran till sjöss. Förordning (2012:670).
+3 §
+En ansökan om ett certifikat enligt artikel 4a.2 eller 4a.15 i bilaga I till förordning (EG) nr 392/2009 görs hos Transportstyrelsen.
+Om ansökan avser ett certifikat enligt artikel 4a.2, ska ansökan innehålla uppgift om
+1. fartygets namn, signalbokstäver och hemort,
+2. transportörens namn och den ort där transportören bedriver sin huvudsakliga verksamhet,
+3. fartygets IMO-identifikationsnummer, om sådant finns,
+4. försäkringens eller säkerhetens art och giltighetstid, och
+5. försäkringsbolagets eller utställarens namn och den ort där bolaget eller utställaren bedriver sin huvudsakliga verksamhet samt, i förekommande fall, det verksamhetsställe där försäkringen har tecknats eller säkerheten har ställts ut.
+Om ansökan avser ett certifikat enligt artikel 4a.15, ska ansökan innehålla de uppgifter som anges i andra stycket 1-3.
+Förordning (2012:670).
+4 §
+En ansökan om ett certifikat enligt artikel 4a.2 i bilaga I till förordning (EG) nr 392/2009 ska innehålla ett intyg av försäkringsbolaget eller den som har ställt ut säkerheten. Av intyget ska det framgå
+1. att försäkringen eller säkerheten täcker transportörens ansvar enligt artikel 4a.1 i bilaga I till förordning (EG) nr 392/2009 med de begränsningar som kan följa av artikel 5 i förordningen, och
+2. att försäkringen eller säkerheten under certifikatets giltighetstid kan upphöra att gälla tidigare än tre månader från den dag ett skriftligt meddelande om tiden för försäkringens upphörande kom in till Transportstyrelsen endast om certifikatet har getts in till myndigheten eller ett nytt certifikat har utfärdats.
+Intyget ska vara skrivet på svenska eller engelska.
+Förordning (2012:670).
+5 §
+En ansökan om ett certifikat enligt artikel 4a.2 i bilaga I till förordning (EG) nr 392/2009, i den ursprungliga lydelsen, för ett utländskt fartyg som inte ska ansöka om certifikat i en annan stat, ska ges in till Transportstyrelsen senast trettio dagar innan fartyget förväntas komma till en svensk hamn. Förordning (2015:414).
+6 §
+De certifikat som utfärdas av Transportstyrelsen enligt artikel 4a.2 och 4a.15 i bilaga I till förordning (EG) nr 392/2009 ska gälla under högst två år från utfärdandet.
+När Transportstyrelsen har utfärdat ett certifikat ska myndigheten sända det till transportören.
+7 §
+Transportstyrelsen får meddela föreskrifter om verkställigheten av 3-6 §§.
+Transportstyrelsen får meddela föreskrifter om avgifter för prövningen av ansökningar om certifikat.
+Förordning (2015:414).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

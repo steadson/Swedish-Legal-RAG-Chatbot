@@ -1,0 +1,105 @@
+Title: Förordning (2008:1330) om vissa avgifter på naturgasområdet
+SFS Number: Svensk författningssamling 2008:1330
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-20081330-om-vissa-avgifter-pa_sfs-2008-1330/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2008:1330
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2008:1330
+Ministry/Authority: Klimat- och näringslivsdepartementet RSE
+Issued: 2008-12-11
+Metadata: {"Utfärdad": "2008-12-11", "Ändrad": "t.o.m. SFS 2018:1566"}
+
+==================================================
+
+Förordning (2008:1330) om vissa avgifter på naturgasområdet
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2008:1330
+Departement/myndighet
+:   
+Klimat- och näringslivsdepartementet RSE
+Utfärdad
+:   
+2008-12-11
+Ändrad
+:   
+t.o.m. SFS 2018:1566
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+Denna förordning innehåller bestämmelser om avgifter  för att finansiera
+1. den del av verksamheten vid Energimarknadsinspektionen som  sker enligt naturgaslagen (2005:403) och föreskrifter som har  meddelats med stöd av den lagen (tillsynsavgift), och
+2. den del av verksamheten vid Statens energimyndighet 
+(Energimyndigheten) som sker enligt Europaparlamentets och  rådets förordning (EU) 2017/1938 av den 25 oktober 2017 om  åtgärder för att säkerställa försörjningstryggheten för gas  och om upphävande av förordning (EU) nr 994/2010 samt enligt  lagen (2012:273) om trygg naturgasförsörjning och  föreskrifter som har meddelats i anslutning till den lagen 
+(försörjningstrygghetsavgift). Förordning (2018:1566).
+1 a §
+Denna förordning är meddelad med stöd av
+- 10 kap. 5 § naturgaslagen (2005:403) i fråga om 2 och 3 §§, 6 § första stycket, 7 och 10-12 §§,
+- 8 § lagen (2012:273) om trygg naturgasförsörjning i fråga om 2 och 3 §§, 8 § första stycket och 9-12 §§, och
+- 8 kap. 7 § regeringsformen i fråga om övriga bestämmelser. Förordning (2015:297).
+1 b §
+Med undre värmevärde avses i denna förordning den värmemängd som utvecklas vid fullständig förbränning av 1 normalkubikmeter gas efter värmning eller kylning till temperaturen 25 grader Celsius och under ett tryck om 1,01325 bar (a) samt luftöverskott av samma temperatur och tryck som naturgasen, samt med förbränningsprodukterna kylda till 25 grader Celsius och med det vid förbränningen uppkomna vattnet i gasfas.
+I övrigt har ord och uttryck i denna förordning samma betydelse som i naturgaslagen (2005:403).
+Förordning (2015:297).
+2 §
+Avgift enligt denna förordning ska betalas av den som innehar en naturgasledning och som överför naturgas i en uttagspunkt.
+Den som överför naturgas uteslutande för egen räkning ska dock inte betala sådan avgift. Förordning (2015:297).
+Beräkning av avgifter
+3 §
+Avgiften ska beräknas på den samlade energimängden i den naturgas som den som innehar en naturgasledning överför i uttagspunkter på naturgasledningen. Förordning (2015:297).
+4 §
+Har upphävts genom förordning (2015:297).
+5 §
+Har upphävts genom förordning (2015:297).
+Tillsynsavgift
+6 §
+Tillsynsavgiften ska betalas till Energimarknadsinspektionen.
+Energimarknadsinspektionen ska lämna uppgift till den avgiftsskyldige om storleken av den tillsynsavgift som ska betalas vid varje betalningstillfälle.
+7 §
+Tillsynsavgiften uppgår till 0,05 öre per levererad kilowattimme undre värmevärde. Förordning (2015:297).
+Försörjningstrygghetsavgift
+8 §
+Försörjningstrygghetsavgiften ska betalas till Energimyndigheten.
+Energimyndigheten ska lämna uppgift till den avgiftsskyldige om storleken av den försörjningstrygghetsavgift som ska betalas vid varje betalningstillfälle. Förordning (2012:277).
+9 §
+Försörjningstrygghetsavgiften uppgår till 0,05 öre per levererad kilowattimme undre värmevärde.
+Förordning (2015:297).
+Rapportering
+10 §
+Den som är avgiftsskyldig enligt denna förordning ska senast en månad efter utgången av varje kalenderkvartal till Energimarknadsinspektionen rapportera energimängden i den naturgas som överförts i uttagspunkterna angivet i kilowattimmar undre värmevärde.
+Energimarknadsinspektionen ska vidarebefordra uppgifter som lämnas enligt första stycket till Energimyndigheten.
+Förordning (2015:297).
+Betalning
+11 §
+Den som är avgiftsskyldig enligt denna förordning ska efter debitering betala avgiften kvartalsvis senast två månader efter utgången av varje kvartal.
+Bemyndigande
+12 §
+Energimarknadsinspektionen får meddela föreskrifter om hur överföring av naturgas ska rapporteras. Förordning (2012:277).
+Överklagande
+13 §
+I 40 § förvaltningslagen (2017:900) finns bestämmelser  om överklagande till allmän förvaltningsdomstol.
+Förordning (2018:1039).
+Övergångsbestämmelser
+2008:1330
+1. Denna förordning träder i kraft den 1 februari 2009, då förordningen (2000:672) om naturgasavgift ska upphöra att gälla.
+2. Den upphävda förordningen gäller dock fortfarande i fråga om avgifter hänförliga till tiden före ikraftträdandet.
+3. Vid fullgörandet av rapporteringsskyldigheten enligt 10 §
+första stycket ska den avgiftsskyldige när det gäller första kvartalet 2009 lämna särskild uppgift om den mängd naturgas som överförts under januari månad.
+2012:277
+1. Denna förordning träder i kraft den 1 juli 2012.
+2. Äldre föreskrifter gäller fortfarande för sådana avgifter som avser tid före ikraftträdandet.
+2014:346
+1. Denna förordning träder i kraft den 1 juli 2014.
+2. Äldre föreskrifter gäller fortfarande för sådana avgifter som avser tid före ikraftträdandet.
+2015:297
+1. Denna förordning träder i kraft den 1 juli 2015.
+2. Äldre föreskrifter gäller fortfarande för sådana avgifter som avser tid före ikraftträdandet.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

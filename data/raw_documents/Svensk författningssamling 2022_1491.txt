@@ -1,0 +1,38 @@
+Title: Lag (2022:1491) om undantag från lokaliseringsprincipen för utbyggnad av kommunala bredbandsnät
+SFS Number: Svensk författningssamling 2022:1491
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20221491-om-undantag-fran_sfs-2022-1491/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2022:1491
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2022:1491
+Ministry/Authority: Finansdepartementet DIS
+Issued: 2022-11-24
+Metadata: {"Utfärdad": "2022-11-24"}
+
+==================================================
+
+Lag (2022:1491) om undantag från lokaliseringsprincipen för utbyggnad av kommunala bredbandsnät
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2022:1491
+Departement/myndighet
+:   
+Finansdepartementet DIS
+Utfärdad
+:   
+2022-11-24
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Trots kravet i 2 kap. 1 § kommunallagen (2017:725) på  anknytning till en kommuns område eller dess medlemmar, får en  juridisk person som avses i 10 kap. 2 eller 6 § i samma lag  bygga ut ett eget eller delägt bredbandsnät som finns inom  kommunen till ett område utanför kommunen, om det görs
+1. i geografisk närhet till det egna eller delägda  bredbandsnätet inom kommunen, och
+2. i syfte att uppnå en ändamålsenlig bredbandsinfrastruktur.
+Den juridiska personen får också bedriva verksamhet i den  utbyggda delen av bredbandsnätet i samma utsträckning som i  nätet i den egna kommunen.
+2 §
+Med bredbandsnät avses i denna lag ett elektroniskt  kommunikationsnät som kan leverera tjänster för  bredbandstillgång med en hastighet av minst 30 Mbit/s.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

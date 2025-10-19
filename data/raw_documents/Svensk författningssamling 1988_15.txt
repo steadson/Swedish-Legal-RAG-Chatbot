@@ -1,0 +1,52 @@
+Title: Lag (1988:15) om förbud mot vissa radar- och laserinstrument
+SFS Number: Svensk författningssamling 1988:15
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-198815-om-forbud-mot-vissa-radar-och_sfs-1988-15/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1988:15
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1988:15
+Ministry/Authority: Landsbygds- och infrastrukturdepartementet RSIB TM
+Issued: 1988-01-07
+Metadata: {"Utfärdad": "1988-01-07", "Ändrad": "t.o.m. SFS 2024:811"}
+
+==================================================
+
+Lag (1988:15) om förbud mot vissa radar- och laserinstrument
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1988:15
+Departement/myndighet
+:   
+Landsbygds- och infrastrukturdepartementet RSIB TM
+Utfärdad
+:   
+1988-01-07
+Ändrad
+:   
+t.o.m. SFS 2024:811
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Med radarvarnare förstås i denna lag varje anordning som är konstruerad för att ta emot elektromagnetiska vågor från en radarhastighetsmätare för vägtrafik.
+Med laservarnare förstås i denna lag varje anordning som är konstruerad för att ta emot elektromagnetiska vågor från en laserhastighetsmätare för vägtrafik.
+Med laserstörare förstås i denna lag varje anordning som är konstruerad för att med elektromagnetiska vågor störa funktionen hos en laserhastighetsmätare för vägtrafik.
+Lag (1998:1622)
+.
+2 §
+Radarvarnare, laservarnare eller laserstörare får inte tillverkas, innehas, överlåtas eller användas. Ej heller får en annan anordning som är så konstruerad att den kan ta emot elektromagnetiska vågor från en radarhastighetsmätare eller en laserhastighetsmätare eller sända elektromagnetiska vågor till en laserhastighetsmätare användas i ett fordon för detta ändamål.
+Lag (1998:1622)
+.
+3 §
+Den som uppsåtligen bryter mot 2 § skall dömas till böter eller fängelse i högst sex månader.
+Lag (1998:1622)
+.
+4 §
+Har upphävts genom
+lag (2024:811)
+.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

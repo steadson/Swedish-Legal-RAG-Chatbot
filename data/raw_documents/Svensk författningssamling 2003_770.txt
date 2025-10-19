@@ -1,0 +1,58 @@
+Title: Förordning (2003:770) om statliga myndigheters elektroniska informationsutbyte
+SFS Number: Svensk författningssamling 2003:770
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2003770-om-statliga-myndigheters_sfs-2003-770/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2003:770
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2003:770
+Ministry/Authority: Finansdepartementet DOF
+Issued: 2003-11-13
+Metadata: {"Utfärdad": "2003-11-13", "Ändrad": "t.o.m. SFS 2018:1491"}
+
+==================================================
+
+Förordning (2003:770) om statliga myndigheters elektroniska informationsutbyte
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2003:770
+Departement/myndighet
+:   
+Finansdepartementet DOF
+Utfärdad
+:   
+2003-11-13
+Ändrad
+:   
+t.o.m. SFS 2018:1491
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+1 §
+Denna förordning gäller för myndigheter under regeringen.
+2 §
+En myndighet skall i sin verksamhet främja utvecklingen av ett säkert och effektivt elektroniskt informationsutbyte inom den offentliga förvaltningen.
+3 §
+Myndigheter med fler än 50 anställda ska hantera sina  utgående beställningar av varor och tjänster elektroniskt.  Kravet gäller dock inte för beställningar som
+1. görs av Regeringskansliet, Försvarsmakten, Försvarets  materielverk, Försvarets radioanstalt, Totalförsvarets  forskningsinstitut eller Säkerhetspolisen, eller
+2. är olämpliga att hantera elektroniskt av sekretesskäl  eller säkerhetsskyddsskäl.
+Myndigheten för digital förvaltning får meddela föreskrifter  om hanteringen av beställningar och om standarder eller  liknande krav som ska vara gemensamma för elektroniskt  informationsutbyte i samband med beställning, leverans och  fakturering av varor och tjänster. Myndigheten ska vid  utarbetande av föreskrifter beakta nationell och  internationell standard. Förordning (2018:1491).
+4 §
+Myndigheten för digital förvaltning får i enskilda  fall besluta om undantag från kravet i 3 § första stycket och  från föreskrifter som meddelats med stöd av 3 § andra  stycket, om det behövs i avvaktan på att en myndighet ska  kunna ansluta sig till sådana tjänster för elektroniska  beställningar som tillhandahålls av Statens servicecenter  eller om det finns andra särskilda skäl.
+Förordning (2018:1491).
+5 §
+Har upphävts genom förordning (2018:360).
+Övergångsbestämmelser
+2012:544
+Denna förordning träder i kraft den 1 oktober 2012.
+Bestämmelsen i 3 § första stycket tillämpas första gången vid hantering av beställningar som görs den 31 maj 2013.
+2013:870
+1. Denna förordning träder i kraft den 1 januari 2014.
+2. I fråga om myndigheter som inte uppräknas i den upphävda bilagan ska 3 § första stycket tillämpas första gången vid hantering av beställningar som görs efter den 30 juni 2014.
+Bilagan har upphävts genom förordning (2013:870).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,63 @@
+Title: Förordning (2005:363) om läkemedelsregister hos Socialstyrelsen
+SFS Number: Svensk författningssamling 2005:363
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2005363-om-lakemedelsregister-hos_sfs-2005-363/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2005:363
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2005:363
+Ministry/Authority: Socialdepartementet
+Issued: 2005-05-26
+Metadata: {"Utfärdad": "2005-05-26", "Ändrad": "t.o.m. SFS 2021:68"}
+
+==================================================
+
+Förordning (2005:363) om läkemedelsregister hos Socialstyrelsen
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2005:363
+Departement/myndighet
+:   
+Socialdepartementet
+Utfärdad
+:   
+2005-05-26
+Ändrad
+:   
+t.o.m. SFS 2021:68
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Inledning
+1 §
+Socialstyrelsen får föra hälsodataregister enligt 1 § lagen
+(1998:543) om hälsodataregister i form av ett läkemedelsregister.
+Personuppgiftsansvarig
+2 §
+Av 1 § lagen (1998:543) om hälsodataregister följer att Socialstyrelsen är personuppgiftsansvarig för behandlingen av personuppgifter.
+Ändamål för behandling av personuppgifter
+3 §
+Personuppgifter i läkemedelsregistret får behandlas för  epidemiologiska undersökningar, forskning, framställning av  statistik, uppföljning, utvärdering och kvalitetssäkring inom  hälso- och sjukvårdsområdet. Förordning (2017:909).
+Personuppgifter som får behandlas
+4 §
+I läkemedelsregistret får endast följande uppgifter  registreras:
+1. datum för expediering, vara, mängd, dosering, kostnad och  kostnadsreducering enligt lagen (2002:160) om  läkemedelsförmåner m.m.,
+2. ordinationsorsak,
+3. patientens personnummer eller samordningsnummer samt  folkbokföringsort, och
+4. förskrivarens yrke, specialitet och arbetsplatskod.
+Ordinationsorsak ska anges med en kod.
+Förordning (2021:68).
+5 §
+Har upphävts genom förordning (2009:634).
+Information
+6 §
+Utöver vad som framgår av artiklarna 13 och 14 i  Europaparlamentets och rådets förordning (EU) 2016/679 av den 
+27 april 2016 om skydd för fysiska personer med avseende på  behandling av personuppgifter och om det fria flödet av  sådana uppgifter och om upphävande av direktiv 95/46/EG 
+(allmän dataskyddsförordning) ska den som är  personuppgiftsansvarig enligt denna förordning lämna  information till den registrerade om
+1. innebörden och omfattningen av det sekretess- och  säkerhetsskydd som gäller för registret, och
+2. vad som gäller i fråga om sökbegrepp, direktåtkomst och  utlämnande på medium för automatiserad behandling.
+Socialstyrelsen ska på lämpligt sätt informera allmänheten om  registret. Förordning (2018:462).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,169 @@
+Title: Kungörelse (1974:1063) om fastighetsbevis m.m.
+SFS Number: Svensk författningssamling 1974:1063
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/kungorelse-19741063-om-fastighetsbevis-m-m_sfs-1974-1063/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1974:1063
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1974:1063
+Ministry/Authority: Justitiedepartementet L1
+Issued: 1974-12-13
+Metadata: {"Utfärdad": "1974-12-13", "Ändrad": "t.o.m. SFS 2018:656"}
+
+==================================================
+
+Kungörelse (1974:1063) om fastighetsbevis m.m.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1974:1063
+Departement/myndighet
+:   
+Justitiedepartementet L1
+Utfärdad
+:   
+1974-12-13
+Ändrad
+:   
+t.o.m. SFS 2018:656
+Övrig text
+:   
+Rättelseblad SFS 2000:318 har iakttagits.
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Inledande bestämmelser
+1 §
+Denna kungörelse innehåller bestämmelser om bevis och andra uppgifter rörande innehållet i fastighetsregistret.
+Om bevis rörande inskrivningsmyndighetens beslut finns särskilda bestämmelser.
+Bestämmelserna i kungörelsen innebär ingen inskränkning i den skyldighet som enligt lag åvilar myndighet att pröva framställningar om utlämnande av upptagning för automatiserad behandling som anses som allmän eller av utskrift av sådan upptagning. Förordning (2008:170).
+2 §
+Uppgift om innehållet i fastighetsregistret ska  lämnas i form av
+1. fastighetsbevis,
+2. gravationsbevis,
+3. samfällighetsbevis, eller
+4. anläggningsbevis.
+Ett bevis som avses i första stycket framställs maskinellt av  Lantmäteriet på blankett enligt formulär som fastställs av  Lantmäteriet. Beviset expedieras genom Lantmäteriets  försorg.
+Trots första stycket får Lantmäteriet, efter särskild  framställan från en myndighet eller någon annan,  tillhandahålla de utdrag och sammanställningar av innehållet  i fastighetsregistret som Lantmäteriet bestämmer, om det är  förenligt med
+1. Europaparlamentets och rådets förordning (EU) 2016/679 av  den 27 april 2016 om skydd för fysiska personer med avseende  på behandling av personuppgifter och om det fria flödet av  sådana uppgifter och om upphävande av direktiv 95/46/EG 
+(allmän dataskyddsförordning), och
+2. lagen (2000:224) om fastighetsregister.
+Förordning (2018:656).
+Fastighetsbevis
+3 §
+Fastighetsbevis utfärdas särskilt för varje fastighet.
+Ett fastighetsbevis skall innehålla
+1. de uppgifter om fastigheten som enligt 21-23 §§ förordningen
+(2000:308) om fastighetsregister skall redovisas i fastighetsregistrets allmänna del,
+2. de uppgifter som enligt 44-49 §§ förordningen om fastighetsregister skall redovisas i fastighetsregistrets inskrivningsdel,
+3. den tilläggsinformation som avses i 67 och 68 §§
+förordningen om fastighetsregister, dock inte uppgift om lagfaren ägares eller tomträttshavares civilstånd.
+4. uppgifter enligt 64 § första och andra styckena förordningen om fastighetsregister.
+Fastighetsbevis gäller som gravationsbevis. Förordning (2000:318).
+4 §
+I fastighetsbevis redovisas uppgifter om
+registerbeteckning,
+administrativ tillhörighet m.m.,
+tidigare registerbeteckning,
+ursprung,
+avregistrering,
+adress,
+area, läge,
+fristående fiske,
+andel i samfällighet,
+andel i gemensamhetsanläggning,
+skattetal,
+åtgärder,
+avskild mark,
+rättigheter,
+planer, bestämmelser och övriga uppgifter enligt 27 och 28 §§
+förordningen (2000:308) om fastighetsregister,
+taxering m.m.,
+i fastighetslängd antecknad ägare,
+övriga förhållanden som har anmärkts i fastighetsregistrets allmänna del,
+lagfart,
+tomträttsupplåtelse,
+tomträttsinnehav,
+inteckningar m.m.,
+anteckningar.
+För inteckningar redovisas även sådan tilläggsinformation som avses i 68 § förordningen om fastighetsregister.
+Av beviset ska framgå aktualitetsdatum enligt 42 § andra stycket förordningen om fastighetsregister och sådan tilläggsinformation som avses i 68 a § samma förordning.
+Förordning (2011:59).
+Gravationsbevis
+5 §
+Gravationsbevis utfärdas särskilt för varje fastighet.
+Ett gravationsbevis skall innehålla de uppgifter som avses i 3 §
+andra stycket. Uppgifter ur fastighetsregistrets allmänna del redovisas dock endast i den utsträckning som anges i 6 §.
+Förordning (2000:318).
+6 §
+I gravationsbevis redovisas uppgifter om
+registerbeteckning,
+lagfart,
+tomträttsupplåtelse,
+tomträttsinnehav,
+inteckningar m.m.,
+anteckningar,
+taxering m.m.,
+tidigare registerbeteckning,
+ursprung,
+totalareal,
+andel i gemensamhetsanläggning,
+avskild mark.
+För inteckningar redovisas även sådan tilläggsinformation som avses i 68 § förordningen (2000:308) om fastighetsregister.
+Av beviset ska framgå aktualitetsdatum enligt 42 § andra stycket förordningen om fastighetsregister och sådan tilläggsinformation som avses i 68 a § samma förordning.
+Förordning (2011:59).
+7 §
+Har upphävts genom förordning (2006:158).
+8 §
+Har upphävts genom förordning (2006:158).
+Samfällighetsbevis
+9 §
+Samfällighetsbevis utfärdas särskilt för varje samfällighet.
+Ett samfällighetsbevis skall innehålla
+1. de uppgifter om samfälligheten som enligt 21 och 22 §§
+förordningen (2000:308) om fastighetsregister skall redovisas i fastighetsregistrets allmänna del,
+2. de uppgifter som enligt 64 § första och andra styckena förordningen (2000:308) om fastighetsregister skall redovisas i fastighetsregistrets taxeringsuppgiftsdel. Förordning (2000:318).
+10 §
+I samfällighetsbevis redovisas uppgifter om
+registerbeteckning, administrativ tillhörighet m.m., tidigare registerbeteckning, ursprung, avregistrering, adress, area, läge, fristående fiske, andel i gemensamhetsanläggning, ändamål, delägande fastigheter, åtgärder, avskild mark, rättigheter, planer, bestämmelser och övriga uppgifter enligt 27 och 28 §§
+förordningen (2000:308) om fastighetsregister, taxering m.m., i fastighetslängd antecknad ägare, övriga förhållanden som anmärkts i fastighetsregistrets allmänna del. Förordning (2000:318).
+11 §
+har upphävts genom förordning (2000:318).
+12 §
+har upphävts genom förordning (2000:318).
+13 §
+har upphävts genom förordning (2000:318).
+14 §
+har upphävts genom förordning (2000:318).
+15 §
+har upphävts genom förordning (2000:318).
+16 §
+Har upphävts genom förordning (2018:656).
+Anläggningsbevis
+17 §
+Anläggningsbevis skall innehålla de uppgifter om en anläggning eller vägförening som enligt förordningen (2000:308)
+om fastighetsregister skall redovisas i fastighetsregistrets allmänna del.
+Uppgifterna i ett anläggningsbevis redovisas enligt vad som anges i 35 § förordningen om fastighetsregister.
+Förordning (2000:318).
+Särskilda bevis i vissa fall
+18 §
+har upphävts genom förordning (1985:791).
+19 §
+har upphävts genom förordning (2000:318).
+20 §
+har upphävts genom förordning (2000:318).
+Slutbestämmelse
+21 §
+Den som i tjänsten tar befattning med en uppgift som enligt denna kungörelse har lämnats av Lantmäteriet och har anledning att anta att uppgiften är oriktig, ska genast anmäla det till Lantmäteriet och till den eller de andra lantmäterimyndigheter som är berörda. Förordning (2008:683).
+Övergångsbestämmelser
+1989:752
+Denna förordning träder i kraft den 1 oktober 1989. De nya bestämmelserna gäller även i fråga om bevis som hänför sig till en inskrivningsdag före ikraftträdandet.
+1995:1432
+1. Denna förordning träder i kraft den 1 januari 1996.
+2. Vad som sägs om ordet "fastighetsregistermyndigheten" i äldre bestämmelser gäller fortfarande i fråga om fastighetsregistermyndigheter som inrättats enligt lagen (1971:133)
+om kommunal fastighetsbildningsmyndighet och fastighetsregistermyndighet.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

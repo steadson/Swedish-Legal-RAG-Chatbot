@@ -1,0 +1,48 @@
+Title: Förordning (2015:827) om rapportering av betalningar till myndigheter
+SFS Number: Svensk författningssamling 2015:827
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2015827-om-rapportering-av_sfs-2015-827/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2015:827
+HTML Document Link: None
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2015:827
+Ministry/Authority: Justitiedepartementet L1
+Issued: 2015-11-26
+Metadata: {"Utfärdad": "2015-11-26"}
+
+==================================================
+
+Förordning (2015:827) om rapportering av betalningar till myndigheter
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+: 
+2015:827
+Departement/myndighet
+: 
+Justitiedepartementet L1
+Utfärdad
+: 
+2015-11-26
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Elektronisk ingivning
+1 §
+Bolagsverket får meddela föreskrifter enligt 9 § lagen 
+(2015:812) om rapportering av betalningar till myndigheter.
+Kungörande
+2 §
+När en rapport enligt lagen (2015:812) om rapportering av betalningar till myndigheter har getts in, ska Bolagsverket kungöra detta i en tidning som myndigheten ger ut. Kungörandet ska ske senast månaden efter den då rapporten har godtagits av myndigheten.
+Kungörelsen ska innehålla uppgift om
+1. namn och organisationsnummer på det företag som rapporten avser eller, i fråga om en rapport på koncernnivå, namn och organisationsnummer på moderföretaget,
+2. sista dagen av det räkenskapsår som handlingarna avser, och
+3. den tidpunkt då handlingen gavs in till Bolagsverket och diarienummer eller motsvarande ärendebeteckning.
+I fråga om aktiebolag ska en kungörelse ske på samma språk som registreringen i aktiebolagsregistret.
+Förvaring av ingivna handlingar
+3 §
+Rapporter som har getts in till Bolagsverket enligt lagen 
+(2015:812) om rapportering av betalningar till myndigheter får föras över till ett maskinläsbart medium. Handlingarna ska hållas tillgängliga hos Bolagsverket.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

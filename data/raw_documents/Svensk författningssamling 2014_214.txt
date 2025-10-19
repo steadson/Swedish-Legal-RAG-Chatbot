@@ -1,0 +1,87 @@
+Title: Förordning (2014:214) om dammsäkerhet
+SFS Number: Svensk författningssamling 2014:214
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2014214-om-dammsakerhet_sfs-2014-214/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2014:214
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2014:214
+Ministry/Authority: Klimat- och näringslivsdepartementet RSE
+Issued: 2014-04-10
+Metadata: {"Utfärdad": "2014-04-10", "Ändrad": "t.o.m. SFS 2023:510"}
+
+==================================================
+
+Förordning (2014:214) om dammsäkerhet
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2014:214
+Departement/myndighet
+:   
+Klimat- och näringslivsdepartementet RSE
+Utfärdad
+:   
+2014-04-10
+Ändrad
+:   
+t.o.m. SFS 2023:510
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Inledande bestämmelse
+1 §
+Denna förordning är meddelad med stöd av
+- 26 kap. 19 § miljöbalken i fråga om 2, 3, 9 §§ och 10 § 1,
+- 26 kap. 19 a § miljöbalken i fråga om 4-8 §§ och 10 § 2-4, och
+- 8 kap. 7 § regeringsformen i fråga om övriga bestämmelser.
+Konsekvensutredning
+2 §
+Den som är skyldig att underhålla en damm ska se till att det alltid finns en dokumenterad aktuell utredning och bedömning av vilka konsekvenser som ett dammhaveri kan medföra (konsekvensutredning).
+En konsekvensutredning ska beskriva
+1. hur ett dammhaveri antas ske,
+2. vilka områden som kan översvämmas vid ett dammhaveri, och 3. vad som kan skadas i de områden som skulle översvämmas vid ett dammhaveri.
+3 §
+En konsekvensutredning behöver dock inte utföras om
+1. dammen är lägre än 5 meter, och
+2. ett dammhaveri vid dammen inte skulle kunna innebära att det vid haveritidpunkten okontrollerat strömmar ut mer än 100 000 kubikmeter vatten eller blandning av vatten och annat material.
+4 §
+Den som är skyldig att underhålla en damm som omfattas av kravet på konsekvensutredning ska lämna denna till tillsynsmyndigheten tillsammans med ett förslag till klassificering enligt 11 kap. 24 och 25 §§ miljöbalken.
+Säkerhetsledningssystem och rutiner för egenkontroll
+5 §
+Den som är skyldig att underhålla en damm som är klassificerad enligt 11 kap. 24 och 25 §§ miljöbalken ska för verksamheten upprätta och arbeta efter ett säkerhetsledningssystem. Säkerhetsledningssystemet ska omfatta de metoder, rutiner och instruktioner som behöver fastställas och tillämpas i fråga om
+1. organisation och definierade uppgifter, ansvarsområden och kompetenskrav för den personal som deltar i arbetet med dammsäkerhet,
+2. identifiering och bedömning av faror för allvarliga olyckor,
+3. drift, tillståndskontroll och underhåll,
+4. hantering av förändringar,
+5. planering för nödsituationer, och
+6. revision och översyn.
+Den som är skyldig att underhålla en damm ska upprätta ett dokument som översiktligt beskriver säkerhetsledningssystemet. Beskrivningen ska även innehålla de övergripande målen och handlingsprinciperna för verksamhetens arbete med säkerhet.
+6 §
+Bestämmelsen i 5 § omfattar inte den som är underhållsskyldig för en damm som utgör en riskanläggning enligt 10 § förordningen (2013:319) om utvinningsavfall.
+7 §
+Den som är skyldig att underhålla en damm som är  klassificerad enligt 11 kap. 24 och 25 §§ miljöbalken ska  minst vart tionde år utföra en helhetsbedömning av dammens  säkerhet. Bedömningen ska avse dammens konstruktion och  funktion och verksamhetens organisation. Resultatet av  bedömningen ska dokumenteras och lämnas till  tillsynsmyndigheten.
+Tillsynsmyndigheten får besluta att en helhetsbedömning ska  utföras innan det har gått tio år från det att den senaste  helhetsbedömningen gjordes, om
+1. verksamhetens organisation har förändrats på ett betydande  sätt,
+2. verksamheten är av ett sådant slag att dammens konstruktion  eller funktion förändras kontinuerligt,
+3. dammens konstruktion eller funktion har påverkats på ett  bestående sätt, eller
+4. det finns andra särskilda skäl.
+Förordning (2023:510).
+Dammsäkerhetsrapport
+8 §
+Den som är skyldig att underhålla en damm som är klassificerad enligt 11 kap. 24 och 25 §§ miljöbalken ska årligen till tillsynsmyndigheten lämna en rapport om dammens egenskaper och de åtgärder som vidtas vid drift och underhåll av dammen för att förhindra ett dammhaveri och för att begränsa skador till följd av ett sådant haveri.
+Bemyndigande för Affärsverket svenska kraftnät
+9 §
+Affärsverket svenska kraftnät får meddela föreskrifter om när en konsekvensutredning enligt 2 och 4 §§ senast ska ges in till tillsynsmyndigheten.
+10 §
+Affärsverket svenska kraftnät får meddela föreskrifter om innehållet i samt omfattningen och dokumentationen av
+1. konsekvensutredningen enligt 2 §,
+2. säkerhetsledningssystemet enligt 5 §,
+3. helhetsbedömningen enligt 7 §, och
+4. rapporten enligt 8 §.
+Överklagande
+11 §
+I 19 kap. 1 § miljöbalken finns bestämmelser om  överklagande. Förordning (2023:510).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

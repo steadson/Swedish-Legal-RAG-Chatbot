@@ -1,0 +1,109 @@
+Title: Lag (2015:899) om identitetskort för folkbokförda i Sverige
+SFS Number: Svensk författningssamling 2015:899
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2015899-om-identitetskort-for-folkbokforda_sfs-2015-899/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2015:899
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2015:899
+Ministry/Authority: Finansdepartementet S3
+Issued: 2015-12-10
+Metadata: {"Utfärdad": "2015-12-10", "Ändrad": "t.o.m. SFS 2018:233"}
+
+==================================================
+
+Lag (2015:899) om identitetskort för folkbokförda i Sverige
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2015:899
+Departement/myndighet
+:   
+Finansdepartementet S3
+Utfärdad
+:   
+2015-12-10
+Ändrad
+:   
+t.o.m. SFS 2018:233
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+1 §
+Den myndighet som regeringen bestämmer (den utfärdande  myndigheten) kan utfärda ett identitetskort på ansökan av en  person som har fyllt 13 år och som är folkbokförd i landet  enligt folkbokföringslagen (1991:481).
+Ansökan
+2 §
+Den som ansöker om ett identitetskort är skyldig att i  samband med ansökan
+1. låta den utfärdande myndigheten ta en bild i digitalt  format av sökandens ansikte eller, om det finns synnerliga  skäl, ge in ett välliknande fotografi, och
+2. styrka sin identitet och övriga personuppgifter.
+3 §
+Om sökanden har uppehållstillstånd i Sverige ska han  eller hon anses ha styrkt sin identitet om de uppgifter som  lämnas i ansökan om identitetskort stämmer överens med vad  som har registrerats i fråga om uppehållstillståndet.  Identiteten ska dock inte anses ha styrkts på detta sätt, om  särskilda skäl talar emot det.
+Sökanden ska ange om han eller hon vill styrka identiteten på  detta sätt.
+4 §
+En ansökan om identitetskort ska avslås om  förutsättningarna i 1 § inte är uppfyllda eller det som anges  i 2 § eller som har föreskrivits av regeringen i fråga om  ansökan inte har iakttagits och sökanden inte har följt en  uppmaning att avhjälpa bristen.
+5 §
+Regeringen eller den myndighet som regeringen bestämmer  kan med stöd av 8 kap. 7 § regeringsformen meddela  ytterligare föreskrifter om ansökan och utfärdande av  identitetskort.
+Återkallelse
+6 §
+Ett identitetskort ska återkallas om
+1. det fanns hinder mot att utfärda identitetskort vid tiden  för utfärdandet och hindret fortfarande består,
+2. någon väsentlig uppgift som framgår av identitetskortet är  felaktig eller inte längre gäller, eller
+3. någon annan än den som identitetskortet är utställt på  förfogar över kortet.
+7 §
+Regeringen eller den myndighet som regeringen bestämmer  kan med stöd av 8 kap. 7 § regeringsformen meddela  föreskrifter om förfarandet vid återkallelse av  identitetskort.
+Behandling av personuppgifter i en databas
+8 §
+Den utfärdande myndigheten ska med hjälp av automatiserad  behandling föra en databas med en samling uppgifter om  identitetskort för folkbokförda i Sverige.
+9 §
+Har upphävts genom
+lag (2018:233)
+.
+Förhållandet till annan reglering
+10 §
+Denna lag innehåller bestämmelser som kompletterar  Europaparlamentets och rådets förordning (EU) 2016/679 av den 
+27 april 2016 om skydd för fysiska personer med avseende på  behandling av personuppgifter och om det fria flödet av  sådana uppgifter och om upphävande av direktiv 95/46/EG 
+(allmän dataskyddsförordning), här benämnd EU:s  dataskyddsförordning.
+Vid behandling av personuppgifter enligt denna lag gäller  lagen (2018:218) med kompletterande bestämmelser till EU:s  dataskyddsförordning och föreskrifter som har meddelats i  anslutning till den lagen, om inte annat följer av denna lag  eller föreskrifter som har meddelats i anslutning till  lagen.
+Lag (2018:233)
+.
+Personuppgiftsansvar
+11 §
+Den utfärdande myndigheten är personuppgiftsansvarig för  den behandling av personuppgifter som myndigheten utför.
+Ändamål
+12 §
+Personuppgifter får behandlas i databasen om det  behövs i den utfärdande myndighetens verksamhet för  utfärdande av identitetskort.
+Personuppgifter som behandlas enligt första stycket får också  behandlas om det behövs för att fullgöra uppgiftsutlämnande  som sker i överensstämmelse med lag eller förordning. Sådana  uppgifter får behandlas även för andra ändamål, under  förutsättning att uppgifterna inte behandlas på ett sätt som  är oförenligt med det ändamål för vilket uppgifterna samlades  in.
+Lag (2018:233)
+.
+Innehållet i databasen
+13 §
+Personuppgifter som avses i artikel 9.1 i EU:s  dataskyddsförordning (känsliga personuppgifter) får behandlas  i en handling som har lämnats i ett ärende. Sådana uppgifter  får behandlas även i en handling som har upprättats i ett  ärende, om de är nödvändiga för ärendets handläggning.
+Lag (2018:233)
+.
+14 §
+En kopia av den ansiktsbild som identitetskortet har  försetts med får behandlas i databasen.
+15 §
+Regeringen eller den myndighet som regeringen bestämmer  kan med stöd av 8 kap. 7 § regeringsformen meddela  ytterligare föreskrifter om vilka uppgifter databasen ska  eller får innehålla.
+Utlämnande av uppgift om identitetskorts giltighet
+16 §
+Uppgift om ett identitetskorts giltighet får lämnas ut  genom direktåtkomst.
+Sökbegränsningar
+17 §
+Ansiktsbilden enligt 2 § 1 och 14 § får inte användas  vid sökning med hjälp av automatiserad behandling.
+Känsliga personuppgifter som avses i 13 § och uppgifter om  lagöverträdelser som innefattar brott, domar i brottmål,  straffprocessuella tvångsmedel eller administrativa  frihetsberövanden får inte användas som sökbegrepp.
+Lag (2018:233)
+.
+Rätten att göra invändningar
+18 §
+Artikel 21.1 i EU:s dataskyddsförordning om rätten  att göra invändningar gäller inte vid sådan behandling som är  tillåten enligt denna lag eller föreskrifter som har  meddelats i anslutning till lagen.
+Lag (2018:233)
+.
+Övriga bestämmelser
+19 §
+Beslut enligt denna lag får överklagas till allmän  förvaltningsdomstol.
+Prövningstillstånd krävs vid överklagande till kammarrätten.
+20 §
+Beslut enligt denna lag gäller omedelbart, om inte något  annat anges i beslutet.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

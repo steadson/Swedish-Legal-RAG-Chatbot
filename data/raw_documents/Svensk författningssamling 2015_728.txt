@@ -1,0 +1,148 @@
+Title: Domstolsdatalag (2015:728)
+SFS Number: Svensk författningssamling 2015:728
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/domstolsdatalag-2015728_sfs-2015-728/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2015:728
+HTML Document Link: None
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2015:728
+Ministry/Authority: Justitiedepartementet DÅ
+Issued: 2015-11-19
+Metadata: {"Utfärdad": "2015-11-19", "Ändrad": "t.o.m. SFS 2018:1711"}
+
+==================================================
+
+Domstolsdatalag (2015:728)
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+: 
+2015:728
+Departement/myndighet
+: 
+Justitiedepartementet DÅ
+Utfärdad
+: 
+2015-11-19
+Ändrad
+: 
+t.o.m. SFS 2018:1711
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Lagens syfte
+1 §
+Syftet med denna lag är att ge de allmänna domstolarna, de allmänna förvaltningsdomstolarna och hyres- och arrendenämnderna möjlighet att behandla personuppgifter på ett ändamålsenligt sätt i sin rättskipande och rättsvårdande verksamhet och att skydda människor mot att deras personliga integritet kränks vid sådan behandling.
+Lagens tillämpningsområde
+2 §
+Denna lag gäller vid behandling av personuppgifter i de allmänna domstolarnas, de allmänna förvaltningsdomstolarnas och hyres- och arrendenämndernas rättskipande och rättsvårdande verksamhet. Lagen gäller också när personuppgifterna vidarebehandlas i den administrativa verksamheten för att lämnas ut efter begäran.
+Lagen gäller inte vid behandling av personuppgifter som omfattas av lagen (2018:1698) om domstolarnas behandling av personuppgifter inom brottsdatalagens område.
+Lagen gäller endast om behandlingen är helt eller delvis automatiserad eller om personuppgifterna ingår i eller är avsedda att ingå i en strukturerad samling av personuppgifter som är tillgängliga för sökning eller sammanställning enligt särskilda kriterier.
+Lag (2018:1711)
+.
+Förhållandet till annan reglering
+3 §
+Denna lag kompletterar Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning), här benämnd EU:s dataskyddsförordning.
+Lag (2018:250)
+.
+4 §
+Vid behandling av personuppgifter enligt denna lag gäller lagen (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning och föreskrifter som har meddelats i anslutning till den lagen, om inte annat följer av denna lag eller föreskrifter som har meddelats i anslutning till lagen.
+Lag (2018:250)
+.
+5 §
+De avvikande bestämmelser som finns i Europaparlamentets och rådets förordning (EU) nr 655/2014 av den 15 maj 2014 om inrättande av ett europeiskt förfarande för kvarstad på bankmedel för att underlätta gränsöverskridande skuldindrivning i mål och ärenden av privaträttslig natur, ska tillämpas i stället för bestämmelserna i denna lag.
+Lag (2018:1246)
+.
+Ändamål
+6 §
+Personuppgifter får behandlas om det behövs för handläggning av mål och ärenden.
+7 §
+Personuppgifter som behandlas enligt 6 § får även behandlas om det behövs för att fullgöra uppgiftslämnande som sker i överensstämmelse med lag eller förordning.
+Personuppgifter som behandlas enligt 6 § får behandlas även för andra ändamål, under förutsättning att uppgifterna inte behandlas på ett sätt som är oförenligt med det ändamål för vilket uppgifterna samlades in.
+Lag (2018:250)
+.
+Tillgången till personuppgifter
+8 §
+Tillgången till personuppgifter ska begränsas till det som varje tjänsteman behöver för att kunna fullgöra sina arbetsuppgifter.
+Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela närmare föreskrifter om tillgången till personuppgifter.
+Personuppgiftsansvar
+9 §
+En allmän domstol, en allmän förvaltningsdomstol eller en hyres- och arrendenämnd är personuppgiftsansvarig för den behandling av personuppgifter som den domstolen eller nämnden utför.
+Dataskyddsombud
+10 §
+Den personuppgiftsansvarige ska utse ett eller flera dataskyddsombud.
+Lag (2018:250)
+.
+Information om personuppgiftsincidenter
+11 §
+Den personuppgiftsansvariges skyldighet att informera den registrerade om en personuppgiftsincident enligt artikel 
+34 i EU:s dataskyddsförordning gäller inte sådana uppgifter som den personuppgiftsansvarige inte får lämna ut till den registrerade enligt lag eller annan författning eller enligt beslut som har meddelats med stöd av författning.
+Lag (2018:250)
+.
+12 §
+Har upphävts genom
+lag (2018:250)
+.
+Behandling av känsliga personuppgifter
+13 §
+Uppgifter om en person får inte behandlas enbart på grund av vad som är känt om personen utifrån sådana uppgifter som avses i artikel 9.1 i EU:s dataskyddsförordning (känsliga personuppgifter).
+Lag (2018:250)
+.
+Sökbegränsningar
+14 §
+Vid sökning i personuppgifter är det förbjudet att använda sökbegrepp som avslöjar känsliga personuppgifter, uppgifter om nationell anknytning eller uppgifter om brott eller misstanke om brott.
+Användning av särskilda beteckningar för identifiering av en viss mål- eller ärendetyp som sökbegrepp omfattas inte av förbudet i första stycket.
+Lag (2018:250)
+.
+15 §
+Förbudet i 14 § första stycket gäller inte användning
+1. i allmän domstol av sökbegrepp som avslöjar brott eller misstanke om brott, och
+2. i allmän förvaltningsdomstol av sökbegrepp som avslöjar hälsa, brott eller misstanke om brott.
+Förbudet i 14 § första stycket gäller inte heller vid sökning i en viss handling eller i ett visst mål eller ärende.
+Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om begränsningar av möjligheten att använda de sökbegrepp som anges i första stycket.
+Elektroniskt utlämnande av personuppgifter
+16 §
+Personuppgifter får lämnas ut elektroniskt på annat sätt än genom direktåtkomst om det inte är olämpligt.
+Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela ytterligare föreskrifter om begränsningar av möjligheten att lämna ut personuppgifter elektroniskt på annat sätt än genom direktåtkomst.
+Lag (2018:1711)
+.
+17 §
+Direktåtkomst får endast medges
+1. en allmän domstol,
+2. en allmän förvaltningsdomstol,
+3. en hyres- och arrendenämnd, eller
+4. en part eller partens ombud, biträde eller försvarare.
+Direktåtkomst enligt första stycket 4 får endast avse personuppgifter i partens mål eller ärende.
+Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela ytterligare föreskrifter om begränsningar av direktåtkomst enligt första stycket och om behörighet och säkerhet vid sådan åtkomst.
+Personuppgifter i avgjorda mål och ärenden
+18 §
+Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela ytterligare föreskrifter om begränsningar för behandling av personuppgifter som hänför sig till ett mål eller ärende som har avgjorts genom en dom eller ett beslut som har fått laga kraft.
+Överklagande
+19 §
+Har upphävts genom
+lag (2018:250)
+.
+20 §
+Beslut enligt artiklarna 12.5 och 15-21 i EU:s dataskyddsförordning som har meddelats av en hovrätt, tingsrätt eller förvaltningsrätt i egenskap av personuppgiftsansvarig får överklagas till kammarrätten. En kammarrätts beslut i sådana frågor får överklagas till Högsta förvaltningsdomstolen.
+Högsta domstolens och Högsta förvaltningsdomstolens beslut i frågor som avses i första stycket får inte överklagas.
+Lag (2018:250)
+.
+21 §
+En hyres- och arrendenämnds beslut i frågor som avses i 
+20 § första stycket får överklagas till allmän förvaltningsdomstol. Prövningstillstånd krävs vid överklagande till kammarrätten.
+22 §
+Har upphävts genom
+lag (2018:250)
+.
+Övergångsbestämmelser
+2018:250
+1. Denna lag träder i kraft den 25 maj 2018.
+2. Äldre föreskrifter gäller fortfarande för överklagande av beslut som har meddelats före ikraftträdandet.
+3. Har upphävts genom
+lag (2018:1711)
+.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

@@ -1,0 +1,175 @@
+Title: Förordning (1970:517) om rättsväsendets informationssystem
+SFS Number: Svensk författningssamling 1970:517
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1970517-om-rattsvasendets_sfs-1970-517/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1970:517
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1970:517
+Ministry/Authority: Justitiedepartementet KRIM
+Issued: 1970-06-29
+Metadata: {"Utfärdad": "1970-06-29", "Ändrad": "t.o.m. SFS 2024:905"}
+
+==================================================
+
+Förordning (1970:517) om rättsväsendets informationssystem
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+1970:517
+Departement/myndighet
+:   
+Justitiedepartementet KRIM
+Utfärdad
+:   
+1970-06-29
+Omtryck
+:   
+SFS 1981:487
+Ändrad
+:   
+t.o.m. SFS 2024:905
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Innehåll:
+Övergångsbestämmelser
+Allmänna bestämmelser
+1 §
+För att samla in, lagra, bearbeta och lämna uppgifter som  har samband med verksamhet inom polisen och domstolsväsendet  ska personuppgifter behandlas automatiserat i rättsväsendets  informationssystem.
+Frågor om väsentlig förändring av informationssystemet och om  standarder i systemet bereds av den personuppgiftsansvarige i  samråd med berörda centrala myndigheter.
+I förordningen (2018:1746) om kriminalvårdens behandling av  personuppgifter inom brottsdatalagens område finns det  bestämmelser om skyldighet för rättsväsendets myndigheter att  lämna uppgifter. Förordning (2022:825).
+2 §
+Denna förordning innehåller bestämmelser om automatiserad  behandling av personuppgifter i ett system för domar och  slutliga beslut i brottmål. Förordning (2022:825).
+3 §
+Polismyndigheten är personuppgiftsansvarig för behandling  av personuppgifter i det system som avses i 2 §.
+Systemet med tillhörande handlingar ska hållas under sådan  vård att obehöriga inte får tillgång till dem.  Förordning (2022:825).
+4 §
+Har upphävts genom förordning (1999:1137).
+Domstols uppgiftsskyldighet
+5 §
+Uppgift om en dom eller ett beslut av en hovrätt eller  Högsta domstolen ska lämnas till Polismyndigheten i följande  fall.
+Uppgift lämnas av	        Uppgift lämnas om
+1. Högsta domstolen	        Dom i brottmål
+Undanröjande av lägre rätts
+beslut att avvisa talan mot
+dom i brottmål
+Avvisning eller avskrivning av
+talan mot dom i brottmål
+2. Hovrätt	                Dom i brottmål där hovrätten är
+första domstolsinstans
+3. Hovrätt, Högsta domstolen	Undanröjande av dom i brottmål
+på grund av domvilla eller
+annat rättegångsfel
+Beslut under rättegång att
+vidare verkställighet inte får
+äga rum beträffande den som har
+dömts till skyddstillsyn
+Beviljande av resning eller
+återställande av försutten tid
+beträffande dom i brottmål
+Det som anges i första stycket om dom i brottmål gäller även
+1. avvisning eller avskrivning av åtal,
+2. dom eller slutligt beslut i mål som avses i 19 § andra  stycket lagen (1946:804) om införande av nya rättegångsbalken, 
+8 § lagen (1985:206) om viten eller lagen (2024:782) om  förfarandet vid förverkande av egendom och åläggande av  företagsbot, och
+3. slutligt beslut i mål om förvandling av böter eller vite.
+Förordning (2024:905).
+5 a §
+När Högsta domstolen beviljar en ansökan om omvandling  enligt lagen (2006:45) om omvandling av fängelse på livstid,  ska en kopia av det slutliga beslutet lämnas till  Polismyndigheten. Förordning (2022:825).
+6 §
+Uppgift enligt 5 § ska lämnas inom tio dagar från dagen för domen eller beslutet.
+Polismyndigheten ska genast underrättas om beslut om rättelse av dom eller beslut som avses i 5 § meddelas.
+Förordning (2014:1119).
+7 §
+När tiden för överklagande av domen eller beslutet har  gått ut, ska Polismyndigheten underrättas om huruvida  avgörandet har fått laga kraft eller överklagats.
+Förordning (2022:825).
+8 §
+Domstolsverket får meddela närmare föreskrifter om omfattningen av uppgiftsskyldigheten enligt 5, 5 a och 7 §§ och sättet för att fullgöra den.
+Uppgifter som lämnas på annat sätt än elektroniskt via domstolens verksamhetsstöd skall undertecknas av en lagfaren tjänsteman eller av en annan tjänsteman som förordnats till detta. Förordning (2006:1274).
+9 §
+Har upphävts genom förordning (2014:1119).
+10 §
+Har upphävts genom förordning (1999:1137).
+11 §
+Har upphävts genom förordning (1999:1137).
+11 a §
+Har upphävts genom förordning (2001:683).
+11 b §
+Har upphävts genom förordning (2001:683).
+Behandling av uppgift som kommit in till Polismyndigheten
+12 §
+En uppgift som behandlas i det system som avses i 2 § och  avser brott eller den som misstänkts, åtalats eller dömts för  brott får endast lämnas ut enligt föreskrifter i  bötesverkställighetsförordningen (1979:197) eller denna  förordning. Förordning (2022:825).
+13 §
+Har upphävts genom förordning (2014:1119).
+14 §
+Om en uppgift som avses i 5 § visar sig vara felaktig eller ofullständig ska Polismyndigheten, om felaktigheten eller ofullständigheten inte är av ringa betydelse, underrätta den domstol som har meddelat domen eller beslutet. Förordning (2014:1119).
+15 §
+Om en domstol i särskilt anvisad ordning har angett att en underrättelse ska lämnas till en viss myndighet eller ett visst register, ska Polismyndigheten lämna de föreskrivna uppgifterna till myndigheten eller registret. Om böter har betalats i förskott till Tullverket ska Polismyndigheten underrätta verket om utgången i det mål som ärendet eller betalningen avser.
+Polismyndigheten lämnar underlag till rättsstatistiken enligt anvisningar som Brottsförebyggande rådet meddelar i samråd med berörda myndigheter. Förordning (2014:1119).
+16 §
+Har upphört att gälla genom förordning (1979:201).
+17 §
+Har upphört att gälla genom förordning (1979:201).
+18 §
+Har upphört att gälla genom förordning (1979:201).
+19 §
+Har upphört att gälla genom förordning (1979:201).
+20 §
+Polismyndigheten ska på begäran av en myndighet lämna uppgift om sådana avgöranden av en domstol som enligt 3 §
+bötesverkställighetsförordningen (1979:197) kan bli föremål för uppbörd. Polismyndigheten får lämna ut uppgift om ett anmält brott i den omfattning det behövs för  polisverksamheten. Förordning (2014:1119).
+21 §
+Har upphävts genom förordning (1999:1137).
+22 §
+Har upphävts genom förordning (1977:380).
+23 §
+Har upphävts genom förordning (1999:1137).
+24 §
+Har upphävts genom förordning (2001:683).
+25 §
+Har upphävts genom förordning (2001:683).
+26 §
+Har upphävts genom förordning (2001:683).
+27 §
+Har upphävts genom förordning (2001:683).
+28 §
+Har upphävts genom förordning (2001:683).
+29 §
+Har upphävts genom förordning (2001:683).
+30 §
+Har upphävts genom förordning (2001:683).
+Övriga bestämmelser
+31 §
+Har upphävts genom förordning (1981:487).
+32 §
+Den som i tjänsten tar del av en uppgift, som enligt denna förordning har lämnats av Polismyndigheten, och som misstänker att uppgiften är oriktig ska genast anmäla det till Polismyndigheten. Förordning (2014:1119).
+Övergångsbestämmelser
+1987:333
+Denna förordning träder i kraft den 1 juli 1987. I fråga om beslut i disciplinmål som har meddelats före ikraftträdandet gäller 2, 5, 9, 10 och 14 §§ i sina äldre lydelser.
+1988:216
+Denna förordning träder i kraft den 1 juli 1988. Äldre föreskrifter gäller dock för domar och slutliga beslut som meddelats före ikraftträdandet.
+1989:561
+Denna förordning träder i kraft den 1 juli 1989. Äldre bestämmelser gäller fortfarande i fråga om beslut eller åtgärd som meddelats enligt utlänningslagen (1980:376).
+1990:908
+Denna förordning träder i kraft, i fråga om 23 § den 1 oktober 1990, och i övrigt den 1 januari 1991. Vad som i 23 § första stycket sägs om skattemyndigheten i länet skall till utgången av år 1990 gälla länsskattemyndighet.
+1992:99
+Denna förordning träder i kraft den 1 april 1992. Bestämmelserna tillämpas även på beslut som har meddelats dessförinnan.
+1992:1028
+1. Denna förordning träder i kraft den 1 januari 1993.
+2. Äldre föreskrifter gäller fortfarande i fråga om strafförelägganden och förelägganden av ordningsbot som har utfärdats före ikraftträdandet.
+3. har upphävts genom förordning 1997:906.
+1993:1343
+Denna förordning träder i kraft den 1 januari 1994. Äldre föreskrifter gäller fortfarande när beslut om intagning fattats före ikraftträdandet.
+1995:378
+Denna förordning träder i kraft den 1 juni 1995. Bestämmelserna i sin nya lydelse tillämpas dock för tid från och med den 1 januari 1995.
+1997:628
+Denna förordning träder i kraft den 1 juli 1997. Äldre föreskrifter får dock tillämpas intill utgången av år 1997.
+1997:906
+1. Denna förordning träder i kraft den 1 januari 1998.
+2. Äldre föreskrifter gäller fortfarande i fråga om strafförelägganden som utfärdas med användning av delsystemet för strafföreläggande.
+2022:825
+1. Denna förordning träder i kraft den 3 oktober 2022.
+2. Äldre föreskrifter gäller fortfarande för domar och beslut  som har meddelats före ikraftträdandet. Om en sådan dom eller  ett sådant beslut har överklagats, gäller detsamma även domar  och beslut som därefter har meddelats i högre instanser.
+3. Uppgifter som avses i 5, 5 a och 7 §§ i den äldre lydelsen  ska till och med den 30 juni 2023 behandlas av  Polismyndigheten i det system som avses i 2 § och lämnas ut  till Brottsförebyggande rådet enligt 15 § andra stycket.
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.

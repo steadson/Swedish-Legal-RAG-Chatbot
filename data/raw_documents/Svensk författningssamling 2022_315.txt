@@ -1,0 +1,72 @@
+Title: Förordning (2022:315) om miljökrav vid upphandling av bilar och vissa tjänster inom vägtransportområdet
+SFS Number: Svensk författningssamling 2022:315
+URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2022315-om-miljokrav-vid-upphandling_sfs-2022-315/
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=2022:315
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=2022:315
+Ministry/Authority: Landsbygds- och infrastrukturdepartementet RSIB TM
+Issued: 2022-04-28
+Metadata: {"Utfärdad": "2022-04-28", "Ändrad": "t.o.m. SFS 2025:595"}
+
+==================================================
+
+Förordning (2022:315) om miljökrav vid upphandling av bilar och vissa tjänster inom vägtransportområdet
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
+SFS nr
+:     
+2022:315
+Departement/myndighet
+:   
+Landsbygds- och infrastrukturdepartementet RSIB TM
+Utfärdad
+:   
+2022-04-28
+Ändrad
+:   
+t.o.m. SFS 2025:595
+Ändringsregister
+:
+SFSR (Regeringskansliet)
+Källa
+:
+Fulltext (Regeringskansliet)
+Lagstödet för förordningen
+1 §
+Denna förordning är meddelad med stöd av
+- 12 § lagen (2011:846) om miljökrav vid upphandling av bilar  och vissa tjänster inom vägtransportområdet i fråga om 2 och 
+3 §§,
+- 13 § lagen om miljökrav vid upphandling av bilar och vissa  tjänster inom vägtransportområdet i fråga om 4, 5 och 7 §§,  och
+- 8 kap. 7 § regeringsformen i fråga om övriga bestämmelser.
+Förordning (2023:225).
+Ord och uttryck
+2 §
+Med elfordon i lagen (2011:846) om miljökrav vid  upphandling av bilar och vissa tjänster inom  vägtransportområdet avses ett motorfordon försett med ett  drivsystem som innehåller minst en icke-perifer elektrisk  maskin som energiomvandlare med ett elektriskt  uppladdningsbart energilagringssystem som kan laddas externt.
+3 §
+Med alternativa drivmedel i lagen (2011:846) om miljökrav  vid upphandling av bilar och vissa tjänster inom  vägtransportområdet avses bland annat
+- el,
+- väte,
+- biodrivmedel enligt 1 kap. 2 § lagen (2010:598) om  hållbarhetskriterier för vissa bränslen,
+- syntetiska och paraffiniska bränslen,
+- metangas, och
+- gasol.
+Med alternativa drivmedel avses däremot inte
+- biodrivmedel som är producerade från råvaror med hög risk  för indirekt ändring av markanvändning, om en betydande  utvidgning av produktionsområdet till mark med stora kollager  kan observeras enligt kommissionens delegerade förordning 
+(EU) 2019/807 av den 13 mars 2019 om komplettering av  Europaparlamentets och rådets direktiv (EU) 2018/2001 vad  gäller fastställande av bränsleråvaror med hög risk för  indirekt ändring av markanvändning för vilka en betydande  utvidgning av produktionsområdet till mark med stora kollager  kan observeras och certifiering av biodrivmedel, flytande  biobränslen och biomassabränslen med låg risk för indirekt  ändrad markanvändning, eller
+- biodrivmedel, syntetiska bränslen eller paraffiniska  bränslen som blandas med konventionella fossila bränslen.
+Förordning (2025:595).
+Uppgiftsskyldighet
+4 §
+När en upphandlande myndighet eller enhet har tilldelat  ett avtal, ingått ett ramavtal eller gjort ett avrop från ett  ramavtal i enlighet med lagen (2011:846) om miljökrav vid  upphandling av bilar och vissa tjänster inom  vägtransportområdet, ska myndigheten eller enheten lämna  uppgifter om upphandlingen eller avropet till  Transportstyrelsen.
+Myndigheterna och enheterna ska senast den 1 februari 2026  lämna uppgifter för tiden från och med den 2 augusti 2021 till  och med den 31 december 2025. Uppgifter ska därefter lämnas  senast den 1 februari vart tredje år och omfatta de tre  senaste kalenderåren. Förordning (2023:225).
+5 §
+Den upphandlande myndigheten eller enheten ska för varje  rapporteringsperiod lämna uppgift om registreringsnumren på  samtliga fordon som omfattas av sådana upphandlingar eller  avrop som avses i 4 § första stycket. Förordning (2023:225).
+6 §
+Transportstyrelsen ska göra en sammanställning av  uppgifterna enligt 5 §. Sammanställningen ska ges in till  Regeringskansliet (Landsbygds- och infrastrukturdepartementet)  senast den 15 mars 2026 och därefter senast den 15 mars vart  tredje år.
+Sammanställningen ska visa det totala antalet fordon enligt 
+5 § och visa det antal fordon som hör till varje fordonsslag  enligt 2 § lagen (2001:559) om vägtrafikdefinitioner. I  sammanställningen ska dock en buss anses vara en lätt buss om  den har en totalvikt av högst 5 ton och en tung buss om den  har en totalvikt över 5 ton.
+Sammanställningen ska visa det antal fordon som hör till var  och en av kategorierna ren lätt bil, ren tung buss, ren tung  lastbil eller utsläppsfri buss enligt 3 § lagen (2011:846) om  miljökrav vid upphandling av bilar och vissa tjänster inom  vägtransportområdet. Förordning (2023:225).
+Bemyndigande
+7 §
+Transportstyrelsen får meddela närmare föreskrifter om  rapportering enligt 5 §. Förordning (2023:225).
+Svensk författningssamling
+Svensk författningssamling (SFS) innehåller gällande lagar och förordningar. Om en författning ändras ersätts den gamla texten med den nya.
