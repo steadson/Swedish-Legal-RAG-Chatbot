@@ -358,7 +358,6 @@ class SwedishLegalEmbedderGemini:
                 ids=batch_ids
             )
             total_embedded += len(batch_texts)
-            print(f"  ✅ Batch {batch_num} stored successfully!")
 
         print(f"\n🎉 GEMINI EMBEDDING COMPLETE!")
         print(f"📊 Total documents processed: {len(documents)}")

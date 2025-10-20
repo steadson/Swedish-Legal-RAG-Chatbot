@@ -1,4 +1,4 @@
-Title: Jordabalk (1970:994)
+Title: Jordabalk (1970:994) (jordabalken)
 SFS Number: Svensk författningssamling 1970:994
 URL: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/jordabalk-1970994_sfs-1970-994/
 Source Link: http://rkrattsbaser.gov.se/sfst?bet=1970:994
@@ -94,7 +94,8 @@ i Hjälmaren 2,77 meter över södra slusströskeln vid Notholmen och
 i Storsjön 292,45 meter över nollplanet i det höjdsystem som ligger till grund för sjöns reglering.
 6 §
 Har fastighet blivit skild från angränsande vattenområde genom att stranden förskjutits, har fastighetens ägare rätt att nyttja området mellan fastigheten och vattnet under förutsättning att området är av ringa omfattning och att dess ägare icke lider skada eller olägenhet av betydelse.
-Fastighetens ägare har därvid samma rätt som enligt 2 kap. 7 §
+Fastighetens ägare har därvid samma rätt som enligt 2 kap. 7 §
+
 lagen (1998:812) med särskilda bestämmelser om vattenverksamhet tillkommer strandägare.
 Lag (1998:861)
 .
@@ -141,7 +142,8 @@ Byggnad, stängsel och annan anläggning på område, som besväras av inskriven
 7 §
 En överlåtelse av ett föremål som hör till en fastighet gäller inte mot tredje man, förrän
 1. föremålet skiljs från fastigheten på ett sådant sätt att det inte längre kan anses höra till denna, eller
-2. ett beslut enligt fastighetsbildningslagen (1970:988), ledningsrättslagen (1973:1144) eller anläggningslagen
+2. ett beslut enligt fastighetsbildningslagen (1970:988), ledningsrättslagen (1973:1144) eller anläggningslagen
+
 (1973:1149) om att föremålet inte längre skall höra till fastigheten har införts i fastighetsregistrets allmänna del.
 Om verkan av vissa överlåtelser från staten, av exekutiv försäljning av föremål som hör till en fastighet och av ianspråktagande av sådana föremål genom expropriation finns särskilda bestämmelser.
 Lag (2001:889)
@@ -167,14 +169,16 @@ Lag (2003:626)
 Lag (2003:626)
 .
 5 §
-Bestämmelserna i 6-11 §§ tillämpas i fråga om byggnader och andra anläggningar som uppfyller följande villkor:
+Bestämmelserna i 6-11 §§ tillämpas i fråga om byggnader och andra anläggningar som uppfyller följande villkor:
+
 1. olika delar av anläggningen hör till skilda fastigheter, och
 2. minst en del av anläggningen hör till en tredimensionell fastighet eller ett tredimensionellt fastighetsutrymme.
 Om en anläggning eller en del av denna hör till en tomträtt, gäller vad som sägs om fastigheten i stället tomträtten.
 Lag (2009:180)
 .
 6 §
-Bestämmelserna i 3 § första och andra styckena och 4 §
+Bestämmelserna i 3 § första och andra styckena och 4 §
+
 tillämpas också vid byggnadsarbete på en del av en sådan anläggning som avses i 5 §, om arbetet medför risk för skada på någon annans del av anläggningen.
 Skyddsåtgärder på någon annans del av anläggningen skall dock bekostas av den anläggningsdelens ägare, om
 1. risken för skada på anläggningsdelen beror på att denna är vårdslöst uppförd eller bristfälligt underhållen, och
@@ -183,7 +187,8 @@ I fall som avses i andra stycket är ägaren av den anläggningsdel som riskerar
 Lag (2003:626)
 .
 7 §
-Den som äger en del av en sådan anläggning som avses i 5 §
+Den som äger en del av en sådan anläggning som avses i 5 §
+
 har rätt att för utförande av byggnadsarbete på sin del av anläggningen få tillträde till andra delar av anläggningen, om behovet av tillträde klart överväger den skada och olägenhet som tillträdet kan antas medföra.
 Skada och intrång till följd av tillträdet skall ersättas. Om det begärs, skall säkerhet för ersättningen ställas hos länsstyrelsen innan arbetet börjar. Därvid tillämpas 2 kap.
 utsökningsbalken.
@@ -203,14 +208,16 @@ Ett beslut enligt första stycket får meddelas endast om käranden yrkar det oc
 Lag (2003:626)
 .
 10 §
-Vid prövningen av en fråga som avses i 9 § första stycket tillämpas 15 kap. 5 § tredje stycket, 6, 8 och 10 §§
+Vid prövningen av en fråga som avses i 9 § första stycket tillämpas 15 kap. 5 § tredje stycket, 6, 8 och 10 §§
+
 rättegångsbalken.
 Ett beslut enligt 9 § första stycket får verkställas på samma sätt som en dom som har vunnit laga kraft.
 Beslutet får överklagas särskilt.
 Lag (2003:626)
 .
 11 §
-Den som äger en del av en sådan anläggning som avses i 5 §
+Den som äger en del av en sådan anläggning som avses i 5 §
+
 ska vid användandet av sin del av anläggningen
 1. se till att de som bor i omgivningen inte utsätts för störningar som i sådan grad kan vara skadliga för hälsan eller annars försämra deras bostadsmiljö att störningarna inte skäligen bör tålas, och
 2. iaktta allt som fordras för att även i övrigt bevara sundhet, ordning och gott skick inom eller utanför anläggningen.
@@ -233,8 +240,10 @@ Köp av fast egendom slutes genom upprättande av köpehandling som underskrives
 Handlingen skall innehålla en uppgift om köpeskilling och förklaring av säljaren att egendomen överlåtes på köparen.
 Köpes utom fast egendom även annat mot en gemensam köpeskilling, är det tillräckligt att köpehandlingen innehåller en uppgift om gemensam köpeskilling.
 Om säljaren och köparen vid sidan av köpehandlingen har träffat överenskommelse om annan köpeskilling än den som anges i köpehandlingen, är den överenskommelsen ogiltig. Mellan säljaren och köparen gäller i stället den köpeskilling som anges i köpehandlingen. Denna köpeskilling får dock jämkas om det med hänsyn till köpehandlingens innehåll, omständigheterna vid avtalets tillkomst, senare inträffade förhållanden och omständigheterna i övrigt är oskäligt att den köpeskillingen skall vara bindande.
-Köp som inte uppfyller föreskrifterna i första stycket är ogiltiga. Dock är förvärv, som har gjorts enligt lagen
-(1982:352) om rätt till fastighetsförvärv för ombildning till bostadsrätt eller kooperativ hyresrätt eller lagen (1985:658)
+Köp som inte uppfyller föreskrifterna i första stycket är ogiltiga. Dock är förvärv, som har gjorts enligt lagen
+
+(1982:352) om rätt till fastighetsförvärv för ombildning till bostadsrätt eller kooperativ hyresrätt eller lagen (1985:658)
+
 om arrendatorers rätt att förvärva arrendestället, giltiga även om föreskrifterna i första stycket inte har iakttagits.
 Lag (2002:94)
 .
@@ -261,7 +270,8 @@ Köp av del av fastighet
 Köp, som innebär att visst område av fastighet kommer i särskild ägares hand, är giltigt endast om fastighetsbildning sker i överensstämmelse med köpet genom förrättning, som är sökt senast sex månader efter den dag då köpehandlingen upprättades och, om förrättningen ej är avslutad vid utgången av nämnda tid, skall verkställas på grundval av köpet.
 8 §
 Den som köpt andel i fastighet utan villkor att andelen skall utbrytas genom fastighetsbildning innehar fastigheten under samäganderätt med den eller de andra delägarna.
-Har i köpehandlingen föreskrivits att andelen skall utbrytas äger 7 §
+Har i köpehandlingen föreskrivits att andelen skall utbrytas äger 7 §
+
 motsvarande tillämpning.
 9 §
 I fråga om köp av mark som är samfälld för flera fastigheter eller av fastighets andel i sådan mark äger 7 § motsvarande tillämpning.
@@ -286,7 +296,8 @@ Underlåter säljaren utan skäl att avträda fastigheten i rätt tid, skall han
 Lag (1990:936)
 .
 14 §
-Undandrager sig säljaren utan skäl att enligt föreskrift i köpehandling medverka till upprättande av köpebrev eller annan ytterligare köpehandling angående förvärvet eller att fullgöra annat som ankommer på honom för att bereda köparen möjlighet till lagfart, äger 13
+Undandrager sig säljaren utan skäl att enligt föreskrift i köpehandling medverka till upprättande av köpebrev eller annan ytterligare köpehandling angående förvärvet eller att fullgöra annat som ankommer på honom för att bereda köparen möjlighet till lagfart, äger 13
+
 § motsvarande tillämpning.
 15 §
 Kan köparen i annat fall än som avses i 14 § icke erhålla lagfart, har han rätt att häva köpet och få ersättning för skada, om ej hindret mot lagfart beror av köparen eller var känt för honom när köpet slöts.
@@ -298,7 +309,8 @@ Lag (1990:936)
 Svarar fastigheten på grund av inteckning eller upplåtelse av panträtt för högre belopp än som förutsattes vid köpet, får köparen av köpeskillingen innehålla vad som på grund härav kan komma att utgå ur fastigheten. Om ej så mycket av köpeskillingen återstår att betala och säljaren icke erlägger skillnaden inom en månad efter tillsägelse, har köparen rätt att häva köpet och få ersättning för skada.
 Avser inteckning i den överlåtna fastigheten även annan fastighet och förutsattes ej detta vid köpet, har köparen rätt att häva köpet och erhålla ersättning för skada, om ej säljaren inom en månad efter tillsägelse ombesörjt, att det gemensamma ansvaret upplösts.
 17 §
-Besväras fastigheten av annan rättighet än som avses i 16 § utan att köparen vid köpet ägde eller bort äga kännedom därom, äger 12 §
+Besväras fastigheten av annan rättighet än som avses i 16 § utan att köparen vid köpet ägde eller bort äga kännedom därom, äger 12 §
+
 motsvarande tillämpning.
 Första stycket gäller även när annan än säljaren ägde byggnad eller annat som, om det är i samme ägares hand som fastigheten, enligt lag hör till denna samt köparen var i god tro vid köpet.
 18 §
@@ -309,7 +321,8 @@ Som fel får inte åberopas en avvikelse som köparen borde ha upptäckt vid en 
 Lag (1990:936)
 .
 19 a §
-Köparen får inte åberopa att fastigheten är felaktig enligt 11, 12 och 17--19 §§, om han inte lämnar säljaren meddelande om felet inom skälig tid efter det att han märkt eller borde ha märkt felet
+Köparen får inte åberopa att fastigheten är felaktig enligt 11, 12 och 17--19 §§, om han inte lämnar säljaren meddelande om felet inom skälig tid efter det att han märkt eller borde ha märkt felet
+
 (reklamation).
 Utan hinder av första stycket får köparen åberopa att fastigheten är felaktig, om säljaren har handlat grovt vårdslöst eller i strid mot tro och heder.
 Har köparen avsänt ett meddelande som anges i första stycket på ett ändamålsenligt sätt, får meddelandet åberopas även om det försenas, förvanskas eller inte kommer fram.
@@ -339,7 +352,8 @@ Kan säljaren ej erlägga vad som åligger honom enligt 21 §, får köparen kr�
 Har köparen icke erlagt hela köpeskillingen när klandertalan väckes, får han innehålla återstoden till dess betryggande säkerhet ställes för vad som säljaren kan åläggas att utge, om talan bifalles.
 24 §
 Blir köp av fastighet ej bestående på den grund att fastigheten överlåtits även till annan och denna överlåtelse skall åtnjuta företräde äger 21 § motsvarande tillämpning. Talan om hävning skall dock väckas inom den tid som anges i 15 §.
-Sedan talan om företräde mellan överlåtelserna väckts, äger även 23 §
+Sedan talan om företräde mellan överlåtelserna väckts, äger även 23 §
+
 motsvarande tillämpning.
 25 §
 I fråga om säljarens rätt till ränta på köpeskillingen gäller bestämmelserna i räntelagen (1975:635).
@@ -398,7 +412,8 @@ Bestämmelserna i 1-6 §§ äger motsvarande tillämpning när fast egendom öve
 Upplåtelse av panträtt
 1 §
 Ägare av en fastighet, som vill upplåta panträtt i denna till säkerhet för fordran, har rätt att i den ordning som anges i 22 kap.
-hos inskrivningsmyndigheten erhålla inskrivning i fastigheten av visst penningbelopp (inteckning). Bevis om inteckningen kallas pantbrev. Ett pantbrev utfärdas antingen i skriftlig form (skriftligt pantbrev) eller genom registrering i pantbrevsregistret enligt lagen
+hos inskrivningsmyndigheten erhålla inskrivning i fastigheten av visst penningbelopp (inteckning). Bevis om inteckningen kallas pantbrev. Ett pantbrev utfärdas antingen i skriftlig form (skriftligt pantbrev) eller genom registrering i pantbrevsregistret enligt lagen
+
 (1994:448) om pantbrevsregister (datapantbrev).
 Inteckning kan enligt 22 kap. beviljas i flera fastigheter (gemensam inteckning). Gemensam inteckning kan också uppkomma genom att intecknad fastighet delas.
 Lag (1994:449)
@@ -411,7 +426,8 @@ Lag (1994:449)
 .
 Panträttens innebörd
 3 §
-När en myndighet vid utsökning eller i annat fall fördelar medel mellan rättsägare i fastighet, har en borgenär rätt att för fordran, som är förenad med panträtt i fastigheten, med den företrädesrätt inteckningen medför enligt lag få betalning ur medlen intill pantbrevets belopp. I den mån detta inte räcker till, erhåller borgenären betalning ur medlen genom ett tillägg. Detta får inte överstiga femton procent av pantbrevets belopp jämte ränta på detta belopp från den dag då fastigheten utmättes, konkursansökan gjordes eller de medel nedsattes som i övrigt skall fördelas. Räntan beräknas för år enligt en räntefot som motsvarar den av Riksbanken fastställda, vid varje tid gällande referensräntan enligt 9 § räntelagen (1975:635)
+När en myndighet vid utsökning eller i annat fall fördelar medel mellan rättsägare i fastighet, har en borgenär rätt att för fordran, som är förenad med panträtt i fastigheten, med den företrädesrätt inteckningen medför enligt lag få betalning ur medlen intill pantbrevets belopp. I den mån detta inte räcker till, erhåller borgenären betalning ur medlen genom ett tillägg. Detta får inte överstiga femton procent av pantbrevets belopp jämte ränta på detta belopp från den dag då fastigheten utmättes, konkursansökan gjordes eller de medel nedsattes som i övrigt skall fördelas. Räntan beräknas för år enligt en räntefot som motsvarar den av Riksbanken fastställda, vid varje tid gällande referensräntan enligt 9 § räntelagen (1975:635)
+
 ökad med fyra procentenheter. Förändringar i referensräntan som inträffar efter upprättandet av en sakägarförteckning skall inte beaktas.
 Har flera pantbrev överlämnats som pant för fordran och har inteckningarna samma företrädesrätt eller gäller de omedelbart efter varandra, skall bestämmelserna i första stycket om pantbrevets belopp avse pantbrevens sammanlagda belopp.
 En borgenärs rätt till betalning omfattar inte tillägget, om pantbrevet har utmätts på ansökan av borgenären eller om pantbrevet är pantförskrivet till honom i andra hand.
@@ -466,12 +482,14 @@ Första stycket gäller ej, om innehavaren av pantbrevet avstått från sin rät
 14 §
 Avstås intecknad fastighet eller område av sådan fastighet på grund av expropriation eller liknande tvångsförvärv, är inteckningen utan verkan i den inlösta egendomen, sedan inlösen fullbordats. Såvitt angår annan av inteckningen besvärad egendom är inteckningen utan verkan till belopp som vid fördelning av medel med anledning av tvångsförvärvet utfallit på pantbrevets belopp. Härvid äger 13 § andra stycket motsvarande tillämpning.
 15 §
-Har myndighet i annat fall än som avses i 12-14 §§ fördelat medel mellan rättsägare i intecknad fastighet, är inteckningen utan verkan till den del medlen utfallit på pantbrevets belopp. Härvid äger 13 §
+Har myndighet i annat fall än som avses i 12-14 §§ fördelat medel mellan rättsägare i intecknad fastighet, är inteckningen utan verkan till den del medlen utfallit på pantbrevets belopp. Härvid äger 13 §
+
 andra stycket motsvarande tillämpning.
 16 §
 Sammanlägges fastighet eller del av fastighet med annan fastighet eller fastighetsdel, omfattar inteckning som besvärar någon av de i sammanläggningen ingående fastigheterna eller fastighetsdelarna hela den nybildade fastigheten.
 En fastighet som har bildats genom avstyckning ansvarar inte för inteckningar i stamfastigheten eller stamfastigheterna, om
-1. lantmäterimyndigheten har meddelat ett beslut om inteckningsfrihet enligt 10 kap. 8 a § fastighetsbildningslagen
+1. lantmäterimyndigheten har meddelat ett beslut om inteckningsfrihet enligt 10 kap. 8 a § fastighetsbildningslagen
+
 (1970:988), eller
 2. fastigheten har bildats genom avstyckning av en samfällighet eller en viss ägovidd av en samfällighet.
 Lag (2004:395)
@@ -570,7 +588,8 @@ Finns i samma fastighet flera rättigheter som ej är inskrivna och kan de ej ut
 Är upplåtelserna samtidiga eller kan det ej utrönas i vilken tidsföljd de skett, skall rätten på talan förordna om företrädet mellan dem efter vad som med hänsyn till omständigheterna är skäligt.
 23 §
 Vid exekutiv auktion äger rättigheter som ej är inskrivna sinsemellan företräde efter den tidsföljd i vilken de upplåtits.
-Är upplåtelserna samtidiga eller kan det ej utrönas i vilken tidsföljd de skett, äger de lika rätt, om ej annat blivit bestämt enligt 22 §
+Är upplåtelserna samtidiga eller kan det ej utrönas i vilken tidsföljd de skett, äger de lika rätt, om ej annat blivit bestämt enligt 22 §
+
 andra stycket.
 Första stycket gäller i tillämpliga delar när myndighet i annat fall än med anledning av exekutiv auktion fördelar medel mellan rättsägare i den ordning som gäller vid fördelning av köpeskillig för exekutivt försåld fast egendom.
 24 §
@@ -587,7 +606,8 @@ Delas fastighet som besväras av nyttjanderätt eller servitut, gäller rättigh
 Delas fastighet, i vilken upplåtits rätt till elektrisk kraft, gäller rättigheten i den fastighet till vilken den elektriska kraftstationen hör efter delningen.
 28 §
 Gäller nyttjanderätt eller servitut efter fastighetsbildning i flera fastigheter, skall vederlag som utgår för rättigheten tillkomma ägarna av dessa i förhållande till belastningen på varje fastighet.
-Lag
+Lag
+
 (1989:722)
 .
 29 §
@@ -605,7 +625,8 @@ Om rättighetshavares rätt till ersättning i vissa fall vid fastighetsreglerin
 Vissa upplåtelser i andra hand
 31 §
 Om en fastighetsägare har upplåtit en nyttjanderätt till någon som i sin tur har upplåtit arrende eller hyra gäller följande. Om det råder intressegemenskap mellan fastighetsägaren och upplåtaren och det med hänsyn härtill och till omständigheterna i övrigt kan antas att rättsförhållandet utnyttjas för att kringgå någon bestämmelse i lag som är till förmån för en nyttjanderättshavare, har arrendatorn och hyresgästen samma rätt i förhållande till fastighetsägaren som de skulle ha haft om fastighetsägaren hade upplåtit deras nyttjanderätt.
-Lag
+Lag
+
 (1985:278)
 .
 8 kap. Arrende i allmänhet
@@ -639,12 +660,14 @@ Lag (1989:722)
 Infaller dag då arrendestället enligt lag eller avtal skall tillträdas eller avträdas på söndag eller annan allmän helgdag, skall tillträde eller avträde i stället ske nästa vardag, om ej annat avtalats.
 Sättet för uppsägning
 8 §
-En uppsägning ska vara skriftlig, om inte ett skriftligt  erkännande av uppsägningen lämnas. I fall som avses i 11 kap. 
+En uppsägning ska vara skriftlig, om inte ett skriftligt  erkännande av uppsägningen lämnas. I fall som avses i 11 kap. 
+
 6 och 6 a §§ ska uppsägningen dock alltid vara skriftlig. En  uppsägning får ske hos den som är behörig att ta emot  arrendeavgift på jordägarens vägnar.
 En skriftlig uppsägning ska delges den som söks för  uppsägning. Delgivning får inte ske enligt 34-38 och 48 §§  delgivningslagen (2010:1932).
 Om den som söks i sin hemvist inte påträffas, får uppsägningen  skickas i rekommenderat brev till hans eller hennes vanliga  adress. Ett exemplar av uppsägningen ska dessutom lämnas  antingen i den söktes bostad till en vuxen medlem i det  hushåll som han eller hon tillhör eller, om han eller hon  driver rörelse med fast kontor, på kontoret till någon som är  anställd där. Om inte någon av de nämnda personerna påträffas  ska uppsägningen i stället läggas i den söktes postlåda, om  det finns en sådan. Uppsägning har skett när de nämnda  åtgärderna har vidtagits.
 Om en jordägare eller arrendator, hos vilken uppsägning ska  ske, inte har någon känd hemvist i Sverige och det inte heller  finns något känt ombud som har rätt att ta emot uppsägning för  honom eller henne, får uppsägningen ske genom kungörelse i  Post- och Inrikes Tidningar.
-En ansökan hos domstol med yrkande om att ett  arrendeförhållande ska upphöra eller att en arrendator ska  avhysas gäller som uppsägning när delgivning har skett i  behörig ordning. Detsamma gäller en ansökan enligt lagen 
+En ansökan hos domstol med yrkande om att ett  arrendeförhållande ska upphöra eller att en arrendator ska  avhysas gäller som uppsägning när delgivning har skett i  behörig ordning. Detsamma gäller en ansökan enligt lagen 
+
 (1990:746) om betalningsföreläggande och handräckning om att  en arrendator ska avhysas.
 I fråga om jordbruksarrende eller bostadsarrende finns det  ytterligare bestämmelser i 8 a § om sättet för uppsägning av  ett sådant avtal. I fråga om anläggningsarrende finns det  särskilda bestämmelser i 11 kap. 6 § om vad en uppsägning av  ett sådant avtal ska innehålla.
 Lag (2020:362)
@@ -652,7 +675,8 @@ Lag (2020:362)
 8 a §
 En uppsägning av ett avtal om jordbruksarrende eller  bostadsarrende ska, utöver vad som framgår av 8 §, också anses  ha skett när uppsägningen har skickats i ett rekommenderat  brev till mottagarens vanliga adress.
 Om jordägaren eller arrendatorn har uppgett en postadress som  ska användas av motparten för meddelanden till honom eller  henne, ska den adressen anses som hans eller hennes vanliga  adress. I annat fall ska mottagarens folkbokföringsadress  eller, om mottagaren är en juridisk person, den postadress som  är registrerad i ett register som anges i 29 §  delgivningslagen (2010:1932) anses som mottagarens vanliga  adress.
-Denna paragraf gäller inte vid uppsägning i förtid enligt 
+Denna paragraf gäller inte vid uppsägning i förtid enligt 
+
 23 §.
 Lag (2020:362)
 .
@@ -670,7 +694,8 @@ Betalning av arrendeavgift
 Arrendeavgift skall betalas senast tre månader före varje arrendeårs utgång, om ej annat avtalats.
 12 a §
 Anser arrendatorn att han enligt en bestämmelse i denna balk har rätt till nedsättning av arrendeavgiften eller till ersättning för skada eller för avhjälpande av brist eller att han har någon annan motfordran hos jordägaren, och vill arrendatorn dra av motsvarande belopp från en arrendeavgift som utgår i pengar, får han deponera beloppet hos länsstyrelsen. Detta gäller också när parterna är oense om storleken på en arrendeavgift som skall utgå i pengar men vars belopp inte framgår av avtalet.
-Bestämmelser om deposition i vissa andra fall finns i lagen
+Bestämmelser om deposition i vissa andra fall finns i lagen
+
 (1927:56) om nedsättning av pengar hos myndighet.
 När arrendatorn vill deponera ett belopp hos länsstyrelsen enligt första stycket, skall han lämna skriftliga uppgifter i två exemplar om arrendeförhållandet, förfallodagen och grunden för avdraget eller tvistens beskaffenhet samt ställa pant eller borgen, som länsstyrelsen finner skälig, för den kostnad jordägaren kan få för att få ut beloppet och för ränta på beloppet.
 Har arrendatorn deponerat en arrendeavgift hos länsstyrelsen, får jordägaren inte göra gällande att arrenderätten blivit förverkad på grund av att det deponerade beloppet inte har betalats till honom.
@@ -692,7 +717,8 @@ Pant eller borgen
 Utmätning och konkurs
 15 §
 Om fastigheten blivit utmätt före tillträdesdagen, får arrendatorn uppsäga avtalet. Han har även rätt till ersättning för skada. Uppsägning skall dock ske inom en månad från det arrendatorn fick kännedom om att fastigheten blivit utmätt. Upphäves utmätningen eller förfaller eljest frågan om fastighetens försäljning, får ej uppsägning ske därefter.
-Lag
+Lag
+
 (1971:503)
 .
 16 §
@@ -730,11 +756,13 @@ Arrenderätten är förverkad och jordägaren således berättigad att uppsäga 
 5. om arrendatorn åsidosätter avtalsenlig skyldighet, som går utöver hans åligganden enligt denna balk, och det måste anses vara av synnerlig vikt för jordägaren att skyldigheten fullgöres.
 Arrenderätten är icke förverkad, om det som ligger arrendatorn till last är av ringa betydelse.
 Uppsäges avtalet, har jordägaren rätt till ersättning för skada.
-Lag
+Lag
+
 (1984:678)
 .
 24 §
-Är arrenderätten förverkad på grund av förhållande som avses i 23 §
+Är arrenderätten förverkad på grund av förhållande som avses i 23 §
+
 första stycket 1--3 men sker rättelse innan jordägaren gjort bruk av sin rätt att säga upp avtalet, kan arrendatorn inte därefter skiljas från arrendestället på den grunden. Detsamma gäller, om jordägaren inte har sagt upp avtalet inom sex månader från det han fick kännedom om förhållande som avses i 23 § första stycket 4 eller 5.
 Lag (1984:678)
 .
@@ -750,7 +778,8 @@ Lag (1985:659)
 28 §
 Vid jordbruksarrende och bostadsarrende får ett avtal  mellan jordägaren och arrendatorn om att en framtida tvist  med anledning av arrendeförhållandet ska överlämnas till  avgörande av skiljemän utan villkor om rätt för parterna att  klandra skiljedomen inte göras gällande i fråga om
 1. arrendatorns rätt eller skyldighet att tillträda eller  sitta kvar på arrendestället,
-2. fastställande av arrendevillkor i fall som avses i 9 kap. 
+2. fastställande av arrendevillkor i fall som avses i 9 kap. 
+
 12 eller 13 § eller 10 kap. 6 b §, eller
 3. bestämmande av ersättning enligt 9 kap. 14 §.
 I övrigt gäller inte ett villkor i skiljeavtalet som innebär  att skiljemän har utsetts. Inte heller gäller villkor om  skiljemännens antal, sättet att utse dem eller förfarandet vid  skiljenämnden. I dessa avseenden ska lagen (1999:116) om  skiljeförfarande tillämpas. Detta hindrar dock inte att  arrendenämnden i skiljeavtalet utses till skiljenämnd eller  att det i avtalet bestäms en viss tid för meddelande av  skiljedom.
@@ -774,7 +803,8 @@ Lag (2005:1058)
 .
 31 b §
 I hovrätten får utöver lagfarna ledamöter ingå ett tekniskt råd, om målets beskaffenhet eller något annat särskilt skäl föranleder det.
-I fråga om kvalifikationskrav för det tekniska rådet, möjligheten för hovrätten att låta en ledamot verkställa en undersökning på platsen och i fråga om den utredning som en ledamot verkställt tillämpas 2 kap. 2 § och 3 kap. 4 § lagen
+I fråga om kvalifikationskrav för det tekniska rådet, möjligheten för hovrätten att låta en ledamot verkställa en undersökning på platsen och i fråga om den utredning som en ledamot verkställt tillämpas 2 kap. 2 § och 3 kap. 4 § lagen
+
 (2010:921) om mark- och miljödomstolar.
 Lag (2010:993)
 .
@@ -785,10 +815,13 @@ Lag (2005:1058)
 .
 31 d §
 Följande beslut av hovrätten får inte överklagas:
-1. beslut i en fråga om uppskov med avträde enligt 9 kap. 
-12 b § eller 10 kap. 6 b §, när det gäller hänvisningen till 
+1. beslut i en fråga om uppskov med avträde enligt 9 kap. 
+
+12 b § eller 10 kap. 6 b §, när det gäller hänvisningen till 
+
 9 kap. 12 b §, eller
-2. beslut i en fråga som avses i 9 kap. 17 a, 18, 21 eller 
+2. beslut i en fråga som avses i 9 kap. 17 a, 18, 21 eller 
+
 21 a § eller 11 kap. 6 b §.
 Hovrätten får dock tillåta att ett beslut i en fråga som avses  i första stycket överklagas, om det finns särskilda skäl för  en prövning av om tillstånd ska ges enligt 54 kap. 10 § första  stycket 1 rättegångsbalken.
 Lag (2020:362)
@@ -809,7 +842,8 @@ Arrendetid
 2 §
 Avtal om jordbruksarrende skall träffas för viss tid. Avser upplåtelsen jord, varöver upplåtaren inte kan förfoga utöver sin egen besittningstid, får avtal träffas även för sådan tid. Staten får upplåta arrende för arrendatorns livstid. Är arrendetiden inte bestämd enligt vad som sagts nu, gäller avtalet för fem år.
 Omfattar arrende för viss tid bostad för arrendatorn, skall arrendetiden utgöra minst fem år. Har avtal träffats för kortare tid, gäller det för den nu angivna minsta tiden. Om arrendenämnden godkänt avtalet i denna del, gäller det dock för den överenskomna tiden.
-Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+
 5 och 30 §§, 8 kap. 6, 14 och 23 §§ samt 30, 32 och 33 §§ detta kapitel återtaga arrendestället eller del därav före arrendetidens utgång gäller endast om det godkänts av arrendenämnden.
 Lag (1984:678)
 .
@@ -840,7 +874,8 @@ Lag (1984:678)
 .
 8 §
 Om jordägaren har sagt upp arrendeavtalet, har arrendatorn rätt till förlängning av detta, utom när
-1. arrenderätten är förverkad eller förhållande som avses i 8 kap. 14 §
+1. arrenderätten är förverkad eller förhållande som avses i 8 kap. 14 §
+
 föreligger,
 2. arrendatorn i annat fall åsidosatt sina förpliktelser i sådan mån att avtalet skäligen icke bör förlängas,
 3. jordägaren gör sannolikt, att han själv, hans make eller avkomling skall bruka arrendestället, och det ej är obilligt mot arrendatorn att arrendeförhållandet upphör,
@@ -881,7 +916,8 @@ Lag (2005:1058)
 .
 12 a §
 Skall arrendatorn enligt beslut betala högre arrendeavgift än förut för förfluten tid, skall arrendatorn betala ränta på det överskjutande beloppet som om detta hade förfallit till betalning samtidigt med den förut utgående arrendeavgiften. Skall arrendatorn betala lägre belopp, skall jordägaren betala ränta på det belopp som jordägaren har mottagit för mycket från den dag då beloppet togs emot.
-Räntan skall beräknas enligt 5 § räntelagen (1975:635) för tiden innan beslutet har vunnit laga kraft och enligt 6 §
+Räntan skall beräknas enligt 5 § räntelagen (1975:635) för tiden innan beslutet har vunnit laga kraft och enligt 6 §
+
 räntelagen för tiden därefter.
 Lag (2005:1058)
 .
@@ -896,14 +932,16 @@ Avgörs tvisten efter arrendetidens utgång eller medges uppskov med avträdet, 
 Lag (2005:1058)
 .
 14 §
-Kommer förlängning av arrendeavtal som omfattar bostad för arrendatorn ej till stånd på grund av att förhållande som avses i 8 §
+Kommer förlängning av arrendeavtal som omfattar bostad för arrendatorn ej till stånd på grund av att förhållande som avses i 8 §
+
 första stycket 5 eller 6 föreligger och skall marken efter avtalets upphörande användas för ändamål som kan antagas lämna väsentligt högre avkastning eller som kan tillgodoses genom expropriation eller liknande tvångsförvärv, skall jordägaren till arrendatorn utge ett belopp som motsvarar den genomsnittliga arrendeavgiften för ett år under den senaste arrendeperioden. Uppgår arrendatorns förlust på grund av att arrendeförhållandet upphör till högre belopp, skall jordägaren i stället i skälig omfattning ersätta förlusten, dock högst med belopp som motsvarar tre års arrendeavgifter, beräknade så som nyss angivits.
 Första stycket gäller ej, om det av särskilda skäl är obilligt mot jordägaren att han ålägges ersättningsskyldighet.
 Underhåll och nybyggnad m.m.
 15 §
 Arrendatorn skall vårda och underhålla arrendstället. Försämras det genom att arrendatorn eftersätter vad som sålunda åligger honom, har jordägaren rätt till ersättning vid avräkning enligt 23 §.
 16 §
-Avhjälper arrendatorn brist som förelegat vid tillträdet och har han ej enligt 17 § rätt till ersättning för arbetet så snart det fullbordats, är han berättigad till ersättning vid avräkning enligt 23
+Avhjälper arrendatorn brist som förelegat vid tillträdet och har han ej enligt 17 § rätt till ersättning för arbetet så snart det fullbordats, är han berättigad till ersättning vid avräkning enligt 23
+
 §. Detta gäller dock ej sådan del av arrendestället beträffande vilken arrendatorn enligt avtalet är fritagen från underhållsskyldighet.
 17 §
 Omfattar arrende bostad för arrendatorn eller hans anställda, skall jordägaren vid tillträdet avlämna bostaden i det skick som föreskrivs i gällande hälsoskyddslagstiftning.
@@ -941,7 +979,8 @@ Lag (1984:678)
 21 §
 Utför arrendatorn ny täckdikning, som arrendenämnden funnit behövlig med hänsyn till en ändamålsenlig planläggning av jordbruket på arrendestället, är han efter arbetets fullbordande berättigad till ersättning av jordägaren med belopp vartill arrendenämnden fastställt beräknad kostnad för arbetet.
 Har arrendatorn anlagt markväg, förbättrat ägoanordningen eller vidtagit annan åtgärd som medfört varaktig nytta för jordbruket och ej är att hänföra till uppförande av byggnad eller till täckdikning, är han vid avräkning enligt 23 § berättigad till ersättning motsvarande vad arrendestället ökat i värde, om ej annat avtalats. Ersättning får dock ej utgå med högre belopp än som motsvarar den nödvändiga kostnaden.
-Lag
+Lag
+
 (1984:678)
 .
 21 a §
@@ -1072,7 +1111,8 @@ Lag (1985:279)
 2 §
 Avtal om bostadsarrende skall träffas för viss tid, minst fem år, eller för arrendatorns livstid.
 Är arrendetiden icke bestämd enligt vad som sagts nu, gäller avtalet för fem år.  Har avtal träffats för kortare tid, gäller det dock för den överenskomna tiden, om arrendenämnden godkänt avtalet i denna del.
-Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+
 5 och 30 §§ samt 8 kap. 6, 14, 18 och 23 §§ återtaga arrendestället eller del därav före arrendetidens utgång gäller endast om det godkänts av arrendenämnden.
 3 §
 Vid arrende för viss tid ska uppsägning alltid ske för att  avtalet ska upphöra att gälla vid arrendetidens utgång. En  jordägare eller arrendator som vill att arrendevillkoren för  en ny arrendeperiod ska ändras, ska meddela motparten detta  skriftligt. Den som är behörig att ta emot arrendeavgift på  jordägarens vägnar är också behörig att ta emot ett sådant  meddelande. Uppsägning och begäran om villkorsändring ska  göras senast ett år före arrendetidens utgång.
@@ -1088,7 +1128,8 @@ Lag (2020:362)
 4 §
 Bestämmelserna i 5 och 6 §§ om förlängning av arrendeavtal gäller vid arrende för viss tid, utom när
 1. hus som avses i 1 § ej finns på arrendestället då avtalet senast kan uppsägas från jordägarens sida, eller
-2. jordägaren säger upp arrendeavtalet på den grund att arrenderätten är förverkad eller förhållande som avses i 8 kap. 14 §
+2. jordägaren säger upp arrendeavtalet på den grund att arrenderätten är förverkad eller förhållande som avses i 8 kap. 14 §
+
 föreligger, dock inte om i uppsägningen anges att den sker till arrendetidens utgång.
 Förbehåll att arrenderätten icke skall vara förenad med rätt till förlängning gäller, om det godkänts av arrendenämnden.
 Lag (1995:1474)
@@ -1116,7 +1157,8 @@ Om den arrendeavgift som är att anse som skälig vid en  prövning enligt 6 § 
 Lag (2020:362)
 .
 6 b §
-I fråga om förlängning av arrendeavtal och om villkorstvist tillämpas i övrigt 9 kap. 9 a--13 §§. Hänvisningarna till 9 kap. 9 §
+I fråga om förlängning av arrendeavtal och om villkorstvist tillämpas i övrigt 9 kap. 9 a--13 §§. Hänvisningarna till 9 kap. 9 §
+
 skall dock i stället avse 6 § detta kapitel.
 Lag (2020:362)
 .
@@ -1130,14 +1172,16 @@ Förbehåll som strider mot andra eller tredje stycket gäller mot arrendatorn, 
 Anläggningsarrende föreligger när jord upplåtes på arrende för annat ändamål än jordbruk samt arrendatorn enligt arrendeupplåtelsen har rätt att för förvärvsverksamhet på arrendestället uppföra eller bibehålla byggnad, som ej är av endast ringa betydelse för verksamhetens bedrivande.  Har upplåtelsen skett för arrendatorns livstid eller för viss tid som understiger ett år, föreligger dock icke anläggningsarrende.
 2 §
 Avtal om anläggningsarrende skall träffas för viss tid.  Är arrendetiden icke bestämd enligt vad som sagts nu, gäller avtalet för fem år.
-Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+Förbehåll om rätt för jordägaren att i annat fall än som anges i 7 kap.
+
 5 och 30 §§ samt 8 kap. 14, 18 och 23 §§ återtaga arrendestället eller del därav före arrendetidens utgång gäller endast om det godkänts av arrendenämnden.
 3 §
 Har ej annat avtalats, anses arrendeavtal innefatta villkor att, om uppsägning ej sker inom rätt tid, avtalet skall anses förlängt på tid som motsvarar arrendetiden, dock längst fem år.
 Uppsägning skall ske senast sex månader före arrendetidens utgång, om ej annan tid avtalats.
 4 §
 Bestämmelserna i 5 - 6 a §§ om rätt till ersättning för arrendatorn med anledning av arrendets upphörande gäller, om ej annat avtalats och ej heller arrendeförhållandet upphör på den grund att arrenderätten är förverkad eller förhållande som avses i 8 kap.  14 § föreligger.
-Lag
+Lag
+
 (1973:187)
 .
 5 §
@@ -1183,7 +1227,8 @@ Innefattar avtalet även upplåtelse av jord att nyttjas  tillsammans med lägen
 Med bostadslägenhet avses lägenhet som upplåtits för att helt  eller till en inte oväsentlig del användas som bostad. Med  lokal avses annan lägenhet än bostadslägenhet.
 Det som föreskrivs i detta kapitel om sambor gäller endast  sådana samboförhållanden där ingen av samborna är gift.
 Förbehåll som strider mot en bestämmelse i detta kapitel är  utan verkan mot hyresgästen eller den som har rätt att träda i  hans eller hennes ställe, om inte annat anges.
-Omfattar hyresavtalet minst tre bostadslägenheter, som  hyresgästen ska hyra ut i andra hand eller upplåta med  kooperativ hyresrätt, får parterna avtala om förbehåll som  strider mot det som sägs i detta kapitel om sådana lägenheter,  under förutsättning att förbehållet inte strider mot bestäm-
+Omfattar hyresavtalet minst tre bostadslägenheter, som  hyresgästen ska hyra ut i andra hand eller upplåta med  kooperativ hyresrätt, får parterna avtala om förbehåll som  strider mot det som sägs i detta kapitel om sådana lägenheter,  under förutsättning att förbehållet inte strider mot bestäm-
+
 melserna om lokaler och inte heller avser rätten till  förlängning av avtalet eller grunderna för fastställande av  hyresvillkoren i samband med sådan förlängning. Ett sådant  förbehåll gäller endast om det godkänts av hyresnämnden.  Godkännande behövs dock inte om staten, en kommun, en region  eller ett kommunalförbund är hyresvärd.
 I lagen (2012:978) om uthyrning av egen bostad finns särskilda  bestämmelser om upplåtelse av bostadslägenhet i vissa fall.
 Lag (2019:840)
@@ -1202,7 +1247,8 @@ Hyresavtal kan även ingås för bestämd tid. Sådana avtal upphör att gälla 
 Ett hyresavtal, som är ingånget för bestämd tid, anses förlängt på obestämd tid.
 1. om avtalet saknar bestämmelser om verkan av utebliven uppsägning och inte sägs upp till hyrestidens utgång trots att uppsägning skall ske, eller
 2. om hyresgästen, trots att avtalet upphört att gälla utan uppsägning, fortsatt att använda lägenheten en månad efter hyrestidens utgång utan att hyresvärden anmodat honom att flytta.
-För anmodan enligt tredje stycket 2 gäller vad som föreskrivs om uppsägning i 8 §. Ytterligare bestämmelser om sådan anmodan finns i 49 §
+För anmodan enligt tredje stycket 2 gäller vad som föreskrivs om uppsägning i 8 §. Ytterligare bestämmelser om sådan anmodan finns i 49 §
+
 tredje stycket.
 Lag (1984:694)
 .
@@ -1224,14 +1270,19 @@ Om hyresgästen har avlidit, får dödsboet också inom en månad från dödsfal
 Lag (1987:816)
 .
 6 §
-Sägs ett hyresavtal upp av en orsak som anges i 11--14 eller 16--18
-§§, upphör det genast att gälla. Detsamma gäller i fall som anges i 42
+Sägs ett hyresavtal upp av en orsak som anges i 11--14 eller 16--18
+
+§§, upphör det genast att gälla. Detsamma gäller i fall som anges i 42
+
 §, om ej annat följer av 44 §.
-Sägs ett hyresavtal upp av någon annan orsak som ger hyresvärd eller hyresgäst rätt att frånträda avtalet och är det inte fråga om fall som avses i 5 § andra stycket gäller, oavsett vad som har avtalats om uppsägningstid, den uppsägningstid som för varje särskilt fall anges i 4
-§ första stycket, om hyresavtalet gäller för obestämd tid, eller i 4 §
+Sägs ett hyresavtal upp av någon annan orsak som ger hyresvärd eller hyresgäst rätt att frånträda avtalet och är det inte fråga om fall som avses i 5 § andra stycket gäller, oavsett vad som har avtalats om uppsägningstid, den uppsägningstid som för varje särskilt fall anges i 4
+
+§ första stycket, om hyresavtalet gäller för obestämd tid, eller i 4 §
+
 andra stycket, om hyresavtalet gäller för bestämd tid. Sker uppsägning innan hyresgästen tillträtt lägenheten, upphör avtalet dock genast att gälla.
 Upphör ett avtal om hyra av bostadslägenhet att gälla och finns förutom hyresavtalet ett annat avtal mellan hyresvärden och hyresgästen som avser en nyttighet som har ett omedelbart samband med användningen av lägenheten och som är av mindre betydelse i jämförelse med den användningen, upphör även det andra avtalet samtidigt att gälla.
-Lag
+Lag
+
 (1984:694)
 .
 7 §
@@ -1297,7 +1348,8 @@ Under hyrestiden ska hyresvärden hålla lägenheten i sådant skick som anges i
 Om lägenheten helt eller delvis är uthyrd till bostad, ska hyresvärden i bostadsdelen med skäliga tidsmellanrum ombesörja tapetsering, målning och andra sedvanliga reparationer med anledning av lägenhetens försämring genom ålder och bruk. Detta gäller dock inte, om något annat har avtalats och
 1. hyresavtalet avser ett enfamiljshus eller en lägenhet inom en ägarlägenhetsfastighet, eller
 2. hyresavtalet innehåller förhandlingsklausul enligt hyresförhandlingslagen (1978:304) och de avvikande bestämmelserna har tagits in i en förhandlingsöverenskommelse enligt nämnda lag.
-Följer av ett hyresförhållande en rätt att använda utrymmen som är avsedda att användas gemensamt av hyresgästerna, ska hyresvärden hålla utrymmena i sådant skick som anges i 9 §
+Följer av ett hyresförhållande en rätt att använda utrymmen som är avsedda att användas gemensamt av hyresgästerna, ska hyresvärden hålla utrymmena i sådant skick som anges i 9 §
+
 första stycket, om inte något annat har avtalats.
 Lag (2009:180)
 .
@@ -1307,7 +1359,8 @@ Bestämmelserna i 10-12 §§ tillämpas också, om
 2. hinder eller men på annat sätt uppstår i nyttjanderätten  utan att hyresgästen är vållande,
 3. hyresvärden brister i sin underhållsskyldighet enligt 15 §  andra stycket, eller
 4. en myndighet under hyrestiden meddelar ett sådant beslut  som avses i 10 § andra stycket eller 12 § utan att hyresgästen  gett anledning till det, dock inte förrän beslutet får  verkställas.
-Avser hyresavtalet en bostadslägenhet, får hyresnämnden i de  fall som avses i första stycket 1-3 eller om hyresvärden inte  fullgör sin underhållsskyldighet enligt 15 § tredje stycket på  ansökan av hyresgästen ålägga hyresvärden att åtgärda bristen 
+Avser hyresavtalet en bostadslägenhet, får hyresnämnden i de  fall som avses i första stycket 1-3 eller om hyresvärden inte  fullgör sin underhållsskyldighet enligt 15 § tredje stycket på  ansökan av hyresgästen ålägga hyresvärden att åtgärda bristen 
+
 (åtgärdsföreläggande). I föreläggandet, som får förenas med  vite, ska det anges en viss tid inom vilken den eller de  åtgärder som avses med föreläggandet ska ha vidtagits. Finns  det särskilda skäl får tiden förlängas, om en ansökan om det  görs innan tidsfristen löper ut.
 Hyresvärden och hyresgästen kan med bindande verkan träffa  avtal om inskränkning i rätten att enligt första stycket få  nedsättning av hyran för hinder eller men i nyttjanderätten  till följd av att hyresvärden låter utföra arbete för att  sätta lägenheten i avtalat skick eller för att utföra  sedvanligt underhåll av lägenheten eller fastigheten i övrigt  eller annat arbete som särskilt anges i avtalet.
 En ansökan om åtgärdsföreläggande kan riktas mot den som  senast har beviljats eller sökt lagfart, även om denne har  överlåtit fastigheten innan ansökan om åtgärdsföreläggande  görs.
@@ -1452,7 +1505,8 @@ Frågan om skyldighet för hyresgästen att betala ersättning enligt första st
 Lag (2009:180)
 .
 25 §
-Hyresgästen ska se till att det som krävs för att bevara  trygghet, sundhet, ordning och gott skick inom fastigheten  inte åsidosätts när han eller hon använder lägenheten 
+Hyresgästen ska se till att det som krävs för att bevara  trygghet, sundhet, ordning och gott skick inom fastigheten  inte åsidosätts när han eller hon använder lägenheten 
+
 (bristande skötsamhet).
 Hyresgästen ska vid sin användning av lägenheten också se till  att de som bor i omgivningen inte utsätts för störningar som i  sådan grad kan vara skadliga för hälsan eller annars försämra  deras bostadsmiljö att de inte skäligen bör tålas (störningar  i boendet).
 Med störningar i boendet likställs att hyresgästen begår  brott, om brottsligheten är ägnad att medföra en sådan  försämring av närmiljön som inte skäligen bör tålas av dem som  bor i lägenhetens omgivning. När det finns bestämmelser om  särskilt allvarliga störningar i boendet tillämpas dessa i  stället.
@@ -1460,7 +1514,8 @@ Lag (2024:313)
 .
 25 a §
 Om det förekommer bristande skötsamhet eller störningar  i boendet, ska hyresvärden uppmana hyresgästen att se till att  beteendet omedelbart upphör och, om denne är en  bostadshyresgäst, underrätta socialnämnden i den kommun där  lägenheten är belägen.
-Första stycket gäller inte om hyresvärden säger upp  hyresavtalet med anledning av bristande skötsamhet som med  hänsyn till dess art eller omfattning är särskilt allvarlig 
+Första stycket gäller inte om hyresvärden säger upp  hyresavtalet med anledning av bristande skötsamhet som med  hänsyn till dess art eller omfattning är särskilt allvarlig 
+
 (särskilt allvarlig bristande skötsamhet) eller med anledning  av störningar i boendet som är särskilt allvarliga (särskilt  allvarliga störningar i boendet).
 Lag (2024:313)
 .
@@ -1532,7 +1587,8 @@ Lag (2003:378)
 34 §
 En hyresgäst, som ej avser att använda sin bostadslägenhet, får överlåta hyresrätten till en närstående som varaktigt sammanbor med honom, om hyresnämnden lämnar tillstånd till överlåtelsen. Sådant tillstånd skall lämnas, om hyresvärden skäligen kan nöja sig med förändringen. Tillståndet kan förenas med villkor.
 Första stycket gäller också om hyresgästen avlider under hyrestiden och dödsboet vill överlåta hyresrätten till sådan dödsbodelägare eller annan hyresgästen närstående som varaktigt sammanbodde med honom.
-Lag
+Lag
+
 (1984:694)
 .
 35 §
@@ -1548,7 +1604,8 @@ Lag (2019:523)
 .
 36 §
 Den som hyr en lägenhet för att helt eller till väsentlig del använda den för handel, hantverk, industri eller annan förvärvsverksamhet, får överlåta hyresrätten till den som skall överta verksamheten, om hyresnämnden lämnar tillstånd till överlåtelsen. Sådant tillstånd skall lämnas, om hyresvärden ej har befogad anledning att motsätta sig att hyresrätten överlåts. Har hyresgästen innehaft lägenheten mindre än tre år, får tillstånd dock lämnas endast om synnerliga skäl föreligger. Tillståndet kan förenas med villkor.
-Lag
+Lag
+
 (1984:694)
 .
 37 §
@@ -1601,7 +1658,8 @@ Hyresrätten är förverkad och hyresvärden berättigad att  säga upp avtalet 
 11. om hyresgästen åsidosätter en avtalsenlig skyldighet som  går utöver hyresgästens skyldigheter enligt detta kapitel och  det måste anses vara av synnerlig vikt för hyresvärden att  skyldigheten fullgörs, eller
 12. om lägenheten eller utrymme som hör till den används för  att begå allvarlig brottslighet eller för att begå brott  vanemässigt eller i större omfattning.
 I fall då hyran ska betalas i förskott för längre tid än en  månad gäller första stycket 2 endast om hyresgästen dröjer med  att betala den på kalendermånaden belöpande hyran mer än två  vardagar efter månadens början eller, i fråga om hyran för  första kalendermånaden under hyresförhållandet, efter  förfallodagen.
-Ett hyresavtal som gäller bostadslägenhet får inte sägas upp  enligt första stycket 9 på grund av bristande skötsamhet eller  störningar i boendet förrän socialnämnden underrättats enligt 
+Ett hyresavtal som gäller bostadslägenhet får inte sägas upp  enligt första stycket 9 på grund av bristande skötsamhet eller  störningar i boendet förrän socialnämnden underrättats enligt 
+
 25 a §.
 Om det är fråga om särskilt allvarlig bristande skötsamhet  eller särskilt allvarliga störningar i boendet gäller första  stycket 9 även om någon uppmaning om rättelse inte har gjorts.  Hyresavtalet för en bostadslägenhet får då sägas upp utan  föregående underrättelse till socialnämnden men en kopia av  uppsägningen ska skickas till socialnämnden. En uppmaning om  rättelse och underrättelse till socialnämnden ska alltid  lämnas om det är någon till vilken lägenheten har upplåtits i  andra hand med hyresvärdens samtycke eller hyresnämndens  tillstånd som gör sig skyldig till sådant åsidosättande eller  inte håller den tillsyn som krävs enligt 25 b §.
 Hyresrätten är inte förverkad om det som ligger hyresgästen  till last är av ringa betydelse. Detsamma gäller om ett  förverkande är oskäligt med hänsyn till att det som ligger  hyresgästen till last har sin grund i att en närstående eller  tidigare närstående har utsatt hyresgästen eller någon i  hyresgästens hushåll för brott.
@@ -1673,7 +1731,8 @@ Om hyresgästen inte godtar ett erbjudande enligt första  stycket upphör hans 
 Lag (2021:1097)
 .
 46 b §
-Hyresnämnden får på ansökan av hyresgästen förelägga  hyresvärden att erbjuda hyresgästen ett nytt hyresavtal enligt 
+Hyresnämnden får på ansökan av hyresgästen förelägga  hyresvärden att erbjuda hyresgästen ett nytt hyresavtal enligt 
+
 46 a §.
 Föreläggandet ska vara begränsat till viss tid och får inte  gälla längre än två år. Hyresnämnden får ange vilka krav en  lägenhet ska uppfylla för att vara likvärdig. Föreläggandet  får förenas med vite.
 Om det finns särskilda skäl får hyresnämnden på hyresgästens  begäran förbjuda hyresvärden att upplåta en viss lägenhet som  bostad till någon annan för tiden till dess att frågan  avgjorts genom ett beslut som fått laga kraft eller något  annat beslutas. Ett sådant föreläggande om förbud får förenas  med vite.
@@ -1717,7 +1776,8 @@ Prövning av hyran och andra hyresvillkor för bostadslägenheter
 Bestämmelserna i 54-55 e §§ gäller vid upplåtelser av  bostadslägenheter, om inte
 1. hyresavtalet avser ett möblerat rum eller en lägenhet för  fritidsändamål och ansökan till hyresnämnden enligt 54 § görs  innan hyresförhållandet har varat nio månader i följd, eller
 2. lägenheten utgör en del av upplåtarens egen bostad.
-Om en förhandlingsordning enligt hyresförhandlingslagen 
+Om en förhandlingsordning enligt hyresförhandlingslagen 
+
 (1978:304) gäller för lägenheten, tillämpas 54 och 55-55 e §§  endast om det följer av den lagen.
 Lag (2019:533)
 .
@@ -1730,9 +1790,11 @@ Lag (1984:694)
 54 a §
 Bestämmelserna i andra och tredje styckena tillämpas i fråga om hyresavtal som
 1. gäller för obestämd tid, och
-2. avser en sådan lägenhet i ett hus med förhandlingsordning som till följd av bestämmelserna i 3 § hyresförhandlingslagen
+2. avser en sådan lägenhet i ett hus med förhandlingsordning som till följd av bestämmelserna i 3 § hyresförhandlingslagen
+
 (1978:304), inte omfattas av förhandlingsordningen.
-Vill hyresvärden att ett skriftligt meddelande enligt 54 §
+Vill hyresvärden att ett skriftligt meddelande enligt 54 §
+
 första stycket om hyreshöjning skall få den verkan som anges i tredje stycket nedan, skall meddelandet innehålla uppgift i kronor om den hyreshöjning som begärs och om det totala hyresbeloppet samt uppgift om den dag då den nya hyran skall börja gälla. I meddelandet skall vidare anges att hyresgästen blir skyldig att betala den högre hyran, om han inte senast en viss angiven dag, tidigast två månader efter det att meddelandet lämnades, ger hyresvärden besked om att han motsätter sig hyresvärdens begäran. Meddelandet skall också innehålla uppgift om hyresvärdens adress, en upplysning om att hyresnämnden kan pröva skäligheten av den begärda hyran samt en uppgift om vad hyresgästen behöver göra för att en sådan prövning skall komma till stånd.
 Innehåller meddelandet från hyresvärden sådana uppgifter som anges i andra stycket och har hyresgästen inte inom den i meddelandet utsatta tiden gett hyresvärden besked om att han motsätter sig hyresvärdens begäran om hyreshöjning, skall hyresgästen anses ha ingått avtal med hyresvärden om att betala den hyra som hyresvärden har begärt. Den högre hyran får börja att gälla först efter den dag som i hyresvärdens meddelande angetts som sista dag för att motsätta sig hyreshöjningen.
 Lag (1997:62)
@@ -1750,7 +1812,8 @@ Om hyresvärden och hyresgästen kommer överens om villkoren för  fortsatt uth
 Lag (2019:533)
 .
 55 a §
-Vid prövning av hyran skall en åtgärd som avses i 18 d §
+Vid prövning av hyran skall en åtgärd som avses i 18 d §
+
 och som har höjt lägenhetens bruksvärde inte beaktas, om
 1. godkännande eller tillstånd krävdes för att åtgärden skulle få vidtas och sådant godkännande eller tillstånd inte har lämnats,
 2. lägenheten är upplåten till den hyresgäst som skulle ha godkänt åtgärden eller till en hyresgäst som har övertagit hyresrätten från denne enligt 33 § andra stycket, 34 § eller 47 § andra stycket, och
@@ -1788,11 +1851,13 @@ Gäller hyresavtalet för obestämd tid och har avtalet sagts upp, får beslut o
 Har den hyra som prövats blivit gällande enligt 54 a §, får beslut om hyran, trots vad som sägs i första stycket, avse tid från den dag då hyran började gälla, om ansökningen har gjorts inom tre månader därefter.
 Hyresnämnden får, när det finns skäl till det, förordna att beslut om villkorsändring skall gälla från en tidigare tidpunkt än vad som sägs i första och andra styckena. Om det finns särskilda skäl får hyresnämnden också förordna att beslut om villkorsändring får verkställas även om det inte har vunnit laga kraft.
 Skall hyresgästen enligt hyresnämndens eller hovrättens beslut betala högre hyra för förfluten tid än som skolat utgå förut, är hyresrätten inte förverkad på grund av dröjsmål med betalningen av det överskjutande beloppet, om betalningen sker inom en månad från den dag då beslutet vann laga kraft. Vad som sagts nu gäller inte, om skyldighet att flytta inträder för hyresgästen inom kortare tid än två månader efter nämnda dag.
-På överskjutande belopp skall hyresgästen betala ränta som om beloppet förfallit till betalning samtidigt med den förut utgående hyran. Räntan beräknas enligt 5 § räntelagen
+På överskjutande belopp skall hyresgästen betala ränta som om beloppet förfallit till betalning samtidigt med den förut utgående hyran. Räntan beräknas enligt 5 § räntelagen
+
 (1975:635) för tiden innan beslutet vunnit laga kraft och enligt 6 § räntelagen för tiden därefter.
 I beslutet får anstånd medges med betalningen av det överskjutande belopp jämte ränta som avses i sjätte stycket.
 Medges anstånd, får det bestämmas att ränta till förfallodagen skall beräknas enligt 5 § räntelagen.
-Om hyran sänks för förfluten tid genom hyresnämndens eller hovrättens beslut, skall hyresvärden samtidigt åläggas att till hyresgästen betala tillbaka vad han till följd därav har uppburit för mycket jämte ränta. Räntan skall beräknas enligt 5 §
+Om hyran sänks för förfluten tid genom hyresnämndens eller hovrättens beslut, skall hyresvärden samtidigt åläggas att till hyresgästen betala tillbaka vad han till följd därav har uppburit för mycket jämte ränta. Räntan skall beräknas enligt 5 §
+
 räntelagen för tiden från dagen för beloppets mottagande till dess beslutet vunnit laga kraft och enligt 6 § räntelagen för tiden därefter.
 Lag (2019:533)
 .
@@ -1800,7 +1865,8 @@ Lag (2019:533)
 55 f §
 Denna paragraf gäller vid upplåtelse av möblerat eller  omöblerat rum och vid upplåtelse i andra hand av annan  bostadslägenhet. Paragrafen gäller dock inte upplåtelser för  fritidsändamål.
 Om hyresvärden har tagit emot en hyra som inte är skälig  enligt 55 § första-fjärde styckena och 55 c §, ska  hyresnämnden på ansökan av hyresgästen besluta att hyresvärden  ska betala tillbaka det han eller hon har tagit emot utöver  skäligt belopp tillsammans med ränta. Vid bedömningen av om  den mottagna hyran är skälig ska hyresnämnden även beakta en  sådan nedsättning av hyresvärdens egen hyra som har gjorts med  tillämpning av 55 § sjätte stycket. Om hyresvärden betalar  hyrestillägg som ska godtas enligt 55 d §, ska det beaktas vid  bedömningen av hyresvärdens återbetalningsskyldighet. Räntan  beräknas enligt 5 § räntelagen (1975:635) från den dag då  hyresvärden tog emot beloppet till dess att  återbetalningsskyldigheten blivit slutligt bestämd genom ett  beslut som har fått laga kraft och enligt 6 § räntelagen för  tiden därefter. Ett beslut om återbetalning av hyra får inte  avse längre tid tillbaka än två år före dagen för ansökan.
-I ett ärende om återbetalning enligt andra stycket ska  hyresnämnden, om hyresgästen begär det, också fastställa hyran  för den fortsatta uthyrningen från och med dagen för ansökan.  Vid denna prövning tillämpas 55 § första-fjärde styckena och 
+I ett ärende om återbetalning enligt andra stycket ska  hyresnämnden, om hyresgästen begär det, också fastställa hyran  för den fortsatta uthyrningen från och med dagen för ansökan.  Vid denna prövning tillämpas 55 § första-fjärde styckena och 
+
 55 c §. Vid prövningen ska hyresnämnden även beakta en sådan  nedsättning av hyresvärdens egen hyra som har gjorts med  tillämpning av 55 § sjätte stycket. Om hyresvärden betalar  hyrestillägg som ska godtas enligt 55 d §, ska det beaktas när  hyran fastställs. Beslut om ändring av hyresvillkoren anses  som avtal om villkor för fortsatt uthyrning. När det finns  skäl till det, får hyresnämnden bestämma att beslutet ska  gälla omedelbart. Om hyran höjs eller sänks retroaktivt  tillämpas 55 e § femte-åttonde styckena.
 För att hyresnämnden ska kunna pröva en ansökan enligt andra  stycket ska ansökan ha kommit in till hyresnämnden inom tre  månader från det att hyresgästen lämnade lägenheten.
 Lag (2019:533)
@@ -1864,7 +1930,8 @@ Lag (1988:927)
 I mål om ersättning enligt 58 b § skall rätten på yrkande av hyresgästen, om hyresvärden medger skyldighet att betala ersättning eller sådan skyldighet fastställts genom dom som vunnit laga kraft, förplikta hyresvärden att betala förskott i avräkning på den ersättning som kan komma att bestämmas.
 Första stycket gäller inte, om det är uppenbart att förskottet blir obetydligt. Har beslut i fråga om förskott meddelats, får nytt yrkande om förskott inte tas upp till prövning förrän tre månader förflutit sedan det föregående beslutet vann laga kraft.
 Beslut i fråga om förskott får meddelas utan huvudförhandling. Innan beslut meddelas, skall parterna beredas tillfälle att yttra sig. Beslut som meddelats under rättegången skall överklagas särskilt. Hovrättens beslut får inte överklagas.
-Har hyresgästen uppburit förskott som överstiger den slutligt bestämda ersättningen, är han skyldig att till hyresvärden betala tillbaka det överskjutande beloppet jämte ränta. Räntan beräknas enligt 5 §
+Har hyresgästen uppburit förskott som överstiger den slutligt bestämda ersättningen, är han skyldig att till hyresvärden betala tillbaka det överskjutande beloppet jämte ränta. Räntan beräknas enligt 5 §
+
 räntelagen (1975:635) för tiden från dagen för beloppets mottagande till dess ersättningen blivit slutligt bestämd genom dom som vunnit laga kraft och enligt 6 § räntelagen för tiden därefter.
 Lag (1988:927)
 .
@@ -1879,7 +1946,8 @@ Vite som förelagts med stöd av detta kapitel får inte förvandlas till fänge
 Lag (1984:694)
 .
 63 §
-Ett meddelande som avses i 10 §, 11 §, 14 §, 18 e §, 
+Ett meddelande som avses i 10 §, 11 §, 14 §, 18 e §, 
+
 24 §, 25 a § första stycket, 26 §, 33 §, 42 § första  stycket 4, 7 eller 9, 44 §, 46 § andra stycket, 46 a § andra  stycket, 54 § eller 54 a § ska anses lämnat när det har  avsänts i ett rekommenderat brev till mottagarens vanliga  adress. I fall som avses i 24 § är det dock tillräckligt att  meddelandet är avsänt på något annat ändamålsenligt sätt.
 Om hyresgästen eller hyresvärden har lämnat uppgift om en  adress dit meddelanden ska sändas, anses den som hans eller  hennes vanliga adress. Hyresgästen får dock alltid sända  meddelanden till den som är behörig att ta emot hyra på  hyresvärdens vägnar. Om hyresgästen inte har lämnat någon  särskild adressuppgift, får hyresvärden sända meddelanden till  den uthyrda lägenhetens adress.
 Lag (2024:313)
@@ -1897,7 +1965,8 @@ Den som har tagit emot en särskild ersättning är skyldig att  lämna tillbaka
 Lag (2024:785)
 .
 65 a §
-Ingen får begära, träffa avtal om eller ta emot  ersättning av hyressökande för förmedling av en  bostadslägenhet för något annat ändamål än fritidsändamål.  Sådan ersättning får dock tas ut vid yrkesmässig bostads-
+Ingen får begära, träffa avtal om eller ta emot  ersättning av hyressökande för förmedling av en  bostadslägenhet för något annat ändamål än fritidsändamål.  Sådan ersättning får dock tas ut vid yrkesmässig bostads-
+
 förmedling enligt grunder som föreskrivs av regeringen eller  den myndighet som regeringen bestämmer.
 I fråga om köavgift vid kommunal bostadsförmedling gäller  särskilda bestämmelser i lagen (2000:1383) om kommunernas  bostadsförsörjningsansvar.
 Den som bryter mot första stycket döms till fängelse i högst  två år. Om brottet är ringa, döms till böter eller fängelse i  högst sex månader.
@@ -1915,14 +1984,18 @@ En hyresgäst som upplåter en bostadslägenhet i andra  hand för självständi
 Lag (2019:523)
 .
 66 §
-Avtal mellan hyresvärd och hyresgäst, att framtida tvist  med anledning av hyresförhållandet ska hänskjutas till  avgörande av skiljemän utan förbehåll om rätt för parterna att  klandra skiljedomen, får inte göras gällande i fråga om  hyresgästens rätt eller skyldighet att tillträda eller behålla  lägenheten, fastställande av hyresvillkor i fall som avses i 
-51, 52 eller 55 §, återbetalning av hyra och fastställande av  hyra enligt 55 f § eller bestämmande av ersättning enligt 
-58 b §. I övrigt gäller skiljeavtalet inte i de delar skilje-
+Avtal mellan hyresvärd och hyresgäst, att framtida tvist  med anledning av hyresförhållandet ska hänskjutas till  avgörande av skiljemän utan förbehåll om rätt för parterna att  klandra skiljedomen, får inte göras gällande i fråga om  hyresgästens rätt eller skyldighet att tillträda eller behålla  lägenheten, fastställande av hyresvillkor i fall som avses i 
+
+51, 52 eller 55 §, återbetalning av hyra och fastställande av  hyra enligt 55 f § eller bestämmande av ersättning enligt 
+
+58 b §. I övrigt gäller skiljeavtalet inte i de delar skilje-
+
 män utsetts eller bestämmelser meddelats om skiljemännens  antal, sättet för deras utseende eller förfarandet vid  skiljenämnden. I berörda hänseenden ska lagen (1999:116) om  skiljeförfarande tillämpas. Det är dock alltid möjligt att i  skiljeavtalet utse hyresnämnden till skiljenämnd eller  bestämma viss tid för meddelande av skiljedomen.
 Lag (2019:533)
 .
 67 §
-Överenskommelse om villkor i fråga om hyresförhållande  som beror av anställning gäller mot hyresgästen eller den som  har rätt att träda i hyresgästens ställe även om  överenskommelsen strider mot 4, 33-35, 40, 46, 47, 49-54, 55  e, 55 f eller 66 §, under förutsättning att överenskommelsen  har formen av kollektivavtal och på arbetstagarsidan har  slutits eller godkänts av organisation som enligt lagen 
+Överenskommelse om villkor i fråga om hyresförhållande  som beror av anställning gäller mot hyresgästen eller den som  har rätt att träda i hyresgästens ställe även om  överenskommelsen strider mot 4, 33-35, 40, 46, 47, 49-54, 55  e, 55 f eller 66 §, under förutsättning att överenskommelsen  har formen av kollektivavtal och på arbetstagarsidan har  slutits eller godkänts av organisation som enligt lagen 
+
 (1976:580) om medbestämmande i arbetslivet är att anse såsom  central arbetstagarorganisation.
 Sådana hyresvillkor i kollektivavtal som avses i första  stycket får tillämpas även när en hyresgäst som inte är medlem  av den avtalsslutande arbetstagarorganisationen sysselsätts i  arbete som avses med avtalet, om
 1. arbetsgivaren är bunden av kollektivavtalet,
@@ -2060,13 +2133,15 @@ Angående avtal som avses i första stycket gäller i övrigt bestämmelserna i 
 22 §
 Överenskommer fastighetsägaren och tomträttshavaren om tomträttens upphörande eller kommer tomträtten i fastighetsägarens hand eller övergår äganderätten till fastigheten på tomträttshavaren och är tomträtten inskriven, gäller dock tomträtten till dess inskrivningen dödas.  Även om inskrivningen av tomträtten dödas, svarar fastighetsägaren för rättighet som gäller i tomträtten oberoende av inskrivning.
 23 §
-Mål angående omprövning eller jämkning av avgäld, klander av uppsägning eller bestämmande av lösesumma upptages av mark-
+Mål angående omprövning eller jämkning av avgäld, klander av uppsägning eller bestämmande av lösesumma upptages av mark-
+
 och miljödomstol.
 Lag (2010:993)
 24 §
 Angående rättegången i mål som avses i 23 § gäller i tillämpliga delar expropriationslagen (1972:719).
 Bestämmelserna om utredningsbeslut äger dock tillämpning endast i den mån målet avser bestämmande av lösesumma.  Rör tvisten fråga som kan inverka på den rätt som tillkommer innehavare av panträtt eller rättighet som är inskriven, är rätten ej bunden av parts yrkande eller medgivande.
-I mål angående bestämmande av lösesumma skall fastighetsägaren vidkännas på ömse sidor uppkomna rättegångskostnader vid mark-
+I mål angående bestämmande av lösesumma skall fastighetsägaren vidkännas på ömse sidor uppkomna rättegångskostnader vid mark-
+
 och miljödomstolen, i den mån ej annat föranledes av 18 kap. 6 och 8 §§ rättegångsbalken. Har motpart förebringat utredning i strid med utredningsbeslut som mark- och miljödomstolen meddelat, ersättes dock kostnaden för sådan utredning endast i den mån utredningen haft betydelse för utgången i målet.
 Beträffande skyldigheten att svara för kostnad i högre rätt gäller med tillämpning i övrigt av 18 kap. rättegångsbalken, att fastighetsägaren, om ej annat föranledes av 18 kap. 6 och 8 §§ samma balk, alltid själv skall vidkännas såväl sina egna kostnader som kostnad som åsamkas motpart genom att fastighetsägaren fullföljt talan.
 Lag (2010:993)
@@ -2082,7 +2157,8 @@ Lag (1991:850)
 .
 14 kap. Servitut
 1 §
-Om det är ägnat att främja en ändamålsenlig markanvändning, får i fastighet (den tjänande fastigheten) upplåtas rätt för ägaren av annan fastighet (den härskande fastigheten) att i visst hänseende nyttja eller på annat sätt taga i anspråk den tjänande fastigheten eller byggnad eller annan anläggning som hör till denna eller att råda över den tjänande fastigheten i fråga om dess användning i visst hänseende
+Om det är ägnat att främja en ändamålsenlig markanvändning, får i fastighet (den tjänande fastigheten) upplåtas rätt för ägaren av annan fastighet (den härskande fastigheten) att i visst hänseende nyttja eller på annat sätt taga i anspråk den tjänande fastigheten eller byggnad eller annan anläggning som hör till denna eller att råda över den tjänande fastigheten i fråga om dess användning i visst hänseende
+
 (servitut).
 Servitut får avse endast ändamål som är av stadigvarande betydelse för den härskande fastigheten och får icke förenas med skyldighet för ägaren av den tjänande fastigheten att fullgöra annat än underhåll av väg, byggnad eller annan anläggning som avses med servitutet.
 Bestämmelserna i detta kapitel avser icke servitut som tillkommit genom förrättning enligt fastighetsbildningslagen (1970:988) eller genom expropriation eller liknande tvångsförvärv.
@@ -2113,7 +2189,8 @@ Sammanlägges den härskande fastigheten med den tjänande, upphör servitutet a
 13 §
 Bortför den härskande fastighetens ägare byggnad eller annan anläggning som är avsedd för servitutet och som tillhör honom men finns på den tjänande fastigheten, åligger det honom att återställa marken i tjänligt skick.  Upphör servitutet, är han skyldig att föra bort sådan anläggning inom ett år därefter.  Sker det ej, tillfaller anläggningen den tjänande fastighetens ägare utan lösen.
 14 §
-Om ändring och upphävande av servitut i fastighet genom fastighetsreglering finns bestämmelser i fastighetsbildningslagen
+Om ändring och upphävande av servitut i fastighet genom fastighetsreglering finns bestämmelser i fastighetsbildningslagen
+
 (1970:988).  De äger motsvarande tillämpning i fråga om ändring och upphävande av servitut i tomträtt.
 15 kap. Rätt till elektrisk kraft
 1 §
@@ -2174,14 +2251,16 @@ Bestämmelserna i 1-10 §§ om överlåtelse och upplåtelse äger motsvarande t
 Har fast egendom förvärvats genom överlåtelse och var överlåtaren ej rätt ägare till egendomen på den grund att hans eller någon hans företrädares åtkomst var ogiltig eller av annat skäl ej gällde mot rätte ägaren, är förvärvet likväl giltigt, om lagfart på  egendomen vid överlåtelsen var beviljad för överlåtaren och om förvärvaren vid överlåtelsen eller, när egendomen därefter överlåtits till annan, denne vid sitt förvärv varken ägde eller bort äga kännedom om att överlåtaren ej var rätt ägare. Vad nu sagts gäller ej förvärv som skett vid exekutiv försäljning.
 I fråga om upplåtelse av nyttjanderätt, servitut eller rätt till elektrisk kraft, vilken gjorts av den som ej var rätt ägare till egendomen på den grund att hans eller någon hans företrädares åtkomst var ogiltig eller av annat skäl ej gällde mot rätte ägaren, äger första stycket motsvarande tillämpning, dock endast om den till vilken rättigheten uppläts vid upplåtelsen varken ägde eller bort äga kännedom om att upplåtaren ej var rätt ägare.
 Om företräde på grund av inskrivning finns bestämmelser i 17 kap.
-Lag
+Lag
+
 (1973:1133)
 .
 2 §
 Har panträtt i fast egendom upplåtits och var upplåtaren ej rätt ägare till egendomen på den grund att hans eller någon hans företrädares åtkomst var ogiltig eller av annat skäl ej gällde mot rätte ägaren, är upplåtelsen likväl giltig, om lagfart på egendomen var beviljad för upplåtaren vid upplåtelsen eller därefter beviljas för honom och om borgenären vid upplåtelsen eller, när fordringen därefter överlåtits till annan, denne vid sitt förvärv varken ägde eller bort äga kännedom om att upplåtaren ej var rätt ägare.
 3 §
 Bestämmelserna i 1 och 2 §§ äger ej tillämpning, om
-1. handling på vilken äganderätten grundats är förfalskad eller på rätte ägarens vägnar utfärdad av någon som saknade behörighet därtill eller är ogiltig såsom tillkommen under sådant tvång som avses i 28 § lagen
+1. handling på vilken äganderätten grundats är förfalskad eller på rätte ägarens vägnar utfärdad av någon som saknade behörighet därtill eller är ogiltig såsom tillkommen under sådant tvång som avses i 28 § lagen
+
 (1915:218) om avtal och andra rättshandlingar på förmögenhetsrättens område,
 2. rätte ägaren, när han utfärdade den handling på vilken äganderätten grundats, var i konkurs eller omyndig eller handlade under påverkan av en  psykisk störning eller inte hade rådighet över den fasta egendomen på grund av att en förvaltare enligt föräldrabalken var förordnad för honom,
 3. förvärvet enligt lag är ogiltigt, enär det icke skett i föreskriven form eller med iakttagande av andra föreskrivna villkor eller med samtycke av någon vars rätt beröres eller med stöd av tillstånd eller annan åtgärd av domstol eller annan myndighet.
@@ -2268,7 +2347,8 @@ Lag (2008:153)
 .
 Ärenderegister och akter
 8 §
-Inskrivningsmyndigheten skall föra ett register
+Inskrivningsmyndigheten skall föra ett register
+
 (ärenderegister) över de inskrivningsärenden som handläggs av myndigheten.
 Lag (2011:62)
 .
@@ -2296,7 +2376,8 @@ Avser en ansökan något annat än inteckning, skall den även innehålla uppgif
 Lag (2000:226)
 .
 11 a §
-Om en ansökan om inskrivning ges in i form av ett elektroniskt dokument, får en fångeshandling eller annan handling som avses i 20 kap. 6 § 1, 21 kap. 2 § första stycket 1 eller 23 kap. 2 § första stycket 1 eller en handling som avses i 7 kap. 5 § fjärde stycket äktenskapsbalken eller 23 § andra stycket sambolagen
+Om en ansökan om inskrivning ges in i form av ett elektroniskt dokument, får en fångeshandling eller annan handling som avses i 20 kap. 6 § 1, 21 kap. 2 § första stycket 1 eller 23 kap. 2 § första stycket 1 eller en handling som avses i 7 kap. 5 § fjärde stycket äktenskapsbalken eller 23 § andra stycket sambolagen
+
 (2003:376) ges in elektroniskt enligt föreskrifter som regeringen eller den myndighet som regeringen bestämmer får meddela.
 Om en fångeshandling eller annan handling som avses i första stycket ges in elektroniskt, ska den elektroniska handlingens överensstämmelse med originalet vara bestyrkt enligt föreskrifter som regeringen eller den myndighet som regeringen bestämmer får meddela.
 Lag (2013:426)
@@ -2327,14 +2408,16 @@ lag (2011:62)
 Kommunicering m.m.
 16 §
 Om det på grund av någon särskild omständighet finns anledning att anta att det förvärv som sökanden åberopar är ogiltigt eller inte kan göras gällande eller att den sökta åtgärden på annat sätt skulle kränka någon annans rätt, ska inskrivningsmyndigheten ge den vars rätt berörs tillfälle att yttra sig skriftligen. I samband med detta får även sökanden eller någon annan ges tillfälle att yttra sig skriftligen.
-Om det behövs, ska inskrivningsmyndigheten hålla ett sammanträde. Inskrivningsmyndigheten får förelägga sökanden eller någon annan som ska yttra sig att inställa sig personligen eller genom ombud. Föreläggandet får förenas med vite. Om sökanden inte följer föreläggandet, får ansökan avvisas. Om någon annan än sökanden inte följer föreläggandet, får ärendet ändå avgöras. Föreläggandet ska innehålla en upplysning om följden av att föreläggandet inte följs. Sökanden och andra som ska delta i sammanträdet får göra det genom ljudöverföring eller ljud- och bildöverföring under samma förutsättningar som gäller enligt 5 kap. 10 §
+Om det behövs, ska inskrivningsmyndigheten hålla ett sammanträde. Inskrivningsmyndigheten får förelägga sökanden eller någon annan som ska yttra sig att inställa sig personligen eller genom ombud. Föreläggandet får förenas med vite. Om sökanden inte följer föreläggandet, får ansökan avvisas. Om någon annan än sökanden inte följer föreläggandet, får ärendet ändå avgöras. Föreläggandet ska innehålla en upplysning om följden av att föreläggandet inte följs. Sökanden och andra som ska delta i sammanträdet får göra det genom ljudöverföring eller ljud- och bildöverföring under samma förutsättningar som gäller enligt 5 kap. 10 §
+
 rättegångsbalken. Protokoll ska föras över det som kommer fram vid sammanträdet.
 Om inskrivningsmyndigheten anser att det råder tvist om sökandens rätt, får myndigheten förelägga sökanden att inom viss tid väcka talan vid domstol. Om sökanden inte följer föreläggandet, får inskrivningsmyndigheten avvisa ansökan. En upplysning om detta ska tas in i föreläggandet.
 Lag (2015:369)
 .
 Vilandeförklaring
 17 §
-Av 20 kap. 7 §, 21 kap. 3 §, 22 kap. 4 § och 23 kap. 3 §
+Av 20 kap. 7 §, 21 kap. 3 §, 22 kap. 4 § och 23 kap. 3 §
+
 följer att inskrivningsmyndigheten i vissa fall skall förklara en ansökan vilande.
 I samband med att en ansökan förklaras vilande får inskrivningsmyndigheten förelägga sökanden att visa om det hinder som har föranlett vilandeförklaringen har blivit undanröjt. Föreläggandet får förenas med vite. Om sökanden inte följer föreläggandet, kan ansökan avvisas. En upplysning om detta skall tas in i föreläggandet.
 Lag (2000:226)
@@ -2389,13 +2472,15 @@ Lag (2018:270)
 .
 Övriga regler för handläggningen
 26 §
-Sökanden eller någon annan som yttrar sig får anlita  ombud eller biträde. I fråga om fullmakt för ombud ska 12 kap. 
+Sökanden eller någon annan som yttrar sig får anlita  ombud eller biträde. I fråga om fullmakt för ombud ska 12 kap. 
+
 8-19 §§ rättegångsbalken tillämpas. En skriftlig fullmakt  behöver dock inte ges in annat än om inskrivningsmyndigheten  anser att det behövs.
 Lag (2020:919)
 .
 26 a §
 Den som har kallats till sammanträde men inte kan inställa sig ska omedelbart anmäla det till inskrivningsmyndigheten.
-I fråga om laga förfall ska bestämmelserna i 32 kap. 6-8 §§
+I fråga om laga förfall ska bestämmelserna i 32 kap. 6-8 §§
+
 rättegångsbalken tillämpas.
 Lag (2008:153)
 .
@@ -2409,7 +2494,8 @@ Frågor om utdömande av vite som har förelagts med stöd av 19, 20, 21 eller 2
 Lag (2013:489)
 .
 26 d §
-Vid handläggningen av inskrivningsärenden hos  inskrivningsmyndigheten tillämpas inte bestämmelserna i 
+Vid handläggningen av inskrivningsärenden hos  inskrivningsmyndigheten tillämpas inte bestämmelserna i 
+
 37-39 §§ förvaltningslagen (2017:900) om ändring av beslut.
 I 37 a och 37 b §§ lagen (1984:404) om stämpelskatt vid  inskrivningsmyndigheter finns bestämmelser om att  inskrivningsmyndigheten ska ompröva beslut om stämpelskatt i  vissa fall.
 Lag (2018:778)
@@ -2482,13 +2568,15 @@ Lag (2000:226)
 .
 Särskilda rättsmedel
 36 §
-I fråga om särskilda rättsmedel gäller 42 § lagen
+I fråga om särskilda rättsmedel gäller 42 § lagen
+
 (1996:242) om domstolsärenden.
 Lag (2000:226)
 .
 Skadestånd
 37 §
-Rätt till ersättning av staten har den som lider skada på grund av ett tekniskt fel i fastighetsregistrets inskrivningsdel eller i en anordning som är ansluten till registrets inskrivningsdel hos den statliga lantmäterimyndigheten, en kommunal lantmäterimyndighet eller en myndighet som avses i 4 kap. 34 a § fastighetsbildningslagen
+Rätt till ersättning av staten har den som lider skada på grund av ett tekniskt fel i fastighetsregistrets inskrivningsdel eller i en anordning som är ansluten till registrets inskrivningsdel hos den statliga lantmäterimyndigheten, en kommunal lantmäterimyndighet eller en myndighet som avses i 4 kap. 34 a § fastighetsbildningslagen
+
 (1970:988).
 Ersättningen ska efter skälighet sättas ned eller helt falla bort om den skadelidande har medverkat till skadan genom att utan skälig anledning låta bli att vidta åtgärder för att bevara sin rätt eller om den skadelidande på något annat sätt har medverkat till skadan genom eget vållande.
 Lag (2008:541)
@@ -2529,7 +2617,8 @@ Dödsbo är icke skyldigt att söka lagfart på förvärv av egendom från den d
 Lag (1987:816)
 .
 2 §
-Lagfart ska sökas inom tre månader efter det att den handling som förvärvet grundas på (fångeshandlingen)
+Lagfart ska sökas inom tre månader efter det att den handling som förvärvet grundas på (fångeshandlingen)
+
 upprättades.
 Tiden för sökande av lagfart räknas dock
 1. för förvärv som beror av villkor, myndighets tillstånd eller annan sådan omständighet, från det förvärvet fullbordades,
@@ -2558,7 +2647,8 @@ En lagfartsansökan ska avslås, om
 1. fångeshandlingen inte har kommit in eller, om den har lämnats elektroniskt, det inte har skett på det sätt som anges i 19 kap. 11 a § eller enligt de föreskrifter som har meddelats med stöd av den paragrafen,
 2. fångeshandlingen inte är upprättad på det sätt som föreskrivs i lag,
 3. förvärvet avser köp eller byte och fångeshandlingen innehåller villkor, som enligt 4 kap. 4 eller 28 § medför att förvärvet är ogiltigt,
-4. förvärvet avser en del av en fastighet och tiden för att ansöka om fastighetsbildning enligt 4 kap. 7-9, 28 eller 29 §
+4. förvärvet avser en del av en fastighet och tiden för att ansöka om fastighetsbildning enligt 4 kap. 7-9, 28 eller 29 §
+
 eller enligt någon annan bestämmelse i lag har gått ut eller ansökan om fastighetsbildning har avslagits eller ett sådant förvärv annars enligt lag är ogiltigt,
 5. överlåtelsen står i strid med en mot överlåtaren gällande inskränkning i hans rätt att förfoga över egendomen och, när överlåtelsen skedde, lagfart inte var beviljad för överlåtaren eller, om så var fallet, ärende om anteckning i fastighetsregistrets inskrivningsdel av inskränkningen var upptaget på inskrivningsdag,
 6. fastigheten tidigare överlåtits till någon vars förvärv enligt 17 kap. 1 eller 4 § äger företräde framför sökandens förvärv,
@@ -2576,7 +2666,8 @@ Förekommer inte omständigheter som avses i 6 §, ska lagfartsansökan förklar
 5. vid förvärv genom legat detta inte utgivits,
 6. vid förvärv på exekutiv försäljning köpebrev inte utfärdats eller vid expropriation eller liknande tvångsförvärv inlösen inte fullbordats,
 7. vid överlåtelse överlåtaren är gift och förvärvet enligt äktenskapsbalkens bestämmelser är beroende av den andre makens samtycke,
-8. vid överlåtelse överlåtaren är sambo och förvärvet enligt bestämmelserna i sambolagen (2003:376) är beroende av den andra sambons samtycke, dock endast om ärende om anteckning i fastighetsregistrets inskrivningsdel av anmälan enligt 5 §
+8. vid överlåtelse överlåtaren är sambo och förvärvet enligt bestämmelserna i sambolagen (2003:376) är beroende av den andra sambons samtycke, dock endast om ärende om anteckning i fastighetsregistrets inskrivningsdel av anmälan enligt 5 §
+
 andra stycket den lagen var upptaget på inskrivningsdag när överlåtelsen skedde,
 9. vid överlåtelse genom boutredningsman förvärvet enligt ärvdabalkens bestämmelser är beroende av dödsbodelägares samtycke,
 10. förvärvet har skett genom en sådan gåva mellan makar som inte har registrerats enligt 16 kap. äktenskapsbalken,
@@ -2598,8 +2689,10 @@ Lag (2008:153)
 .
 10 a §
 Om det är befogat med hänsyn till utredningen, får inskrivningsmyndigheten ansöka hos tingsrätten om att ett vittne eller en sakkunnig ska höras under ed eller att den som innehar en skriftlig handling eller ett föremål ska föreläggas att tillhandahålla handlingen eller föremålet. Ansökan ska göras hos den tingsrätt inom vars domkrets fastigheten ligger.
-Om det finns lagliga förutsättningar för åtgärden, ska tingsrätten bifalla ansökan. I fråga om sådan åtgärd som avses i första stycket gäller bestämmelserna i 35 kap. 11 §, 36 kap.
-1-11, 13-18 och 20-23 §§, 38 kap. 1-5, 8 och 9 §§, 39 kap. 5 §
+Om det finns lagliga förutsättningar för åtgärden, ska tingsrätten bifalla ansökan. I fråga om sådan åtgärd som avses i första stycket gäller bestämmelserna i 35 kap. 11 §, 36 kap.
+
+1-11, 13-18 och 20-23 §§, 38 kap. 1-5, 8 och 9 §§, 39 kap. 5 §
+
 samt 40 kap. 19 § rättegångsbalken. Tingsrätten ska dock inte pröva vilken betydelse förhöret, handlingen eller föremålet kan antas ha som bevis.
 Företrädare för inskrivningsmyndigheten, sökanden och annan som ärendet kan antas angå ska kallas till förhör med ett vittne eller en sakkunnig och ges tillfälle att ställa frågor. Om sökanden eller någon annan enskild person som har kallats uteblir från förhöret, får förhöret ändå genomföras.
 Lag (2008:153)
@@ -2613,7 +2706,8 @@ Lag (2008:153)
 .
 11 §
 Till ett lagfartssammanträde ska inskrivningsmyndigheten kalla sökanden och andra som ärendet kan antas gälla.
-Inskrivningsmyndigheten får vid vite förelägga sökanden eller andra att infinna sig personligen eller genom ombud. Sökanden och andra som ska delta i sammanträdet får göra det genom ljudöverföring eller ljud- och bildöverföring under samma förutsättningar som gäller enligt 5 kap. 10 §
+Inskrivningsmyndigheten får vid vite förelägga sökanden eller andra att infinna sig personligen eller genom ombud. Sökanden och andra som ska delta i sammanträdet får göra det genom ljudöverföring eller ljud- och bildöverföring under samma förutsättningar som gäller enligt 5 kap. 10 §
+
 rättegångsbalken. Sammanträdet får hållas även om sökanden eller någon annan som kallats uteblir.
 Sammanträdet ska kungöras i ortstidning och i Post- och Inrikes Tidningar. Kungörelsen ska innehålla uppgift om sökandens namn och adress samt fastighetens beteckning.
 Kungörelsen ska även innehålla en upplysning om att sammanträdet syftar till att utreda äganderätten till fastigheten och att lagfart på denna kan komma att meddelas med stöd av det som kommer fram vid sammanträdet.
@@ -2627,7 +2721,8 @@ Lag (2008:153)
 .
 12 a §
 Sökanden ska ersätta staten för kostnader för lagfartssammanträde och kostnader som avses i 10 b §. Sökanden ska dock inte ersätta kostnader för kungörelse eller andra kostnader för syn än sådana som avses i 10 b § anda stycket.
-Om sökanden har förpliktats av inskrivningsmyndigheten att ersätta sådana kostnader som avses i första stycket första meningen och dessa kostnader inte har betalats inom den tid som inskrivningsmyndigheten har bestämt, ska inskrivningsmyndigheten begära indrivning. Regeringen får meddela föreskrifter om att indrivning inte behöver begäras för ett ringa belopp. Bestämmelser om indrivning finns i lagen
+Om sökanden har förpliktats av inskrivningsmyndigheten att ersätta sådana kostnader som avses i första stycket första meningen och dessa kostnader inte har betalats inom den tid som inskrivningsmyndigheten har bestämt, ska inskrivningsmyndigheten begära indrivning. Regeringen får meddela föreskrifter om att indrivning inte behöver begäras för ett ringa belopp. Bestämmelser om indrivning finns i lagen
+
 (1993:891) om indrivning av statliga fordringar m.m. Vid indrivning får verkställighet enligt utsökningsbalken ske.
 Lag (2008:153)
 .
@@ -2685,7 +2780,8 @@ Lag (2008:377)
 Övergår tomträtt till ny innehavare, skall denne söka inskrivning av sitt förvärv.  Om inskrivningen gäller i tillämpliga delar 20 kap.
 med följande avvikelser.
 Ansökningen skall avslås, om inskrivning av upplåtelsen ej är beviljad eller sökt eller om förvärvet strider mot 13 kap. 9 § första stycket.
-Den tid inom vilken inskrivning skall sökas börjar icke löpa förrän inskrivning av upplåtelsen blivit sökt.  Bestämmelserna i 20 kap. 13 §
+Den tid inom vilken inskrivning skall sökas börjar icke löpa förrän inskrivning av upplåtelsen blivit sökt.  Bestämmelserna i 20 kap. 13 §
+
 tredje stycket gäller ej.
 22 kap. Inteckning
 Inteckning i fast egendom
@@ -2737,8 +2833,10 @@ Inteckning som skulle medföra lika företrädesrätt som annan inteckning skall
 7 §
 Inteckning får på ansökan av fastighetsägaren och efter medgivande av pantbrevets innehavare utsträckas till att avse ytterligare en eller flera fastigheter (utsträckning).  Om sådan ansökan gäller i tillämpliga delar bestämmelserna i detta kapitel angående ansökan om inteckning i flera fastigheter.
 8 §
-Pantbrev får på ansökan av fastighetsägaren och efter medgivande av pantbrevets innehavare utbytas mot två eller flera nya pantbrev
-(utbyte). På begäran skall därvid bestämmas i vilken ordning pantbreven sinsemellan skall medföra företrädesrätt.  Härom gäller i övrigt 6 §
+Pantbrev får på ansökan av fastighetsägaren och efter medgivande av pantbrevets innehavare utbytas mot två eller flera nya pantbrev
+
+(utbyte). På begäran skall därvid bestämmas i vilken ordning pantbreven sinsemellan skall medföra företrädesrätt.  Härom gäller i övrigt 6 §
+
 andra punkten.
 8 a §
 Inteckningar som besvärar endast en fastighet får på ansökan av fastighetsägaren och efter medgivande av pantbrevens innehavare sammanföras till en inteckning (sammanföring). Denna inteckning skall gälla med den företrädesrätt som tillkommer den av de i sammanföringen ingående inteckningarna som gäller med sämsta rätt.
@@ -2751,7 +2849,8 @@ Inteckning som avses i första stycket skall förklaras gälla för ett lägre b
 Lag (2004:449)
 .
 9 §
-Inteckning som besvärar endast en fastighet får på  ansökan av fastighetsägaren och efter medgivande av pantbrevets innehavare nedsättas efter annan inteckning eller inskrivning av rättighet
+Inteckning som besvärar endast en fastighet får på  ansökan av fastighetsägaren och efter medgivande av pantbrevets innehavare nedsättas efter annan inteckning eller inskrivning av rättighet
+
 (nedsättning).  Inteckning som nedsättes efter annan inskrivning gäller efter inskrivning med lika rätt som eller bättre rätt än denna, även om detta ej anges i beslutet.
 Första stycket äger motsvarande tillämpning i fråga om gemensam inteckning med följande avvikelser.
 Nedsättning efter annan inteckning får ske endast om inteckningarna besvärar samma fastigheter och nedsättningen skall genomföras på samma sätt i samtliga dessa.  Svarar fastighet endast enligt 6 kap. 11 § andra stycket fordras ej att den fastighetens ägare biträtt ansökningen.
@@ -2811,7 +2910,8 @@ Kommer i fall som anges i första stycket 3 fastighetsbildning ej till stånd, a
 Rättighet, som skulle ha företräde framför annan rättighet som avses i detta kapitel eller utgöres av inteckning, skall vid inskrivningen förklaras gälla efter den andra rättigheten, om sökanden begär det.
 Rättighet som sättes efter annan rättighet gäller efter rättighet med lika rätt som eller bättre rätt än denna även om detta ej anges i beslutet.
 5 §
-Inskriven rättighet får på ansökan av rättighetshavaren med fastighetsägarens samtycke nedsättas efter annan inskriven rättighet
+Inskriven rättighet får på ansökan av rättighetshavaren med fastighetsägarens samtycke nedsättas efter annan inskriven rättighet
+
 (nedsättning). Bestämmelsen i 4 § andra stycket äger därvid motsvarande tillämpning.
 6 §
 En inskrivning får på ansökan av rättighetshavaren dödas helt eller till viss del (dödning). Om rättigheten har upphört helt eller till viss del, ska rättighetshavaren göra en sådan ansökan inom tre månader. Får inskrivningsmyndigheten uppgift om att en rättighet har upphört, får myndigheten förelägga rättighetshavaren vid vite att ansöka om dödning eller visa att rättigheten inte har upphört.
@@ -2863,7 +2963,8 @@ Denna lag träder i kraft den 1 juli 1984 och tillämpas även på avtal som har
 1. Denna lag träder i kraft den 1 januari 1985.
 2. Bestämmelserna i 9 kap. 12 a § och 11 kap. 6 b § skall inte tillämpas i en tvist, som har anhängiggjorts vid domstol eller arrendenämnd före ikraftträdandet.
 3. Om ett avtal har sagts upp före ikraftträdandet, skall äldre bestämmelser om uppsägning och hänskjutande av tvist till arrendenämnd tillämpas. I sådant fall gäller inte heller de nya bestämmelserna i 9 kap. 12 b § samt 11 kap. 5 a §, 6 § fjärde stycket och 6 a §.
-4. I fråga om avtal som har ingåtts före ikraftträdandet gäller 7 kap. 5
+4. I fråga om avtal som har ingåtts före ikraftträdandet gäller 7 kap. 5
+
 §, 8 kap. 23 § och 9 kap. 2, 18, 21, 29, 31 samt 36--39 §§ i deras äldre lydelse fram till den tidpunkt till vilken jordägaren tidigast kan säga upp avtalet genom uppsägning efter ikraftträdandet. 9 kap. 31 § skall dock tillämpas i sin nya lydelse redan tidigare, om antingen arrendatorn ensam eller arrendatorn och före honom hans make eller någon av hans föräldrar har brukat arrendestället under sammanlagt minst tio år när tillstånd söks.
 5. Om ett avtal som har ingåtts före ikraftträdandet innehåller villkor som fordrar arrendenämndens godkännande, skall den i 8 kap. 2 § andra stycket andra meningen föreskrivna tiden räknas från utgången av år 1984.
 1984:694
@@ -2934,21 +3035,24 @@ Denna lag träder i kraft den 1 juli 1992. Äldre lydelse av 4 kap. 1 och 2 §§
 3. Beträffande överlåtelser av hyresrätter till bostadslägenheter som äger rum före ikraftträdandet skall 12 kap. 38 § tillämpas i sin äldre lydelse.
 4. I fråga om störningar i boendet som inträffat före ikraftträdandet tillämpas de nya bestämmelserna i 12 kap. 25 § samt 42 § första stycket 6 och tredje stycket i fall då hyresvärden efter ikraftträdandet givit en hyresgäst tillsägelse att se till att störningarna upphör. I annat fall tillämpas äldre bestämmelser.
 De nya bestämmelserna om särskilt allvarliga störningar i boendet får bara tillämpas i fråga om störningar som inträffat sedan lagen trätt i kraft.
-5. De nya bestämmelserna i 12 kap. 42 §, såvitt avser hyror, och 44
+5. De nya bestämmelserna i 12 kap. 42 §, såvitt avser hyror, och 44
+
 § tillämpas på hyror som förfaller till betalning sedan lagen trätt i kraft. Beträffande hyror som dessförinnan förfallit till betalning tillämpas äldre bestämmelser.
 6. I fråga om hyresavtal som har ingåtts före ikraftträdandet tillämpas bestämmelserna i 12 kap. 45 § första stycket i sin äldre lydelse.
 Ett avtal om avstående från besittningsskydd till en bostadslägenhet har verkan enligt äldre bestämmelser om avtalet har ingåtts före ikraftträdandet.
 1994:817
 1. Denna lag träder i kraft den 1 juli 1994.
 2. De nya föreskrifterna gäller även hyresavtal som har ingåtts före ikraftträdandet. De äldre föreskrifterna i 12 kap. 1 § tillämpas dock på avtal som ingåtts före ikraftträdandet.
-3. De äldre föreskrifterna i 12 kap. 55 a § tillämpas beträffande åtgärd för vilken det har meddelats bygglov med stöd av 8 kap. 31 §
+3. De äldre föreskrifterna i 12 kap. 55 a § tillämpas beträffande åtgärd för vilken det har meddelats bygglov med stöd av 8 kap. 31 §
+
 plan- och bygglagen (1987:10).
 1995:567
 1. Denna lag träder i kraft den 1 juli 1995.
 2. I fråga om arrendeavtal som har ingåtts före ikraftträdandet gäller den nya lydelsen av 8 kap. 21 § samt de nya bestämmelserna i 9 kap. 21 a, 31 a och 31 b §§ först efter den tidpunkt till vilken jordägaren tidigast kan säga upp avtalet genom uppsägning efter ikraftträdandet.
 1995:1397
 1. Denna lag träder i kraft den 1 januari 1996.
-2. Den äldre lydelsen av 7 kap. 29 § gäller fortfarande i fråga om fastighetsbildningsmyndigheter som inrättats enligt lagen (1971:133)
+2. Den äldre lydelsen av 7 kap. 29 § gäller fortfarande i fråga om fastighetsbildningsmyndigheter som inrättats enligt lagen (1971:133)
+
 om kommunal fastighetsbildningsmyndighet och fastighetsregistermyndighet.
 1995:1474
 1. Denna lag träder i kraft den 1 januari 1996.
@@ -2961,10 +3065,13 @@ Denna lag träder i kraft den 1 juli 1996. Har ett beslut meddelats före lagens
 1. Denna lag träder i kraft den 1 april 1997.
 2. Bestämmelserna i 12 kap. 18 d - h §§ skall inte tillämpas i fråga om åtgärder som har påbörjats före lagens ikraftträdande.
 Dessa bestämmelser skall inte heller tillämpas beträffande åtgärder som genom bindande avtal upphandlats av fastighetsägaren före den 1 december 1996. I fråga om åtgärder för vilka de nya bestämmelserna inte gäller tillämpas fortfarande de upphävda föreskrifterna i 12 kap. 55 a §. Härvid skall 12 kap. 70 och 73 §§ tillämpas i sin äldre lydelse.
-3. Om det finns särskilda skäl, kan länsstyrelsen medge undantag från tillämpningen av bestämmelserna i 12 kap. 18 d -
-h §§ i fråga om hus som ägs av förening eller aktiebolag som avses i punkt 7 övergångsbestämmelserna till bostadsrättslagen
+3. Om det finns särskilda skäl, kan länsstyrelsen medge undantag från tillämpningen av bestämmelserna i 12 kap. 18 d -
+
+h §§ i fråga om hus som ägs av förening eller aktiebolag som avses i punkt 7 övergångsbestämmelserna till bostadsrättslagen
+
 (1991:614).
-4. Vid tvist om hyra som blivit gällande enligt 12 kap. 54 a §
+4. Vid tvist om hyra som blivit gällande enligt 12 kap. 54 a §
+
 i dess äldre lydelse tillämpas 12 kap. 55 c § tredje stycket i sin äldre lydelse.
 1997:617
 1. Denna lag träder i kraft den 1 januari 1998.
@@ -2979,7 +3086,8 @@ i dess äldre lydelse tillämpas 12 kap. 55 c § tredje stycket i sin äldre lyd
 Denna lag träder i kraft den 1 juli 2000. Äldre föreskrifter gäller för beräkning av ränta som avser tid före ikraftträdandet.
 2000:226
 1. Denna lag träder i kraft den 1 juli 2000. Genom lagen upphävs lagen (1932:169) om uppläggande av nya fastighetsböcker och lagen (1973:98) om inskrivningsregister.
-2. Äldre bestämmelser gäller i fråga om fastigheter eller tomträtter för vilka inskrivningsmyndigheten enligt 10 § lagen
+2. Äldre bestämmelser gäller i fråga om fastigheter eller tomträtter för vilka inskrivningsmyndigheten enligt 10 § lagen
+
 (1973:98) om inskrivningsregister har beslutat att de skall stå kvar i fastighetsbok eller tomträttsbok. För sådana fastigheter eller tomträtter skall vad som i lag eller annan författning sägs om inskrivning eller anteckning i fastighetsregistrets inskrivningsdel i stället avse anteckning i fastighetsbok eller tomträttsbok.
 2001:170
 Denna lag träder i kraft den 1 juli 2001.
@@ -3024,11 +3132,13 @@ Denna lag träder i kraft den 1 januari 2005. Äldre föreskrifter tillämpas p�
 2. Vid överklagande av ett beslut som har meddelats före ikraftträdandet ska äldre föreskrifter tillämpas.
 2008:989
 1. Denna lag träder i kraft den 1 januari 2009.
-2. I fråga om en företagsinteckning enligt den upphävda lagen
+2. I fråga om en företagsinteckning enligt den upphävda lagen
+
 (2003:528) om företagsinteckning tillämpas äldre bestämmelser.
 2008:1074
 1. Denna lag träder i kraft den 1 januari 2009.
-2. I fråga om en ansökan om återbetalning enligt 12 kap. 55 e §
+2. I fråga om en ansökan om återbetalning enligt 12 kap. 55 e §
+
 som har kommit in till hyresnämnden före ikraftträdandet ska paragrafen i sin äldre lydelse tillämpas.
 2010:238
 1. Denna lag träder i kraft den 1 maj 2010.
@@ -3063,9 +3173,11 @@ som har kommit in till hyresnämnden före ikraftträdandet ska paragrafen i sin
 2. De nya bestämmelserna i 12 kap. 35, 39, 40, 42 och 43 §§  gäller även för hyresavtal som har ingåtts före  ikraftträdandet, om inte något annat följer av 3-5.
 3. För en ansökan om tillstånd till byte eller upplåtelse av  lägenheten i andra hand som kommit in till hyresnämnden före  ikraftträdandet gäller 12 kap. 35 och 40 §§ i de äldre  lydelserna.
 4. För ett avtal om vidareupplåtelse som ingåtts före  ikraftträdandet gäller 12 kap. 39 § i den äldre lydelsen.
-5. Om det före ikraftträdandet har ingåtts avtal om upplåtelse  i andra hand utan samtycke eller tillstånd eller med en hyra  som inte är skälig enligt 12 kap. 55 § fjärde stycket gäller 
+5. Om det före ikraftträdandet har ingåtts avtal om upplåtelse  i andra hand utan samtycke eller tillstånd eller med en hyra  som inte är skälig enligt 12 kap. 55 § fjärde stycket gäller 
+
 12 kap. 42 och 43 §§ i de äldre lydelserna. Detsamma gäller om  en hyresgäst har lämnat, tagit emot eller begärt särskild  ersättning för en hyresrätt före ikraftträdandet.
-6. För hyresavtal som har ingåtts före ikraftträdandet gäller 
+6. För hyresavtal som har ingåtts före ikraftträdandet gäller 
+
 12 kap. 55 och 55 e §§ i de äldre lydelserna.
 2020:362
 1. Denna lag träder i kraft den 1 juli 2020.
@@ -3080,9 +3192,11 @@ som har kommit in till hyresnämnden före ikraftträdandet ska paragrafen i sin
 2. Äldre föreskrifter gäller fortfarande om köparen har fått  till stånd en förhandling om offentligt ackord enligt den  upphävda lagen (1996:764) om företagsrekonstruktion.
 2024:313
 1. Denna lag träder i kraft den 1 juli 2024.
-2. De nya bestämmelserna gäller även för hyresavtal som har  ingåtts före ikraftträdandet, om inte något annat framgår av 
+2. De nya bestämmelserna gäller även för hyresavtal som har  ingåtts före ikraftträdandet, om inte något annat framgår av 
+
 3-5.
-3. Om förpliktelsen åsidosatts före ikraftträdandet gäller 
+3. Om förpliktelsen åsidosatts före ikraftträdandet gäller 
+
 12 kap. 25-25 c, 42 och 43 §§ i de äldre lydelserna.
 4. I den utsträckning som utomstående personer varit inrymda i  lägenheten före ikraftträdandet gäller 12 kap. 41 § i den  äldre lydelsen.
 5. För mål och ärenden som har inletts före ikraftträdandet  gäller 42 § femte stycket och 47 § i de äldre lydelserna.
