@@ -58,6 +58,26 @@ st.markdown("""
     font-size: 0.9em;
     margin: 0.5rem 0;
 }
+.method-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.badge-regular {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+.badge-twostep {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+.badge-hybrid {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -71,9 +91,12 @@ if 'processing' not in st.session_state:
 if 'english_mode' not in st.session_state:
     st.session_state.english_mode = False
 if 'source_indices' not in st.session_state:
-    st.session_state.source_indices = {}  # Track current source index for each chat message
-if 'deep_search' not in st.session_state:
-    st.session_state.deep_search = False
+    st.session_state.source_indices = {}
+if 'search_method' not in st.session_state:
+    st.session_state.search_method = "regular"
+if 'hybrid_top_k' not in st.session_state:
+    st.session_state.hybrid_top_k = 5
+
 # Header
 st.markdown('<h1 class="main-header">⚖️ Swedish Legal RAG Chatbot</h1>', unsafe_allow_html=True)
 st.markdown("---")
@@ -104,36 +127,79 @@ with st.sidebar:
     else:
         st.info("🇸🇪 Swedish Mode: Ask questions in Swedish, get answers in Swedish")
     
+    # Search Method Selection
+    st.subheader("🔍 Search Method")
+    search_method = st.selectbox(
+        "Select Search Method",
+        options=["regular", "two_step", "hybrid"],
+        format_func=lambda x: {
+            "regular": "⚡ Regular RAG (Fast)",
+            "two_step": "🔬 Two-Step Retrieval (Deep)",
+            "hybrid": "🔀 Hybrid Filtered RAG (Balanced)"
+        }[x],
+        index=["regular", "two_step", "hybrid"].index(st.session_state.search_method),
+        help="Choose which retrieval method to use"
+    )
+    st.session_state.search_method = search_method
+    
+    # Show method description
+    method_descriptions = {
+        "regular": """
+        **⚡ Regular RAG**
+        - Fast vector similarity search
+        - Uses ChromaDB + Gemini
+        - Best for: Quick queries
+        """,
+        "two_step": """
+        **🔬 Two-Step Retrieval**
+        - Step 1: AI identifies relevant laws
+        - Step 2: Analyzes full law texts
+        - Uses: GPT-4o + GPT-4o-mini
+        - Best for: In-depth analysis
+        """,
+        "hybrid": """
+        **🔀 Hybrid Filtered RAG**
+        - Step 1: AI filters by law titles
+        - Step 2: Semantic search on filtered subset
+        - Step 3: Gemini generates answer
+        - Best for: Balanced speed & accuracy
+        """
+    }
+    st.info(method_descriptions[search_method])
+    
     # Query settings
     st.subheader("⚙️ Query Settings")
-    max_results = st.slider(
-        "Max Results", 
-        min_value=1, 
-        max_value=200, 
-        value=50,
-        help="Number of documents to retrieve"
-    )
+    
+    # Max results (for regular and two-step)
+    if search_method in ["regular", "two_step"]:
+        max_results = st.slider(
+            "Max Results", 
+            min_value=1, 
+            max_value=50, 
+            value=4,
+            help="Number of documents to retrieve"
+        )
+    else:
+        max_results = 50  # Not used for hybrid
+    
+    # Hybrid top_k (only for hybrid method)
+    if search_method == "hybrid":
+        hybrid_top_k = st.slider(
+            "Top K Chunks", 
+            min_value=1, 
+            max_value=50, 
+            value=st.session_state.hybrid_top_k,
+            help="Number of top chunks to retrieve from filtered laws"
+        )
+        st.session_state.hybrid_top_k = hybrid_top_k
+    else:
+        hybrid_top_k = 5  # Default for other methods
     
     include_sources = st.checkbox(
         "Include Sources", 
         value=True,
         help="Show source documents with citations"
     )
-    # Deep search toggle
-    st.subheader("🔍 Search Method")
-    deep_search = st.toggle(
-        "Enable Deep Search",
-        value=st.session_state.deep_search,
-        help="Use two-step retrieval: First identify relevant laws, then analyze their full content with OpenAI"
-    )
-    st.session_state.deep_search = deep_search
-    
-    if deep_search:
-        st.info("🔬 Deep Search: Two-step retrieval with OpenAI analysis")
-        st.caption("1️⃣ Find relevant laws from metadata\n2️⃣ Analyze full law texts with GPT-4")
-    else:
-        st.info("⚡ Regular Search: Fast vector similarity search")
-        st.caption("Uses ChromaDB + Gemini for quick responses")
 
     # API Health Check
     st.subheader("🏥 API Status")
@@ -190,7 +256,8 @@ with col1:
             "type": "user",
             "message": user_query,
             "timestamp": datetime.now().strftime("%H:%M:%S"),
-            "english_mode": english_mode
+            "english_mode": english_mode,
+            "search_method": search_method
         })
         
         # Show loading spinner
@@ -202,13 +269,14 @@ with col1:
                     "max_results": max_results,
                     "include_sources": include_sources,
                     "english_mode": english_mode,
-                    "deep_search": deep_search
+                    "search_method": search_method,
+                    "hybrid_top_k": hybrid_top_k
                 }
                 
                 response = requests.post(
                     f"{api_url}/query",
                     json=payload,
-                    timeout=60
+                    timeout=120  # Increased timeout for two-step and hybrid
                 )
                 
                 if response.status_code == 200:
@@ -226,7 +294,8 @@ with col1:
                         "english_mode": english_mode,
                         "method": result.get("method", "regular_rag"),
                         "processing_time": result.get("processing_time"),
-                        "deep_search": deep_search
+                        "search_method": search_method,
+                        "stats": result.get("stats")
                     })
                     
                     # Initialize source index for this message
@@ -246,7 +315,8 @@ with col1:
                         "sources": [],
                         "timestamp": datetime.now().strftime("%H:%M:%S"),
                         "model": "Error",
-                        "english_mode": english_mode
+                        "english_mode": english_mode,
+                        "search_method": search_method
                     })
                         
             except Exception as e:
@@ -260,7 +330,8 @@ with col1:
                     "sources": [],
                     "timestamp": datetime.now().strftime("%H:%M:%S"),
                     "model": "Error",
-                    "english_mode": english_mode
+                    "english_mode": english_mode,
+                    "search_method": search_method
                 })
         
         st.session_state.processing = False
@@ -274,9 +345,15 @@ with col1:
             
             if chat["type"] == "user":
                 mode_indicator = "🇬🇧" if chat.get('english_mode') else "🇸🇪"
+                method_name = {
+                    "regular": "⚡",
+                    "two_step": "🔬",
+                    "hybrid": "🔀"
+                }.get(chat.get('search_method', 'regular'), "⚡")
+                
                 st.markdown(f"""
                 <div class="chat-message user-message">
-                    <strong>{mode_indicator} You ({chat['timestamp']}):</strong><br>
+                    <strong>{mode_indicator} {method_name} You ({chat['timestamp']}):</strong><br>
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
@@ -289,19 +366,40 @@ with col1:
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
-                # Show method and processing time info
-                method_icon = "🔬" if chat.get('method') == 'two_step_retrieval' else "⚡"
-                method_name = "Deep Search" if chat.get('method') == 'two_step_retrieval' else "Regular RAG"
+                
+                # Show method badge and info
+                method_map = {
+                    "two_step_retrieval": ("🔬 Two-Step Retrieval", "badge-twostep"),
+                    "hybrid_filtered_rag": ("🔀 Hybrid Filtered RAG", "badge-hybrid"),
+                    "regular_rag": ("⚡ Regular RAG", "badge-regular")
+                    
+                }
+                method_name, badge_class = method_map.get(
+                    chat.get('method', 'regular_rag'), 
+                    ("⚡ Regular RAG", "badge-regular")
+                )
+                
                 processing_time = chat.get('processing_time')
                 time_info = f" | ⏱️ {processing_time:.1f}s" if processing_time else ""
                 
                 st.markdown(f"""
                 <div class="translation-info">
-                    {method_icon} <strong>Method:</strong> {method_name}{time_info}<br>
-                    <em>Model: {chat.get('model', 'Unknown')}</em>
+                    <span class="method-badge {badge_class}">{method_name}</span>
+                    <em>Model: {chat.get('model', 'Unknown')}</em>{time_info}
                 </div>
-                """,
-                unsafe_allow_html=True)
+                """, unsafe_allow_html=True)
+                
+                # Show stats for hybrid method
+                if chat.get('method') == 'hybrid_filtered_rag' and chat.get('stats'):
+                    stats = chat['stats']
+                    st.markdown(f"""
+                    <div class="translation-info">
+                        📊 <strong>Hybrid Stats:</strong><br>
+                        • Law titles found: {stats.get('titles_found', 0)}<br>
+                        • Chunks filtered: {stats.get('chunks_filtered', 0)}<br>
+                        • Top chunks retrieved: {stats.get('chunks_retrieved', 0)}
+                    </div>
+                    """, unsafe_allow_html=True)
                 
                 # Show translation info if in English mode
                 if chat.get('english_mode') and chat.get('translated_query'):
@@ -360,9 +458,6 @@ with col1:
                         🔗 <a href="{source['url']}" target="_blank">View Document</a>
                     </div>
                     """, unsafe_allow_html=True)
-                
-                if chat.get('model') != 'Error':
-                    st.markdown(f"*Model: {chat.get('model', 'Unknown')}*")
             
             st.markdown("---")
     else:
@@ -373,37 +468,41 @@ with col1:
 
 # Right column - Info panel
 with col2:
-    st.subheader("ℹ️ How it works")
+    st.subheader("ℹ️ Search Methods")
+    
+    st.markdown("""
+    ### ⚡ Regular RAG
+    **Best for:** Quick queries
+    - Fast vector similarity
+    - ChromaDB + Gemini
+    - Instant results
+    
+    ### 🔬 Two-Step Retrieval
+    **Best for:** Deep analysis
+    - AI identifies relevant laws
+    - Analyzes full law texts
+    - Most comprehensive
+    
+    ### 🔀 Hybrid Filtered RAG
+    **Best for:** Balanced approach
+    - AI filters by titles
+    - Semantic search on subset
+    - Good speed & accuracy
+    """)
+    
+    st.markdown("---")
     
     if english_mode:
         st.markdown("""
-        **English Mode Active:**
-        
-        1. 🇬🇧 Ask your question in **English**
-        2. 🔄 System translates to **Swedish**
-        3. 🔍 Searches Swedish legal docs
-        4. 📄 Retrieves relevant documents
-        5. 🤖 Generates answer in Swedish
-        6. 🔄 Translates answer to **English**
-        7. ✅ You receive English response!
-        
         **Example Questions:**
         - What is the tax law about gravel?
-        - what does the law say about the discrimination against part-time employees 
-        - explain the Act on pharmaceutical benefits ?
+        - What does the law say about discrimination against part-time employees?
+        - Explain the Act on pharmaceutical benefits?
         """)
     else:
         st.markdown("""
-        **Swedish Mode Active:**
-        
-        1. 🇸🇪 Ställ din fråga på **svenska**
-        2. 🔍 Söker relevanta dokument
-        3. 📄 Hämtar lagtexter
-        4. 🤖 Genererar svar baserat på lagen
-        5. ✅ Du får svar på svenska!
-        
         **Exempel på frågor:**
-        - Vad säger skattelagen om grus?
+        - Vad säger lagen om skatt på naturgrus?
         - Vad säger lagen om diskriminering av deltidsanställda?
         - Förklara lagen om läkemedelsförmåner?
         """)
@@ -412,7 +511,7 @@ with col2:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.8rem;">
-    ⚖️ Swedish Legal RAG Chatbot | Powered by Gemini & ChromaDB | 🌐 Multilingual Support
+    ⚖️ Swedish Legal RAG Chatbot v2.0 | Multiple Search Methods | 🌐 Multilingual Support
 </div>
 """, unsafe_allow_html=True)
 

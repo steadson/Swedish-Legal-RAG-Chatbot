@@ -8,6 +8,7 @@ from chromadb.config import Settings
 import google.generativeai as genai
 from openai import OpenAI
 from two_step_retrieval import TwoStepLegalRetrieval
+from hybrid_retrieval import HybridLegalRetrieval
 
 from dotenv import load_dotenv
 import uvicorn
@@ -16,11 +17,12 @@ from datetime import datetime
 # Load environment variables
 load_dotenv()
 openai_client = OpenAI()
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Swedish Legal RAG API",
     description="Retrieval-Augmented Generation API for Swedish Legal Documents using Gemini",
-    version="1.0.0"
+    version="2.0.0"
 )
 
 # Request/Response models
@@ -29,7 +31,8 @@ class QueryRequest(BaseModel):
     max_results: Optional[int] = 3
     include_sources: Optional[bool] = True
     english_mode: Optional[bool] = False
-    deep_search: Optional[bool] = False
+    search_method: Optional[str] = "regular"  # "regular", "two_step", "hybrid"
+    hybrid_top_k: Optional[int] = 5  # For hybrid retrieval
 
 class SourceDocument(BaseModel):
     title: str
@@ -50,11 +53,10 @@ class RAGResponse(BaseModel):
     translated_query: Optional[str] = None
     method: Optional[str] = "regular_rag"
     processing_time: Optional[float] = None
+    stats: Optional[Dict] = None
 
 class SwedishLegalRAG:
-
-    def __init__(self, db_path: str = "./chroma_db_gemini2", debug_dir: str = "./debug_logs"):
-    # def __init__(self, db_path: str = "./chroma_db_gemini", debug_dir: str = "./debug_logs"):
+    def __init__(self, db_path: str = "./chroma_db_gemini", debug_dir: str = "./debug_logs"):
         self.db_path = db_path
         self.debug_dir = debug_dir
         
@@ -73,8 +75,7 @@ class SwedishLegalRAG:
         # Get existing collection
         try:
             self.collection = self.chroma_client.get_collection(
-                # name="swedish_legal_documents_gemini"
-                name="swedish_legal_documents_gemini2"
+                name="swedish_legal_documents_gemini"
             )
             print(f"✅ Connected to ChromaDB collection with {self.collection.count()} documents")
         except Exception as e:
@@ -85,8 +86,20 @@ class SwedishLegalRAG:
             self.two_step_retrieval = TwoStepLegalRetrieval()
             print("✅ Two-step retrieval system initialized")
         except Exception as e:
-            print(f"⚠️  Warning: Two-step retrieval system failed to initialize: {e}")
+            print(f"⚠️ Warning: Two-step retrieval system failed to initialize: {e}")
             self.two_step_retrieval = None
+        
+        # Initialize hybrid retrieval system
+        try:
+            self.hybrid_retrieval = HybridLegalRetrieval(
+                titles_file="titles_only.json",
+                db_path=db_path,
+                model_name="gemini-2.0-flash-exp"
+            )
+            print("✅ Hybrid retrieval system initialized")
+        except Exception as e:
+            print(f"⚠️ Warning: Hybrid retrieval system failed to initialize: {e}")
+            self.hybrid_retrieval = None
 
     def save_context_to_file(self, query: str, context: str, search_results: Dict, english_mode: bool = False):
         """Save raw retrieved context and metadata to a debug file (no formatting)."""
@@ -102,12 +115,12 @@ class SwedishLegalRAG:
 
                 f.write("SEARCH RESULTS RAW:\n")
                 f.write("-" * 100 + "\n")
-                f.write(str(search_results))  # raw dictionary (no formatting)
+                f.write(str(search_results))
                 f.write("\n\n")
 
                 f.write("RAW CONTEXT (exactly passed to Gemini):\n")
                 f.write("=" * 100 + "\n")
-                f.write(context)  # raw context text
+                f.write(context)
                 f.write("\n" + "=" * 100 + "\n")
 
             print(f"📝 Context saved to debug file: {filepath}")
@@ -165,19 +178,13 @@ English translation:"""
                 content=query,
                 task_type="retrieval_query"
             )
-            print('result ===>',result)
             return result['embedding']
-
         except Exception as e:
             raise Exception(f"Failed to get query embedding: {e}")
     
     def search_relevant_documents(self, query: str, max_results: int = 15) -> Dict:
         """Search for relevant documents in ChromaDB"""
-        # Get query embedding
-        
         query_embedding = self.get_query_embedding(query)
-       
-        # Search ChromaDB
         results = self.collection.query(
             query_embeddings=[query_embedding],
             n_results=max_results,
@@ -198,40 +205,41 @@ English translation:"""
             if metadata.get('is_chunked'):
                 chunk_info = f" (Del {metadata['chunk_position']})"
             
-            # Get the full metadata from the document
             full_metadata = metadata.get('scraped_metadata', {})
             issued_date = full_metadata.get('Utfärdad', 'N/A')
             
             context_part = f"""
-    {'='*80}
-    DOKUMENT {i+1}:
-    Titel: {metadata['title']}{chunk_info}
-    SFS-nummer: {metadata['sfs_number']}
-    Myndighet: {metadata.get('ministry_authority', 'N/A')}
-    Utfärdad: {issued_date}
+{'='*80}
+DOKUMENT {i+1}:
+Titel: {metadata['title']}{chunk_info}
+SFS-nummer: {metadata['sfs_number']}
+Myndighet: {metadata.get('ministry_authority', 'N/A')}
+Utfärdad: {issued_date}
 
-    Innehåll:
-    {doc}
+Innehåll:
+{doc}
 
-    Källa: {metadata['source_link']}
-    Ändringsregister: {metadata['amendment_register_link']}
-    {'='*80}
-    """
+Källa: {metadata['source_link']}
+Ändringsregister: {metadata['amendment_register_link']}
+{'='*80}
+"""
             context_parts.append(context_part)
         
         return "\n".join(context_parts)
     
     def generate_answer(self, query: str, context: str) -> str:
         """Generate answer using Gemini with retrieved context"""
-        prompt = f"""Du är en expert på svensk lagstiftning och juridiska dokument. Din uppgift är att svara på frågor baserat på de svenska lagdokument som tillhandahålls.
+        prompt = f"""Du är en expert på svensk lagstiftning och juridiska dokument. Du har tillgång till texten från relevanta svenska lagar. Din uppgift är att besvara frågor baserat på de tillhandahållna svenska lagdokumenten, utifrån din förståelse av texten.
+
 
 INSTRUKTIONER:
-1. Svara på svenska
-2. Basera ditt svar ENDAST på informationen i de tillhandahållna dokumenten
-3. Citera specifika SFS-nummer när det är relevant
-4. Om informationen inte finns i dokumenten, säg det tydligt
-5. Var precis och faktabaserad
-6. Inkludera relevanta detaljer från dokumenten
+1. Läs och analysera noggrant den fullständiga lagtexten som tillhandahålls och se till att du förstår den fullt ut.
+2. Besvara användarens fråga utifrån informationen i dessa lagar och din förståelse av lagarna.
+3. Citera den specifika lagen och paragrafen du refererar till för att stödja ditt svar.
+4. Om svaret inte kan hittas i de tillhandahållna lagarna eller din förståelse av dem, ange tydligt: "Jag kan inte besvara den frågan."
+5. Ge ett klart, omfattande och korrekt svar.
+6. Inkludera relevanta citat eller specifika avsnitt från lagtexten när det är hjälpsamt.
+7. Svara på svenska.
 
 FRÅGA: {query}
 
@@ -244,70 +252,120 @@ SVAR:"""
             model = genai.GenerativeModel('gemini-2.5-pro')
             response = model.generate_content(prompt)
             return response.text
-
-            # response = openai_client.chat.completions.create(
-            # model="gpt-4.1-mini",  # ✅ 1M token model
-            # messages=[
-            #     {"role": "system", "content": "Du är en juridisk expert som analyserar svenska lagdokument."},
-            #     {"role": "user", "content": prompt}
-            # ],
-            # temperature=0.3,
-            # max_completion_tokens=2000  # you can increase if needed
-            # )
-            # return response.choices[0].message.content.strip()
-
         except Exception as e:
             raise Exception(f"Failed to generate answer: {e}")
     
-    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False, deep_search: bool = False) -> Dict:
-        """Complete RAG pipeline: search + generate"""
+    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False, 
+                     search_method: str = "regular", hybrid_top_k: int = 5) -> Dict:
+        """Complete RAG pipeline with method selection"""
         original_query = None
         translated_query = None
         search_query = query
-        # Check if deep search is enabled and two-step retrieval is available
-        if deep_search and self.two_step_retrieval:
-            print(f"🔍 Using deep search (two-step retrieval) for query: {query}")
-            
-            # Use the two-step retrieval system
-            result = self.two_step_retrieval.process_query(search_query, max_laws=max_results)
-            
-            # Convert two-step sources to our format
-            sources = []
-            for source in result.get('sources', []):
-                sources.append({
-                    "title": source['title'],
-                    "sfs_number": "N/A",  # Two-step doesn't have SFS numbers
-                    "url": source['url'],
-                    "source_link": source['url'],
-                    "amendment_register_link": "N/A",
-                    "similarity_score": 1.0,  # Two-step uses different scoring
-                    "chunk_info": f"File: {source.get('filename', 'N/A')}"
-                })
-            
-            # Translate answer if English mode is enabled
-            answer = result['answer']
-            if english_mode and answer:
-                answer = self.translate_to_english(answer)
-            
-            return {
-                "answer": answer,
-                "sources": sources,
-                "search_results": {"method": "two_step_retrieval"},
-                "original_query": original_query,
-                "translated_query": translated_query,
-                "method": "two_step_retrieval",
-                "processing_time": result.get('processing_time', 0)
-            }
         
-        # Regular RAG pipeline
-        print(f"🔍 Using regular RAG for query: {query}")
-        # Step 1: Translate to Swedish if English mode is enabled
+        # Translate to Swedish if English mode is enabled
         if english_mode:
             original_query = query
             search_query = self.translate_to_swedish(query)
             translated_query = search_query
         
-        # Step 2: Search for relevant documents (always in Swedish)
+        # Route to appropriate search method
+        if search_method == "two_step":
+            return self._process_two_step(search_query, max_results, english_mode, original_query, translated_query)
+        elif search_method == "hybrid":
+            return self._process_hybrid(search_query, hybrid_top_k, english_mode, original_query, translated_query)
+        else:
+            return self._process_regular(search_query, max_results, english_mode, original_query, translated_query)
+    
+    def _process_two_step(self, search_query: str, max_results: int, english_mode: bool, 
+                         original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+        """Process query using two-step retrieval"""
+        print(f"🔬 Using two-step retrieval for query: {search_query}")
+        
+        if not self.two_step_retrieval:
+            return {
+                "answer": "Two-step retrieval system is not available.",
+                "sources": [],
+                "method": "two_step_retrieval",
+                "processing_time": 0
+            }
+        
+        result = self.two_step_retrieval.process_query(search_query, max_laws=max_results)
+        
+        # Convert two-step sources to our format
+        sources = []
+        for source in result.get('sources', []):
+            sources.append({
+                "title": source['title'],
+                "sfs_number": "N/A",
+                "url": source['url'],
+                "source_link": source['url'],
+                "amendment_register_link": "N/A",
+                "similarity_score": 1.0,
+                "chunk_info": f"File: {source.get('filename', 'N/A')}"
+            })
+        
+        answer = result['answer']
+        if english_mode and answer:
+            answer = self.translate_to_english(answer)
+        
+        return {
+            "answer": answer,
+            "sources": sources,
+            "search_results": {"method": "two_step_retrieval"},
+            "original_query": original_query,
+            "translated_query": translated_query,
+            "method": "two_step_retrieval",
+            "processing_time": result.get('processing_time', 0)
+        }
+    
+    def _process_hybrid(self, search_query: str, hybrid_top_k: int, english_mode: bool,
+                       original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+        """Process query using hybrid retrieval"""
+        print(f"🔀 Using hybrid retrieval for query: {search_query}")
+        
+        if not self.hybrid_retrieval:
+            return {
+                "answer": "Hybrid retrieval system is not available.",
+                "sources": [],
+                "method": "hybrid_filtered_rag",
+                "processing_time": 0
+            }
+        
+        result = self.hybrid_retrieval.process_query(search_query, top_k=hybrid_top_k)
+        
+        # Convert hybrid sources to our format
+        sources = []
+        for source in result.get('sources', []):
+            sources.append({
+                "title": source['title'],
+                "sfs_number": source.get('sfs_number', 'N/A'),
+                "url": source.get('url', 'N/A'),
+                "source_link": source.get('source_link', 'N/A'),
+                "amendment_register_link": "N/A",
+                "similarity_score": source.get('similarity_score', 0.0),
+                "chunk_info": source.get('chunk_info')
+            })
+        
+        answer = result['answer']
+        if english_mode and answer:
+            answer = self.translate_to_english(answer)
+        
+        return {
+            "answer": answer,
+            "sources": sources,
+            "search_results": {"method": "hybrid_filtered_rag"},
+            "original_query": original_query,
+            "translated_query": translated_query,
+            "method": "hybrid_filtered_rag",
+            "processing_time": result.get('processing_time', 0),
+            "stats": result.get('stats', {})
+        }
+    
+    def _process_regular(self, search_query: str, max_results: int, english_mode: bool,
+                        original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+        """Process query using regular RAG"""
+        print(f"⚡ Using regular RAG for query: {search_query}")
+        
         search_results = self.search_relevant_documents(search_query, max_results)
         
         if not search_results['documents'][0]:
@@ -320,33 +378,28 @@ SVAR:"""
                 "sources": [],
                 "search_results": search_results,
                 "original_query": original_query,
-                "translated_query": translated_query
+                "translated_query": translated_query,
+                "method": "regular_rag"
             }
         
-        # Step 3: Format context
         context = self.format_context(search_results)
-        
-        # DEBUG: Save context to file for debugging
         self.save_context_to_file(search_query, context, search_results, english_mode)
         
-        # Step 4: Generate answer (in Swedish)
         answer = self.generate_answer(search_query, context)
         
-        # Step 5: Translate answer to English if needed
         if english_mode:
             answer = self.translate_to_english(answer)
         
-        # Format sources
         sources = []
-        for i, (metadata, distance) in enumerate(zip(
+        for metadata, distance in zip(
             search_results['metadatas'][0],
             search_results['distances'][0]
-        )):
+        ):
             chunk_info = None
             if metadata.get('is_chunked'):
                 chunk_info = f"Del {metadata['chunk_position']}"
             
-            source = {
+            sources.append({
                 "title": metadata['title'],
                 "sfs_number": metadata['sfs_number'],
                 "url": metadata['url'],
@@ -354,8 +407,7 @@ SVAR:"""
                 "amendment_register_link": metadata['amendment_register_link'],
                 "similarity_score": round(1 - distance, 3),
                 "chunk_info": chunk_info
-            }
-            sources.append(source)
+            })
         
         return {
             "answer": answer,
@@ -373,8 +425,13 @@ rag_system = SwedishLegalRAG()
 @app.get("/")
 async def root():
     return {
-        "message": "Swedish Legal RAG API with Gemini",
-        "version": "1.0.0",
+        "message": "Swedish Legal RAG API with Multiple Search Methods",
+        "version": "2.0.0",
+        "search_methods": {
+            "regular": "Fast vector similarity search with ChromaDB + Gemini",
+            "two_step": "AI-based title filtering + full document analysis",
+            "hybrid": "Filtered RAG with title-based pre-filtering"
+        },
         "endpoints": {
             "/query": "POST - Submit a query to get legal information",
             "/health": "GET - Check API health",
@@ -387,27 +444,34 @@ async def query_documents(request: QueryRequest):
     """Main RAG endpoint - query Swedish legal documents"""
     try:
         mode = "English" if request.english_mode else "Swedish"
-        search_mode = "Deep Search" if request.deep_search else "Regular RAG"
-        print(f"\n🔍 Processing query in {mode} mode with {search_mode}: '{request.query}'")
-        # Process the query through RAG pipeline
+        method_name = {
+            "regular": "Regular RAG",
+            "two_step": "Two-Step Retrieval",
+            "hybrid": "Hybrid Filtered RAG"
+        }.get(request.search_method, "Regular RAG")
+        
+        print(f"\n🔍 Processing query in {mode} mode with {method_name}: '{request.query}'")
+        
         result = rag_system.process_query(
             query=request.query,
             max_results=request.max_results,
             english_mode=request.english_mode,
-            
-            deep_search=request.deep_search
+            search_method=request.search_method,
+            hybrid_top_k=request.hybrid_top_k
         )
         
-        # Format response
         sources = []
         if request.include_sources:
-            sources = [
-                SourceDocument(**source) for source in result['sources']
-            ]
-        # Determine model used based on method
-        model_used = "gemini-2.0-flash + gemini-embedding-001"
-        if result.get('method') == 'two_step_retrieval':
-            model_used = "gpt-4o + gpt-4o-mini (Two-Step Retrieval)"
+            sources = [SourceDocument(**source) for source in result['sources']]
+        
+        # Determine model used
+        model_map = {
+            "regular_rag": "gemini-2.5-pro + gemini-embedding-001",
+            "two_step_retrieval": "gpt-4o + gpt-4o-mini (Two-Step)",
+            "hybrid_filtered_rag": "gemini-2.0-flash + gemini-embedding-001 (Hybrid)"
+        }
+        model_used = model_map.get(result.get('method'), "Unknown")
+        
         response = RAGResponse(
             answer=result['answer'],
             query=request.query,
@@ -417,10 +481,11 @@ async def query_documents(request: QueryRequest):
             original_query=result.get('original_query'),
             translated_query=result.get('translated_query'),
             method=result.get('method', 'regular_rag'),
-            processing_time=result.get('processing_time')
+            processing_time=result.get('processing_time'),
+            stats=result.get('stats')
         )
         
-        print(f"✅ Query processed successfully using {result.get('method', 'regular_rag')}, {len(sources)} sources found")
+        print(f"✅ Query processed successfully using {result.get('method')}, {len(sources)} sources found")
         return response
         
     except Exception as e:
@@ -431,17 +496,16 @@ async def query_documents(request: QueryRequest):
 async def health_check():
     """Health check endpoint"""
     try:
-        # Check ChromaDB connection
         count = rag_system.collection.count()
-        
-        # Check Gemini API
         test_embedding = rag_system.get_query_embedding("test")
         
         return {
             "status": "healthy",
             "database_documents": count,
             "gemini_api": "connected",
-            "embedding_dimensions": len(test_embedding)
+            "embedding_dimensions": len(test_embedding),
+            "two_step_available": rag_system.two_step_retrieval is not None,
+            "hybrid_available": rag_system.hybrid_retrieval is not None
         }
     except Exception as e:
         raise HTTPException(status_code=503, detail=f"Service unhealthy: {e}")
@@ -451,17 +515,20 @@ async def get_stats():
     """Get database and API statistics"""
     try:
         count = rag_system.collection.count()
-        
-        # Get sample metadata to understand collection structure
         sample = rag_system.collection.peek(limit=1)
         
         stats = {
             "total_documents": count,
             "database_path": rag_system.db_path,
-            "collection_name": "swedish_legal_documents_gemini2",
+            "collection_name": "swedish_legal_documents_gemini",
             "embedding_model": "gemini-embedding-001",
-            "chat_model": "gemini-2.0-flash",
-            "debug_logs_directory": rag_system.debug_dir
+            "chat_model": "gemini-2.5-pro",
+            "debug_logs_directory": rag_system.debug_dir,
+            "available_search_methods": {
+                "regular": True,
+                "two_step": rag_system.two_step_retrieval is not None,
+                "hybrid": rag_system.hybrid_retrieval is not None
+            }
         }
         
         if sample['metadatas']:
@@ -479,8 +546,12 @@ async def get_stats():
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    print("🚀 Starting Swedish Legal RAG API with Gemini...")
+    print("🚀 Starting Swedish Legal RAG API with Multiple Search Methods...")
     print(f"📊 Database: {rag_system.collection.count()} documents loaded")
+    print(f"🔍 Available search methods:")
+    print(f"   ⚡ Regular RAG: Always available")
+    print(f"   🔬 Two-Step Retrieval: {'✅ Available' if rag_system.two_step_retrieval else '❌ Not available'}")
+    print(f"   🔀 Hybrid Filtered RAG: {'✅ Available' if rag_system.hybrid_retrieval else '❌ Not available'}")
     print(f"📝 Debug logs will be saved to: {rag_system.debug_dir}")
     print("🌐 API will be available at: http://localhost:8000")
     print("📖 API docs at: http://localhost:8000/docs")
