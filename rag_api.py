@@ -7,6 +7,7 @@ import chromadb
 from chromadb.config import Settings
 import google.generativeai as genai
 from openai import OpenAI
+from two_step_retrieval import TwoStepLegalRetrieval
 
 from dotenv import load_dotenv
 import uvicorn
@@ -28,6 +29,7 @@ class QueryRequest(BaseModel):
     max_results: Optional[int] = 3
     include_sources: Optional[bool] = True
     english_mode: Optional[bool] = False
+    deep_search: Optional[bool] = False
 
 class SourceDocument(BaseModel):
     title: str
@@ -46,9 +48,13 @@ class RAGResponse(BaseModel):
     model_used: str
     original_query: Optional[str] = None
     translated_query: Optional[str] = None
+    method: Optional[str] = "regular_rag"
+    processing_time: Optional[float] = None
 
 class SwedishLegalRAG:
-    def __init__(self, db_path: str = "./chroma_db_gemini", debug_dir: str = "./debug_logs"):
+
+    def __init__(self, db_path: str = "./chroma_db_gemini2", debug_dir: str = "./debug_logs"):
+    # def __init__(self, db_path: str = "./chroma_db_gemini", debug_dir: str = "./debug_logs"):
         self.db_path = db_path
         self.debug_dir = debug_dir
         
@@ -67,12 +73,21 @@ class SwedishLegalRAG:
         # Get existing collection
         try:
             self.collection = self.chroma_client.get_collection(
-                name="swedish_legal_documents_gemini"
+                # name="swedish_legal_documents_gemini"
+                name="swedish_legal_documents_gemini2"
             )
             print(f"✅ Connected to ChromaDB collection with {self.collection.count()} documents")
         except Exception as e:
             raise Exception(f"Failed to connect to ChromaDB collection: {e}")
     
+        # Initialize two-step retrieval system
+        try:
+            self.two_step_retrieval = TwoStepLegalRetrieval()
+            print("✅ Two-step retrieval system initialized")
+        except Exception as e:
+            print(f"⚠️  Warning: Two-step retrieval system failed to initialize: {e}")
+            self.two_step_retrieval = None
+
     def save_context_to_file(self, query: str, context: str, search_results: Dict, english_mode: bool = False):
         """Save raw retrieved context and metadata to a debug file (no formatting)."""
         try:
@@ -150,22 +165,25 @@ English translation:"""
                 content=query,
                 task_type="retrieval_query"
             )
+            print('result ===>',result)
             return result['embedding']
+
         except Exception as e:
             raise Exception(f"Failed to get query embedding: {e}")
     
-    def search_relevant_documents(self, query: str, max_results: int = 3) -> Dict:
+    def search_relevant_documents(self, query: str, max_results: int = 15) -> Dict:
         """Search for relevant documents in ChromaDB"""
         # Get query embedding
-        query_embedding = self.get_query_embedding(query)
         
+        query_embedding = self.get_query_embedding(query)
+       
         # Search ChromaDB
         results = self.collection.query(
             query_embeddings=[query_embedding],
             n_results=max_results,
             include=["documents", "metadatas", "distances"]
         )
-        
+        print('raw search results been used===>', len(results['documents'][0]))
         return results
     
     def format_context(self, search_results: Dict) -> str:
@@ -223,30 +241,66 @@ TILLHANDAHÅLLNA DOKUMENT:
 SVAR:"""
         
         try:
-            # model = genai.GenerativeModel('gemini-2.5-pro')
-            # response = model.generate_content(prompt)
-            # return response.text
+            model = genai.GenerativeModel('gemini-2.5-pro')
+            response = model.generate_content(prompt)
+            return response.text
 
-            response = openai_client.chat.completions.create(
-            model="gpt-4.1-mini",  # ✅ 1M token model
-            messages=[
-                {"role": "system", "content": "Du är en juridisk expert som analyserar svenska lagdokument."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.3,
-            max_completion_tokens=2000  # you can increase if needed
-            )
-            return response.choices[0].message.content.strip()
+            # response = openai_client.chat.completions.create(
+            # model="gpt-4.1-mini",  # ✅ 1M token model
+            # messages=[
+            #     {"role": "system", "content": "Du är en juridisk expert som analyserar svenska lagdokument."},
+            #     {"role": "user", "content": prompt}
+            # ],
+            # temperature=0.3,
+            # max_completion_tokens=2000  # you can increase if needed
+            # )
+            # return response.choices[0].message.content.strip()
 
         except Exception as e:
             raise Exception(f"Failed to generate answer: {e}")
     
-    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False) -> Dict:
+    def process_query(self, query: str, max_results: int = 3, english_mode: bool = False, deep_search: bool = False) -> Dict:
         """Complete RAG pipeline: search + generate"""
         original_query = None
         translated_query = None
         search_query = query
+        # Check if deep search is enabled and two-step retrieval is available
+        if deep_search and self.two_step_retrieval:
+            print(f"🔍 Using deep search (two-step retrieval) for query: {query}")
+            
+            # Use the two-step retrieval system
+            result = self.two_step_retrieval.process_query(search_query, max_laws=max_results)
+            
+            # Convert two-step sources to our format
+            sources = []
+            for source in result.get('sources', []):
+                sources.append({
+                    "title": source['title'],
+                    "sfs_number": "N/A",  # Two-step doesn't have SFS numbers
+                    "url": source['url'],
+                    "source_link": source['url'],
+                    "amendment_register_link": "N/A",
+                    "similarity_score": 1.0,  # Two-step uses different scoring
+                    "chunk_info": f"File: {source.get('filename', 'N/A')}"
+                })
+            
+            # Translate answer if English mode is enabled
+            answer = result['answer']
+            if english_mode and answer:
+                answer = self.translate_to_english(answer)
+            
+            return {
+                "answer": answer,
+                "sources": sources,
+                "search_results": {"method": "two_step_retrieval"},
+                "original_query": original_query,
+                "translated_query": translated_query,
+                "method": "two_step_retrieval",
+                "processing_time": result.get('processing_time', 0)
+            }
         
+        # Regular RAG pipeline
+        print(f"🔍 Using regular RAG for query: {query}")
         # Step 1: Translate to Swedish if English mode is enabled
         if english_mode:
             original_query = query
@@ -308,7 +362,9 @@ SVAR:"""
             "sources": sources,
             "search_results": search_results,
             "original_query": original_query,
-            "translated_query": translated_query
+            "translated_query": translated_query,
+            "method": "regular_rag",
+            "processing_time": None
         }
 
 # Initialize RAG system
@@ -331,13 +387,15 @@ async def query_documents(request: QueryRequest):
     """Main RAG endpoint - query Swedish legal documents"""
     try:
         mode = "English" if request.english_mode else "Swedish"
-        print(f"\n🔍 Processing query in {mode} mode: '{request.query}'")
-        
+        search_mode = "Deep Search" if request.deep_search else "Regular RAG"
+        print(f"\n🔍 Processing query in {mode} mode with {search_mode}: '{request.query}'")
         # Process the query through RAG pipeline
         result = rag_system.process_query(
             query=request.query,
             max_results=request.max_results,
-            english_mode=request.english_mode
+            english_mode=request.english_mode,
+            
+            deep_search=request.deep_search
         )
         
         # Format response
@@ -346,18 +404,23 @@ async def query_documents(request: QueryRequest):
             sources = [
                 SourceDocument(**source) for source in result['sources']
             ]
-        
+        # Determine model used based on method
+        model_used = "gemini-2.0-flash + gemini-embedding-001"
+        if result.get('method') == 'two_step_retrieval':
+            model_used = "gpt-4o + gpt-4o-mini (Two-Step Retrieval)"
         response = RAGResponse(
             answer=result['answer'],
             query=request.query,
             sources=sources,
             timestamp=datetime.now().isoformat(),
-            model_used="gemini-2.0-flash + gemini-embedding-001",
+            model_used=model_used,
             original_query=result.get('original_query'),
-            translated_query=result.get('translated_query')
+            translated_query=result.get('translated_query'),
+            method=result.get('method', 'regular_rag'),
+            processing_time=result.get('processing_time')
         )
         
-        print(f"✅ Query processed successfully, {len(sources)} sources found")
+        print(f"✅ Query processed successfully using {result.get('method', 'regular_rag')}, {len(sources)} sources found")
         return response
         
     except Exception as e:
@@ -395,7 +458,7 @@ async def get_stats():
         stats = {
             "total_documents": count,
             "database_path": rag_system.db_path,
-            "collection_name": "swedish_legal_documents_gemini",
+            "collection_name": "swedish_legal_documents_gemini2",
             "embedding_model": "gemini-embedding-001",
             "chat_model": "gemini-2.0-flash",
             "debug_logs_directory": rag_system.debug_dir

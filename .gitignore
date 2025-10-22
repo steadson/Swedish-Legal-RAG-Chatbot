@@ -24,6 +24,8 @@ PYTHON_ARGCOMPLETE_OK
 
 # Environment variables and secrets
 .env
+chroma_db_gemini2/
+chroma_db_gemini/
 .env.local
 .env.development.local
 .env.test.local

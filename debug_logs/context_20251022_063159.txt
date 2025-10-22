@@ -1,0 +1,61 @@
+Timestamp: 2025-10-22T06:31:59.851487
+Query: Förklara syftet med 36 § Avtalslagen (AvtL).
+English Mode: False
+
+SEARCH RESULTS RAW:
+----------------------------------------------------------------------------------------------------
+{'ids': [['gemini_doc_Svensk författningssamling 1987_1262_1007_chunk_122']], 'distances': [[0.47688260674476624]], 'metadatas': [[{'amendment_register_link': '', 'chunk_id': 122, 'chunk_position': '123/195', 'document_index': 1007, 'embedding_model': 'gemini-embedding-001', 'is_chunked': True, 'ministry_authority': '', 'page_found': '', 'scraped_at': '', 'sfs_number': 'Svensk författningssamling 1987_1262', 'source_link': '', 'title': 'Arbetsrättslig beredskapslag (1987:1262)', 'token_count': 1125, 'total_chunks': 195, 'url': 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arbetsrattslig-beredskapslag-19871262_sfs-1987-1262/'}]], 'embeddings': None, 'documents': [['Titel: Arbetsrättslig beredskapslag (1987:1262)\nSFS-nummer: Svensk författningssamling 1987_1262\nSFS Number: Svensk författningssamling 1987:1262\nSource Link: http://rkrattsbaser.gov.se/sfst?bet=1987:1262\nAmendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1987:1262\nMinistry/Authority: Arbetsmarknadsdepartementet ARM\nIssued: 1987-12-17\nMetadata: {"Utfärdad": "1987-12-17", "Ändrad": "t.o.m. SFS 2010:1240"}\nArbetsrättslig beredskapslag (1987: 1262)\n: \n1987: 1262\nt.o.m. SFS 2010: 1240\nLag (1994: 1640)\nLagen (1976: 580) om medbestämmande i arbetslivet, lagen\n(1974: 358) om facklig förtroendemans ställning på arbetsplatsen, lagen (1982:80) om anställningsskydd, semesterlagen (1977:480) och föräldraledighetslagen (1995:584), tillämpas med de ändringar och tillägg som anges i en till denna lag fogad förteckning (bilaga).\nLag (1995: 588)\nNär denna lag ska tillämpas, gäller inte lagen (1974: 981)\n(1979: 1184) om rätt till ledighet för vissa föreningsuppdrag i skolan och lagen (1986:163) om rätt till ledighet för utbildning i svenska för invandrare.\nLag (2010: 1240)\nUtöver vad som anges i 5 § får regeringen i de där angivna lagarna, i annan lag som gäller förhållandet mellan arbetsgivare och arbetstagare och i lagen (1974: 371) om rättegången i arbetstvister föreskriva sådana ändringar och tillägg som behövs för att tillgodose totalförsvarets behov.\nlag (1995: 778)\n1. Lagen (1976: 580) om medbestämmande i arbetslivet\nI fråga om lagen (1976: 580) om medbestämmande i arbetslivet skall\n2. Lagen (1974: 358) om facklig förtroendemans ställning på arbetsplatsen\nI fråga om lagen (1974: 358) om facklig förtroendemans ställning på arbetsplatsen skall 5 och 9 §§ ha följande lydelse.\n3. I fråga om lagen (1982: 80) om anställningsskydd ska\nGenom ett kollektivavtal som har slutits eller godkänts av en central arbetstagarorganisation får det dock göras avvikelser från 5, 6, 11, 15, 21, 22, 28, 33, 40 och 41 §§. Det är också tillåtet att genom ett sådant kollektivavtal bestämma följande: \nVid tillämpning av 11, 15, 22 och 39 §§ gäller följande särskilda bestämmelser om beräkning av anställningstid: \nAvtal om tidsbegränsad anställning får träffas i följande fall: \n4. Avtal som gäller för tiden till dess arbetstagaren skall börja sådan tjänstgöring enligt lagen (1994: 1809) om totalförsvarsplikt, som skall pågå mer än tre månader.\n4. Semesterlagen (1977: 480)\nI fråga om semesterlagen (1977: 480) ska 4, 11 och 12 §§ ha följande lydelse.\n5. Föräldraledighetslagen (1995: 584)\nI fråga om föräldraledighetslagen (1995: 584) skall 1 § ha följande lydelse.\n\nInnehåll (Del 123/195): Avtal om avvikelser från reglerna i 21 § får träffas även utanför kollektivavtalsförhållanden, om avtalet innebär att kollektivavtal som med stöd av tredje stycket har träffats för verksamhetsområdet skall tillämpas.']], 'uris': None, 'data': None}
+
+RAW CONTEXT (exactly passed to Gemini):
+====================================================================================================
+
+    ================================================================================
+    DOKUMENT 1:
+    Titel: Arbetsrättslig beredskapslag (1987:1262) (Del 123/195)
+    SFS-nummer: Svensk författningssamling 1987_1262
+    Myndighet: 
+    Utfärdad: N/A
+
+    Innehåll:
+    Titel: Arbetsrättslig beredskapslag (1987:1262)
+SFS-nummer: Svensk författningssamling 1987_1262
+SFS Number: Svensk författningssamling 1987:1262
+Source Link: http://rkrattsbaser.gov.se/sfst?bet=1987:1262
+Amendment Register Link: http://rkrattsbaser.gov.se/sfsr?bet=1987:1262
+Ministry/Authority: Arbetsmarknadsdepartementet ARM
+Issued: 1987-12-17
+Metadata: {"Utfärdad": "1987-12-17", "Ändrad": "t.o.m. SFS 2010:1240"}
+Arbetsrättslig beredskapslag (1987: 1262)
+: 
+1987: 1262
+t.o.m. SFS 2010: 1240
+Lag (1994: 1640)
+Lagen (1976: 580) om medbestämmande i arbetslivet, lagen
+(1974: 358) om facklig förtroendemans ställning på arbetsplatsen, lagen (1982:80) om anställningsskydd, semesterlagen (1977:480) och föräldraledighetslagen (1995:584), tillämpas med de ändringar och tillägg som anges i en till denna lag fogad förteckning (bilaga).
+Lag (1995: 588)
+När denna lag ska tillämpas, gäller inte lagen (1974: 981)
+(1979: 1184) om rätt till ledighet för vissa föreningsuppdrag i skolan och lagen (1986:163) om rätt till ledighet för utbildning i svenska för invandrare.
+Lag (2010: 1240)
+Utöver vad som anges i 5 § får regeringen i de där angivna lagarna, i annan lag som gäller förhållandet mellan arbetsgivare och arbetstagare och i lagen (1974: 371) om rättegången i arbetstvister föreskriva sådana ändringar och tillägg som behövs för att tillgodose totalförsvarets behov.
+lag (1995: 778)
+1. Lagen (1976: 580) om medbestämmande i arbetslivet
+I fråga om lagen (1976: 580) om medbestämmande i arbetslivet skall
+2. Lagen (1974: 358) om facklig förtroendemans ställning på arbetsplatsen
+I fråga om lagen (1974: 358) om facklig förtroendemans ställning på arbetsplatsen skall 5 och 9 §§ ha följande lydelse.
+3. I fråga om lagen (1982: 80) om anställningsskydd ska
+Genom ett kollektivavtal som har slutits eller godkänts av en central arbetstagarorganisation får det dock göras avvikelser från 5, 6, 11, 15, 21, 22, 28, 33, 40 och 41 §§. Det är också tillåtet att genom ett sådant kollektivavtal bestämma följande: 
+Vid tillämpning av 11, 15, 22 och 39 §§ gäller följande särskilda bestämmelser om beräkning av anställningstid: 
+Avtal om tidsbegränsad anställning får träffas i följande fall: 
+4. Avtal som gäller för tiden till dess arbetstagaren skall börja sådan tjänstgöring enligt lagen (1994: 1809) om totalförsvarsplikt, som skall pågå mer än tre månader.
+4. Semesterlagen (1977: 480)
+I fråga om semesterlagen (1977: 480) ska 4, 11 och 12 §§ ha följande lydelse.
+5. Föräldraledighetslagen (1995: 584)
+I fråga om föräldraledighetslagen (1995: 584) skall 1 § ha följande lydelse.
+
+Innehåll (Del 123/195): Avtal om avvikelser från reglerna i 21 § får träffas även utanför kollektivavtalsförhållanden, om avtalet innebär att kollektivavtal som med stöd av tredje stycket har träffats för verksamhetsområdet skall tillämpas.
+
+    Källa: 
+    Ändringsregister: 
+    ================================================================================
+    
+====================================================================================================

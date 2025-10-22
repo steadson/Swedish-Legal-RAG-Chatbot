@@ -72,7 +72,8 @@ if 'english_mode' not in st.session_state:
     st.session_state.english_mode = False
 if 'source_indices' not in st.session_state:
     st.session_state.source_indices = {}  # Track current source index for each chat message
-
+if 'deep_search' not in st.session_state:
+    st.session_state.deep_search = False
 # Header
 st.markdown('<h1 class="main-header">⚖️ Swedish Legal RAG Chatbot</h1>', unsafe_allow_html=True)
 st.markdown("---")
@@ -108,8 +109,8 @@ with st.sidebar:
     max_results = st.slider(
         "Max Results", 
         min_value=1, 
-        max_value=50, 
-        value=3,
+        max_value=200, 
+        value=50,
         help="Number of documents to retrieve"
     )
     
@@ -118,7 +119,22 @@ with st.sidebar:
         value=True,
         help="Show source documents with citations"
     )
+    # Deep search toggle
+    st.subheader("🔍 Search Method")
+    deep_search = st.toggle(
+        "Enable Deep Search",
+        value=st.session_state.deep_search,
+        help="Use two-step retrieval: First identify relevant laws, then analyze their full content with OpenAI"
+    )
+    st.session_state.deep_search = deep_search
     
+    if deep_search:
+        st.info("🔬 Deep Search: Two-step retrieval with OpenAI analysis")
+        st.caption("1️⃣ Find relevant laws from metadata\n2️⃣ Analyze full law texts with GPT-4")
+    else:
+        st.info("⚡ Regular Search: Fast vector similarity search")
+        st.caption("Uses ChromaDB + Gemini for quick responses")
+
     # API Health Check
     st.subheader("🏥 API Status")
     if st.button("Check API Health"):
@@ -185,7 +201,8 @@ with col1:
                     "query": user_query,
                     "max_results": max_results,
                     "include_sources": include_sources,
-                    "english_mode": english_mode
+                    "english_mode": english_mode,
+                    "deep_search": deep_search
                 }
                 
                 response = requests.post(
@@ -206,7 +223,10 @@ with col1:
                         "model": result.get("model_used", "Unknown"),
                         "original_query": result.get("original_query"),
                         "translated_query": result.get("translated_query"),
-                        "english_mode": english_mode
+                        "english_mode": english_mode,
+                        "method": result.get("method", "regular_rag"),
+                        "processing_time": result.get("processing_time"),
+                        "deep_search": deep_search
                     })
                     
                     # Initialize source index for this message
@@ -269,6 +289,19 @@ with col1:
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
+                # Show method and processing time info
+                method_icon = "🔬" if chat.get('method') == 'two_step_retrieval' else "⚡"
+                method_name = "Deep Search" if chat.get('method') == 'two_step_retrieval' else "Regular RAG"
+                processing_time = chat.get('processing_time')
+                time_info = f" | ⏱️ {processing_time:.1f}s" if processing_time else ""
+                
+                st.markdown(f"""
+                <div class="translation-info">
+                    {method_icon} <strong>Method:</strong> {method_name}{time_info}<br>
+                    <em>Model: {chat.get('model', 'Unknown')}</em>
+                </div>
+                """,
+                unsafe_allow_html=True)
                 
                 # Show translation info if in English mode
                 if chat.get('english_mode') and chat.get('translated_query'):
