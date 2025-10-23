@@ -466,8 +466,8 @@ async def query_documents(request: QueryRequest):
         
         # Determine model used
         model_map = {
-            "regular_rag": "gemini-2.5-pro + gemini-embedding-001",
-            "two_step_retrieval": "gpt-4o + gpt-4o-mini (Two-Step)",
+            "regular_rag": "gemini-2.0-flash + gemini-embedding-001",
+            "two_step_retrieval": "gemini-2.0-flash + gemini-2.0-flash (Two-Step)",
             "hybrid_filtered_rag": "gemini-2.0-flash + gemini-embedding-001 (Hybrid)"
         }
         model_used = model_map.get(result.get('method'), "Unknown")
