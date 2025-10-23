@@ -94,7 +94,7 @@ class SwedishLegalRAG:
             self.hybrid_retrieval = HybridLegalRetrieval(
                 titles_file="titles_only.json",
                 db_path=db_path,
-                model_name="gemini-2.0-flash-exp"
+                model_name="gemini-2.0-flash"
             )
             print("✅ Hybrid retrieval system initialized")
         except Exception as e:

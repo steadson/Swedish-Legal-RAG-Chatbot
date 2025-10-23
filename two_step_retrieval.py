@@ -21,7 +21,7 @@ class TwoStepLegalRetrieval:
                  full_file: str = "titles_and_urls_readable.json",
                  filenames_file: str = "titles_urls_with_filenames.json",
                  raw_documents_dir: str = "data/raw_documents",
-                 model_name: str = "gemini-2.0-flash-exp"):
+                 model_name: str = "gemini-2.5-flash"):
         """
         Initialize the two-step retrieval system
         
