@@ -95,7 +95,7 @@ if 'source_indices' not in st.session_state:
 if 'search_method' not in st.session_state:
     st.session_state.search_method = "regular"
 if 'hybrid_top_k' not in st.session_state:
-    st.session_state.hybrid_top_k = 5
+    st.session_state.hybrid_top_k = 15
 
 # Header
 st.markdown('<h1 class="main-header">⚖️ Swedish Legal RAG Chatbot</h1>', unsafe_allow_html=True)
@@ -176,7 +176,7 @@ with st.sidebar:
             "Max Results", 
             min_value=1, 
             max_value=50, 
-            value=4,
+            value=15,
             help="Number of documents to retrieve"
         )
     else:
@@ -193,7 +193,7 @@ with st.sidebar:
         )
         st.session_state.hybrid_top_k = hybrid_top_k
     else:
-        hybrid_top_k = 5  # Default for other methods
+        hybrid_top_k = 15  # Default for other methods
     
     include_sources = st.checkbox(
         "Include Sources", 

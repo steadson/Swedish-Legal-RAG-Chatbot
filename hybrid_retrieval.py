@@ -26,7 +26,7 @@ class HybridLegalRetrieval:
     def __init__(self, 
                  titles_file: str = "titles_only.json",
                  db_path: str = "./chroma_db_gemini",
-                 model_name: str = "gemini-2.0-flash"):
+                 model_name: str = "gemini-2.5-flash"):
         """
         Initialize hybrid retrieval system
         
@@ -86,9 +86,10 @@ SWEDISH LAWS DATABASE:
 USER QUERY: {user_query}
 
 INSTRUCTIONS:
-1. Identify the 1-10 most relevant laws that likely contain the answer
-2. Return ONLY a JSON array of exact titles from the database
-3. Be precise - use exact titles as they appear
+1. Read and parse the JSON database above
+2. Search through all the laws based on your understanding of Swedish law
+3. Find the most relevant laws (1-10) that likely contain the answer to the query 
+4. Return ONLY a JSON array of exact titles from the database
 
 Response format:
 [
@@ -223,7 +224,7 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
             
         except Exception as e:
             print(f"⚠️ Warning: Could not write debug log: {e}")
-    def search_filtered_chunks(self, query: str, filtered_ids: List[str], top_k: int = 10) -> Dict:
+    def search_filtered_chunks(self, query: str, filtered_ids: List[str], top_k: int = 12) -> Dict:
         """
         Step 3: Perform semantic search ONLY on filtered chunks
         This is the key optimization - we only search relevant laws!
@@ -349,7 +350,7 @@ TILLHANDAHÅLLNA DOKUMENT:
 SVAR:"""
         
         try:
-            model = genai.GenerativeModel('gemini-2.0-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             response = model.generate_content(prompt)
             print("✅ Step 4 complete: Answer generated")
             return response.text
@@ -520,7 +521,7 @@ def test_interactive():
             print('='*100)
             
             # Process the query
-            result = retrieval_system.process_query(query, top_k=3)
+            result = retrieval_system.process_query(query, top_k=12)
             
             print(f"\n💬 ANSWER:")
             print("-" * 80)
@@ -569,7 +570,7 @@ def main():
         print(f"TEST {i}: {query}")
         print('='*100)
         
-        result = retrieval_system.process_query(query, top_k=10)
+        result = retrieval_system.process_query(query, top_k=12)
         
         print(f"\n💬 ANSWER:")
         print("-" * 80)

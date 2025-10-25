@@ -94,7 +94,7 @@ class SwedishLegalRAG:
             self.hybrid_retrieval = HybridLegalRetrieval(
                 titles_file="titles_only.json",
                 db_path=db_path,
-                model_name="gemini-2.0-flash"
+                model_name="gemini-2.5-flash"
             )
             print("✅ Hybrid retrieval system initialized")
         except Exception as e:
@@ -133,7 +133,7 @@ class SwedishLegalRAG:
     def translate_to_swedish(self, english_query: str) -> str:
         """Translate English query to Swedish using Gemini"""
         try:
-            model = genai.GenerativeModel('gemini-2.0-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
             prompt = f"""Translate the following question from English to Swedish. 
 Keep the meaning exact and maintain any legal terminology appropriately.

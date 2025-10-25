@@ -21,7 +21,7 @@ class TwoStepLegalRetrieval:
                  full_file: str = "titles_and_urls_readable.json",
                  filenames_file: str = "titles_urls_with_filenames.json",
                  raw_documents_dir: str = "data/raw_documents",
-                 model_name: str = "gemini-2.0-flash"):
+                 model_name: str = "gemini-2.5-flash"):
         """
         Initialize the two-step retrieval system
         
@@ -161,9 +161,9 @@ SWEDISH LAWS DATABASE:
 USER QUERY: {user_query}
 
 INSTRUCTIONS:
-1. Read and parse the JSON database above
+1. Read and parse all of the JSON database above
 2. Search through all the laws based on your understanding of Swedish law
-3. Find the most relevant laws (1-10) that likely contain the answer to the query
+3. Find the most relevant laws (1-10) that likely contain the answer to the query or laws that would help really well to answer the question
 4. Return ONLY a JSON array of exact titles from the database
 
 Response format:
@@ -178,7 +178,7 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
 
         try:
             # Initialize the model
-            model = genai.GenerativeModel(self.model_name)
+            model = genai.GenerativeModel("gemini-2.5-flash")
             
             # Generate response
             response = model.generate_content(
