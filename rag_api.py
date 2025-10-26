@@ -33,6 +33,7 @@ class QueryRequest(BaseModel):
     english_mode: Optional[bool] = False
     search_method: Optional[str] = "regular"  # "regular", "two_step", "hybrid"
     hybrid_top_k: Optional[int] = 5  # For hybrid retrieval
+    model_name: Optional[str] = "gemini-2.0-flash"  # ADD THIS LINE
 
 class SourceDocument(BaseModel):
     title: str
@@ -130,10 +131,10 @@ class SwedishLegalRAG:
             print(f"⚠️ Warning: Failed to save context to file: {e}")
             return None
     
-    def translate_to_swedish(self, english_query: str) -> str:
+    def translate_to_swedish(self, english_query: str, model_name: str = "gemini-2.0-flash") -> str:
         """Translate English query to Swedish using Gemini"""
         try:
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel(model_name)
             
             prompt = f"""Translate the following question from English to Swedish. 
 Keep the meaning exact and maintain any legal terminology appropriately.
@@ -150,10 +151,10 @@ Swedish translation:"""
         except Exception as e:
             raise Exception(f"Failed to translate query to Swedish: {e}")
     
-    def translate_to_english(self, swedish_answer: str) -> str:
+    def translate_to_english(self, swedish_answer: str, model_name: str = "gemini-2.0-flash") -> str:
         """Translate Swedish answer to English using Gemini"""
         try:
-            model = genai.GenerativeModel('gemini-2.0-flash')
+            model = genai.GenerativeModel(model_name)
             prompt = f"""Translate the following answer from Swedish to English.
 Maintain all legal terminology, citations, and SFS numbers exactly as they are.
 Keep the same structure and formatting.
@@ -227,7 +228,7 @@ Källa: {metadata['source_link']}
         
         return "\n".join(context_parts)
     
-    def generate_answer(self, query: str, context: str) -> str:
+    def generate_answer(self, query: str, context: str, model_name: str = "gemini-2.5-flash") -> str:
         """Generate answer using Gemini with retrieved context"""
         prompt = f"""Du är en expert på svensk lagstiftning och juridiska dokument. Du har tillgång till texten från relevanta svenska lagar. Din uppgift är att besvara frågor baserat på de tillhandahållna svenska lagdokumenten, utifrån din förståelse av texten.
 
@@ -249,14 +250,16 @@ TILLHANDAHÅLLNA DOKUMENT:
 SVAR:"""
         
         try:
-            model = genai.GenerativeModel('gemini-2.5-pro')
+            model = genai.GenerativeModel(model_name)
+            print(f"🤖 Generating answer with {model_name}")
             response = model.generate_content(prompt)
             return response.text
         except Exception as e:
             raise Exception(f"Failed to generate answer: {e}")
     
     def process_query(self, query: str, max_results: int = 3, english_mode: bool = False, 
-                     search_method: str = "regular", hybrid_top_k: int = 5) -> Dict:
+                 search_method: str = "regular", hybrid_top_k: int = 5, 
+                 model_name: str = "gemini-2.0-flash") -> Dict:
         """Complete RAG pipeline with method selection"""
         original_query = None
         translated_query = None
@@ -265,31 +268,33 @@ SVAR:"""
         # Translate to Swedish if English mode is enabled
         if english_mode:
             original_query = query
-            search_query = self.translate_to_swedish(query)
+            search_query = self.translate_to_swedish(query, model_name)
             translated_query = search_query
         
         # Route to appropriate search method
         if search_method == "two_step":
-            return self._process_two_step(search_query, max_results, english_mode, original_query, translated_query)
+            return self._process_two_step(search_query, max_results, english_mode, original_query, translated_query, model_name)
         elif search_method == "hybrid":
-            return self._process_hybrid(search_query, hybrid_top_k, english_mode, original_query, translated_query)
+            return self._process_hybrid(search_query, hybrid_top_k, english_mode, original_query, translated_query, model_name)
         else:
-            return self._process_regular(search_query, max_results, english_mode, original_query, translated_query)
+            return self._process_regular(search_query, max_results, english_mode, original_query, translated_query, model_name)
     
     def _process_two_step(self, search_query: str, max_results: int, english_mode: bool, 
-                         original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+                     original_query: Optional[str], translated_query: Optional[str], 
+                     model_name: str = "gemini-2.0-flash") -> Dict:
         """Process query using two-step retrieval"""
-        print(f"🔬 Using two-step retrieval for query: {search_query}")
+        print(f"🔬 Using two-step retrieval with {model_name} for query: {search_query}")
         
         if not self.two_step_retrieval:
             return {
                 "answer": "Two-step retrieval system is not available.",
                 "sources": [],
                 "method": "two_step_retrieval",
-                "processing_time": 0
+                "processing_time": 0,
+                "model_used": model_name
             }
         
-        result = self.two_step_retrieval.process_query(search_query, max_laws=max_results)
+        result = self.two_step_retrieval.process_query(search_query, max_laws=max_results,  model_name=model_name)
         
         # Convert two-step sources to our format
         sources = []
@@ -306,7 +311,7 @@ SVAR:"""
         
         answer = result['answer']
         if english_mode and answer:
-            answer = self.translate_to_english(answer)
+            answer = self.translate_to_english(answer, model_name)
         
         return {
             "answer": answer,
@@ -315,23 +320,26 @@ SVAR:"""
             "original_query": original_query,
             "translated_query": translated_query,
             "method": "two_step_retrieval",
-            "processing_time": result.get('processing_time', 0)
+            "processing_time": result.get('processing_time', 0),
+            "model_used": model_name
         }
     
     def _process_hybrid(self, search_query: str, hybrid_top_k: int, english_mode: bool,
-                       original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+                   original_query: Optional[str], translated_query: Optional[str],
+                   model_name: str = "gemini-2.0-flash") -> Dict:
         """Process query using hybrid retrieval"""
-        print(f"🔀 Using hybrid retrieval for query: {search_query}")
+        print(f"🔀 Using hybrid retrieval with {model_name} for query: {search_query}")
         
         if not self.hybrid_retrieval:
             return {
                 "answer": "Hybrid retrieval system is not available.",
                 "sources": [],
                 "method": "hybrid_filtered_rag",
-                "processing_time": 0
+                "processing_time": 0,
+                "model_used": model_name
             }
         
-        result = self.hybrid_retrieval.process_query(search_query, top_k=hybrid_top_k)
+        result = self.hybrid_retrieval.process_query(search_query, top_k=hybrid_top_k, model_name=model_name)
         
         # Convert hybrid sources to our format
         sources = []
@@ -348,7 +356,7 @@ SVAR:"""
         
         answer = result['answer']
         if english_mode and answer:
-            answer = self.translate_to_english(answer)
+            answer = self.translate_to_english(answer, model_name)
         
         return {
             "answer": answer,
@@ -358,13 +366,16 @@ SVAR:"""
             "translated_query": translated_query,
             "method": "hybrid_filtered_rag",
             "processing_time": result.get('processing_time', 0),
-            "stats": result.get('stats', {})
+            "stats": result.get('stats', {}),
+            "model_used": model_name
         }
     
+    # 8. Update _process_regular method:
     def _process_regular(self, search_query: str, max_results: int, english_mode: bool,
-                        original_query: Optional[str], translated_query: Optional[str]) -> Dict:
+                        original_query: Optional[str], translated_query: Optional[str],
+                        model_name: str = "gemini-2.0-flash") -> Dict:  # ADD model_name
         """Process query using regular RAG"""
-        print(f"⚡ Using regular RAG for query: {search_query}")
+        print(f"⚡ Using regular RAG with {model_name} for query: {search_query}")
         
         search_results = self.search_relevant_documents(search_query, max_results)
         
@@ -379,16 +390,17 @@ SVAR:"""
                 "search_results": search_results,
                 "original_query": original_query,
                 "translated_query": translated_query,
-                "method": "regular_rag"
+                "method": "regular_rag",
+                "model_used": model_name
             }
         
         context = self.format_context(search_results)
         self.save_context_to_file(search_query, context, search_results, english_mode)
         
-        answer = self.generate_answer(search_query, context)
+        answer = self.generate_answer(search_query, context, model_name)  # PASS model_name
         
         if english_mode:
-            answer = self.translate_to_english(answer)
+            answer = self.translate_to_english(answer, model_name)  # PASS model_name
         
         sources = []
         for metadata, distance in zip(
@@ -416,7 +428,8 @@ SVAR:"""
             "original_query": original_query,
             "translated_query": translated_query,
             "method": "regular_rag",
-            "processing_time": None
+            "processing_time": None,
+            "model_used": model_name
         }
 
 # Initialize RAG system
@@ -450,27 +463,23 @@ async def query_documents(request: QueryRequest):
             "hybrid": "Hybrid Filtered RAG"
         }.get(request.search_method, "Regular RAG")
         
-        print(f"\n🔍 Processing query in {mode} mode with {method_name}: '{request.query}'")
+        print(f"\n🔍 Processing query in {mode} mode with {method_name} using {request.model_name}: '{request.query}'")
         
         result = rag_system.process_query(
             query=request.query,
             max_results=request.max_results,
             english_mode=request.english_mode,
             search_method=request.search_method,
-            hybrid_top_k=request.hybrid_top_k
+            hybrid_top_k=request.hybrid_top_k,
+            model_name=request.model_name  # PASS model_name
         )
         
         sources = []
         if request.include_sources:
             sources = [SourceDocument(**source) for source in result['sources']]
         
-        # Determine model used
-        model_map = {
-            "regular_rag": "gemini-2.0-flash + gemini-embedding-001",
-            "two_step_retrieval": "gemini-2.0-flash + gemini-2.0-flash (Two-Step)",
-            "hybrid_filtered_rag": "gemini-2.0-flash + gemini-embedding-001 (Hybrid)"
-        }
-        model_used = model_map.get(result.get('method'), "Unknown")
+        # Use the model_used from result or fall back to request.model_name
+        model_used = result.get('model_used', request.model_name)
         
         response = RAGResponse(
             answer=result['answer'],
@@ -485,7 +494,7 @@ async def query_documents(request: QueryRequest):
             stats=result.get('stats')
         )
         
-        print(f"✅ Query processed successfully using {result.get('method')}, {len(sources)} sources found")
+        print(f"✅ Query processed successfully using {result.get('method')} with {model_used}, {len(sources)} sources found")
         return response
         
     except Exception as e:

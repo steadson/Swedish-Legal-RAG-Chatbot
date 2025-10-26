@@ -78,6 +78,14 @@ st.markdown("""
     background-color: #fff3e0;
     color: #f57c00;
 }
+.model-info {
+    background-color: #f3e5f5;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+    border-left: 3px solid #9c27b0;
+    font-size: 0.85em;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -96,6 +104,32 @@ if 'search_method' not in st.session_state:
     st.session_state.search_method = "regular"
 if 'hybrid_top_k' not in st.session_state:
     st.session_state.hybrid_top_k = 15
+if 'selected_model' not in st.session_state:
+    st.session_state.selected_model = "gemini-2.0-flash"
+
+# Model configurations
+MODEL_OPTIONS = {
+    "gemini-2.0-flash": {
+        "name": "Gemini 2.0 Flash",
+        "description": "⚡ Fastest - Best for quick queries",
+        "icon": "⚡"
+    },
+    "gemini-2.5-flash": {
+        "name": "Gemini 2.5 Flash", 
+        "description": "🚀 Balanced - Good speed & quality",
+        "icon": "🚀"
+    },
+    "gemini-2.5-flash-lite": {
+        "name": "Gemini 2.5 Flash-Lite",
+        "description": "💨 Ultra-fast - Lightweight queries",
+        "icon": "💨"
+    },
+    "gemini-2.5-pro": {
+        "name": "Gemini 2.5 Pro",
+        "description": "🎯 Most Accurate - Complex analysis",
+        "icon": "🎯"
+    }
+}
 
 # Header
 st.markdown('<h1 class="main-header">⚖️ Swedish Legal RAG Chatbot</h1>', unsafe_allow_html=True)
@@ -112,6 +146,20 @@ with st.sidebar:
         help="URL of your RAG API server"
     )
     st.session_state.api_url = api_url
+    
+    # Model Selection
+    st.subheader("🤖 AI Model Selection")
+    selected_model = st.selectbox(
+        "Choose Gemini Model",
+        options=list(MODEL_OPTIONS.keys()),
+        format_func=lambda x: f"{MODEL_OPTIONS[x]['icon']} {MODEL_OPTIONS[x]['name']}",
+        index=list(MODEL_OPTIONS.keys()).index(st.session_state.selected_model),
+        help="Select the AI model for processing your queries"
+    )
+    st.session_state.selected_model = selected_model
+    
+    # Show model description
+    st.info(MODEL_OPTIONS[selected_model]['description'])
     
     # English mode toggle
     st.subheader("🌐 Language Settings")
@@ -147,21 +195,21 @@ with st.sidebar:
         "regular": """
         **⚡ Regular RAG**
         - Fast vector similarity search
-        - Uses ChromaDB + Gemini
+        - Uses ChromaDB + Selected Model
         - Best for: Quick queries
         """,
         "two_step": """
         **🔬 Two-Step Retrieval**
         - Step 1: AI identifies relevant laws
         - Step 2: Analyzes full law texts
-        - Uses: GPT-4o + GPT-4o-mini
+        - Uses: Selected Model
         - Best for: In-depth analysis
         """,
         "hybrid": """
         **🔀 Hybrid Filtered RAG**
         - Step 1: AI filters by law titles
         - Step 2: Semantic search on filtered subset
-        - Step 3: Gemini generates answer
+        - Step 3: Selected Model generates answer
         - Best for: Balanced speed & accuracy
         """
     }
@@ -257,11 +305,12 @@ with col1:
             "message": user_query,
             "timestamp": datetime.now().strftime("%H:%M:%S"),
             "english_mode": english_mode,
-            "search_method": search_method
+            "search_method": search_method,
+            "model": selected_model
         })
         
         # Show loading spinner
-        with st.spinner("🤔 Thinking..."):
+        with st.spinner(f"🤔 Thinking with {MODEL_OPTIONS[selected_model]['name']}..."):
             try:
                 # Make API request
                 payload = {
@@ -270,13 +319,14 @@ with col1:
                     "include_sources": include_sources,
                     "english_mode": english_mode,
                     "search_method": search_method,
-                    "hybrid_top_k": hybrid_top_k
+                    "hybrid_top_k": hybrid_top_k,
+                    "model_name": selected_model  # Pass selected model
                 }
                 
                 response = requests.post(
                     f"{api_url}/query",
                     json=payload,
-                    timeout=120  # Increased timeout for two-step and hybrid
+                    timeout=120
                 )
                 
                 if response.status_code == 200:
@@ -288,7 +338,7 @@ with col1:
                         "message": result["answer"],
                         "sources": result.get("sources", []),
                         "timestamp": datetime.now().strftime("%H:%M:%S"),
-                        "model": result.get("model_used", "Unknown"),
+                        "model": result.get("model_used", selected_model),
                         "original_query": result.get("original_query"),
                         "translated_query": result.get("translated_query"),
                         "english_mode": english_mode,
@@ -351,9 +401,11 @@ with col1:
                     "hybrid": "🔀"
                 }.get(chat.get('search_method', 'regular'), "⚡")
                 
+                model_icon = MODEL_OPTIONS.get(chat.get('model', 'gemini-2.0-flash'), {}).get('icon', '🤖')
+                
                 st.markdown(f"""
                 <div class="chat-message user-message">
-                    <strong>{mode_indicator} {method_name} You ({chat['timestamp']}):</strong><br>
+                    <strong>{mode_indicator} {method_name} {model_icon} You ({chat['timestamp']}):</strong><br>
                     {chat['message']}
                 </div>
                 """, unsafe_allow_html=True)
@@ -367,12 +419,11 @@ with col1:
                 </div>
                 """, unsafe_allow_html=True)
                 
-                # Show method badge and info
+                # Show method badge and model info
                 method_map = {
                     "two_step_retrieval": ("🔬 Two-Step Retrieval", "badge-twostep"),
                     "hybrid_filtered_rag": ("🔀 Hybrid Filtered RAG", "badge-hybrid"),
                     "regular_rag": ("⚡ Regular RAG", "badge-regular")
-                    
                 }
                 method_name, badge_class = method_map.get(
                     chat.get('method', 'regular_rag'), 
@@ -383,9 +434,9 @@ with col1:
                 time_info = f" | ⏱️ {processing_time:.1f}s" if processing_time else ""
                 
                 st.markdown(f"""
-                <div class="translation-info">
+                <div class="model-info">
                     <span class="method-badge {badge_class}">{method_name}</span>
-                    <em>Model: {chat.get('model', 'Unknown')}</em>{time_info}
+                    <strong>Model:</strong> {chat.get('model', 'Unknown')}{time_info}
                 </div>
                 """, unsafe_allow_html=True)
                 
@@ -461,20 +512,31 @@ with col1:
             
             st.markdown("---")
     else:
-        welcome_msg = "👋 Welcome! Ask a question about Swedish legal documents to get started."
+        welcome_msg = f"👋 Welcome! Using {MODEL_OPTIONS[selected_model]['name']}. Ask a question about Swedish legal documents to get started."
         if english_mode:
-            welcome_msg = "👋 Welcome! Ask questions in English about Swedish legal documents to get started."
+            welcome_msg = f"👋 Welcome! Using {MODEL_OPTIONS[selected_model]['name']}. Ask questions in English about Swedish legal documents to get started."
         st.info(welcome_msg)
 
 # Right column - Info panel
 with col2:
+    st.subheader("🤖 Model Information")
+    
+    st.markdown(f"""
+    ### Currently Selected
+    **{MODEL_OPTIONS[selected_model]['icon']} {MODEL_OPTIONS[selected_model]['name']}**
+    
+    {MODEL_OPTIONS[selected_model]['description']}
+    """)
+    
+    st.markdown("---")
+    
     st.subheader("ℹ️ Search Methods")
     
     st.markdown("""
     ### ⚡ Regular RAG
     **Best for:** Quick queries
     - Fast vector similarity
-    - ChromaDB + Gemini
+    - ChromaDB + Selected Model
     - Instant results
     
     ### 🔬 Two-Step Retrieval
@@ -511,10 +573,10 @@ with col2:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.8rem;">
-    ⚖️ Swedish Legal RAG Chatbot v2.0 | Multiple Search Methods | 🌐 Multilingual Support
+    ⚖️ Swedish Legal RAG Chatbot v2.1 | Multiple Models & Search Methods | 🌐 Multilingual Support
 </div>
 """, unsafe_allow_html=True)
 
 # Show processing status
 if st.session_state.processing:
-    st.info("🔄 Processing your request...")
+    st.info(f"🔄 Processing your request with {MODEL_OPTIONS[selected_model]['name']}...")

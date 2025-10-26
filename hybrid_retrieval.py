@@ -9,8 +9,6 @@ import time
 import re
 import numpy as np
 
-
-
 load_dotenv()
 
 class HybridLegalRetrieval:
@@ -26,14 +24,14 @@ class HybridLegalRetrieval:
     def __init__(self, 
                  titles_file: str = "titles_only.json",
                  db_path: str = "./chroma_db_gemini",
-                 model_name: str = "gemini-2.5-flash"):
+                 model_name: str = "gemini-2.0-flash"):  # Changed default
         """
         Initialize hybrid retrieval system
         
         Args:
             titles_file: JSON file with law titles for initial filtering
             db_path: Path to ChromaDB database
-            model_name: Gemini model to use
+            model_name: Gemini model to use (default: gemini-2.0-flash)
         """
         self.titles_file = titles_file
         self.db_path = db_path
@@ -69,12 +67,21 @@ class HybridLegalRetrieval:
         except Exception as e:
             raise Exception(f"Failed to load titles from {json_file_path}: {e}")
     
-    def find_relevant_law_titles(self, user_query: str) -> List[str]:
+    def find_relevant_law_titles(self, user_query: str, model_name: str = None) -> List[str]:
         """
         Step 1: Use Gemini to identify relevant law titles from database
-        (Same as two-step retrieval)
+        
+        Args:
+            user_query: User's question in Swedish
+            model_name: Gemini model to use (if None, uses self.model_name)
+            
+        Returns:
+            List of relevant law titles
         """
-        print(f"\n🔍 Step 1: Finding relevant law titles for: '{user_query}'")
+        # Use provided model_name or fall back to instance default
+        model_to_use = model_name if model_name else self.model_name
+        
+        print(f"\n🔍 Step 1: Finding relevant law titles with {model_to_use} for: '{user_query}'")
         
         laws_context = json.dumps(self.laws_titles, ensure_ascii=False, indent=2)
         
@@ -91,18 +98,17 @@ INSTRUCTIONS:
 3. Find the most relevant laws (1-10) that likely contain the answer to the query 
 4. Return ONLY a JSON array of exact titles from the database
 
-Response format:
+Response format should be like:
 [
     "exact title 1",
-    "exact title 2",
-    ...
+    "exact title 2"
 ]
 
 Return [] if no relevant laws found.
-CRITICAL: Return ONLY the JSON array, no explanations."""
+CRITICAL: Return ONLY the JSON array with exact titles as they appear in the database, no explanations or additional text."""
 
         try:
-            model = genai.GenerativeModel(self.model_name)
+            model = genai.GenerativeModel(model_to_use)
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
@@ -111,30 +117,54 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
                 )
             )
             
-            assistant_message = response.text.strip()
-            
-            # Try to parse JSON response
+            # ✅ Safe extraction of all text parts
+            assistant_message = ""
+            try:
+                # Preferred: use response.parts if available
+                if hasattr(response, "parts"):
+                    assistant_message = "\n".join(
+                        [p.text for p in response.parts if hasattr(p, "text")]
+                    ).strip()
+                # Otherwise, fall back to candidates
+                elif hasattr(response, "candidates") and response.candidates:
+                    parts = []
+                    for candidate in response.candidates:
+                        if hasattr(candidate, "content") and hasattr(candidate.content, "parts"):
+                            for part in candidate.content.parts:
+                                if hasattr(part, "text"):
+                                    parts.append(part.text)
+                    assistant_message = "\n".join(parts).strip()
+                # Fallback if it's still empty
+                if not assistant_message and hasattr(response, "text"):
+                    assistant_message = response.text.strip()
+            except Exception as parse_err:
+                print(f"⚠️ Parsing warning: {parse_err}")
+                print("🧾 Dumping raw Gemini response structure:")
+                print(response)
+
+            if not assistant_message:
+                raise ValueError("Gemini response contained no text parts.")
+
+            # Parse JSON response
             try:
                 result = json.loads(assistant_message)
-                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles")
+                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles with {model_to_use}")
                 return result
             except json.JSONDecodeError:
                 # Fallback: try to extract JSON from text
-                import re
                 json_match = re.search(r'\[.*?\]', assistant_message, re.DOTALL)
                 if json_match:
                     try:
                         result = json.loads(json_match.group())
-                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles (via fallback)")
+                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles (via fallback) with {model_to_use}")
                         print(f"   Found titles: {result}")
                         return result
                     except json.JSONDecodeError:
                         print(f"❌ Failed to parse JSON from fallback: {json_match.group()}")
                         return []
             
-            
         except Exception as e:
-            print(f"❌ Error in Step 1: {e}")
+            print(f"❌ Error in Step 1 with {model_to_use}: {e}")
             return []
     
     def filter_chromadb_by_titles(self, titles: List[str]) -> List[str]:
@@ -149,7 +179,6 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
         
         try:
             # Use ChromaDB's efficient metadata filtering with $in operator
-            # This is much faster than retrieving all documents
             matching_ids = []
             
             # ChromaDB supports filtering by metadata using where clause
@@ -183,6 +212,7 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
             return result['embedding']
         except Exception as e:
             raise Exception(f"Failed to get embedding: {e}")
+    
     def _write_debug_chunks(self, results, query):
         """Write debug information about retrieved chunks to a log file."""
         import os
@@ -224,6 +254,7 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
             
         except Exception as e:
             print(f"⚠️ Warning: Could not write debug log: {e}")
+    
     def search_filtered_chunks(self, query: str, filtered_ids: List[str], top_k: int = 12) -> Dict:
         """
         Step 3: Perform semantic search ONLY on filtered chunks
@@ -258,8 +289,6 @@ CRITICAL: Return ONLY the JSON array, no explanations."""
                 all_ids.extend(batch_data['ids'])
             
             # Compute similarities manually
-            import numpy as np
-            
             query_embedding = np.array(query_embedding)
             similarities = []
             
@@ -327,9 +356,22 @@ Källa: {metadata.get('source_link', 'N/A')}
         
         return "\n".join(context_parts)
     
-    def generate_answer(self, query: str, context: str) -> str:
-        """Step 4: Generate answer using Gemini with filtered context"""
-        print(f"\n🤖 Step 4: Generating answer with filtered context...")
+    def generate_answer(self, query: str, context: str, model_name: str = None) -> str:
+        """
+        Step 4: Generate answer using Gemini with filtered context
+        
+        Args:
+            query: User's question
+            context: Formatted context from search results
+            model_name: Gemini model to use (if None, uses self.model_name)
+            
+        Returns:
+            Generated answer
+        """
+        # Use provided model_name or fall back to instance default
+        model_to_use = model_name if model_name else self.model_name
+        
+        print(f"\n🤖 Step 4: Generating answer with {model_to_use} using filtered context...")
         
         prompt = f"""Du är en expert på svensk lagstiftning och juridiska dokument. Du har tillgång till texten från relevanta svenska lagar. Din uppgift är att besvara frågor baserat på de tillhandahållna svenska lagdokumenten, utifrån din förståelse av texten.
 
@@ -350,15 +392,15 @@ TILLHANDAHÅLLNA DOKUMENT:
 SVAR:"""
         
         try:
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel(model_to_use)
             response = model.generate_content(prompt)
-            print("✅ Step 4 complete: Answer generated")
+            print(f"✅ Step 4 complete: Answer generated with {model_to_use}")
             return response.text
             
         except Exception as e:
-            raise Exception(f"Failed to generate answer: {e}")
+            raise Exception(f"Failed to generate answer with {model_to_use}: {e}")
     
-    def process_query(self, query: str, top_k: int = 50) -> Dict:
+    def process_query(self, query: str, top_k: int = 50, model_name: str = None) -> Dict:
         """
         Complete hybrid retrieval pipeline:
         1. Find relevant law titles using AI
@@ -369,11 +411,15 @@ SVAR:"""
         Args:
             query: User's question
             top_k: Number of top chunks to retrieve from filtered set
+            model_name: Gemini model to use (if None, uses self.model_name)
             
         Returns:
             Dict with answer, sources, and metadata
         """
-        print(f"\n🚀 Starting Hybrid Retrieval Pipeline")
+        # Use provided model_name or fall back to instance default
+        model_to_use = model_name if model_name else self.model_name
+        
+        print(f"\n🚀 Starting Hybrid Retrieval Pipeline with {model_to_use}")
         print(f"📝 Query: '{query}'")
         print("=" * 80)
         
@@ -381,7 +427,7 @@ SVAR:"""
         
         try:
             # Step 1: Find relevant law titles
-            relevant_titles = self.find_relevant_law_titles(query)
+            relevant_titles = self.find_relevant_law_titles(query, model_to_use)
             
             if not relevant_titles:
                 return {
@@ -389,6 +435,7 @@ SVAR:"""
                     "sources": [],
                     "processing_time": time.time() - start_time,
                     "method": "hybrid_filtered_rag",
+                    "model_used": model_to_use,
                     "stats": {
                         "titles_found": 0,
                         "chunks_filtered": 0,
@@ -405,6 +452,7 @@ SVAR:"""
                     "sources": [],
                     "processing_time": time.time() - start_time,
                     "method": "hybrid_filtered_rag",
+                    "model_used": model_to_use,
                     "stats": {
                         "titles_found": len(relevant_titles),
                         "chunks_filtered": 0,
@@ -421,6 +469,7 @@ SVAR:"""
                     "sources": [],
                     "processing_time": time.time() - start_time,
                     "method": "hybrid_filtered_rag",
+                    "model_used": model_to_use,
                     "stats": {
                         "titles_found": len(relevant_titles),
                         "chunks_filtered": len(filtered_ids),
@@ -430,7 +479,7 @@ SVAR:"""
             
             # Step 4: Format context and generate answer
             context = self.format_context(search_results)
-            answer = self.generate_answer(query, context)
+            answer = self.generate_answer(query, context, model_to_use)
             
             # Format sources
             sources = []
@@ -453,7 +502,7 @@ SVAR:"""
             
             processing_time = time.time() - start_time
             
-            print(f"\n🎉 Hybrid Retrieval Complete!")
+            print(f"\n🎉 Hybrid Retrieval Complete with {model_to_use}!")
             print(f"⏱️  Processing time: {processing_time:.2f} seconds")
             print(f"📊 Stats:")
             print(f"   - Relevant law titles found: {len(relevant_titles)}")
@@ -466,6 +515,7 @@ SVAR:"""
                 "sources": sources,
                 "processing_time": processing_time,
                 "method": "hybrid_filtered_rag",
+                "model_used": model_to_use,
                 "stats": {
                     "titles_found": len(relevant_titles),
                     "chunks_filtered": len(filtered_ids),
@@ -481,8 +531,10 @@ SVAR:"""
                 "answer": error_msg,
                 "sources": [],
                 "processing_time": time.time() - start_time,
-                "method": "hybrid_filtered_rag"
+                "method": "hybrid_filtered_rag",
+                "model_used": model_to_use
             }
+
 def test_interactive():
     """Interactive test mode - allows user to input their own prompts"""
     print("Swedish Laws Hybrid Retrieval System - Interactive Mode")
@@ -541,6 +593,7 @@ def test_interactive():
                 print(f"Relevant law titles found: {result['stats']['titles_found']}")
                 print(f"Chunks filtered: {result['stats']['chunks_filtered']}")
                 print(f"Chunks retrieved: {result['stats']['chunks_retrieved']}")
+            print(f"Model used: {result.get('model_used', 'N/A')}")
             print(f"Processing time: {result['processing_time']:.2f}s")
         except KeyboardInterrupt:
             print("\n👋 Goodbye!")
@@ -552,6 +605,7 @@ def main():
     """Test the hybrid retrieval system"""
     print("Swedish Laws Hybrid Retrieval System Test")
     print("=" * 80)
+    
     # Initialize system
     try:
         retrieval_system = HybridLegalRetrieval()
@@ -582,12 +636,9 @@ def main():
             chunk_info = f" [{source['chunk_info']}]" if source['chunk_info'] else ""
             print(f"{j}. {source['title']}{chunk_info}")
             print(f"   Similarity: {source['similarity_score']:.3f}")
-    
             print(f"   URL: {source['url']}")
 
-
 if __name__ == "__main__":
-
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "--interactive":
         test_interactive()

@@ -137,17 +137,18 @@ class TwoStepLegalRetrieval:
         
         return laws_with_content
     
-    def find_relevant_laws(self, user_query: str) -> List[str]:
+    def find_relevant_laws(self, user_query: str, model_name: str = "gemini-2.0-flash") -> List[str]:
         """
         Step 1: Use Gemini to identify relevant law titles from the database
         
         Args:
             user_query: User's question in Swedish
+            model_name: Gemini model to use
             
         Returns:
             List of relevant law titles
         """
-        print(f"\n🔍 Step 1: Finding relevant laws for query: '{user_query}'")
+        print(f"\n🔍 Step 1: Finding relevant laws with {model_name} for query: '{user_query}'")
         
         # Prepare the context with laws data
         laws_context = json.dumps(self.laws_titles, ensure_ascii=False, indent=2)
@@ -163,22 +164,22 @@ USER QUERY: {user_query}
 INSTRUCTIONS:
 1. Read and parse all of the JSON database above
 2. Search through all the laws based on your understanding of Swedish law
-3. Find the most relevant laws (1-10) that likely contain the answer to the query or laws that would help really well to answer the question
+3. Find the most relevant laws (1-10) that likely contain the answer to the query
 4. Return ONLY a JSON array of exact titles from the database
 
-Response format:
+Response format should be like:
 [
     "exact title 1",
     "exact title 2",
-    ...
+  
 ]
 
 Return [] if no relevant laws found.
-CRITICAL: Return ONLY the JSON array with exact titles as they appear in the database, no explanations or additional text."""
+CRITICAL: Return ONLY the JSON array with exact titles as they appear in the database, no explanations or additional text, no makingup text."""
 
         try:
             # Initialize the model
-            model = genai.GenerativeModel("gemini-2.5-flash")
+            model = genai.GenerativeModel(model_name)
             
             # Generate response
             response = model.generate_content(
@@ -189,31 +190,63 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
                 )
             )
             
-            assistant_message = response.text.strip()
+            # ✅ FIXED: safe extraction of all text parts
+            assistant_message = ""
+            # Try new-style response parsing
+            try:
+                # Preferred: use response.parts if available
+                if hasattr(response, "parts"):
+                    assistant_message = "\n".join(
+                        [p.text for p in response.parts if hasattr(p, "text")]
+                    ).strip()
+                # Otherwise, fall back to candidates
+                elif hasattr(response, "candidates") and response.candidates:
+                    parts = []
+                    for candidate in response.candidates:
+                        if hasattr(candidate, "content") and hasattr(candidate.content, "parts"):
+                            for part in candidate.content.parts:
+                                if hasattr(part, "text"):
+                                    parts.append(part.text)
+                    assistant_message = "\n".join(parts).strip()
+                # Fallback if it’s still empty
+                if not assistant_message and hasattr(response, "text"):
+                    assistant_message = response.text.strip()
+            except Exception as parse_err:
+                print(f"⚠️ Parsing warning: {parse_err}")
+                print("DEBUG: response dir:", dir(response))
+                print("DEBUG: candidates:", getattr(response, "candidates", None))
+                print("🧾 Dumping raw Gemini response structure:")
+                print(response)
+
+            if not assistant_message:
+                raise ValueError("Gemini response contained no text parts.")
             
             # Try to parse JSON response
             try:
                 result = json.loads(assistant_message)
                 print(f"✅ Step 1 complete: Found {len(result)} relevant law titles")
+                print('result',result)
                 return result
             except json.JSONDecodeError:
                 # Fallback: try to extract JSON from text
+                import re
                 json_match = re.search(r'\[.*?\]', assistant_message, re.DOTALL)
                 if json_match:
                     try:
                         result = json.loads(json_match.group())
                         print(f"✅ Step 1 complete: Found {len(result)} relevant law titles")
+                        print(f"   Found titles: {result}")
                         return result
                     except:
-                        pass
-                print(f"⚠️ Could not parse response: {assistant_message}")
-                return []
+                        print(f"❌ Failed to parse JSON from fallback: {json_match.group()}")
+                        return []
                 
         except Exception as e:
             print(f"❌ Error in Step 1: {e}")
             return []
     
-    def generate_answer_with_content(self, user_query: str, laws_with_content: List[Dict]) -> str:
+    def generate_answer_with_content(self, user_query: str, laws_with_content: List[Dict], 
+                                 model_name: str = "gemini-2.5-flash") -> str:
         """
         Step 2: Use Gemini to answer the query based on actual law file contents
         
@@ -224,7 +257,7 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
         Returns:
             AI-generated answer with citations
         """
-        print(f"\n🤖 Step 2: Generating answer with {len(laws_with_content)} law texts")
+        print(f"\n🤖 Step 2: Generating answer with {model_name} using {len(laws_with_content)} law texts")
         
         # Prepare context with law contents
         context_parts = []
@@ -262,7 +295,7 @@ INSTRUKTIONER:
 Ge ditt svar nu:"""
 
         try:
-            model = genai.GenerativeModel(self.model_name)
+            model = genai.GenerativeModel(model_name)
             
             response = model.generate_content(
                 prompt,
@@ -273,15 +306,17 @@ Ge ditt svar nu:"""
             )
             
             answer = response.text.strip()
-            print("✅ Step 2 complete: Generated detailed answer")
+            print(f"✅ Step 2 complete: Generated detailed answer with {model_name}")
             return answer
             
         except Exception as e:
-            error_msg = f"Failed to generate answer: {e}"
+            error_msg = f"Failed to generate answer with {model_name}: {e}"
             print(f"❌ {error_msg}")
             return f"Tyvärr, jag stötte på ett fel när jag bearbetade din fråga: {error_msg}"
+
     
-    def process_query(self, query: str, max_laws: Optional[int] = None) -> Dict:
+    def process_query(self, query: str, max_laws: Optional[int] = None, 
+                 model_name: str = "gemini-2.0-flash") -> Dict:
         """
         Complete two-step process: find relevant laws, then generate detailed answer
         
@@ -292,19 +327,20 @@ Ge ditt svar nu:"""
         Returns:
             Dictionary with answer, sources, and metadata
         """
-        print(f"\n🚀 Starting two-step retrieval for: '{query}'")
+        print(f"\n🚀 Starting two-step retrieval with {model_name} for: '{query}'")
         start_time = time.time()
         
         try:
             # Step 1: Find relevant law titles using Gemini
-            title_results = self.find_relevant_laws(query)
+            title_results = self.find_relevant_laws(query, model_name)
             
             if not title_results:
                 return {
                     "answer": "Inga relevanta lagar hittades för din fråga.",
                     "sources": [],
                     "processing_time": time.time() - start_time,
-                    "method": "two_step_retrieval"
+                    "method": "two_step_retrieval",
+                    'model_used':model_name
                 }
             
             # Match titles to get full objects with URLs
@@ -315,7 +351,8 @@ Ge ditt svar nu:"""
                     "answer": "Titlar hittades men kunde inte matchas till databasen.",
                     "sources": [],
                     "processing_time": time.time() - start_time,
-                    "method": "two_step_retrieval"
+                    "method": "two_step_retrieval",
+                    "model_used": model_name
                 }
             
             print(f"📋 Matched {len(matched_laws)} laws with database")
@@ -328,7 +365,8 @@ Ge ditt svar nu:"""
                     "answer": "Relevanta lagar identifierades men deras innehåll kunde inte laddas.",
                     "sources": [{"title": law["title"], "url": law["url"]} for law in matched_laws],
                     "processing_time": time.time() - start_time,
-                    "method": "two_step_retrieval"
+                    "method": "two_step_retrieval",
+                    "model_used": model_name
                 }
             
             print(f"📄 Successfully loaded {len(laws_with_content)} law file(s):")
@@ -336,7 +374,7 @@ Ge ditt svar nu:"""
                 print(f"   {i}. {law['title']} ({law['filename']})")
             
             # Step 2: Generate detailed answer using law contents
-            answer = self.generate_answer_with_content(query, laws_with_content)
+            answer = self.generate_answer_with_content(query, laws_with_content, model_name)
             
             # Format sources
             sources = []
@@ -348,14 +386,15 @@ Ge ditt svar nu:"""
                 })
             
             processing_time = time.time() - start_time
-            print(f"🎉 Two-step retrieval complete in {processing_time:.2f} seconds")
-            
+            print(f"🎉 Two-step retrieval complete with {model_name} in {processing_time:.2f} seconds")
+        
             return {
                 "answer": answer,
                 "sources": sources,
                 "processing_time": processing_time,
                 "method": "two_step_retrieval",
-                "laws_analyzed": len(laws_with_content)
+                "laws_analyzed": len(laws_with_content),
+                "model_used": model_name
             }
             
         except Exception as e:
@@ -365,7 +404,8 @@ Ge ditt svar nu:"""
                 "answer": error_msg,
                 "sources": [],
                 "processing_time": time.time() - start_time,
-                "method": "two_step_retrieval"
+                "method": "two_step_retrieval",
+                "model_used": model_name
             }
 
 
