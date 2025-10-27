@@ -14,9 +14,10 @@ load_dotenv()
 class HybridLegalRetrieval:
     """
     Hybrid retrieval system combining:
-    1. AI-based title filtering (like two-step)
-    2. ChromaDB filtered RAG (only on relevant laws)
-    3. Gemini answer generation
+    1. Regex literal search for law designations
+    2. AI-based title filtering (like two-step)
+    3. ChromaDB filtered RAG (only on relevant laws)
+    4. Gemini answer generation
     
     This avoids sending entire files OR searching entire DB.
     """
@@ -24,7 +25,7 @@ class HybridLegalRetrieval:
     def __init__(self, 
                  titles_file: str = "titles_only.json",
                  db_path: str = "./chroma_db_gemini",
-                 model_name: str = "gemini-2.0-flash"):  # Changed default
+                 model_name: str = "gemini-2.0-flash"):
         """
         Initialize hybrid retrieval system
         
@@ -67,6 +68,42 @@ class HybridLegalRetrieval:
         except Exception as e:
             raise Exception(f"Failed to load titles from {json_file_path}: {e}")
     
+    def _extract_law_by_designation(self, user_query: str) -> List[str]:
+        """
+        Extract law titles from the database by searching for law designations
+        in the user query using regex patterns like (yyyy:nnn) or (yyy:nn)
+        
+        Args:
+            user_query: User's question
+            
+        Returns:
+            List of exact law titles that match the designation found in the query
+        """
+        # Pattern to match Swedish law designations: (yyyy:nnn) or (yyy:nn)
+        # Examples: (2022:123), (1999:45), (999:12)
+        pattern = r'\((\d{3,4}:\d{1,3})\)'
+        
+        matches = re.findall(pattern, user_query)
+        
+        if not matches:
+            print(f"🔍 No law designations found in query")
+            return []
+        
+        print(f"🔍 Found {len(matches)} law designation(s) in query: {matches}")
+        
+        matched_titles = []
+        
+        # Search for each designation in the titles database
+        for designation in matches:
+            designation_pattern = f"({designation})"
+            
+            for title in self.laws_titles:
+                if designation_pattern in title:
+                    matched_titles.append(title)
+                    print(f"   ✅ Regex match: {title}")
+        
+        return matched_titles
+    
     def find_relevant_law_titles(self, user_query: str, model_name: str = None) -> List[str]:
         """
         Step 1: Use Gemini to identify relevant law titles from database
@@ -108,7 +145,7 @@ Return [] if no relevant laws found.
 CRITICAL: Return ONLY the JSON array with exact titles as they appear in the database, no explanations or additional text."""
 
         try:
-            model = genai.GenerativeModel(model_to_use)
+            model = genai.GenerativeModel('gemini-2.0-flash')
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
@@ -148,7 +185,7 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
             # Parse JSON response
             try:
                 result = json.loads(assistant_message)
-                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles with {model_to_use}")
+                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles from AI")
                 return result
             except json.JSONDecodeError:
                 # Fallback: try to extract JSON from text
@@ -156,8 +193,7 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
                 if json_match:
                     try:
                         result = json.loads(json_match.group())
-                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles (via fallback) with {model_to_use}")
-                        print(f"   Found titles: {result}")
+                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles from AI (via fallback)")
                         return result
                     except json.JSONDecodeError:
                         print(f"❌ Failed to parse JSON from fallback: {json_match.group()}")
@@ -403,10 +439,12 @@ SVAR:"""
     def process_query(self, query: str, top_k: int = 50, model_name: str = None) -> Dict:
         """
         Complete hybrid retrieval pipeline:
+        0. Extract laws by designation using regex (literal search)
         1. Find relevant law titles using AI
-        2. Filter ChromaDB to only those laws
-        3. Perform semantic search on filtered subset
-        4. Generate answer from top results
+        2. Merge results and remove duplicates
+        3. Filter ChromaDB to only those laws
+        4. Perform semantic search on filtered subset
+        5. Generate answer from top results
         
         Args:
             query: User's question
@@ -426,10 +464,26 @@ SVAR:"""
         start_time = time.time()
         
         try:
-            # Step 1: Find relevant law titles
-            relevant_titles = self.find_relevant_law_titles(query, model_to_use)
+            # Step 0: Extract laws by designation using regex (before AI)
+            regex_matched_titles = self._extract_law_by_designation(query)
             
-            if not relevant_titles:
+            # Step 1: Find relevant law titles using AI
+            ai_matched_titles = self.find_relevant_law_titles(query, model_to_use)
+            
+            # Merge results and remove duplicates
+            all_titles = regex_matched_titles + ai_matched_titles
+            unique_titles = []
+            seen = set()
+            
+            for title in all_titles:
+                if title not in seen:
+                    unique_titles.append(title)
+                    seen.add(title)
+            
+            if regex_matched_titles:
+                print(f"📋 Merged results: {len(regex_matched_titles)} from regex + {len(ai_matched_titles)} from AI = {len(unique_titles)} unique titles")
+            
+            if not unique_titles:
                 return {
                     "answer": "Inga relevanta lagar hittades för din fråga.",
                     "sources": [],
@@ -437,6 +491,8 @@ SVAR:"""
                     "method": "hybrid_filtered_rag",
                     "model_used": model_to_use,
                     "stats": {
+                        "regex_matches": 0,
+                        "ai_matches": 0,
                         "titles_found": 0,
                         "chunks_filtered": 0,
                         "chunks_retrieved": 0
@@ -444,7 +500,7 @@ SVAR:"""
                 }
             
             # Step 2: Filter ChromaDB by titles
-            filtered_ids = self.filter_chromadb_by_titles(relevant_titles)
+            filtered_ids = self.filter_chromadb_by_titles(unique_titles)
             
             if not filtered_ids:
                 return {
@@ -454,7 +510,9 @@ SVAR:"""
                     "method": "hybrid_filtered_rag",
                     "model_used": model_to_use,
                     "stats": {
-                        "titles_found": len(relevant_titles),
+                        "regex_matches": len(regex_matched_titles),
+                        "ai_matches": len(ai_matched_titles),
+                        "titles_found": len(unique_titles),
                         "chunks_filtered": 0,
                         "chunks_retrieved": 0
                     }
@@ -471,7 +529,9 @@ SVAR:"""
                     "method": "hybrid_filtered_rag",
                     "model_used": model_to_use,
                     "stats": {
-                        "titles_found": len(relevant_titles),
+                        "regex_matches": len(regex_matched_titles),
+                        "ai_matches": len(ai_matched_titles),
+                        "titles_found": len(unique_titles),
                         "chunks_filtered": len(filtered_ids),
                         "chunks_retrieved": 0
                     }
@@ -505,7 +565,9 @@ SVAR:"""
             print(f"\n🎉 Hybrid Retrieval Complete with {model_to_use}!")
             print(f"⏱️  Processing time: {processing_time:.2f} seconds")
             print(f"📊 Stats:")
-            print(f"   - Relevant law titles found: {len(relevant_titles)}")
+            print(f"   - Regex matches: {len(regex_matched_titles)}")
+            print(f"   - AI matches: {len(ai_matched_titles)}")
+            print(f"   - Unique relevant law titles: {len(unique_titles)}")
             print(f"   - Chunks filtered from DB: {len(filtered_ids)}")
             print(f"   - Top chunks retrieved: {len(sources)}")
             print("=" * 80)
@@ -517,10 +579,12 @@ SVAR:"""
                 "method": "hybrid_filtered_rag",
                 "model_used": model_to_use,
                 "stats": {
-                    "titles_found": len(relevant_titles),
+                    "regex_matches": len(regex_matched_titles),
+                    "ai_matches": len(ai_matched_titles),
+                    "titles_found": len(unique_titles),
                     "chunks_filtered": len(filtered_ids),
                     "chunks_retrieved": len(sources),
-                    "relevant_laws": relevant_titles
+                    "relevant_laws": unique_titles
                 }
             }
             
@@ -540,9 +604,10 @@ def test_interactive():
     print("Swedish Laws Hybrid Retrieval System - Interactive Mode")
     print("=" * 80)
     print("This system combines:")
-    print("1. AI-based title filtering")
-    print("2. ChromaDB filtered RAG")
-    print("3. Gemini answer generation")
+    print("1. Regex literal search for law designations")
+    print("2. AI-based title filtering")
+    print("3. ChromaDB filtered RAG")
+    print("4. Gemini answer generation")
     print("=" * 80)
     
     # Initialize system
@@ -590,6 +655,8 @@ def test_interactive():
             print(f"\n📊 PROCESS DETAILS:")
             print("-" * 80)
             if 'stats' in result:
+                print(f"Regex matches: {result['stats']['regex_matches']}")
+                print(f"AI matches: {result['stats']['ai_matches']}")
                 print(f"Relevant law titles found: {result['stats']['titles_found']}")
                 print(f"Chunks filtered: {result['stats']['chunks_filtered']}")
                 print(f"Chunks retrieved: {result['stats']['chunks_retrieved']}")
@@ -613,10 +680,11 @@ def main():
         print(f"❌ Failed to initialize: {e}")
         return
     
-    # Test queries
+    # Test queries - including one with specific law designation
     test_queries = [
         "Vad säger lagen om skatt på naturgrus?",
         "Vad säger lagen om diskriminering av deltidsanställda?",
+        "Vad säger Förordning (2020:974) om undantag?"  # Test with specific designation
     ]
     
     for i, query in enumerate(test_queries, 1):
@@ -637,6 +705,17 @@ def main():
             print(f"{j}. {source['title']}{chunk_info}")
             print(f"   Similarity: {source['similarity_score']:.3f}")
             print(f"   URL: {source['url']}")
+        
+        print(f"\n📊 PROCESS DETAILS:")
+        print("-" * 80)
+        if 'stats' in result:
+            print(f"Regex matches: {result['stats']['regex_matches']}")
+            print(f"AI matches: {result['stats']['ai_matches']}")
+            print(f"Unique titles found: {result['stats']['titles_found']}")
+            print(f"Chunks filtered: {result['stats']['chunks_filtered']}")
+            print(f"Chunks retrieved: {result['stats']['chunks_retrieved']}")
+        print(f"Model used: {result.get('model_used', 'N/A')}")
+        print(f"Processing time: {result['processing_time']:.2f}s")
 
 if __name__ == "__main__":
     import sys

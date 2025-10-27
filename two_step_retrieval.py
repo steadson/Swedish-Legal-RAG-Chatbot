@@ -84,8 +84,44 @@ class TwoStepLegalRetrieval:
             with open(file_path, 'r', encoding='utf-8') as f:
                 return f.read()
         except Exception as e:
-            print(f"⚠️ Error reading file {filename}: {e}")
+            print(f"⚠️  Error reading file {filename}: {e}")
             return None
+    
+    def _extract_law_by_designation(self, user_query: str) -> List[str]:
+        """
+        Extract law titles from the database by searching for law designations
+        in the user query using regex patterns like (yyyy:nnn) or (yyy:nn)
+        
+        Args:
+            user_query: User's question
+            
+        Returns:
+            List of exact law titles that match the designation found in the query
+        """
+        # Pattern to match Swedish law designations: (yyyy:nnn) or (yyy:nn)
+        # Examples: (2022:123), (1999:45), (999:12)
+        pattern = r'\((\d{3,4}:\d{1,3})\)'
+        
+        matches = re.findall(pattern, user_query)
+        
+        if not matches:
+            print(f"🔍 No law designations found in query")
+            return []
+        
+        print(f"🔍 Found {len(matches)} law designation(s) in query: {matches}")
+        
+        matched_titles = []
+        
+        # Search for each designation in the titles database
+        for designation in matches:
+            designation_pattern = f"({designation})"
+            
+            for title in self.laws_titles:
+                if designation_pattern in title:
+                    matched_titles.append(title)
+                    print(f"   ✅ Regex match: {title}")
+        
+        return matched_titles
     
     def _match_titles_to_urls(self, titles: List[str]) -> List[Dict]:
         """Match AI-returned titles with the full database to get URLs"""
@@ -131,9 +167,9 @@ class TwoStepLegalRetrieval:
                         'content': content
                     })
                 else:
-                    print(f"⚠️ Could not read content for {title}")
+                    print(f"⚠️  Could not read content for {title}")
             else:
-                print(f"⚠️ No filename found for {title}")
+                print(f"⚠️  No filename found for {title}")
         
         return laws_with_content
     
@@ -154,32 +190,39 @@ class TwoStepLegalRetrieval:
         laws_context = json.dumps(self.laws_titles, ensure_ascii=False, indent=2)
         
         # Create the prompt
-        prompt = f"""You are a Swedish legal research assistant. You have access to a database of Swedish laws provided below.
+        prompt = f"""You are a Swedish legal research assistant. You have access to a database of Swedish laws provided below. use the json context as a database with your understand of sweden law
 
 SWEDISH LAWS DATABASE:
 {laws_context}
 
-USER QUERY: {user_query}
+USER QUERY:
+{user_query}
 
 INSTRUCTIONS:
-1. Read and parse all of the JSON database above
-2. Search through all the laws based on your understanding of Swedish law
-3. Find the most relevant laws (1-10) that likely contain the answer to the query
-4. Return ONLY a JSON array of exact titles from the database
+1. Your **ONLY** goal is to identify relevant law titles from the 'SWEDISH LAWS DATABASE'.
+2. Read and parse all of the JSON database above
+3. Search through all the laws based on your understanding of Swedish law
+4. Find the most relevant laws (1-10) that likely contain the answer to the user query: {user_query}
+5. If the USER QUERY contains a specific law designation (e.g., 'Lag (2022:123)', 'Förordning (2020:974)'), you **MUST** first perform a direct, exact string search within the database for that designation.
+6. If an exact match for the designation exists (e.g., 'Förordning (2020:974)...'), you **MUST** include that title, exactly as written to the array of titles you would return.
+7. If no specific designation is in the query, or if the initial search is insufficient, find the most relevant laws (1-10) based on content.
+8. Return ONLY a JSON array of exact titles from the database — no explanations, text, or formatting outside the array.
 
 Response format should be like:
 [
-    "exact title 1",
-    "exact title 2",
-  
+  "exact title 1",
+  "exact title 2",
 ]
 
 Return [] if no relevant laws found.
+
+IMPORTANT: carefully study through all the data without skipping any in the json context as its important so you dont miss anything
+
 CRITICAL: Return ONLY the JSON array with exact titles as they appear in the database, no explanations or additional text, no makingup text."""
 
         try:
             # Initialize the model
-            model = genai.GenerativeModel(model_name)
+            model = genai.GenerativeModel("gemini-2.5-flash")
             
             # Generate response
             response = model.generate_content(
@@ -192,6 +235,7 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
             
             # ✅ FIXED: safe extraction of all text parts
             assistant_message = ""
+            
             # Try new-style response parsing
             try:
                 # Preferred: use response.parts if available
@@ -208,45 +252,46 @@ CRITICAL: Return ONLY the JSON array with exact titles as they appear in the dat
                                 if hasattr(part, "text"):
                                     parts.append(part.text)
                     assistant_message = "\n".join(parts).strip()
-                # Fallback if it’s still empty
+                
+                # Fallback if it's still empty
                 if not assistant_message and hasattr(response, "text"):
                     assistant_message = response.text.strip()
+                    
             except Exception as parse_err:
-                print(f"⚠️ Parsing warning: {parse_err}")
+                print(f"⚠️  Parsing warning: {parse_err}")
                 print("DEBUG: response dir:", dir(response))
                 print("DEBUG: candidates:", getattr(response, "candidates", None))
                 print("🧾 Dumping raw Gemini response structure:")
                 print(response)
-
+            
             if not assistant_message:
                 raise ValueError("Gemini response contained no text parts.")
             
             # Try to parse JSON response
             try:
                 result = json.loads(assistant_message)
-                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles")
-                print('result',result)
+                print(f"✅ Step 1 complete: Found {len(result)} relevant law titles from AI")
                 return result
             except json.JSONDecodeError:
                 # Fallback: try to extract JSON from text
-                import re
                 json_match = re.search(r'\[.*?\]', assistant_message, re.DOTALL)
                 if json_match:
                     try:
                         result = json.loads(json_match.group())
-                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles")
-                        print(f"   Found titles: {result}")
+                        print(f"✅ Step 1 complete: Found {len(result)} relevant law titles from AI")
                         return result
                     except:
                         print(f"❌ Failed to parse JSON from fallback: {json_match.group()}")
                         return []
-                
+                        
         except Exception as e:
             print(f"❌ Error in Step 1: {e}")
             return []
     
-    def generate_answer_with_content(self, user_query: str, laws_with_content: List[Dict], 
-                                 model_name: str = "gemini-2.5-flash") -> str:
+    def generate_answer_with_content(self, 
+                                    user_query: str, 
+                                    laws_with_content: List[Dict],
+                                    model_name: str = "gemini-2.5-flash") -> str:
         """
         Step 2: Use Gemini to answer the query based on actual law file contents
         
@@ -278,7 +323,8 @@ FULLSTÄNDIG LAGTEXT:
         
         prompt = f"""Du är en expert på svensk lagstiftning. Du har fått FULLSTÄNDIG TEXT av relevanta svenska lagar nedan.
 
-ANVÄNDARENS FRÅGA: {user_query}
+ANVÄNDARENS FRÅGA:
+{user_query}
 
 RELEVANTA SVENSKA LAGAR (FULLSTÄNDIG TEXT):
 {laws_context}
@@ -296,7 +342,6 @@ Ge ditt svar nu:"""
 
         try:
             model = genai.GenerativeModel(model_name)
-            
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
@@ -313,10 +358,8 @@ Ge ditt svar nu:"""
             error_msg = f"Failed to generate answer with {model_name}: {e}"
             print(f"❌ {error_msg}")
             return f"Tyvärr, jag stötte på ett fel när jag bearbetade din fråga: {error_msg}"
-
     
-    def process_query(self, query: str, max_laws: Optional[int] = None, 
-                 model_name: str = "gemini-2.0-flash") -> Dict:
+    def process_query(self, query: str, max_laws: Optional[int] = None, model_name: str = "gemini-2.0-flash") -> Dict:
         """
         Complete two-step process: find relevant laws, then generate detailed answer
         
@@ -331,20 +374,36 @@ Ge ditt svar nu:"""
         start_time = time.time()
         
         try:
-            # Step 1: Find relevant law titles using Gemini
-            title_results = self.find_relevant_laws(query, model_name)
+            # Step 0: Extract laws by designation using regex (before AI)
+            regex_matched_titles = self._extract_law_by_designation(query)
             
-            if not title_results:
+            # Step 1: Find relevant law titles using Gemini
+            ai_matched_titles = self.find_relevant_laws(query, model_name)
+            
+            # Merge results and remove duplicates
+            all_titles = regex_matched_titles + ai_matched_titles
+            unique_titles = []
+            seen = set()
+            
+            for title in all_titles:
+                if title not in seen:
+                    unique_titles.append(title)
+                    seen.add(title)
+            
+            if regex_matched_titles:
+                print(f"📋 Merged results: {len(regex_matched_titles)} from regex + {len(ai_matched_titles)} from AI = {len(unique_titles)} unique titles")
+            
+            if not unique_titles:
                 return {
                     "answer": "Inga relevanta lagar hittades för din fråga.",
                     "sources": [],
                     "processing_time": time.time() - start_time,
                     "method": "two_step_retrieval",
-                    'model_used':model_name
+                    'model_used': model_name
                 }
             
             # Match titles to get full objects with URLs
-            matched_laws = self._match_titles_to_urls(title_results)
+            matched_laws = self._match_titles_to_urls(unique_titles)
             
             if not matched_laws:
                 return {
@@ -387,14 +446,16 @@ Ge ditt svar nu:"""
             
             processing_time = time.time() - start_time
             print(f"🎉 Two-step retrieval complete with {model_name} in {processing_time:.2f} seconds")
-        
+            
             return {
                 "answer": answer,
                 "sources": sources,
                 "processing_time": processing_time,
                 "method": "two_step_retrieval",
                 "laws_analyzed": len(laws_with_content),
-                "model_used": model_name
+                "model_used": model_name,
+                "regex_matches": len(regex_matched_titles),
+                "ai_matches": len(ai_matched_titles)
             }
             
         except Exception as e:
@@ -425,7 +486,8 @@ def main():
     test_queries = [
         "Vad säger lagen om skatt på naturgrus?",
         "Vad säger lagen om diskriminering av deltidsanställda?",
-        "Förklara lagen om läkemedelsförmåner?"
+        "Förklara lagen om läkemedelsförmåner?",
+        "Vad säger Förordning (2020:974) om undantag?"  # Test with specific designation
     ]
     
     print(f"\n📋 Running {len(test_queries)} test queries...\n")
@@ -437,8 +499,10 @@ def main():
         
         result = retrieval_system.process_query(query)
         
-        print(f"\n⏱️ Processing time: {result['processing_time']:.2f} seconds")
+        print(f"\n⏱️  Processing time: {result['processing_time']:.2f} seconds")
         print(f"📚 Laws analyzed: {result.get('laws_analyzed', 0)}")
+        print(f"🔍 Regex matches: {result.get('regex_matches', 0)}")
+        print(f"🤖 AI matches: {result.get('ai_matches', 0)}")
         print(f"🔧 Method: {result['method']}")
         
         print(f"\n💬 ANSWER:")
